@@ -1,6 +1,6 @@
 # Mindustry: Classic Expansion
 
-Mod HJSON para **Mindustry v7 build 146**, destinado a PC e Android. Alpha **0.4.0**.
+Mod HJSON para **Mindustry v7 build 146**, destinado a PC e Android. Alpha **0.5.0**.
 Conteúdo separado dos blocos e itens vanilla, sob o prefixo mindustry-classic-expansion-.
 
 ## Lote 2: cinco blocos e seus itens
@@ -15,11 +15,11 @@ Conteúdo separado dos blocos e itens vanilla, sob o prefixo mindustry-classic-e
 
 Itens incluídos juntos: **pedra, ferro e aço clássicos**, com ícones originais.
 A parede 0.1 continua com 160 de vida e 1x1, agora com a receita original de **12 pedras clássicas**.
-Na 0.4 há 26 blocos construíveis no total e quatro terrenos auxiliares de extração.
+Na 0.5 há 36 blocos construíveis no total e seis terrenos auxiliares.
 
 ## Instalar e testar
 
-1. Importe o ZIP 0.4 em **Mods → Importar mod**, sem descompactar.
+1. Importe o ZIP 0.5 em **Mods → Importar mod**, sem descompactar.
 2. Atualize o mod existente; não mantenha as duas alphas instaladas juntas. Reinicie.
 3. Abra **Jogo personalizado → MCE - Classic Chain Demo**. Use sandbox para inspeção rápida.
 4. Na região (20,20), pedra passa pelo perfurador, esteira e roteador até o cofre.
@@ -46,7 +46,7 @@ Veja [BATCH-02.md](docs/BATCH-02.md).
 ## Gerar o ZIP
 
 Com Python 3 na raiz: `python tools/build.py`.
-Saída: dist/mindustry-classic-expansion-0.4.0-alpha.zip, com manifesto na raiz.
+Saída: dist/mindustry-classic-expansion-0.5.0-alpha.zip, com manifesto na raiz.
 Os .hjson usam JSON válido, subconjunto de HJSON. Não há scripts de gameplay nem Java.
 O ZIP inclui fonte editável, mapa, licença, créditos e ferramentas de reprodução.
 
@@ -71,3 +71,12 @@ Sete paredes de ferro/aço/titânio/dirium, cadinho, perfuradores de titânio/ur
 ## Lote 4: dez blocos de transporte e líquidos
 
 Esteiras de aço/pulso, junção, separador, túnel, conduítes normal/pulso, roteador e junção de líquidos, bomba. Materiais Classic já incluídos. Veja [BATCH-04.md](docs/BATCH-04.md). Abra **MCE - Transport and Liquids Demo**. Total: 26 construções; restam 37 das 63 receitas Classic. Túnel exige conectar entrada à saída.
+
+## Lote 5: dez blocos de produção e portas
+
+Purificadores de carvão/titânio, refinaria de óleo, formador de pedra, fundidor
+de lava, perfuradores de carvão/omni, bomba de fluxo e portas pequena/grande.
+Seis itens Classic continuam incluídos; lava Classic e terrenos de lava/carvão
+permitem a nova cadeia. Veja [BATCH-05.md](docs/BATCH-05.md).
+Abra **MCE - Production and Doors Demo**. Total: 36 construções, 27 restantes.
+Portas disponíveis no PC/Android; portas vizinhas alternam juntas.

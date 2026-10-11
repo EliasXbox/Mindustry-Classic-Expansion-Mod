@@ -1,0 +1,19 @@
+{
+  "type": "Door",
+  "name": "Classic Door",
+  "health": 360,
+  "size": 1,
+  "requirements": [
+    "classic-steel/3",
+    "classic-iron/12"
+  ],
+  "category": "defense",
+  "research": {
+    "parent": "classic-steel-wall",
+    "requirements": [
+      "classic-steel/3",
+      "classic-iron/12"
+    ]
+  },
+  "description": "Tap to open/close on PC or Android. Adjacent doors toggle together under v7 rules."
+}

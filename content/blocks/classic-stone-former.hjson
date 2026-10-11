@@ -1,0 +1,34 @@
+{
+  "type": "GenericCrafter",
+  "name": "Classic Stone Former",
+  "health": 80,
+  "size": 1,
+  "requirements": [
+    "classic-steel/10",
+    "classic-iron/10"
+  ],
+  "category": "crafting",
+  "research": {
+    "parent": "classic-conduit",
+    "requirements": [
+      "classic-steel/10",
+      "classic-iron/10"
+    ]
+  },
+  "craftTime": 12,
+  "itemCapacity": 90,
+  "hasLiquids": true,
+  "liquidCapacity": 21,
+  "consumes": {
+    "liquid": {
+      "liquid": "classic-lava",
+      "amount": 1.3333333333333333
+    }
+  },
+  "outputItem": "classic-stone/1",
+  "craftEffect": "smeltsmoke",
+  "drawer": {
+    "type": "DrawDefault"
+  },
+  "description": "Classic recipe and nominal rate; liquid is consumed continuously during production in v7, rather than in one batch."
+}

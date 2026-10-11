@@ -1008,6 +1008,132 @@
       "target": "sprites/blocks/classic-pump.png",
       "operation": "4x nearest-neighbor from preserved source",
       "renderedSha256": "9f7f57cc53f465e97dd4ef0876083cf99855f9b010718f5be22a13f7e260a29b"
+    },
+    {
+      "source": "core/assets-raw/sprites/blocks/coalpurifier.png",
+      "target": "sprites/blocks/classic-coal-purifier.png",
+      "operation": "4x nearest-neighbor from preserved source",
+      "renderedSha256": "9141fe5cff306f5ec67e9bc231ba60358d64955d32b1c11e78e101355db79b1d"
+    },
+    {
+      "source": "core/assets-raw/sprites/blocks/titaniumpurifier.png",
+      "target": "sprites/blocks/classic-titanium-purifier.png",
+      "operation": "4x nearest-neighbor from preserved source",
+      "renderedSha256": "f713cd07db546b2d88351487150f12846d51d5fe0278023ede68c64ad23f4769"
+    },
+    {
+      "source": "core/assets-raw/sprites/blocks/oilrefinery.png",
+      "target": "sprites/blocks/classic-oil-refinery.png",
+      "operation": "4x nearest-neighbor from preserved source",
+      "renderedSha256": "e9515d4b0a4050267cc169388622c684336002b0e5a3ad65c982d81f56c2b749"
+    },
+    {
+      "source": "core/assets-raw/sprites/blocks/stoneformer.png",
+      "target": "sprites/blocks/classic-stone-former.png",
+      "operation": "4x nearest-neighbor from preserved source",
+      "renderedSha256": "885edb92efdfb5c28e3861842d1ac4e22339587c99bdae9d73e8b5e8927053ed"
+    },
+    {
+      "source": "core/assets-raw/sprites/blocks/lavasmelter.png",
+      "target": "sprites/blocks/classic-lava-smelter.png",
+      "operation": "4x nearest-neighbor from preserved source",
+      "renderedSha256": "181d9ba65985c79910ea1b1ee8ca5c5bf8c9ddba6993719713fb2c6c6aec2925"
+    },
+    {
+      "source": "core/assets-raw/sprites/blocks/coaldrill.png",
+      "target": "sprites/blocks/classic-coal-drill.png",
+      "operation": "4x nearest-neighbor from preserved source",
+      "renderedSha256": "c02cd83081ef604b51e672481746b6e31ae8c3002932f87dcaaade8cd93f57b5"
+    },
+    {
+      "source": null,
+      "target": "sprites/blocks/classic-coal-drill-top.png",
+      "operation": "Transparent auxiliary layer, scaled 4x",
+      "renderedSha256": "a6ad1bec9b073969cce0b126f9bcf9c9f1e18973f4ea84c5620f0a5da4d1fc74"
+    },
+    {
+      "source": null,
+      "target": "sprites/blocks/classic-coal-drill-rotator.png",
+      "operation": "Transparent auxiliary layer, scaled 4x",
+      "renderedSha256": "a6ad1bec9b073969cce0b126f9bcf9c9f1e18973f4ea84c5620f0a5da4d1fc74"
+    },
+    {
+      "source": "core/assets-raw/sprites/blocks/omnidrill.png",
+      "target": "sprites/blocks/classic-omni-drill.png",
+      "operation": "4x nearest-neighbor from preserved source",
+      "renderedSha256": "3192e5d39d22db4633f2fed9a994331c1c77aea0ce3cc95889a7ce689172197a"
+    },
+    {
+      "source": null,
+      "target": "sprites/blocks/classic-omni-drill-top.png",
+      "operation": "Transparent auxiliary layer, scaled 4x",
+      "renderedSha256": "a6ad1bec9b073969cce0b126f9bcf9c9f1e18973f4ea84c5620f0a5da4d1fc74"
+    },
+    {
+      "source": null,
+      "target": "sprites/blocks/classic-omni-drill-rotator.png",
+      "operation": "Transparent auxiliary layer, scaled 4x",
+      "renderedSha256": "a6ad1bec9b073969cce0b126f9bcf9c9f1e18973f4ea84c5620f0a5da4d1fc74"
+    },
+    {
+      "source": "core/assets-raw/sprites/blocks/fluxpump.png",
+      "target": "sprites/blocks/classic-flux-pump.png",
+      "operation": "4x nearest-neighbor from preserved source",
+      "renderedSha256": "d3f5313f0bf6d162656261040614021a7357537cb550538d1394766415192cf2"
+    },
+    {
+      "source": "core/assets-raw/sprites/blocks/door.png",
+      "target": "sprites/blocks/classic-door.png",
+      "operation": "4x nearest-neighbor from preserved source",
+      "renderedSha256": "9539495e22f1bd0341d650ec6f2fd5e1c3dba4a6b18013f22111889a155cbc75"
+    },
+    {
+      "source": "core/assets-raw/sprites/blocks/door-open.png",
+      "target": "sprites/blocks/classic-door-open.png",
+      "operation": "4x nearest-neighbor from preserved source",
+      "renderedSha256": "3024bd05e1a7752e7369512d8fa91803774d1921c5ef37c46f53e52fbb0bc944"
+    },
+    {
+      "source": "core/assets-raw/sprites/blocks/door-large.png",
+      "target": "sprites/blocks/classic-door-large.png",
+      "operation": "4x nearest-neighbor from preserved source",
+      "renderedSha256": "3a853dace165bcd2b8e1a7abf4466c47b91e534d7db47192c8f32d1987d59674"
+    },
+    {
+      "source": "core/assets-raw/sprites/blocks/door-large-open.png",
+      "target": "sprites/blocks/classic-door-large-open.png",
+      "operation": "4x nearest-neighbor from preserved source",
+      "renderedSha256": "5b252ee0b37023a6bd8e57299ab36b7fee569af2612fe9e4af2b5a1245837c1e"
+    },
+    {
+      "source": "core/assets-raw/sprites/blocks/lava.png",
+      "target": "sprites/liquids/classic-lava.png",
+      "operation": "4x nearest-neighbor from preserved source",
+      "renderedSha256": "ea6173cbe4ad76288dd57ac8733521abea0c3038eca4651b213eb317e772d85a"
+    },
+    {
+      "source": "core/assets-raw/sprites/blocks/lava.png",
+      "target": "sprites/blocks/classic-lava-floor.png",
+      "operation": "4x nearest-neighbor from preserved source",
+      "renderedSha256": "ea6173cbe4ad76288dd57ac8733521abea0c3038eca4651b213eb317e772d85a"
+    },
+    {
+      "source": "core/assets-raw/sprites/blocks/coal1.png",
+      "target": "sprites/blocks/classic-coal-floor1.png",
+      "operation": "4x nearest-neighbor from preserved source",
+      "renderedSha256": "28d0b35d67d0c605c83003d12a2780926dfe0343d001f16b10cc4809660a0655"
+    },
+    {
+      "source": "core/assets-raw/sprites/blocks/coal2.png",
+      "target": "sprites/blocks/classic-coal-floor2.png",
+      "operation": "4x nearest-neighbor from preserved source",
+      "renderedSha256": "6d50e00b3a22fdbc0ecac675b5752cbf1c290bfec36520b7f30a5742ab9491c8"
+    },
+    {
+      "source": "core/assets-raw/sprites/blocks/coal3.png",
+      "target": "sprites/blocks/classic-coal-floor3.png",
+      "operation": "4x nearest-neighbor from preserved source",
+      "renderedSha256": "b26cdfeb9e284c190a0bd85c5a9ffbc056817678b92871c0f11b4ffa895d4bbb"
     }
   ]
 }

@@ -28,7 +28,10 @@ public class ScaleSprites {
                         throw new IllegalStateException("Changed pixel: " + target + " " + x + "," + y);
                     if(!verify) result.setRGB(x, y, expected);
                 }
-                if(!verify) ImageIO.write(result, "png", target.toFile());
+                if(!verify) {
+                    Files.createDirectories(target.getParent());
+                    ImageIO.write(result, "png", target.toFile());
+                }
                 count++;
             }
         }

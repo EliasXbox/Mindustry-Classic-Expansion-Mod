@@ -1,0 +1,24 @@
+{
+  "type": "Pump",
+  "name": "Classic Flux Pump",
+  "health": 40,
+  "size": 1,
+  "requirements": [
+    "classic-steel/10",
+    "classic-dirium/5"
+  ],
+  "category": "liquid",
+  "research": {
+    "parent": "classic-pump",
+    "requirements": [
+      "classic-steel/10",
+      "classic-dirium/5"
+    ]
+  },
+  "liquidCapacity": 10,
+  "pumpAmount": 3,
+  "drawer": {
+    "type": "DrawDefault"
+  },
+  "description": "Extracts floor liquid without power, nominal 180 units/s. Delivered flow uses v7 liquid transport."
+}

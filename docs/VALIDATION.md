@@ -64,3 +64,20 @@ conferidas por SHA-256. Teste reproduzível em tools/verify-batch4.js.
 A primeira tentativa do teste usava a própria esteira como origem e não
 alimentava corretamente a esteira vertical; corrigido para fontes vizinhas reais.
 O headless não valida aparência nem interação por toque. Lote 4 aguarda cliente.
+
+O usuário confirmou funcionamento do lote 4 no cliente, com screenshot.
+
+## Alpha 0.5.0 — produção e portas
+
+Servidor oficial v146 carregou todos os conteúdos sem erros. MCE_BATCH5_PASS:
+dez saídas de cada uma das cinco receitas, consumos de itens conferidos,
+líquido dentro da tolerância float. Foram 6000 atualizações, mais 1200 para
+verificar cinco cadeias alimentadas por bombas. Extração: 42 carvões e 63
+urânios pelo omni no teste; vazão é afetada pela lógica moderna dos drills.
+Portas pequenas encadeadas abriram/fecharam; grande aberta ficou não sólida;
+vida/tamanho conferidos, portas vanilla intactas (400/1600).
+189 sprites verificados pixel por pixel em 4x; originais por SHA-256.
+A primeira simulação usou orçamento de líquido quase exato e alguns ciclos
+terminaram abaixo de progress=1 por arredondamento float; o teste passou com
+0,02 líquido extra e tolerância final 0,05, sem alterar as receitas.
+Aparência/interação deste lote ainda precisam de confirmação no PC/Android.

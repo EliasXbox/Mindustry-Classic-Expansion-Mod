@@ -53,3 +53,11 @@ Additional changes dated 2026-10-11 (0.4.0-alpha):
 - Modern buffers/liquid flow and sprite connection aliases replace Classic runtime.
 - Expanded added sprites 4x without interpolation; original bytes retained.
 - Added transport/liquid demo map and reproducible server verification.
+
+Additional changes dated 2026-10-11 (0.5.0-alpha):
+- Added five liquid processing machines, coal/omni drills, flux pump and two doors.
+- Adapted liquid batch consumption to continuous v7 consumption at nominal rates.
+- Added Classic lava, lava floor and coal deposit; coal/water/oil reuse vanilla.
+- Enabled Classic doors on PC/Android with modern adjacent-door grouping.
+- Preserved original art in art-source and scaled 4x without interpolation.
+- Added processing/doors demo and functional verification; six Classic items retained.
