@@ -1,0 +1,16 @@
+{
+  "type": "Wall",
+  "name": "Classic Titanium Wall (Large)",
+  "health": 2400,
+  "size": 2,
+  "requirements": [
+    "classic-titanium/48"
+  ],
+  "category": "defense",
+  "research": {
+    "parent": "classic-titanium-wall",
+    "requirements": [
+      "classic-titanium/48"
+    ]
+  }
+}

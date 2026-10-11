@@ -1,0 +1,16 @@
+{
+  "type": "Wall",
+  "name": "Classic Dirium Wall",
+  "health": 760,
+  "size": 1,
+  "requirements": [
+    "classic-dirium/12"
+  ],
+  "category": "defense",
+  "research": {
+    "parent": "classic-crucible",
+    "requirements": [
+      "classic-dirium/12"
+    ]
+  }
+}

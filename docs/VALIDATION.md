@@ -37,3 +37,15 @@ O headless não valida desenho, texturas empacotadas no cliente, interação por
 ## Alpha 0.2.1
 
 O usuário confirmou funcionamento de todo o lote 0.2 no cliente e relatou blur. Para reduzir suavização, 47 sprites foram ampliados 4x sem interpolação. A ferramenta verificou cada pixel contra a fonte original, incluindo transparência. O tamanho no jogo foi compensado por texturescale=1. Aparência da correção ainda aguarda teste no cliente.
+
+O usuário confirmou posteriormente a melhora visual da 0.2.1, com screenshot.
+
+## Alpha 0.3.0 — lote de dez blocos
+
+Servidor oficial v146 carregou os novos conteúdos. Sete variantes de parede tiveram
+vida/tamanho verificados. 6000 atualizações reais produziram 36 titânios, 36 urânios
+e 20 diriums. O cadinho consumiu os 20 titânios, 20 aços Classic e 10 carvões fornecidos;
+os perfuradores receberam recursos somente dos novos terrenos.
+Resultado: MCE_BATCH3_PASS. Paredes vanilla verificadas permaneceram intactas.
+Mapa avançado salvo pelo v146 antes da simulação; sprites verificados pixel por pixel.
+Teste reproduzível: tools/verify-batch3.js. Aparência/interação do lote 3 aguardam cliente.

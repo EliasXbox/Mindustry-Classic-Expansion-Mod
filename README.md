@@ -1,6 +1,6 @@
 # Mindustry: Classic Expansion
 
-Mod HJSON para **Mindustry v7 build 146**, destinado a PC e Android. Alpha **0.2.1**.
+Mod HJSON para **Mindustry v7 build 146**, destinado a PC e Android. Alpha **0.3.0**.
 Conteúdo separado dos blocos e itens vanilla, sob o prefixo mindustry-classic-expansion-.
 
 ## Lote 2: cinco blocos e seus itens
@@ -15,7 +15,7 @@ Conteúdo separado dos blocos e itens vanilla, sob o prefixo mindustry-classic-e
 
 Itens incluídos juntos: **pedra, ferro e aço clássicos**, com ícones originais.
 A parede 0.1 continua com 160 de vida e 1x1, agora com a receita original de **12 pedras clássicas**.
-Há seis blocos construíveis no total e dois terrenos auxiliares de extração.
+Na 0.3 há 16 blocos construíveis no total e quatro terrenos auxiliares de extração.
 
 ## Instalar e testar
 
@@ -46,7 +46,7 @@ Veja [BATCH-02.md](docs/BATCH-02.md).
 ## Gerar o ZIP
 
 Com Python 3 na raiz: `python tools/build.py`.
-Saída: dist/mindustry-classic-expansion-0.2.1-alpha.zip, com manifesto na raiz.
+Saída: dist/mindustry-classic-expansion-0.3.0-alpha.zip, com manifesto na raiz.
 Os .hjson usam JSON válido, subconjunto de HJSON. Não há scripts de gameplay nem Java.
 O ZIP inclui fonte editável, mapa, licença, créditos e ferramentas de reprodução.
 
@@ -60,6 +60,10 @@ aparência e interação dos novos blocos ainda precisam de confirmação no PC/
 GPLv3. Arte e conteúdo Classic por Anuken e contribuidores; adaptação por EliasXbox.
 Veja [LICENSE](LICENSE) e [NOTICE.md](NOTICE.md). Sem garantia.
 
-## Texturas 0.2.1
+## Texturas 0.3.0
 
 Sprites ampliados 4x por vizinho mais próximo, sem suavização, e texturescale=1 para manter tamanho no jogo. Originais preservados em art-source. Para reproduzir: java tools/ScaleSprites.java; para verificar todos os pixels: java tools/ScaleSprites.java --verify. A ampliação reduz a suavização das bordas; o filtro linear e o zoom do cliente ainda podem influenciar o resultado.
+
+## Lote 3: dez blocos
+
+Sete paredes de ferro/aço/titânio/dirium, cadinho, perfuradores de titânio/urânio. Itens novos: titânio, dirium e urânio Classic, separados do vanilla. Veja docs/BATCH-03.md. Abra MCE - Advanced Materials Demo em jogo personalizado. Total: 16 construções e 6 itens próprios.

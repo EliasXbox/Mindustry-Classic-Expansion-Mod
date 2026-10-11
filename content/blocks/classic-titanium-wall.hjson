@@ -1,0 +1,16 @@
+{
+  "type": "Wall",
+  "name": "Classic Titanium Wall",
+  "health": 600,
+  "size": 1,
+  "requirements": [
+    "classic-titanium/12"
+  ],
+  "category": "defense",
+  "research": {
+    "parent": "classic-titanium-drill",
+    "requirements": [
+      "classic-titanium/12"
+    ]
+  }
+}

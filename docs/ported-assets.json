@@ -282,6 +282,144 @@
       "target": "sprites/blocks/classic-iron-drill-top.png",
       "operation": "4x nearest-neighbor from preserved source; no color interpolation",
       "renderedSha256": "a6ad1bec9b073969cce0b126f9bcf9c9f1e18973f4ea84c5620f0a5da4d1fc74"
+    },
+    {
+      "source": "core/assets-raw/sprites/icon-titanium.png",
+      "target": "sprites/items/classic-titanium.png",
+      "operation": "4x nearest-neighbor from preserved source; no color interpolation",
+      "renderedSha256": "23e914c251e9eb631f4bf78cebab9d033d8b9ca18c514e2afb7b5307f890f0cb"
+    },
+    {
+      "source": "core/assets-raw/sprites/icon-dirium.png",
+      "target": "sprites/items/classic-dirium.png",
+      "operation": "4x nearest-neighbor from preserved source; no color interpolation",
+      "renderedSha256": "eb2f7144be1ce933925a2ce14d7eaad9474a0f108e301ba5d688bdbe425ef113"
+    },
+    {
+      "source": "core/assets-raw/sprites/icon-uranium.png",
+      "target": "sprites/items/classic-uranium.png",
+      "operation": "4x nearest-neighbor from preserved source; no color interpolation",
+      "renderedSha256": "e0e00cf77c87a398afbfd6539778bdaf27e676fdf21eff477c4d750dd556351e"
+    },
+    {
+      "source": "core/assets-raw/sprites/blocks/titanium1.png",
+      "target": "sprites/blocks/classic-titanium-floor1.png",
+      "operation": "4x nearest-neighbor from preserved source; no color interpolation",
+      "renderedSha256": "95b9cc1b733b1fac677542f355c921e5db11376efe4b35cb2e607c98ffb6e9b2"
+    },
+    {
+      "source": "core/assets-raw/sprites/blocks/titanium2.png",
+      "target": "sprites/blocks/classic-titanium-floor2.png",
+      "operation": "4x nearest-neighbor from preserved source; no color interpolation",
+      "renderedSha256": "f394ef108fb2d5700fd26f6991c688c710380f4a4752ae8e7a66350fb9bd79ff"
+    },
+    {
+      "source": "core/assets-raw/sprites/blocks/titanium3.png",
+      "target": "sprites/blocks/classic-titanium-floor3.png",
+      "operation": "4x nearest-neighbor from preserved source; no color interpolation",
+      "renderedSha256": "ca8dd2582c9600aa3b49cb8c5183f93cf233fc3b04261e26d6791ca3c3818743"
+    },
+    {
+      "source": "core/assets-raw/sprites/blocks/titaniumdrill.png",
+      "target": "sprites/blocks/classic-titanium-drill.png",
+      "operation": "4x nearest-neighbor from preserved source; no color interpolation",
+      "renderedSha256": "aa6c752450de00e21b70f9c129b555faa76181cabd38a3de6aa71859f3fa7cde"
+    },
+    {
+      "source": null,
+      "target": "sprites/blocks/classic-titanium-drill-top.png",
+      "operation": "generated transparent auxiliary layer, scaled 4x",
+      "renderedSha256": "a6ad1bec9b073969cce0b126f9bcf9c9f1e18973f4ea84c5620f0a5da4d1fc74"
+    },
+    {
+      "source": null,
+      "target": "sprites/blocks/classic-titanium-drill-rotator.png",
+      "operation": "generated transparent auxiliary layer, scaled 4x",
+      "renderedSha256": "a6ad1bec9b073969cce0b126f9bcf9c9f1e18973f4ea84c5620f0a5da4d1fc74"
+    },
+    {
+      "source": "core/assets-raw/sprites/blocks/uranium1.png",
+      "target": "sprites/blocks/classic-uranium-floor1.png",
+      "operation": "4x nearest-neighbor from preserved source; no color interpolation",
+      "renderedSha256": "51422e10eab102ec4a5755f9df2df1b638d376daef9994668aaa01f738db6208"
+    },
+    {
+      "source": "core/assets-raw/sprites/blocks/uranium2.png",
+      "target": "sprites/blocks/classic-uranium-floor2.png",
+      "operation": "4x nearest-neighbor from preserved source; no color interpolation",
+      "renderedSha256": "01712d944c54697cc8b5f810dfd935290f666338bae9deba3db86c7e82afbdd7"
+    },
+    {
+      "source": "core/assets-raw/sprites/blocks/uranium3.png",
+      "target": "sprites/blocks/classic-uranium-floor3.png",
+      "operation": "4x nearest-neighbor from preserved source; no color interpolation",
+      "renderedSha256": "b2aae84151d03e76621f0fa84966d5bc996ae72c9c77ec64b84e50fea2d219fc"
+    },
+    {
+      "source": "core/assets-raw/sprites/blocks/uraniumdrill.png",
+      "target": "sprites/blocks/classic-uranium-drill.png",
+      "operation": "4x nearest-neighbor from preserved source; no color interpolation",
+      "renderedSha256": "6da169fee20c0b26cd10bbed979c624d1c00be8ec8fb1cd0f173205f08b6f9eb"
+    },
+    {
+      "source": null,
+      "target": "sprites/blocks/classic-uranium-drill-top.png",
+      "operation": "generated transparent auxiliary layer, scaled 4x",
+      "renderedSha256": "a6ad1bec9b073969cce0b126f9bcf9c9f1e18973f4ea84c5620f0a5da4d1fc74"
+    },
+    {
+      "source": null,
+      "target": "sprites/blocks/classic-uranium-drill-rotator.png",
+      "operation": "generated transparent auxiliary layer, scaled 4x",
+      "renderedSha256": "a6ad1bec9b073969cce0b126f9bcf9c9f1e18973f4ea84c5620f0a5da4d1fc74"
+    },
+    {
+      "source": "core/assets-raw/sprites/blocks/ironwall.png",
+      "target": "sprites/blocks/classic-iron-wall.png",
+      "operation": "4x nearest-neighbor from preserved source; no color interpolation",
+      "renderedSha256": "459f58c4f6e38ad7781a7e30e007dbc99ced6a9dd7695d3e9c2c0b8b38f1596c"
+    },
+    {
+      "source": "core/assets-raw/sprites/blocks/steelwall.png",
+      "target": "sprites/blocks/classic-steel-wall.png",
+      "operation": "4x nearest-neighbor from preserved source; no color interpolation",
+      "renderedSha256": "310d614c9be63f8ce4a5503419660fcc647e87d50849b42a39170cd068fad7aa"
+    },
+    {
+      "source": "core/assets-raw/sprites/blocks/steelwall-large.png",
+      "target": "sprites/blocks/classic-steel-wall-large.png",
+      "operation": "4x nearest-neighbor from preserved source; no color interpolation",
+      "renderedSha256": "7eb74779f8b538b01ab07dc3056572ee52d4843758511024159db58758e02522"
+    },
+    {
+      "source": "core/assets-raw/sprites/blocks/titaniumwall.png",
+      "target": "sprites/blocks/classic-titanium-wall.png",
+      "operation": "4x nearest-neighbor from preserved source; no color interpolation",
+      "renderedSha256": "e353a81acec496a5f1e3107896270821b359b223b3c0a66839a3b5b8b1986d3d"
+    },
+    {
+      "source": "core/assets-raw/sprites/blocks/titaniumwall-large.png",
+      "target": "sprites/blocks/classic-titanium-wall-large.png",
+      "operation": "4x nearest-neighbor from preserved source; no color interpolation",
+      "renderedSha256": "e6dfa3cb79f22b20df1d02169b640e2731c315321adc7ad0cf4f14752f59fd64"
+    },
+    {
+      "source": "core/assets-raw/sprites/blocks/duriumwall.png",
+      "target": "sprites/blocks/classic-dirium-wall.png",
+      "operation": "4x nearest-neighbor from preserved source; no color interpolation",
+      "renderedSha256": "db1447e7bda911ad77927fcd3e0751ad7d49014155399aba04751e521c1aafc4"
+    },
+    {
+      "source": "core/assets-raw/sprites/blocks/duriumwall-large.png",
+      "target": "sprites/blocks/classic-dirium-wall-large.png",
+      "operation": "4x nearest-neighbor from preserved source; no color interpolation",
+      "renderedSha256": "d6372d3db4960346c3324738e53c98a53020d51f0670116864517561a44d02be"
+    },
+    {
+      "source": "core/assets-raw/sprites/blocks/crucible.png",
+      "target": "sprites/blocks/classic-crucible.png",
+      "operation": "4x nearest-neighbor from preserved source; no color interpolation",
+      "renderedSha256": "01d4310279c38b413ead755663409be41a5f0a96e11da30d94f0de35c10a60ae"
     }
   ]
 }

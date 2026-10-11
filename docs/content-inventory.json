@@ -54,7 +54,7 @@
       "name": "stone",
       "classicType": "Floor",
       "source": "core/src/io/anuke/mindustry/world/blocks/Blocks.java",
-      "recipe": "new Recipe(defense, DefenseBlocks.stonewall, stack(Item.stone, 12)),",
+      "recipe": null,
       "spriteCandidates": [
         "core/assets-raw/sprites/blocks/stone1.png",
         "core/assets-raw/sprites/blocks/stone2.png",
@@ -78,7 +78,7 @@
       "name": "iron",
       "classicType": "Ore",
       "source": "core/src/io/anuke/mindustry/world/blocks/Blocks.java",
-      "recipe": "new Recipe(defense, DefenseBlocks.ironwall, stack(Item.iron, 12)),",
+      "recipe": null,
       "spriteCandidates": [
         "core/assets-raw/sprites/blocks/iron1.png",
         "core/assets-raw/sprites/blocks/iron2.png",
@@ -102,7 +102,7 @@
       "name": "titanium",
       "classicType": "Ore",
       "source": "core/src/io/anuke/mindustry/world/blocks/Blocks.java",
-      "recipe": "new Recipe(defense, DefenseBlocks.titaniumwall, stack(Item.titanium, 12)),",
+      "recipe": null,
       "spriteCandidates": [
         "core/assets-raw/sprites/blocks/titanium1.png",
         "core/assets-raw/sprites/blocks/titanium2.png",
