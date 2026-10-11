@@ -1,0 +1,12 @@
+{
+  "type": "Wall",
+  "name": "Classic Stone Wall",
+  "description": "Original Classic stone wall: 160 health, 1x1. Alpha recipe uses 12 copper instead of Classic stone.",
+  "health": 160,
+  "size": 1,
+  "requirements": [
+    "copper/12"
+  ],
+  "category": "defense",
+  "research": "copper-wall"
+}
