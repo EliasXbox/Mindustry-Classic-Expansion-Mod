@@ -1,0 +1,17 @@
+{
+  "type": "LiquidJunction",
+  "name": "Classic Liquid Junction",
+  "health": 40,
+  "size": 1,
+  "requirements": [
+    "classic-steel/2"
+  ],
+  "category": "liquid",
+  "research": {
+    "parent": "classic-conduit",
+    "requirements": [
+      "classic-steel/2"
+    ]
+  },
+  "liquidCapacity": 10
+}

@@ -1,0 +1,20 @@
+{
+  "type": "Conveyor",
+  "name": "Classic Pulse Conveyor",
+  "health": 75,
+  "size": 1,
+  "requirements": [
+    "classic-dirium/1"
+  ],
+  "category": "distribution",
+  "research": {
+    "parent": "classic-crucible",
+    "requirements": [
+      "classic-dirium/1"
+    ]
+  },
+  "speed": 0.09,
+  "displayedSpeed": 12.6,
+  "junctionReplacement": "classic-junction",
+  "bridgeReplacement": "classic-tunnel"
+}

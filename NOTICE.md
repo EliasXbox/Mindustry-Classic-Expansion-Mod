@@ -45,3 +45,11 @@ types/distribution/Conveyor.java and types/distribution/Router.java.
 Changes dated 2026-10-11 (0.2.1-alpha): all rendered sprites enlarged 4x using exact nearest-neighbor replication. Original bytes preserved under art-source. texturescale changed from 4 to 1 to keep the same physical size. See tools/ScaleSprites.java for reproduction and pixel verification.
 
 Changes dated 2026-10-11 (0.3.0-alpha): added seven Classic wall variants, crucible, titanium/uranium drills, three corresponding items and two deposit floors. Original sprites preserved and replicated 4x; modern tier-based drill targeting and batched fuel conversion documented in docs/BATCH-03.md. Added an advanced-materials demonstration map and verification tool.
+
+Additional changes dated 2026-10-11 (0.4.0-alpha):
+- Added ten transport/liquid blocks with original construction resources.
+- Adapted automatic tunnels to manually linked v7 ItemBridge, without power.
+- Preserved conveyor speeds, conduit capacities and nominal pump extraction.
+- Modern buffers/liquid flow and sprite connection aliases replace Classic runtime.
+- Expanded added sprites 4x without interpolation; original bytes retained.
+- Added transport/liquid demo map and reproducible server verification.

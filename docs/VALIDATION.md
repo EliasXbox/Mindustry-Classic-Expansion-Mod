@@ -49,3 +49,18 @@ os perfuradores receberam recursos somente dos novos terrenos.
 Resultado: MCE_BATCH3_PASS. Paredes vanilla verificadas permaneceram intactas.
 Mapa avançado salvo pelo v146 antes da simulação; sprites verificados pixel por pixel.
 Teste reproduzível: tools/verify-batch3.js. Aparência/interação do lote 3 aguardam cliente.
+
+O usuário confirmou funcionamento e aparência do lote 3, com screenshot.
+
+## Alpha 0.4.0 — transporte e líquidos
+
+Servidor oficial v146 carregou os dez novos blocos sem erros. MCE_BATCH4_PASS
+após 6000 atualizações: esteiras 50/50; junção 50 ferros e 50 aços sem mistura;
+separador 25/25; túnel 50 ferros; tanques receberam 1798,2 águas e 1799,98 óleos
+sem mistura. Bomba/túnel sem consumo de energia. Esteira e bomba vanilla intactas.
+
+168 sprites comparados pixel por pixel com a ampliação 4x. Fontes originais
+conferidas por SHA-256. Teste reproduzível em tools/verify-batch4.js.
+A primeira tentativa do teste usava a própria esteira como origem e não
+alimentava corretamente a esteira vertical; corrigido para fontes vizinhas reais.
+O headless não valida aparência nem interação por toque. Lote 4 aguarda cliente.
