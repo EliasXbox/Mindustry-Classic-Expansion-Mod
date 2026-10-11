@@ -19,13 +19,14 @@ def main():
     for path in (ROOT / 'content').rglob('*.hjson'):
         assert path.stem.startswith('classic-'), 'Content must have a distinct name'
         content[path.stem] = json.loads(path.read_text(encoding='utf-8'))
-    assert len([c for c in content.values() if 'requirements' in c]) == 36
+    assert len([c for c in content.values() if 'requirements' in c]) == 46
     assert len(list((ROOT / 'content/items').glob('*.hjson'))) == 6
     assert len(list((ROOT / 'content/liquids').glob('*.hjson'))) == 1
     # Every custom construction/production reference must resolve in the package.
     for data in content.values():
         refs = list(data.get('requirements', []))
         refs += data.get('consumes', {}).get('items', [])
+        refs += list(data.get('ammoTypes', {}))
         refs += [data[k] for k in ['itemDrop', 'outputItem', 'blockedItem', 'liquidDrop'] if k in data]
         liquid = data.get('consumes', {}).get('liquid')
         if liquid:
@@ -62,6 +63,7 @@ def main():
     assert (ROOT / 'maps/classic-advanced-demo.msav').is_file(), 'Advanced materials map is required'
     assert (ROOT / 'maps/classic-transport-demo.msav').is_file(), 'Transport map is required'
     assert (ROOT / 'maps/classic-production-demo.msav').is_file(), 'Production map is required'
+    assert (ROOT / 'maps/classic-turrets-demo.msav').is_file(), 'Turrets map is required'
     files = [ROOT / p for p in ['mod.hjson', 'LICENSE', 'NOTICE.md', 'README.md']]
     for folder in ['content', 'sprites', 'art-source', 'bundles', 'docs', 'tools', 'maps']:
         files.extend(p for p in (ROOT / folder).rglob('*') if p.is_file() and '__pycache__' not in p.parts)

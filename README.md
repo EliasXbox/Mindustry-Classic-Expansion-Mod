@@ -1,6 +1,6 @@
 # Mindustry: Classic Expansion
 
-Mod HJSON para **Mindustry v7 build 146**, destinado a PC e Android. Alpha **0.5.0**.
+Mod HJSON para **Mindustry v7 build 146**, destinado a PC e Android. Alpha **0.6.0**.
 Conteúdo separado dos blocos e itens vanilla, sob o prefixo mindustry-classic-expansion-.
 
 ## Lote 2: cinco blocos e seus itens
@@ -15,11 +15,11 @@ Conteúdo separado dos blocos e itens vanilla, sob o prefixo mindustry-classic-e
 
 Itens incluídos juntos: **pedra, ferro e aço clássicos**, com ícones originais.
 A parede 0.1 continua com 160 de vida e 1x1, agora com a receita original de **12 pedras clássicas**.
-Na 0.5 há 36 blocos construíveis no total e seis terrenos auxiliares.
+Na 0.6 há 46 blocos construíveis no total e seis terrenos auxiliares.
 
 ## Instalar e testar
 
-1. Importe o ZIP 0.5 em **Mods → Importar mod**, sem descompactar.
+1. Importe o ZIP 0.6 em **Mods → Importar mod**, sem descompactar.
 2. Atualize o mod existente; não mantenha as duas alphas instaladas juntas. Reinicie.
 3. Abra **Jogo personalizado → MCE - Classic Chain Demo**. Use sandbox para inspeção rápida.
 4. Na região (20,20), pedra passa pelo perfurador, esteira e roteador até o cofre.
@@ -46,7 +46,7 @@ Veja [BATCH-02.md](docs/BATCH-02.md).
 ## Gerar o ZIP
 
 Com Python 3 na raiz: `python tools/build.py`.
-Saída: dist/mindustry-classic-expansion-0.5.0-alpha.zip, com manifesto na raiz.
+Saída: dist/mindustry-classic-expansion-0.6.0-alpha.zip, com manifesto na raiz.
 Os .hjson usam JSON válido, subconjunto de HJSON. Não há scripts de gameplay nem Java.
 O ZIP inclui fonte editável, mapa, licença, créditos e ferramentas de reprodução.
 
@@ -80,3 +80,11 @@ Seis itens Classic continuam incluídos; lava Classic e terrenos de lava/carvão
 permitem a nova cadeia. Veja [BATCH-05.md](docs/BATCH-05.md).
 Abra **MCE - Production and Doors Demo**. Total: 36 construções, 27 restantes.
 Portas disponíveis no PC/Android; portas vizinhas alternam juntas.
+
+## Lote 6: dez torres de munição
+
+Básica, dupla, metralhadora, escopeta, lança-chamas, sniper, morteiro, plasma,
+corrente e canhão Titan. Materiais Classic e suas cadeias de produção continuam
+no pacote. Veja [BATCH-06.md](docs/BATCH-06.md) e abra **MCE - Ammo Turrets Demo**.
+46 construções portadas, 17 restantes. Torres usam duas unidades de munição
+por salva, preservando o duplo decremento observado no código Classic.

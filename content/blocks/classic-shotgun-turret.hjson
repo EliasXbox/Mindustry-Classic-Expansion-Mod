@@ -1,0 +1,61 @@
+{
+  "type": "ItemTurret",
+  "name": "Classic Shotgun Turret",
+  "health": 70,
+  "size": 1,
+  "requirements": [
+    "classic-iron/10",
+    "classic-stone/10"
+  ],
+  "category": "turret",
+  "research": {
+    "parent": "classic-machine-turret",
+    "requirements": [
+      "classic-iron/10",
+      "classic-stone/10"
+    ]
+  },
+  "range": 50,
+  "reload": 30,
+  "rotateSpeed": 12,
+  "shootCone": 5,
+  "shootY": 4,
+  "inaccuracy": 15,
+  "maxAmmo": 400,
+  "ammoPerShot": 2,
+  "consumeAmmoOnce": true,
+  "hasLiquids": false,
+  "shoot": {
+    "type": "ShootPattern",
+    "shots": 5,
+    "shotDelay": 0.7
+  },
+  "ammoTypes": {
+    "classic-iron": {
+      "type": "BasicBulletType",
+      "speed": 1.7,
+      "damage": 2,
+      "lifetime": 60,
+      "width": 2,
+      "height": 4,
+      "ammoMultiplier": 20,
+      "backColor": "808080",
+      "frontColor": "808080",
+      "hitEffect": "hitBulletSmall",
+      "despawnEffect": "none",
+      "shootEffect": "shootSmall",
+      "smokeEffect": "none",
+      "collidesAir": true,
+      "collidesGround": true,
+      "sprite": "mindustry-classic-expansion-classic-iron-bullet",
+      "rotationOffset": 90
+    }
+  },
+  "drawer": {
+    "type": "DrawTurret"
+  },
+  "recoil": 0,
+  "elevation": 0,
+  "targetInterval": 15,
+  "description": "Classic health, footprint, costs, range and reload. Modern aiming/projectiles; two ammo units per volley reproduce Classic double decrement."
+}

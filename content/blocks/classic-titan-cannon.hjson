@@ -1,0 +1,66 @@
+{
+  "type": "ItemTurret",
+  "name": "Classic Titan Cannon",
+  "health": 800,
+  "size": 3,
+  "requirements": [
+    "classic-steel/70",
+    "classic-titanium/50",
+    "classic-dirium/55"
+  ],
+  "category": "turret",
+  "research": {
+    "parent": "classic-chain-turret",
+    "requirements": [
+      "classic-steel/70",
+      "classic-titanium/50",
+      "classic-dirium/55"
+    ]
+  },
+  "range": 120,
+  "reload": 23,
+  "rotateSpeed": 4,
+  "shootCone": 9,
+  "shootY": 12,
+  "inaccuracy": 0,
+  "maxAmmo": 400,
+  "ammoPerShot": 2,
+  "consumeAmmoOnce": true,
+  "hasLiquids": false,
+  "shoot": {
+    "type": "ShootPattern",
+    "shots": 1
+  },
+  "ammoTypes": {
+    "classic-uranium": {
+      "type": "BasicBulletType",
+      "speed": 1.8,
+      "damage": 38,
+      "lifetime": 70,
+      "width": 8,
+      "height": 12,
+      "ammoMultiplier": 4,
+      "backColor": "ffd37f",
+      "frontColor": "ffd37f",
+      "hitEffect": "blastExplosion",
+      "despawnEffect": "none",
+      "shootEffect": "shootSmall",
+      "smokeEffect": "none",
+      "collidesAir": true,
+      "collidesGround": true,
+      "sprite": "mindustry-classic-expansion-classic-titan-bullet",
+      "splashDamage": 25,
+      "splashDamageRadius": 50,
+      "despawnHit": true,
+      "hitSize": 15,
+      "rotationOffset": 90
+    }
+  },
+  "drawer": {
+    "type": "DrawTurret"
+  },
+  "recoil": 0,
+  "elevation": 0,
+  "targetInterval": 15,
+  "description": "Classic health, footprint, costs, range and reload. Modern aiming/projectiles; two ammo units per volley reproduce Classic double decrement."
+}

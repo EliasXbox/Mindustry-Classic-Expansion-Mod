@@ -1134,6 +1134,144 @@
       "target": "sprites/blocks/classic-coal-floor3.png",
       "operation": "4x nearest-neighbor from preserved source",
       "renderedSha256": "b26cdfeb9e284c190a0bd85c5a9ffbc056817678b92871c0f11b4ffa895d4bbb"
+    },
+    {
+      "source": "core/assets-raw/sprites/bullet.png",
+      "target": "sprites/bullets/classic-iron-bullet.png",
+      "operation": "4x nearest-neighbor from preserved source",
+      "renderedSha256": "e23f32a012036c503ec613e453a66c03b2330cb320778a6eb48572efae24bee1"
+    },
+    {
+      "source": "core/assets-raw/sprites/chainbullet.png",
+      "target": "sprites/bullets/classic-chain-bullet.png",
+      "operation": "4x nearest-neighbor from preserved source",
+      "renderedSha256": "35d2b4d787610bbac612ccaa3c8fb1fa80d6b6cc411edf16fd755f20135bdf21"
+    },
+    {
+      "source": "core/assets-raw/sprites/titanshell.png",
+      "target": "sprites/bullets/classic-titan-bullet.png",
+      "operation": "4x nearest-neighbor from preserved source",
+      "renderedSha256": "8078ee127a37eaf111452967b5cf3f6bee918adf17340ca38ec9c55a29881fd5"
+    },
+    {
+      "source": "core/assets-raw/sprites/blocks/turret.png",
+      "target": "sprites/blocks/classic-turret.png",
+      "operation": "4x nearest-neighbor from preserved source",
+      "renderedSha256": "b726231a2a9a66d68fbe1f4d2a821e1112e1290b484b44003ba146ca16da5b7a"
+    },
+    {
+      "source": "core/assets-raw/sprites/blocks/block.png",
+      "target": "sprites/blocks/classic-turret-base.png",
+      "operation": "4x nearest-neighbor from preserved source",
+      "renderedSha256": "b93363a5c6a52bb29168cfb59230520d93f0a0eeee08fe5eb3c2ca654b571971"
+    },
+    {
+      "source": "core/assets-raw/sprites/blocks/doubleturret.png",
+      "target": "sprites/blocks/classic-double-turret.png",
+      "operation": "4x nearest-neighbor from preserved source",
+      "renderedSha256": "0159cc40b24ac5193b6456779a268376a4a49e2fdcb1851b949f00313d76d313"
+    },
+    {
+      "source": "core/assets-raw/sprites/blocks/block.png",
+      "target": "sprites/blocks/classic-double-turret-base.png",
+      "operation": "4x nearest-neighbor from preserved source",
+      "renderedSha256": "b93363a5c6a52bb29168cfb59230520d93f0a0eeee08fe5eb3c2ca654b571971"
+    },
+    {
+      "source": "core/assets-raw/sprites/blocks/machineturret.png",
+      "target": "sprites/blocks/classic-machine-turret.png",
+      "operation": "4x nearest-neighbor from preserved source",
+      "renderedSha256": "41998233f252e14e191f3d208ac76daf0aa73330cd7e6cd4d46e7df24ae67e45"
+    },
+    {
+      "source": "core/assets-raw/sprites/blocks/block.png",
+      "target": "sprites/blocks/classic-machine-turret-base.png",
+      "operation": "4x nearest-neighbor from preserved source",
+      "renderedSha256": "b93363a5c6a52bb29168cfb59230520d93f0a0eeee08fe5eb3c2ca654b571971"
+    },
+    {
+      "source": "core/assets-raw/sprites/blocks/shotgunturret.png",
+      "target": "sprites/blocks/classic-shotgun-turret.png",
+      "operation": "4x nearest-neighbor from preserved source",
+      "renderedSha256": "225de6fafc1c476819a99d9e0a880fcad46e4a27a94f34519f52dc9c3649bc77"
+    },
+    {
+      "source": "core/assets-raw/sprites/blocks/block.png",
+      "target": "sprites/blocks/classic-shotgun-turret-base.png",
+      "operation": "4x nearest-neighbor from preserved source",
+      "renderedSha256": "b93363a5c6a52bb29168cfb59230520d93f0a0eeee08fe5eb3c2ca654b571971"
+    },
+    {
+      "source": "core/assets-raw/sprites/blocks/flameturret.png",
+      "target": "sprites/blocks/classic-flame-turret.png",
+      "operation": "4x nearest-neighbor from preserved source",
+      "renderedSha256": "2eef89c8c8921577a362845a919ebd2f61491effeba4994ea8bf7a7a9b1213de"
+    },
+    {
+      "source": "core/assets-raw/sprites/blocks/block.png",
+      "target": "sprites/blocks/classic-flame-turret-base.png",
+      "operation": "4x nearest-neighbor from preserved source",
+      "renderedSha256": "b93363a5c6a52bb29168cfb59230520d93f0a0eeee08fe5eb3c2ca654b571971"
+    },
+    {
+      "source": "core/assets-raw/sprites/blocks/sniperturret.png",
+      "target": "sprites/blocks/classic-sniper-turret.png",
+      "operation": "4x nearest-neighbor from preserved source",
+      "renderedSha256": "74a8ca02c442e2847c6fbb41010a9b757f78ed5d7919789ad2ed3275390c0a37"
+    },
+    {
+      "source": "core/assets-raw/sprites/blocks/block.png",
+      "target": "sprites/blocks/classic-sniper-turret-base.png",
+      "operation": "4x nearest-neighbor from preserved source",
+      "renderedSha256": "b93363a5c6a52bb29168cfb59230520d93f0a0eeee08fe5eb3c2ca654b571971"
+    },
+    {
+      "source": "core/assets-raw/sprites/blocks/mortarturret.png",
+      "target": "sprites/blocks/classic-mortar-turret.png",
+      "operation": "4x nearest-neighbor from preserved source",
+      "renderedSha256": "74540e7971153fa703058ff4713618bc9a0af35b8f6e431c6e3bfe1215f03926"
+    },
+    {
+      "source": "core/assets-raw/sprites/blocks/block.png",
+      "target": "sprites/blocks/classic-mortar-turret-base.png",
+      "operation": "4x nearest-neighbor from preserved source",
+      "renderedSha256": "b93363a5c6a52bb29168cfb59230520d93f0a0eeee08fe5eb3c2ca654b571971"
+    },
+    {
+      "source": "core/assets-raw/sprites/blocks/plasmaturret.png",
+      "target": "sprites/blocks/classic-plasma-turret.png",
+      "operation": "4x nearest-neighbor from preserved source",
+      "renderedSha256": "f38098d9c5653bc85576b324a2d07ca0ac1446e4b65ed7434fdb347aeddf7ca6"
+    },
+    {
+      "source": "core/assets-raw/sprites/blocks/block.png",
+      "target": "sprites/blocks/classic-plasma-turret-base.png",
+      "operation": "4x nearest-neighbor from preserved source",
+      "renderedSha256": "b93363a5c6a52bb29168cfb59230520d93f0a0eeee08fe5eb3c2ca654b571971"
+    },
+    {
+      "source": "core/assets-raw/sprites/blocks/chainturret.png",
+      "target": "sprites/blocks/classic-chain-turret.png",
+      "operation": "4x nearest-neighbor from preserved source",
+      "renderedSha256": "f7e034056edf885df7c2e4b47a9d5ff37be81ce4632c92d842634c56feda3a52"
+    },
+    {
+      "source": "core/assets-raw/sprites/blocks/block-2x2.png",
+      "target": "sprites/blocks/classic-chain-turret-base.png",
+      "operation": "4x nearest-neighbor from preserved source",
+      "renderedSha256": "183c73626196d3528cfb7b7dfebe82549473846d123d9969cab83b3ccfea1eb1"
+    },
+    {
+      "source": "core/assets-raw/sprites/blocks/titancannon.png",
+      "target": "sprites/blocks/classic-titan-cannon.png",
+      "operation": "4x nearest-neighbor from preserved source",
+      "renderedSha256": "762fb1ca598cf31220c5ced84865aa2a275ab7bdd6012484ff9dfc22131dad30"
+    },
+    {
+      "source": "core/assets-raw/sprites/blocks/block-3x3.png",
+      "target": "sprites/blocks/classic-titan-cannon-base.png",
+      "operation": "4x nearest-neighbor from preserved source",
+      "renderedSha256": "f0ac89ca26e047301fb4dcfe1d0d0acdbc95bd1aed6f91c568dbadba3cad4de6"
     }
   ]
 }

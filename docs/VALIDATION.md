@@ -81,3 +81,18 @@ A primeira simulação usou orçamento de líquido quase exato e alguns ciclos
 terminaram abaixo de progress=1 por arredondamento float; o teste passou com
 0,02 líquido extra e tolerância final 0,05, sem alterar as receitas.
 Aparência/interação deste lote ainda precisam de confirmação no PC/Android.
+
+O usuário confirmou funcionamento do lote 5 no cliente, com screenshot.
+
+## Alpha 0.6.0 — torres de munição
+
+Servidor oficial v146 carregou dez ItemTurret. Teste com dois itens por torre:
+20/40/20/100/20/20/15/40/16/4 projéteis nas dez torres, munição esgotada em
+todas e dano positivo nos dez alvos. Rejeição de cobre, aceitação/conversão
+da munição correta, alcance/reload/vida/tamanho e duo vanilla conferidos.
+MCE_BATCH6_PASS após 2400 atualizações com tarefas de tiros atrasados.
+O teste fornece alvos fixos; não valida combate com IA móvel.
+212 sprites ampliados 4x, fontes originais preservadas e verificadas por hash.
+Uma propriedade de variação de velocidade estava no projétil e foi corrigida
+para o campo velocityRnd da torre do morteiro, eliminando aviso de parser.
+Aparência, controle e interação deste lote aguardam cliente PC/Android.

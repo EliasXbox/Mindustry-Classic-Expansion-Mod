@@ -1,0 +1,71 @@
+{
+  "type": "ItemTurret",
+  "name": "Classic Mortar Turret",
+  "health": 110,
+  "size": 1,
+  "requirements": [
+    "classic-steel/25",
+    "classic-titanium/15"
+  ],
+  "category": "turret",
+  "research": {
+    "parent": "classic-sniper-turret",
+    "requirements": [
+      "classic-steel/25",
+      "classic-titanium/15"
+    ]
+  },
+  "range": 120,
+  "reload": 55,
+  "rotateSpeed": 12,
+  "shootCone": 5,
+  "shootY": 4,
+  "inaccuracy": 9,
+  "maxAmmo": 400,
+  "ammoPerShot": 2,
+  "consumeAmmoOnce": true,
+  "hasLiquids": false,
+  "shoot": {
+    "type": "ShootPattern",
+    "shots": 3
+  },
+  "ammoTypes": {
+    "coal": {
+      "type": "BasicBulletType",
+      "speed": 2.9,
+      "damage": 8,
+      "lifetime": 45,
+      "width": 3,
+      "height": 5,
+      "ammoMultiplier": 5,
+      "backColor": "808080",
+      "frontColor": "808080",
+      "hitEffect": "hitBulletSmall",
+      "despawnEffect": "none",
+      "shootEffect": "shootSmall",
+      "smokeEffect": "none",
+      "collidesAir": true,
+      "collidesGround": true,
+      "fragBullets": 3,
+      "despawnHit": true,
+      "fragOnHit": true,
+      "fragBullet": {
+        "type": "BasicBulletType",
+        "speed": 2,
+        "damage": 2,
+        "lifetime": 30,
+        "drag": 0.05,
+        "width": 2,
+        "height": 4
+      }
+    }
+  },
+  "drawer": {
+    "type": "DrawTurret"
+  },
+  "recoil": 0,
+  "elevation": 0,
+  "targetInterval": 15,
+  "description": "Classic health, footprint, costs, range and reload. Modern aiming/projectiles; two ammo units per volley reproduce Classic double decrement.",
+  "velocityRnd": 0.4
+}

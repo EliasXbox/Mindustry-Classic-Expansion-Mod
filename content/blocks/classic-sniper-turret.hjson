@@ -1,0 +1,58 @@
+{
+  "type": "ItemTurret",
+  "name": "Classic Sniper Turret",
+  "health": 70,
+  "size": 1,
+  "requirements": [
+    "classic-iron/15",
+    "classic-steel/10"
+  ],
+  "category": "turret",
+  "research": {
+    "parent": "classic-machine-turret",
+    "requirements": [
+      "classic-iron/15",
+      "classic-steel/10"
+    ]
+  },
+  "range": 120,
+  "reload": 50,
+  "rotateSpeed": 12,
+  "shootCone": 5,
+  "shootY": 4,
+  "inaccuracy": 0,
+  "maxAmmo": 400,
+  "ammoPerShot": 2,
+  "consumeAmmoOnce": true,
+  "hasLiquids": false,
+  "shoot": {
+    "type": "ShootPattern",
+    "shots": 1
+  },
+  "ammoTypes": {
+    "classic-steel": {
+      "type": "BasicBulletType",
+      "speed": 3,
+      "damage": 25,
+      "lifetime": 45,
+      "width": 1,
+      "height": 3,
+      "ammoMultiplier": 20,
+      "backColor": "c0c0c0",
+      "frontColor": "c0c0c0",
+      "hitEffect": "hitBulletSmall",
+      "despawnEffect": "none",
+      "shootEffect": "shootSmall",
+      "smokeEffect": "none",
+      "collidesAir": true,
+      "collidesGround": true
+    }
+  },
+  "drawer": {
+    "type": "DrawTurret"
+  },
+  "recoil": 0,
+  "elevation": 0,
+  "targetInterval": 15,
+  "description": "Classic health, footprint, costs, range and reload. Modern aiming/projectiles; two ammo units per volley reproduce Classic double decrement."
+}

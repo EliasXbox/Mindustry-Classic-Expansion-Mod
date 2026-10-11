@@ -61,3 +61,11 @@ Additional changes dated 2026-10-11 (0.5.0-alpha):
 - Enabled Classic doors on PC/Android with modern adjacent-door grouping.
 - Preserved original art in art-source and scaled 4x without interpolation.
 - Added processing/doors demo and functional verification; six Classic items retained.
+
+Additional changes dated 2026-10-11 (0.6.0-alpha):
+- Added ten Classic ammo turrets as modern ItemTurret definitions.
+- Preserved costs, health, sizes, nominal ranges/reloads, ammo multipliers.
+- Reproduced original two-unit ammo decrement per volley.
+- Adapted aiming, procedural bullet visuals, effects/sounds and fragmentation.
+- Preserved turret bases and iron/chain/Titan projectile sprites, scaled 4x.
+- Added ammo-turrets demo and reproducible firing/damage verification.
