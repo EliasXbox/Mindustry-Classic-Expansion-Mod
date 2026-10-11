@@ -1,0 +1,27 @@
+{
+  "type": "Drill",
+  "name": "Classic Iron Drill",
+  "health": 40,
+  "size": 1,
+  "requirements": [
+    "classic-stone/25"
+  ],
+  "category": "production",
+  "research": {
+    "parent": "classic-stone-drill",
+    "requirements": [
+      "classic-stone/25"
+    ]
+  },
+  "tier": 1,
+  "blockedItem": "classic-stone",
+  "drillTime": 300,
+  "hardnessDrillMultiplier": 0,
+  "itemCapacity": 5,
+  "warmupSpeed": 1,
+  "drawMineItem": false,
+  "rotateSpeed": 0,
+  "drawSpinSprite": false,
+  "hasLiquids": false,
+  "description": "Mines Classic iron deposits. Adapted v7 Drill also accepts other tier-1 resources, except Classic stone."
+}

@@ -38,7 +38,7 @@ A correspondência por nome não captura todos os desenhos personalizados e regi
 12 de armas, 124 de UI, 1 fundo e 21 na raiz (ícones de itens, projéteis, lasers e auxiliares).
 `sprites.json` registra caminho, dimensões, tamanho e SHA-256 de cada arquivo.
 Inclui variantes antigas `_old`; a presença de um arquivo não confirma uso em runtime.
-Somente stonewall.png é incluído na alpha, sem alterações nos bytes.
+Os sprites portados constam em ported-assets.json, com cópias verificadas por hash.
 
 ## Plano de adaptação
 
@@ -68,6 +68,9 @@ precisa decidir explicitamente como oferecer o comportamento também no Android.
 Receita Classic: stone/12; receita alpha: copper/12. Pesquisa adicionada sob copper-wall.
 O sprite original 8x8 usa texturescale=4, compensando a escala de desenho de sprites do v7.
 Não se presume compatibilidade de save, protocolo ou balanceamento entre Classic e v7.
+
+A alpha 0.2 restaura stone/12 e move a pesquisa da parede para o perfurador de pedra.
+O novo lote está documentado em BATCH-02.md.
 
 Fontes modernas conferidas no tag v146:
 [ContentParser.java](https://github.com/Anuken/Mindustry/blob/v146/core/src/mindustry/mod/ContentParser.java),

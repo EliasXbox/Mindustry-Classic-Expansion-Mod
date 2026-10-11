@@ -1,0 +1,19 @@
+{
+  "type": "Conveyor",
+  "name": "Classic Conveyor",
+  "health": 40,
+  "size": 1,
+  "requirements": [
+    "classic-stone/1"
+  ],
+  "category": "distribution",
+  "research": {
+    "parent": "classic-stone-drill",
+    "requirements": [
+      "classic-stone/1"
+    ]
+  },
+  "speed": 0.02,
+  "displayedSpeed": 2.8,
+  "description": "Classic conveyor adapted to v7 transport and four animation frames."
+}

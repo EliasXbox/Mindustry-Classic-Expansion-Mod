@@ -2,8 +2,8 @@
   "name": "mindustry-classic-expansion",
   "displayName": "Mindustry: Classic Expansion",
   "author": "EliasXbox; Classic content by Anuken and contributors",
-  "description": "Classic stone wall adapted for Mindustry v7. GPLv3; no warranty. Alpha prototype.",
-  "version": "0.1.0-alpha",
+  "description": "Classic mining, transport and steel production for Mindustry v7. GPLv3; no warranty.",
+  "version": "0.2.0-alpha",
   "minGameVersion": "146",
   "texturescale": 4,
   "hidden": false

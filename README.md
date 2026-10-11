@@ -1,52 +1,61 @@
 # Mindustry: Classic Expansion
 
-Mod de conteúdo HJSON para **Mindustry v7 build 146**, destinado a PC e Android.
-Alpha inicial: uma parede de pedra clássica, adicionada ao lado do conteúdo vanilla.
+Mod HJSON para **Mindustry v7 build 146**, destinado a PC e Android. Alpha **0.2.0**.
+Conteúdo separado dos blocos e itens vanilla, sob o prefixo mindustry-classic-expansion-.
 
-## O que está disponível
+## Lote 2: cinco blocos e seus itens
 
-- Parede de pedra clássica: **160 de vida**, **1x1**, sprite original de 8x8 pixels.
-- Construção: **12 de cobre**. A receita original usa 12 de pedra; cobre é uma adaptação provisória para mapas vanilla, pois a cadeia de pedra clássica ainda não foi portada.
-- Pesquisa: filha da parede de cobre. Em sandbox, use a categoria defesa.
-- Texto em inglês e português brasileiro.
+| Bloco novo | Função | Construção |
+| --- | --- | --- |
+| Perfurador de pedra | Pedra clássica a cada 4s | 12 cobre, para iniciar a cadeia |
+| Perfurador de ferro | Ferro clássico a cada 5s | 25 pedras clássicas |
+| Fundidor | 5 ferros + 2 carvões vanilla → 5 aços em 100 ticks | 40 pedras + 40 ferros clássicos |
+| Esteira | Transporte de itens | 1 pedra clássica |
+| Roteador | Distribuição de itens | 2 pedras clássicas |
 
-Os arquivos `.hjson` usam sintaxe JSON válida, um subconjunto de HJSON.
-Não há Java, JavaScript, dependências ou substituições de sprites vanilla.
-O nome do mod cria o prefixo `mindustry-classic-expansion-` para o conteúdo novo.
-Adicionar um nó à pesquisa vanilla não altera as propriedades dos blocos existentes.
+Itens incluídos juntos: **pedra, ferro e aço clássicos**, com ícones originais.
+A parede 0.1 continua com 160 de vida e 1x1, agora com a receita original de **12 pedras clássicas**.
+Há seis blocos construíveis no total e dois terrenos auxiliares de extração.
 
-## Instalar no PC ou Android
+## Instalar e testar
 
-1. Baixe o ZIP gerado, sem descompactar.
-2. No Mindustry v7, abra **Mods → Importar mod** e selecione o ZIP.
-3. Reinicie o jogo e confira se o mod não apresenta erros.
-4. Abra um mapa sandbox e procure a parede na categoria defesa.
+1. Importe o ZIP 0.2 em **Mods → Importar mod**, sem descompactar.
+2. Atualize o mod existente; não mantenha as duas alphas instaladas juntas. Reinicie.
+3. Abra **Jogo personalizado → MCE - Classic Chain Demo**. Use sandbox para inspeção rápida.
+4. Na região (20,20), pedra passa pelo perfurador, esteira e roteador até o cofre.
+5. Na região (20,30), ferro segue até o fundidor em (25,30); aço sai para outro cofre.
+6. Alimente o fundidor com carvão vanilla. Em recursos limitados, o núcleo começa com 300 carvões e 1000 cobres.
 
-No Android, selecione o ZIP pelo seletor de arquivos do próprio jogo; não é necessário acessar manualmente a pasta Android/data.
+Os terrenos Classic estão no editor. **Não aparecem automaticamente na campanha vanilla.**
+Para usar a cadeia em outro mapa, coloque os novos terrenos no editor.
+Também é possível minerá-los manualmente com uma unidade compatível.
+No Android, selecione o ZIP pelo seletor de arquivos do jogo.
 Em multiplayer, servidor e jogadores precisam da mesma versão do mod.
+
+## Adaptações
+
+Drill v7 também aceita recursos modernos dentro do seu nível; o de pedra bloqueia areia,
+e o de ferro bloqueia pedra clássica. Os tempos nominais Classic foram preservados.
+O roteador usa lógica moderna e guarda um item, em lugar de vinte.
+O fundidor produz por lotes, mantendo taxas médias Classic de 3 aços/s e 1,2 carvão/s;
+não reproduz a queima independente sem ferro. Carvão é vanilla, sem duplicação.
+A esteira reutiliza os dois frames originais nas regiões v7; curvas usam a mesma arte básica.
+O aço está disponível para os próximos lotes; ainda não há construções que o consumam.
+Veja [BATCH-02.md](docs/BATCH-02.md).
 
 ## Gerar o ZIP
 
-Com Python 3, execute na raiz do repositório:
+Com Python 3 na raiz: `python tools/build.py`.
+Saída: dist/mindustry-classic-expansion-0.2.0-alpha.zip, com manifesto na raiz.
+Os .hjson usam JSON válido, subconjunto de HJSON. Não há scripts de gameplay nem Java.
+O ZIP inclui fonte editável, mapa, licença, créditos e ferramentas de reprodução.
 
-```text
-python tools/build.py
-```
+## Referência, validação e licença
 
-Saída: `dist/mindustry-classic-expansion-0.1.0-alpha.zip`, com `mod.hjson` na raiz.
-O ZIP inclui fonte editável, licença, créditos e documentação.
-
-## Referência e próximos portes
-
-Veja [inventário](docs/INVENTORY.md), [conteúdo estruturado](docs/content-inventory.json),
-[sprites e hashes](docs/sprites.json) e [validação](docs/VALIDATION.md).
-O snapshot Classic foi fixado no último commit do repositório arquivado; não há releases publicadas nesse repositório.
-
-Próximas etapas: implementar pedra/ferro e sua obtenção, portar perfuradores e transporte,
-depois torres e produção. Equivalentes modernos exigem revisão de unidades, consumo e desenho.
-Esta alpha não converte mapas/saves nem reproduz toda a economia do Classic.
-
-## Licença
+O Classic foi fixado no último commit do repositório arquivado, sem releases publicadas.
+Veja [inventário](docs/INVENTORY.md), [validação](docs/VALIDATION.md) e [arte](docs/ported-assets.json).
+O usuário confirmou a parede 0.1 no cliente. O lote 0.2 passou no servidor v146;
+aparência e interação dos novos blocos ainda precisam de confirmação no PC/Android.
 
 GPLv3. Arte e conteúdo Classic por Anuken e contribuidores; adaptação por EliasXbox.
 Veja [LICENSE](LICENSE) e [NOTICE.md](NOTICE.md). Sem garantia.

@@ -1,0 +1,240 @@
+{
+  "upstreamCommit": "92e28d8a81ed8ddc8d80fc170de33d34b4cd202e",
+  "assets": [
+    {
+      "source": "core/assets-raw/sprites/icon-stone.png",
+      "target": "sprites/items/classic-stone.png",
+      "operation": "byte-for-byte copy"
+    },
+    {
+      "source": "core/assets-raw/sprites/icon-iron.png",
+      "target": "sprites/items/classic-iron.png",
+      "operation": "byte-for-byte copy"
+    },
+    {
+      "source": "core/assets-raw/sprites/icon-steel.png",
+      "target": "sprites/items/classic-steel.png",
+      "operation": "byte-for-byte copy"
+    },
+    {
+      "source": "core/assets-raw/sprites/blocks/stone1.png",
+      "target": "sprites/blocks/classic-stone-floor1.png",
+      "operation": "byte-for-byte copy"
+    },
+    {
+      "source": "core/assets-raw/sprites/blocks/stone2.png",
+      "target": "sprites/blocks/classic-stone-floor2.png",
+      "operation": "byte-for-byte copy"
+    },
+    {
+      "source": "core/assets-raw/sprites/blocks/stone3.png",
+      "target": "sprites/blocks/classic-stone-floor3.png",
+      "operation": "byte-for-byte copy"
+    },
+    {
+      "source": "core/assets-raw/sprites/blocks/iron1.png",
+      "target": "sprites/blocks/classic-iron-floor1.png",
+      "operation": "byte-for-byte copy"
+    },
+    {
+      "source": "core/assets-raw/sprites/blocks/iron2.png",
+      "target": "sprites/blocks/classic-iron-floor2.png",
+      "operation": "byte-for-byte copy"
+    },
+    {
+      "source": "core/assets-raw/sprites/blocks/iron3.png",
+      "target": "sprites/blocks/classic-iron-floor3.png",
+      "operation": "byte-for-byte copy"
+    },
+    {
+      "source": "core/assets-raw/sprites/blocks/stonewall.png",
+      "target": "sprites/blocks/classic-stone-wall.png",
+      "operation": "byte-for-byte copy"
+    },
+    {
+      "source": "core/assets-raw/sprites/blocks/stonedrill.png",
+      "target": "sprites/blocks/classic-stone-drill.png",
+      "operation": "byte-for-byte copy"
+    },
+    {
+      "source": "core/assets-raw/sprites/blocks/irondrill.png",
+      "target": "sprites/blocks/classic-iron-drill.png",
+      "operation": "byte-for-byte copy"
+    },
+    {
+      "source": "core/assets-raw/sprites/blocks/smelter.png",
+      "target": "sprites/blocks/classic-smelter.png",
+      "operation": "byte-for-byte copy"
+    },
+    {
+      "source": "core/assets-raw/sprites/blocks/router.png",
+      "target": "sprites/blocks/classic-router.png",
+      "operation": "byte-for-byte copy"
+    },
+    {
+      "source": "core/assets-raw/sprites/blocks/conveyor.png",
+      "target": "sprites/blocks/classic-conveyor.png",
+      "operation": "byte-for-byte copy"
+    },
+    {
+      "source": "core/assets-raw/sprites/blocks/conveyor.png",
+      "target": "sprites/blocks/classic-conveyor-0-0.png",
+      "operation": "byte-for-byte copy"
+    },
+    {
+      "source": "core/assets-raw/sprites/blocks/conveyor.png",
+      "target": "sprites/blocks/classic-conveyor-0-1.png",
+      "operation": "byte-for-byte copy"
+    },
+    {
+      "source": "core/assets-raw/sprites/blocks/conveyormove.png",
+      "target": "sprites/blocks/classic-conveyor-0-2.png",
+      "operation": "byte-for-byte copy"
+    },
+    {
+      "source": "core/assets-raw/sprites/blocks/conveyormove.png",
+      "target": "sprites/blocks/classic-conveyor-0-3.png",
+      "operation": "byte-for-byte copy"
+    },
+    {
+      "source": "core/assets-raw/sprites/blocks/conveyor.png",
+      "target": "sprites/blocks/classic-conveyor-1-0.png",
+      "operation": "byte-for-byte copy"
+    },
+    {
+      "source": "core/assets-raw/sprites/blocks/conveyor.png",
+      "target": "sprites/blocks/classic-conveyor-1-1.png",
+      "operation": "byte-for-byte copy"
+    },
+    {
+      "source": "core/assets-raw/sprites/blocks/conveyormove.png",
+      "target": "sprites/blocks/classic-conveyor-1-2.png",
+      "operation": "byte-for-byte copy"
+    },
+    {
+      "source": "core/assets-raw/sprites/blocks/conveyormove.png",
+      "target": "sprites/blocks/classic-conveyor-1-3.png",
+      "operation": "byte-for-byte copy"
+    },
+    {
+      "source": "core/assets-raw/sprites/blocks/conveyor.png",
+      "target": "sprites/blocks/classic-conveyor-2-0.png",
+      "operation": "byte-for-byte copy"
+    },
+    {
+      "source": "core/assets-raw/sprites/blocks/conveyor.png",
+      "target": "sprites/blocks/classic-conveyor-2-1.png",
+      "operation": "byte-for-byte copy"
+    },
+    {
+      "source": "core/assets-raw/sprites/blocks/conveyormove.png",
+      "target": "sprites/blocks/classic-conveyor-2-2.png",
+      "operation": "byte-for-byte copy"
+    },
+    {
+      "source": "core/assets-raw/sprites/blocks/conveyormove.png",
+      "target": "sprites/blocks/classic-conveyor-2-3.png",
+      "operation": "byte-for-byte copy"
+    },
+    {
+      "source": "core/assets-raw/sprites/blocks/conveyor.png",
+      "target": "sprites/blocks/classic-conveyor-3-0.png",
+      "operation": "byte-for-byte copy"
+    },
+    {
+      "source": "core/assets-raw/sprites/blocks/conveyor.png",
+      "target": "sprites/blocks/classic-conveyor-3-1.png",
+      "operation": "byte-for-byte copy"
+    },
+    {
+      "source": "core/assets-raw/sprites/blocks/conveyormove.png",
+      "target": "sprites/blocks/classic-conveyor-3-2.png",
+      "operation": "byte-for-byte copy"
+    },
+    {
+      "source": "core/assets-raw/sprites/blocks/conveyormove.png",
+      "target": "sprites/blocks/classic-conveyor-3-3.png",
+      "operation": "byte-for-byte copy"
+    },
+    {
+      "source": "core/assets-raw/sprites/blocks/conveyor.png",
+      "target": "sprites/blocks/classic-conveyor-4-0.png",
+      "operation": "byte-for-byte copy"
+    },
+    {
+      "source": "core/assets-raw/sprites/blocks/conveyor.png",
+      "target": "sprites/blocks/classic-conveyor-4-1.png",
+      "operation": "byte-for-byte copy"
+    },
+    {
+      "source": "core/assets-raw/sprites/blocks/conveyormove.png",
+      "target": "sprites/blocks/classic-conveyor-4-2.png",
+      "operation": "byte-for-byte copy"
+    },
+    {
+      "source": "core/assets-raw/sprites/blocks/conveyormove.png",
+      "target": "sprites/blocks/classic-conveyor-4-3.png",
+      "operation": "byte-for-byte copy"
+    },
+    {
+      "source": "core/assets-raw/sprites/blocks/conveyor.png",
+      "target": "sprites/blocks/classic-conveyor-5-0.png",
+      "operation": "byte-for-byte copy"
+    },
+    {
+      "source": "core/assets-raw/sprites/blocks/conveyor.png",
+      "target": "sprites/blocks/classic-conveyor-5-1.png",
+      "operation": "byte-for-byte copy"
+    },
+    {
+      "source": "core/assets-raw/sprites/blocks/conveyormove.png",
+      "target": "sprites/blocks/classic-conveyor-5-2.png",
+      "operation": "byte-for-byte copy"
+    },
+    {
+      "source": "core/assets-raw/sprites/blocks/conveyormove.png",
+      "target": "sprites/blocks/classic-conveyor-5-3.png",
+      "operation": "byte-for-byte copy"
+    },
+    {
+      "source": "core/assets-raw/sprites/blocks/conveyor.png",
+      "target": "sprites/blocks/classic-conveyor-6-0.png",
+      "operation": "byte-for-byte copy"
+    },
+    {
+      "source": "core/assets-raw/sprites/blocks/conveyor.png",
+      "target": "sprites/blocks/classic-conveyor-6-1.png",
+      "operation": "byte-for-byte copy"
+    },
+    {
+      "source": "core/assets-raw/sprites/blocks/conveyormove.png",
+      "target": "sprites/blocks/classic-conveyor-6-2.png",
+      "operation": "byte-for-byte copy"
+    },
+    {
+      "source": "core/assets-raw/sprites/blocks/conveyormove.png",
+      "target": "sprites/blocks/classic-conveyor-6-3.png",
+      "operation": "byte-for-byte copy"
+    },
+    {
+      "source": null,
+      "target": "sprites/blocks/classic-stone-drill-rotator.png",
+      "operation": "generated transparent auxiliary layer; static Classic drill art remains intact"
+    },
+    {
+      "source": null,
+      "target": "sprites/blocks/classic-stone-drill-top.png",
+      "operation": "generated transparent auxiliary layer; static Classic drill art remains intact"
+    },
+    {
+      "source": null,
+      "target": "sprites/blocks/classic-iron-drill-rotator.png",
+      "operation": "generated transparent auxiliary layer; static Classic drill art remains intact"
+    },
+    {
+      "source": null,
+      "target": "sprites/blocks/classic-iron-drill-top.png",
+      "operation": "generated transparent auxiliary layer; static Classic drill art remains intact"
+    }
+  ]
+}

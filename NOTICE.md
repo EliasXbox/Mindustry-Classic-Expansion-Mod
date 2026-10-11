@@ -28,3 +28,16 @@ No separate artwork license file was found in the upstream tree. Original sprite
 are treated under the repository's GPLv3 license. No third-party UI assets,
 fonts or audio are included. The ZIP contains editable mod source and the
 inventory/build tooling; the public repository also provides that source.
+
+Additional changes dated 2026-10-11 (0.2.0-alpha):
+- Added Classic stone/iron drills, smelter, conveyor and router, plus stone/iron/steel items.
+- Added separate stone and iron deposit floors and a native v146 demonstration map.
+- Restored the stone wall recipe to 12 Classic stone; changed its research parent.
+- Adapted drill targeting, smelting batches, router capacity and conveyor regions for v7.
+- Reused unmodified original item icons, floor variants and block art.
+- Generated transparent auxiliary drill layers; no original artwork was repainted.
+- Added map-generation and functional verification tooling.
+See docs/ported-assets.json for every sprite source/target and docs/BATCH-02.md for behavior differences.
+Related definitions: ProductionBlocks.java, DistributionBlocks.java, Blocks.java, Item.java,
+types/production/Drill.java, types/production/Smelter.java,
+types/distribution/Conveyor.java and types/distribution/Router.java.

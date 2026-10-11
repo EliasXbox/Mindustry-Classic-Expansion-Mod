@@ -12,18 +12,43 @@ def main():
     assert meta['name'] == 'mindustry-classic-expansion'
     assert meta['minGameVersion'] == '146' and meta['texturescale'] == 4
     assert wall['type'] == 'Wall' and wall['health'] == 160 and wall['size'] == 1
-    assert wall['requirements'] == ['copper/12'] and wall['research'] == 'copper-wall'
+    assert wall['requirements'] == ['classic-stone/12']
     assert not (ROOT / 'sprites-override').exists(), 'Vanilla sprite overrides are forbidden'
     assert not (ROOT / 'scripts').exists(), 'Alpha must remain a data-only mod'
-    assert [p.name for p in (ROOT / 'content/blocks').glob('*.hjson')] == ['classic-stone-wall.hjson']
+    content = {}
+    for path in (ROOT / 'content').rglob('*.hjson'):
+        assert path.stem.startswith('classic-'), 'Content must have a distinct name'
+        content[path.stem] = json.loads(path.read_text(encoding='utf-8'))
+    assert len([c for c in content.values() if 'requirements' in c]) == 6
+    assert len(list((ROOT / 'content/items').glob('*.hjson'))) == 3
+    # Every custom construction/production reference must resolve in the package.
+    for data in content.values():
+        refs = list(data.get('requirements', []))
+        refs += data.get('consumes', {}).get('items', [])
+        refs += [data[k] for k in ['itemDrop', 'outputItem', 'blockedItem'] if k in data]
+        for ref in refs:
+            if ref.startswith('classic-'):
+                assert ref.split('/')[0] in content, f'Unresolved resource: {ref}'
+        parent = data.get('research', {}).get('parent') if isinstance(data.get('research'), dict) else data.get('research')
+        if parent and parent.startswith('classic-'):
+            assert parent in content, f'Unresolved research: {parent}'
     image = (ROOT / 'sprites/blocks/classic-stone-wall.png').read_bytes()
     assert image[:8] == b'\x89PNG\r\n\x1a\n'
     assert struct.unpack('>II', image[16:24]) == (8, 8)
     manifest = json.loads((ROOT / 'docs/sprites.json').read_text(encoding='utf-8'))
     original = next(s for s in manifest['sprites'] if s['path'].endswith('/stonewall.png'))
     assert hashlib.sha256(image).hexdigest() == original['sha256'], 'Original sprite bytes changed'
+    originals = {s['path']: s['sha256'] for s in manifest['sprites']}
+    assets = json.loads((ROOT / 'docs/ported-assets.json').read_text(encoding='utf-8'))
+    for asset in assets['assets']:
+        if asset['source']:
+            assert hashlib.sha256((ROOT / asset['target']).read_bytes()).hexdigest() == originals[asset['source']], asset['target']
+    for shape in range(7):
+        for frame in range(4):
+            assert (ROOT / f'sprites/blocks/classic-conveyor-{shape}-{frame}.png').exists()
+    assert (ROOT / 'maps/classic-chain-demo.msav').is_file(), 'Demo map is required'
     files = [ROOT / p for p in ['mod.hjson', 'LICENSE', 'NOTICE.md', 'README.md']]
-    for folder in ['content', 'sprites', 'bundles', 'docs', 'tools']:
+    for folder in ['content', 'sprites', 'bundles', 'docs', 'tools', 'maps']:
         files.extend(p for p in (ROOT / folder).rglob('*') if p.is_file() and '__pycache__' not in p.parts)
     output = ROOT / 'dist' / ('mindustry-classic-expansion-' + meta['version'] + '.zip')
     output.parent.mkdir(exist_ok=True)
