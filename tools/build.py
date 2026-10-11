@@ -10,7 +10,7 @@ def main():
     meta = json.loads((ROOT / 'mod.hjson').read_text(encoding='utf-8'))
     wall = json.loads((ROOT / 'content/blocks/classic-stone-wall.hjson').read_text(encoding='utf-8'))
     assert meta['name'] == 'mindustry-classic-expansion'
-    assert meta['minGameVersion'] == '146' and meta['texturescale'] == 4
+    assert meta['minGameVersion'] == '146' and meta['texturescale'] == 1
     assert wall['type'] == 'Wall' and wall['health'] == 160 and wall['size'] == 1
     assert wall['requirements'] == ['classic-stone/12']
     assert not (ROOT / 'sprites-override').exists(), 'Vanilla sprite overrides are forbidden'
@@ -34,21 +34,28 @@ def main():
             assert parent in content, f'Unresolved research: {parent}'
     image = (ROOT / 'sprites/blocks/classic-stone-wall.png').read_bytes()
     assert image[:8] == b'\x89PNG\r\n\x1a\n'
-    assert struct.unpack('>II', image[16:24]) == (8, 8)
+    assert struct.unpack('>II', image[16:24]) == (32, 32)
     manifest = json.loads((ROOT / 'docs/sprites.json').read_text(encoding='utf-8'))
     original = next(s for s in manifest['sprites'] if s['path'].endswith('/stonewall.png'))
-    assert hashlib.sha256(image).hexdigest() == original['sha256'], 'Original sprite bytes changed'
+    raw_wall = (ROOT / 'art-source/blocks/classic-stone-wall.png').read_bytes()
+    assert hashlib.sha256(raw_wall).hexdigest() == original['sha256'], 'Original source sprite bytes changed'
     originals = {s['path']: s['sha256'] for s in manifest['sprites']}
     assets = json.loads((ROOT / 'docs/ported-assets.json').read_text(encoding='utf-8'))
     for asset in assets['assets']:
         if asset['source']:
-            assert hashlib.sha256((ROOT / asset['target']).read_bytes()).hexdigest() == originals[asset['source']], asset['target']
+            raw = ROOT / asset['target'].replace('sprites/', 'art-source/', 1)
+            assert hashlib.sha256(raw.read_bytes()).hexdigest() == originals[asset['source']], asset['target']
+        assert hashlib.sha256((ROOT / asset['target']).read_bytes()).hexdigest() == asset['renderedSha256'], asset['target']
+        source_image = (ROOT / asset['target'].replace('sprites/', 'art-source/', 1)).read_bytes()
+        rendered_image = (ROOT / asset['target']).read_bytes()
+        sw, sh = struct.unpack('>II', source_image[16:24])
+        assert struct.unpack('>II', rendered_image[16:24]) == (sw * 4, sh * 4)
     for shape in range(7):
         for frame in range(4):
             assert (ROOT / f'sprites/blocks/classic-conveyor-{shape}-{frame}.png').exists()
     assert (ROOT / 'maps/classic-chain-demo.msav').is_file(), 'Demo map is required'
     files = [ROOT / p for p in ['mod.hjson', 'LICENSE', 'NOTICE.md', 'README.md']]
-    for folder in ['content', 'sprites', 'bundles', 'docs', 'tools', 'maps']:
+    for folder in ['content', 'sprites', 'art-source', 'bundles', 'docs', 'tools', 'maps']:
         files.extend(p for p in (ROOT / folder).rglob('*') if p.is_file() and '__pycache__' not in p.parts)
     output = ROOT / 'dist' / ('mindustry-classic-expansion-' + meta['version'] + '.zip')
     output.parent.mkdir(exist_ok=True)

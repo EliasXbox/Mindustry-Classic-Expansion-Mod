@@ -39,7 +39,7 @@ As demais receitas de construção usam itens Classic originais.
 - Aço é produzido para próximos lotes; não há consumidor artificial.
 
 Todas as cópias e camadas auxiliares estão em ported-assets.json.
-Hashes das cópias são conferidos contra sprites.json. Escala texturescale=4.
+Hashes das cópias são conferidos contra sprites.json. Na 0.2.0, escala texturescale=4. Na 0.2.1, fontes originais ficam em art-source, sprites renderizados são ampliados 4x e texturescale=1.
 
 ## Atualização e demonstração
 

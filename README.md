@@ -1,6 +1,6 @@
 # Mindustry: Classic Expansion
 
-Mod HJSON para **Mindustry v7 build 146**, destinado a PC e Android. Alpha **0.2.0**.
+Mod HJSON para **Mindustry v7 build 146**, destinado a PC e Android. Alpha **0.2.1**.
 Conteúdo separado dos blocos e itens vanilla, sob o prefixo mindustry-classic-expansion-.
 
 ## Lote 2: cinco blocos e seus itens
@@ -46,7 +46,7 @@ Veja [BATCH-02.md](docs/BATCH-02.md).
 ## Gerar o ZIP
 
 Com Python 3 na raiz: `python tools/build.py`.
-Saída: dist/mindustry-classic-expansion-0.2.0-alpha.zip, com manifesto na raiz.
+Saída: dist/mindustry-classic-expansion-0.2.1-alpha.zip, com manifesto na raiz.
 Os .hjson usam JSON válido, subconjunto de HJSON. Não há scripts de gameplay nem Java.
 O ZIP inclui fonte editável, mapa, licença, créditos e ferramentas de reprodução.
 
@@ -59,3 +59,7 @@ aparência e interação dos novos blocos ainda precisam de confirmação no PC/
 
 GPLv3. Arte e conteúdo Classic por Anuken e contribuidores; adaptação por EliasXbox.
 Veja [LICENSE](LICENSE) e [NOTICE.md](NOTICE.md). Sem garantia.
+
+## Texturas 0.2.1
+
+Sprites ampliados 4x por vizinho mais próximo, sem suavização, e texturescale=1 para manter tamanho no jogo. Originais preservados em art-source. Para reproduzir: java tools/ScaleSprites.java; para verificar todos os pixels: java tools/ScaleSprites.java --verify. A ampliação reduz a suavização das bordas; o filtro linear e o zoom do cliente ainda podem influenciar o resultado.

@@ -4,237 +4,284 @@
     {
       "source": "core/assets-raw/sprites/icon-stone.png",
       "target": "sprites/items/classic-stone.png",
-      "operation": "byte-for-byte copy"
+      "operation": "4x nearest-neighbor from preserved source; no color interpolation",
+      "renderedSha256": "f5b8c3596df3423d08712a11c5b77dff12d23438e471de09f4614a32d8982c85"
     },
     {
       "source": "core/assets-raw/sprites/icon-iron.png",
       "target": "sprites/items/classic-iron.png",
-      "operation": "byte-for-byte copy"
+      "operation": "4x nearest-neighbor from preserved source; no color interpolation",
+      "renderedSha256": "ef3abed9b353c32240b0707f2114f90d69f8b34de23820fbb8fef1cb2fa78eb0"
     },
     {
       "source": "core/assets-raw/sprites/icon-steel.png",
       "target": "sprites/items/classic-steel.png",
-      "operation": "byte-for-byte copy"
+      "operation": "4x nearest-neighbor from preserved source; no color interpolation",
+      "renderedSha256": "70fe4c7cda63f93a5434d497c6ec61a2e3dc46c9706a24822566834d09461537"
     },
     {
       "source": "core/assets-raw/sprites/blocks/stone1.png",
       "target": "sprites/blocks/classic-stone-floor1.png",
-      "operation": "byte-for-byte copy"
+      "operation": "4x nearest-neighbor from preserved source; no color interpolation",
+      "renderedSha256": "4dc204e818d688e0977757cadfc887eea185590c58f4b69178358588b2f8c238"
     },
     {
       "source": "core/assets-raw/sprites/blocks/stone2.png",
       "target": "sprites/blocks/classic-stone-floor2.png",
-      "operation": "byte-for-byte copy"
+      "operation": "4x nearest-neighbor from preserved source; no color interpolation",
+      "renderedSha256": "4d19e3792473bc4f6124190e987046bc86d3a3528862a15269cf4f93907b5b41"
     },
     {
       "source": "core/assets-raw/sprites/blocks/stone3.png",
       "target": "sprites/blocks/classic-stone-floor3.png",
-      "operation": "byte-for-byte copy"
+      "operation": "4x nearest-neighbor from preserved source; no color interpolation",
+      "renderedSha256": "76d0baf99e6e98f1f6c6b37cfc534644ba7759c4a40cabba7004caeff235105a"
     },
     {
       "source": "core/assets-raw/sprites/blocks/iron1.png",
       "target": "sprites/blocks/classic-iron-floor1.png",
-      "operation": "byte-for-byte copy"
+      "operation": "4x nearest-neighbor from preserved source; no color interpolation",
+      "renderedSha256": "9f3d128cda4808f17eac56f1c96f7f8b87403d809120e9b49cc7de11b609deaf"
     },
     {
       "source": "core/assets-raw/sprites/blocks/iron2.png",
       "target": "sprites/blocks/classic-iron-floor2.png",
-      "operation": "byte-for-byte copy"
+      "operation": "4x nearest-neighbor from preserved source; no color interpolation",
+      "renderedSha256": "deaf539aa511a631aae4f8a23116276f065d6c614b4aef48860051c2a4fcf6f1"
     },
     {
       "source": "core/assets-raw/sprites/blocks/iron3.png",
       "target": "sprites/blocks/classic-iron-floor3.png",
-      "operation": "byte-for-byte copy"
+      "operation": "4x nearest-neighbor from preserved source; no color interpolation",
+      "renderedSha256": "79887461946730b8429ca109fd07953688a329c232ba63a6dbc74c271ceb99b0"
     },
     {
       "source": "core/assets-raw/sprites/blocks/stonewall.png",
       "target": "sprites/blocks/classic-stone-wall.png",
-      "operation": "byte-for-byte copy"
+      "operation": "4x nearest-neighbor from preserved source; no color interpolation",
+      "renderedSha256": "a5f374e2c056a9a687be8f6d901e99241d8ce5812d9b3d9a7fbcc5fc263f11eb"
     },
     {
       "source": "core/assets-raw/sprites/blocks/stonedrill.png",
       "target": "sprites/blocks/classic-stone-drill.png",
-      "operation": "byte-for-byte copy"
+      "operation": "4x nearest-neighbor from preserved source; no color interpolation",
+      "renderedSha256": "0a089d163b4bfc6558c8d4e451a90827546576bbbfd2d449fff2f68fb20981a6"
     },
     {
       "source": "core/assets-raw/sprites/blocks/irondrill.png",
       "target": "sprites/blocks/classic-iron-drill.png",
-      "operation": "byte-for-byte copy"
+      "operation": "4x nearest-neighbor from preserved source; no color interpolation",
+      "renderedSha256": "d55c83cce34dc58a1dae86740cd5749c5354235f5d4491c11e8d7a8e20fc8f65"
     },
     {
       "source": "core/assets-raw/sprites/blocks/smelter.png",
       "target": "sprites/blocks/classic-smelter.png",
-      "operation": "byte-for-byte copy"
+      "operation": "4x nearest-neighbor from preserved source; no color interpolation",
+      "renderedSha256": "47d3c6da8659529681d76781cbe05d90350853d7d598c1ec69598383d717a90a"
     },
     {
       "source": "core/assets-raw/sprites/blocks/router.png",
       "target": "sprites/blocks/classic-router.png",
-      "operation": "byte-for-byte copy"
+      "operation": "4x nearest-neighbor from preserved source; no color interpolation",
+      "renderedSha256": "ed04be983cc3d93d5a671d1db0f1b0309c2c34ab4646b493b328efcaceee6756"
     },
     {
       "source": "core/assets-raw/sprites/blocks/conveyor.png",
       "target": "sprites/blocks/classic-conveyor.png",
-      "operation": "byte-for-byte copy"
+      "operation": "4x nearest-neighbor from preserved source; no color interpolation",
+      "renderedSha256": "c2cd7812a27a06b3b3aab815a3e8589b181deeb06cc3650676fafffb1887f1ce"
     },
     {
       "source": "core/assets-raw/sprites/blocks/conveyor.png",
       "target": "sprites/blocks/classic-conveyor-0-0.png",
-      "operation": "byte-for-byte copy"
+      "operation": "4x nearest-neighbor from preserved source; no color interpolation",
+      "renderedSha256": "c2cd7812a27a06b3b3aab815a3e8589b181deeb06cc3650676fafffb1887f1ce"
     },
     {
       "source": "core/assets-raw/sprites/blocks/conveyor.png",
       "target": "sprites/blocks/classic-conveyor-0-1.png",
-      "operation": "byte-for-byte copy"
+      "operation": "4x nearest-neighbor from preserved source; no color interpolation",
+      "renderedSha256": "c2cd7812a27a06b3b3aab815a3e8589b181deeb06cc3650676fafffb1887f1ce"
     },
     {
       "source": "core/assets-raw/sprites/blocks/conveyormove.png",
       "target": "sprites/blocks/classic-conveyor-0-2.png",
-      "operation": "byte-for-byte copy"
+      "operation": "4x nearest-neighbor from preserved source; no color interpolation",
+      "renderedSha256": "679eb9746d1251699ec4f7efff8edb544969a960b3927b9b503a6ac75c53bb83"
     },
     {
       "source": "core/assets-raw/sprites/blocks/conveyormove.png",
       "target": "sprites/blocks/classic-conveyor-0-3.png",
-      "operation": "byte-for-byte copy"
+      "operation": "4x nearest-neighbor from preserved source; no color interpolation",
+      "renderedSha256": "679eb9746d1251699ec4f7efff8edb544969a960b3927b9b503a6ac75c53bb83"
     },
     {
       "source": "core/assets-raw/sprites/blocks/conveyor.png",
       "target": "sprites/blocks/classic-conveyor-1-0.png",
-      "operation": "byte-for-byte copy"
+      "operation": "4x nearest-neighbor from preserved source; no color interpolation",
+      "renderedSha256": "c2cd7812a27a06b3b3aab815a3e8589b181deeb06cc3650676fafffb1887f1ce"
     },
     {
       "source": "core/assets-raw/sprites/blocks/conveyor.png",
       "target": "sprites/blocks/classic-conveyor-1-1.png",
-      "operation": "byte-for-byte copy"
+      "operation": "4x nearest-neighbor from preserved source; no color interpolation",
+      "renderedSha256": "c2cd7812a27a06b3b3aab815a3e8589b181deeb06cc3650676fafffb1887f1ce"
     },
     {
       "source": "core/assets-raw/sprites/blocks/conveyormove.png",
       "target": "sprites/blocks/classic-conveyor-1-2.png",
-      "operation": "byte-for-byte copy"
+      "operation": "4x nearest-neighbor from preserved source; no color interpolation",
+      "renderedSha256": "679eb9746d1251699ec4f7efff8edb544969a960b3927b9b503a6ac75c53bb83"
     },
     {
       "source": "core/assets-raw/sprites/blocks/conveyormove.png",
       "target": "sprites/blocks/classic-conveyor-1-3.png",
-      "operation": "byte-for-byte copy"
+      "operation": "4x nearest-neighbor from preserved source; no color interpolation",
+      "renderedSha256": "679eb9746d1251699ec4f7efff8edb544969a960b3927b9b503a6ac75c53bb83"
     },
     {
       "source": "core/assets-raw/sprites/blocks/conveyor.png",
       "target": "sprites/blocks/classic-conveyor-2-0.png",
-      "operation": "byte-for-byte copy"
+      "operation": "4x nearest-neighbor from preserved source; no color interpolation",
+      "renderedSha256": "c2cd7812a27a06b3b3aab815a3e8589b181deeb06cc3650676fafffb1887f1ce"
     },
     {
       "source": "core/assets-raw/sprites/blocks/conveyor.png",
       "target": "sprites/blocks/classic-conveyor-2-1.png",
-      "operation": "byte-for-byte copy"
+      "operation": "4x nearest-neighbor from preserved source; no color interpolation",
+      "renderedSha256": "c2cd7812a27a06b3b3aab815a3e8589b181deeb06cc3650676fafffb1887f1ce"
     },
     {
       "source": "core/assets-raw/sprites/blocks/conveyormove.png",
       "target": "sprites/blocks/classic-conveyor-2-2.png",
-      "operation": "byte-for-byte copy"
+      "operation": "4x nearest-neighbor from preserved source; no color interpolation",
+      "renderedSha256": "679eb9746d1251699ec4f7efff8edb544969a960b3927b9b503a6ac75c53bb83"
     },
     {
       "source": "core/assets-raw/sprites/blocks/conveyormove.png",
       "target": "sprites/blocks/classic-conveyor-2-3.png",
-      "operation": "byte-for-byte copy"
+      "operation": "4x nearest-neighbor from preserved source; no color interpolation",
+      "renderedSha256": "679eb9746d1251699ec4f7efff8edb544969a960b3927b9b503a6ac75c53bb83"
     },
     {
       "source": "core/assets-raw/sprites/blocks/conveyor.png",
       "target": "sprites/blocks/classic-conveyor-3-0.png",
-      "operation": "byte-for-byte copy"
+      "operation": "4x nearest-neighbor from preserved source; no color interpolation",
+      "renderedSha256": "c2cd7812a27a06b3b3aab815a3e8589b181deeb06cc3650676fafffb1887f1ce"
     },
     {
       "source": "core/assets-raw/sprites/blocks/conveyor.png",
       "target": "sprites/blocks/classic-conveyor-3-1.png",
-      "operation": "byte-for-byte copy"
+      "operation": "4x nearest-neighbor from preserved source; no color interpolation",
+      "renderedSha256": "c2cd7812a27a06b3b3aab815a3e8589b181deeb06cc3650676fafffb1887f1ce"
     },
     {
       "source": "core/assets-raw/sprites/blocks/conveyormove.png",
       "target": "sprites/blocks/classic-conveyor-3-2.png",
-      "operation": "byte-for-byte copy"
+      "operation": "4x nearest-neighbor from preserved source; no color interpolation",
+      "renderedSha256": "679eb9746d1251699ec4f7efff8edb544969a960b3927b9b503a6ac75c53bb83"
     },
     {
       "source": "core/assets-raw/sprites/blocks/conveyormove.png",
       "target": "sprites/blocks/classic-conveyor-3-3.png",
-      "operation": "byte-for-byte copy"
+      "operation": "4x nearest-neighbor from preserved source; no color interpolation",
+      "renderedSha256": "679eb9746d1251699ec4f7efff8edb544969a960b3927b9b503a6ac75c53bb83"
     },
     {
       "source": "core/assets-raw/sprites/blocks/conveyor.png",
       "target": "sprites/blocks/classic-conveyor-4-0.png",
-      "operation": "byte-for-byte copy"
+      "operation": "4x nearest-neighbor from preserved source; no color interpolation",
+      "renderedSha256": "c2cd7812a27a06b3b3aab815a3e8589b181deeb06cc3650676fafffb1887f1ce"
     },
     {
       "source": "core/assets-raw/sprites/blocks/conveyor.png",
       "target": "sprites/blocks/classic-conveyor-4-1.png",
-      "operation": "byte-for-byte copy"
+      "operation": "4x nearest-neighbor from preserved source; no color interpolation",
+      "renderedSha256": "c2cd7812a27a06b3b3aab815a3e8589b181deeb06cc3650676fafffb1887f1ce"
     },
     {
       "source": "core/assets-raw/sprites/blocks/conveyormove.png",
       "target": "sprites/blocks/classic-conveyor-4-2.png",
-      "operation": "byte-for-byte copy"
+      "operation": "4x nearest-neighbor from preserved source; no color interpolation",
+      "renderedSha256": "679eb9746d1251699ec4f7efff8edb544969a960b3927b9b503a6ac75c53bb83"
     },
     {
       "source": "core/assets-raw/sprites/blocks/conveyormove.png",
       "target": "sprites/blocks/classic-conveyor-4-3.png",
-      "operation": "byte-for-byte copy"
+      "operation": "4x nearest-neighbor from preserved source; no color interpolation",
+      "renderedSha256": "679eb9746d1251699ec4f7efff8edb544969a960b3927b9b503a6ac75c53bb83"
     },
     {
       "source": "core/assets-raw/sprites/blocks/conveyor.png",
       "target": "sprites/blocks/classic-conveyor-5-0.png",
-      "operation": "byte-for-byte copy"
+      "operation": "4x nearest-neighbor from preserved source; no color interpolation",
+      "renderedSha256": "c2cd7812a27a06b3b3aab815a3e8589b181deeb06cc3650676fafffb1887f1ce"
     },
     {
       "source": "core/assets-raw/sprites/blocks/conveyor.png",
       "target": "sprites/blocks/classic-conveyor-5-1.png",
-      "operation": "byte-for-byte copy"
+      "operation": "4x nearest-neighbor from preserved source; no color interpolation",
+      "renderedSha256": "c2cd7812a27a06b3b3aab815a3e8589b181deeb06cc3650676fafffb1887f1ce"
     },
     {
       "source": "core/assets-raw/sprites/blocks/conveyormove.png",
       "target": "sprites/blocks/classic-conveyor-5-2.png",
-      "operation": "byte-for-byte copy"
+      "operation": "4x nearest-neighbor from preserved source; no color interpolation",
+      "renderedSha256": "679eb9746d1251699ec4f7efff8edb544969a960b3927b9b503a6ac75c53bb83"
     },
     {
       "source": "core/assets-raw/sprites/blocks/conveyormove.png",
       "target": "sprites/blocks/classic-conveyor-5-3.png",
-      "operation": "byte-for-byte copy"
+      "operation": "4x nearest-neighbor from preserved source; no color interpolation",
+      "renderedSha256": "679eb9746d1251699ec4f7efff8edb544969a960b3927b9b503a6ac75c53bb83"
     },
     {
       "source": "core/assets-raw/sprites/blocks/conveyor.png",
       "target": "sprites/blocks/classic-conveyor-6-0.png",
-      "operation": "byte-for-byte copy"
+      "operation": "4x nearest-neighbor from preserved source; no color interpolation",
+      "renderedSha256": "c2cd7812a27a06b3b3aab815a3e8589b181deeb06cc3650676fafffb1887f1ce"
     },
     {
       "source": "core/assets-raw/sprites/blocks/conveyor.png",
       "target": "sprites/blocks/classic-conveyor-6-1.png",
-      "operation": "byte-for-byte copy"
+      "operation": "4x nearest-neighbor from preserved source; no color interpolation",
+      "renderedSha256": "c2cd7812a27a06b3b3aab815a3e8589b181deeb06cc3650676fafffb1887f1ce"
     },
     {
       "source": "core/assets-raw/sprites/blocks/conveyormove.png",
       "target": "sprites/blocks/classic-conveyor-6-2.png",
-      "operation": "byte-for-byte copy"
+      "operation": "4x nearest-neighbor from preserved source; no color interpolation",
+      "renderedSha256": "679eb9746d1251699ec4f7efff8edb544969a960b3927b9b503a6ac75c53bb83"
     },
     {
       "source": "core/assets-raw/sprites/blocks/conveyormove.png",
       "target": "sprites/blocks/classic-conveyor-6-3.png",
-      "operation": "byte-for-byte copy"
+      "operation": "4x nearest-neighbor from preserved source; no color interpolation",
+      "renderedSha256": "679eb9746d1251699ec4f7efff8edb544969a960b3927b9b503a6ac75c53bb83"
     },
     {
       "source": null,
       "target": "sprites/blocks/classic-stone-drill-rotator.png",
-      "operation": "generated transparent auxiliary layer; static Classic drill art remains intact"
+      "operation": "4x nearest-neighbor from preserved source; no color interpolation",
+      "renderedSha256": "a6ad1bec9b073969cce0b126f9bcf9c9f1e18973f4ea84c5620f0a5da4d1fc74"
     },
     {
       "source": null,
       "target": "sprites/blocks/classic-stone-drill-top.png",
-      "operation": "generated transparent auxiliary layer; static Classic drill art remains intact"
+      "operation": "4x nearest-neighbor from preserved source; no color interpolation",
+      "renderedSha256": "a6ad1bec9b073969cce0b126f9bcf9c9f1e18973f4ea84c5620f0a5da4d1fc74"
     },
     {
       "source": null,
       "target": "sprites/blocks/classic-iron-drill-rotator.png",
-      "operation": "generated transparent auxiliary layer; static Classic drill art remains intact"
+      "operation": "4x nearest-neighbor from preserved source; no color interpolation",
+      "renderedSha256": "a6ad1bec9b073969cce0b126f9bcf9c9f1e18973f4ea84c5620f0a5da4d1fc74"
     },
     {
       "source": null,
       "target": "sprites/blocks/classic-iron-drill-top.png",
-      "operation": "generated transparent auxiliary layer; static Classic drill art remains intact"
+      "operation": "4x nearest-neighbor from preserved source; no color interpolation",
+      "renderedSha256": "a6ad1bec9b073969cce0b126f9bcf9c9f1e18973f4ea84c5620f0a5da4d1fc74"
     }
   ]
 }

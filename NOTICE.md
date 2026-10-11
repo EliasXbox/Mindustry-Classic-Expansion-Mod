@@ -41,3 +41,5 @@ See docs/ported-assets.json for every sprite source/target and docs/BATCH-02.md 
 Related definitions: ProductionBlocks.java, DistributionBlocks.java, Blocks.java, Item.java,
 types/production/Drill.java, types/production/Smelter.java,
 types/distribution/Conveyor.java and types/distribution/Router.java.
+
+Changes dated 2026-10-11 (0.2.1-alpha): all rendered sprites enlarged 4x using exact nearest-neighbor replication. Original bytes preserved under art-source. texturescale changed from 4 to 1 to keep the same physical size. See tools/ScaleSprites.java for reproduction and pixel verification.

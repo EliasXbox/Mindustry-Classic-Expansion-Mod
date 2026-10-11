@@ -33,3 +33,7 @@ O headless não valida desenho, texturas empacotadas no cliente, interação por
 4. Conferir custos com recursos limitados e parede custando 12 pedras.
 5. Conferir pesquisa, salvar/reabrir mapa e testar multiplayer com versões iguais.
 6. Repetir no PC e Android; os novos blocos ainda aguardam confirmação visual.
+
+## Alpha 0.2.1
+
+O usuário confirmou funcionamento de todo o lote 0.2 no cliente e relatou blur. Para reduzir suavização, 47 sprites foram ampliados 4x sem interpolação. A ferramenta verificou cada pixel contra a fonte original, incluindo transparência. O tamanho no jogo foi compensado por texturescale=1. Aparência da correção ainda aguarda teste no cliente.
