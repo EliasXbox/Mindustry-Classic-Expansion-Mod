@@ -82,3 +82,8 @@ Additional changes dated 2026-10-12 (0.8.0-alpha):
 - Added JavaScript for eight teleporter channels and saved per-player weapon purchases.
 - Added six custom player unit variants; modern flying mobility and projectile effects.
 - Kept original art and weapon recipes; added special-block demo and verification.
+
+Additional changes dated 2026-10-12 (0.9.0-alpha):
+- Added nine Classic floor definitions and original 3x3 core sprite/health.
+- Adapted liquid/ice movement and team core storage/respawn to v7.
+- Added environment/core demo and save/storage/mining/pumping verification.

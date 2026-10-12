@@ -1,0 +1,7 @@
+{
+  "type": "Floor",
+  "name": "Classic ice",
+  "variants": 3,
+  "speedMultiplier": 1.15,
+  "dragMultiplier": 0.35
+}

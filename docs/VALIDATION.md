@@ -124,3 +124,11 @@ triblaster comprado, sem nova cobrança. Tipos vanilla conferidos intactos.
 63 construções, seis itens, um líquido e seis variantes de jogador carregam.
 Sprites originais por hash; ampliação 4x conferida por pixels.
 Ainda sem teste visual deste lote, Android ou multiplayer real.
+
+## Alpha 0.9.0 — núcleo e ambientes
+
+Usuário confirmou lote 8 no cliente. Lote 9 carregado no servidor v146.
+MCE_BATCH9_PASS: nove pisos, núcleo 800/3x3, armazenamento 10000, tipo
+Classic blaster, extração de pedra preta, bombeamento água/óleo, save/load
+de núcleo e inventário e vanilla intacto. 272 sprites conferidos em 4x.
+PC visual, Android e multiplayer do lote 9 aguardam teste do usuário.

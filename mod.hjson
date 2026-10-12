@@ -2,8 +2,8 @@
   "name": "mindustry-classic-expansion",
   "displayName": "Mindustry: Classic Expansion",
   "author": "EliasXbox; Classic content by Anuken and contributors",
-  "description": "Classic production, transport, doors and ammo turrets for Mindustry v7. GPLv3; no warranty.",
-  "version": "0.8.0-alpha",
+  "description": "Classic constructions, environments, core and scripted weapons for Mindustry v7. GPLv3; no warranty.",
+  "version": "0.9.0-alpha",
   "minGameVersion": "146",
   "texturescale": 1,
   "hidden": false
