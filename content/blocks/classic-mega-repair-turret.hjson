@@ -1,0 +1,51 @@
+{
+  "type": "PowerTurret",
+  "name": "Classic Mega Repair Turret",
+  "health": 90,
+  "size": 1,
+  "requirements": [
+    "classic-iron/20",
+    "classic-steel/30"
+  ],
+  "category": "power",
+  "research": {
+    "parent": "classic-repair-turret",
+    "requirements": [
+      "classic-iron/20",
+      "classic-steel/30"
+    ]
+  },
+  "range": 44,
+  "reload": 12,
+  "rotateSpeed": 10,
+  "targetHealing": true,
+  "targetAir": false,
+  "targetGround": true,
+  "hasLiquids": false,
+  "shootY": 4,
+  "recoil": 0,
+  "elevation": 0,
+  "shootType": {
+    "type": "LaserBulletType",
+    "damage": 1e-06,
+    "length": 44,
+    "width": 2,
+    "sideLength": 0,
+    "healPercent": 0.7407407407407407,
+    "collidesTeam": true,
+    "colors": [
+      "8af48a66",
+      "8af48a",
+      "ffffff"
+    ],
+    "shootEffect": "none",
+    "smokeEffect": "none",
+    "hitEffect": "none",
+    "buildingDamageMultiplier": 0,
+    "collidesAir": false
+  },
+  "consumes": {
+    "power": 0.010833333333333334
+  },
+  "description": "Repairs friendly buildings by 1/135 of max health per pulse. Average Classic energy cost; consumed continuously by the v7 turret."
+}

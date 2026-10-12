@@ -1,0 +1,24 @@
+{
+  "type": "PowerNode",
+  "name": "Classic Power Booster",
+  "health": 40,
+  "size": 1,
+  "requirements": [
+    "classic-steel/8",
+    "classic-iron/8"
+  ],
+  "category": "power",
+  "research": {
+    "parent": "classic-coal-generator",
+    "requirements": [
+      "classic-steel/8",
+      "classic-iron/8"
+    ]
+  },
+  "laserRange": 4,
+  "maxNodes": 10,
+  "autolink": false,
+  "laserColor1": "e54135",
+  "laserColor2": "ff9b59",
+  "description": "Manually connect power network nodes. Classic directional/local-buffer transmission adapted to shared v7 power graphs; corner/router have no directional restriction."
+}

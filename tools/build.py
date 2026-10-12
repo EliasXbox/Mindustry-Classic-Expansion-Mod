@@ -19,7 +19,7 @@ def main():
     for path in (ROOT / 'content').rglob('*.hjson'):
         assert path.stem.startswith('classic-'), 'Content must have a distinct name'
         content[path.stem] = json.loads(path.read_text(encoding='utf-8'))
-    assert len([c for c in content.values() if 'requirements' in c]) == 46
+    assert len([c for c in content.values() if 'requirements' in c]) == 56
     assert len(list((ROOT / 'content/items').glob('*.hjson'))) == 6
     assert len(list((ROOT / 'content/liquids').glob('*.hjson'))) == 1
     # Every custom construction/production reference must resolve in the package.
@@ -64,6 +64,7 @@ def main():
     assert (ROOT / 'maps/classic-transport-demo.msav').is_file(), 'Transport map is required'
     assert (ROOT / 'maps/classic-production-demo.msav').is_file(), 'Production map is required'
     assert (ROOT / 'maps/classic-turrets-demo.msav').is_file(), 'Turrets map is required'
+    assert (ROOT / 'maps/classic-power-demo.msav').is_file(), 'Power map is required'
     files = [ROOT / p for p in ['mod.hjson', 'LICENSE', 'NOTICE.md', 'README.md']]
     for folder in ['content', 'sprites', 'art-source', 'bundles', 'docs', 'tools', 'maps']:
         files.extend(p for p in (ROOT / folder).rglob('*') if p.is_file() and '__pycache__' not in p.parts)

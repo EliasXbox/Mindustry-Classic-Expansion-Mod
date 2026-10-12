@@ -96,3 +96,19 @@ O teste fornece alvos fixos; não valida combate com IA móvel.
 Uma propriedade de variação de velocidade estava no projétil e foi corrigida
 para o campo velocityRnd da torre do morteiro, eliminando aviso de parser.
 Aparência, controle e interação deste lote aguardam cliente PC/Android.
+
+O usuário confirmou funcionamento e aprovou o lote 6 no cliente, com screenshot.
+
+## Alpha 0.7.0 — energia e reparo
+
+Servidor oficial v146 carregou dez novos conteúdos. MCE_BATCH7_PASS após 600
+atualizações: baterias armazenaram 24 / 2,4 / 3,6 / 18 energia, respectivamente,
+com saída/combustível Classic; itens consumidos, lava e óleo esgotados.
+Quatro tipos de nós transmitiram energia para duas torres de reparo; paredes
+de vida inicial 100 recuperaram para 168,74 / 216,15. Rede e parâmetros dos nós
+conferidos; PowerNode e CombustionGenerator vanilla intactos.
+Primeiro teste mostrou disparos sem cura com LaserBulletType de damage=0;
+Damage.collideLine v146 só processa damage>0, corrigido com epsilon e dano
+a construções zerado pelo multiplicador. Ver BATCH-07.md para implicações.
+224 sprites conferidos pixel por pixel em 4x; originais por hash.
+Aparência/interação do lote 7 aguardam cliente PC/Android.

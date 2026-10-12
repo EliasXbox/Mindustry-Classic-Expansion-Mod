@@ -1,0 +1,33 @@
+{
+  "type": "ConsumeGenerator",
+  "name": "Classic Coal Generator",
+  "health": 40,
+  "size": 1,
+  "requirements": [
+    "classic-iron/30",
+    "classic-stone/20"
+  ],
+  "category": "power",
+  "research": {
+    "parent": "classic-coal-drill",
+    "requirements": [
+      "classic-iron/30",
+      "classic-stone/20"
+    ]
+  },
+  "powerProduction": 0.04,
+  "itemDuration": 70,
+  "itemCapacity": 20,
+  "liquidCapacity": 30,
+  "hasItems": true,
+  "hasLiquids": false,
+  "consumes": {
+    "items": [
+      "coal/1"
+    ]
+  },
+  "drawer": {
+    "type": "DrawDefault"
+  },
+  "description": "Classic nominal output/fuel. Modern shared power network; no local 40-unit buffer or directional generator lasers."
+}

@@ -1,0 +1,33 @@
+{
+  "type": "ConsumeGenerator",
+  "name": "Classic Rt Generator",
+  "health": 40,
+  "size": 1,
+  "requirements": [
+    "classic-titanium/20",
+    "classic-steel/20"
+  ],
+  "category": "power",
+  "research": {
+    "parent": "classic-uranium-drill",
+    "requirements": [
+      "classic-titanium/20",
+      "classic-steel/20"
+    ]
+  },
+  "powerProduction": 0.03,
+  "itemDuration": 240,
+  "itemCapacity": 20,
+  "liquidCapacity": 30,
+  "hasItems": true,
+  "hasLiquids": false,
+  "consumes": {
+    "items": [
+      "classic-uranium/1"
+    ]
+  },
+  "drawer": {
+    "type": "DrawDefault"
+  },
+  "description": "Classic nominal output/fuel. Modern shared power network; no local 40-unit buffer or directional generator lasers."
+}

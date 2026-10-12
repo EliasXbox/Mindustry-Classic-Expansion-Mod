@@ -1,0 +1,24 @@
+{
+  "type": "PowerNode",
+  "name": "Classic Power Laser Router",
+  "health": 50,
+  "size": 1,
+  "requirements": [
+    "classic-steel/5",
+    "classic-iron/5"
+  ],
+  "category": "power",
+  "research": {
+    "parent": "classic-power-laser",
+    "requirements": [
+      "classic-steel/5",
+      "classic-iron/5"
+    ]
+  },
+  "laserRange": 6,
+  "maxNodes": 4,
+  "autolink": false,
+  "laserColor1": "e54135",
+  "laserColor2": "ff9b59",
+  "description": "Manually connect power network nodes. Classic directional/local-buffer transmission adapted to shared v7 power graphs; corner/router have no directional restriction."
+}

@@ -1,0 +1,34 @@
+{
+  "type": "ConsumeGenerator",
+  "name": "Classic Thermal Generator",
+  "health": 40,
+  "size": 1,
+  "requirements": [
+    "classic-steel/30",
+    "classic-iron/30"
+  ],
+  "category": "power",
+  "research": {
+    "parent": "classic-stone-former",
+    "requirements": [
+      "classic-steel/30",
+      "classic-iron/30"
+    ]
+  },
+  "powerProduction": 0.04,
+  "itemDuration": 70,
+  "itemCapacity": 20,
+  "liquidCapacity": 30,
+  "hasItems": false,
+  "hasLiquids": true,
+  "consumes": {
+    "liquid": {
+      "liquid": "classic-lava",
+      "amount": 0.5
+    }
+  },
+  "drawer": {
+    "type": "DrawDefault"
+  },
+  "description": "Classic nominal output/fuel. Modern shared power network; no local 40-unit buffer or directional generator lasers."
+}

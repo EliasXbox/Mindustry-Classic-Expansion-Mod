@@ -69,3 +69,10 @@ Additional changes dated 2026-10-11 (0.6.0-alpha):
 - Adapted aiming, procedural bullet visuals, effects/sounds and fragmentation.
 - Preserved turret bases and iron/chain/Titan projectile sprites, scaled 4x.
 - Added ammo-turrets demo and reproducible firing/damage verification.
+
+Additional changes for 0.7.0-alpha:
+- Added four ConsumeGenerator adaptations, four PowerNode distributors and two repair turrets.
+- Preserved original fuel rates, outputs, construction materials and sprites.
+- Replaced directional/local-buffer energy with shared manually linked v7 graphs.
+- Adapted repair pulses to healing lasers and continuous average energy consumption.
+- Retained scaled 4x sprites and source art; added power/repair demo and verification.

@@ -1272,6 +1272,78 @@
       "target": "sprites/blocks/classic-titan-cannon-base.png",
       "operation": "4x nearest-neighbor from preserved source",
       "renderedSha256": "f0ac89ca26e047301fb4dcfe1d0d0acdbc95bd1aed6f91c568dbadba3cad4de6"
+    },
+    {
+      "source": "core/assets-raw/sprites/blocks/coalgenerator.png",
+      "target": "sprites/blocks/classic-coal-generator.png",
+      "operation": "4x nearest-neighbor from preserved source",
+      "renderedSha256": "63702e330df427ea65a0dbf0d1ea7634aa13672af21018b5997fbe5daf918a28"
+    },
+    {
+      "source": "core/assets-raw/sprites/blocks/thermalgenerator.png",
+      "target": "sprites/blocks/classic-thermal-generator.png",
+      "operation": "4x nearest-neighbor from preserved source",
+      "renderedSha256": "3769ce38341e6bfbd33b0d3b75de05884ef692ad8cce3e3e9cfcc25bad4feee0"
+    },
+    {
+      "source": "core/assets-raw/sprites/blocks/combustiongenerator.png",
+      "target": "sprites/blocks/classic-combustion-generator.png",
+      "operation": "4x nearest-neighbor from preserved source",
+      "renderedSha256": "66679edc48d5dfae6d4694245db9bddb87dbd24daf464a1effddf85c66308698"
+    },
+    {
+      "source": "core/assets-raw/sprites/blocks/rtgenerator.png",
+      "target": "sprites/blocks/classic-rt-generator.png",
+      "operation": "4x nearest-neighbor from preserved source",
+      "renderedSha256": "9a4d2ded6bee1fcbcd92bf8676195ea8ce940dd06cd4645c230ad3097acecdc4"
+    },
+    {
+      "source": "core/assets-raw/sprites/blocks/powerbooster.png",
+      "target": "sprites/blocks/classic-power-booster.png",
+      "operation": "4x nearest-neighbor from preserved source",
+      "renderedSha256": "3160c9b560b186b358aa4f80ac47ec7e19e817ee2d74f83628aa0691e127d39a"
+    },
+    {
+      "source": "core/assets-raw/sprites/blocks/powerlaser.png",
+      "target": "sprites/blocks/classic-power-laser.png",
+      "operation": "4x nearest-neighbor from preserved source",
+      "renderedSha256": "5e678cb7f677add2c8777678277db9660cb08b599d8cadce7a34f82dd3d9b949"
+    },
+    {
+      "source": "core/assets-raw/sprites/blocks/powerlasercorner.png",
+      "target": "sprites/blocks/classic-power-laser-corner.png",
+      "operation": "4x nearest-neighbor from preserved source",
+      "renderedSha256": "edbb6c1de455dae94d9add8e45711514c71377a3e0ff8bec4e246ca1c3509416"
+    },
+    {
+      "source": "core/assets-raw/sprites/blocks/powerlaserrouter.png",
+      "target": "sprites/blocks/classic-power-laser-router.png",
+      "operation": "4x nearest-neighbor from preserved source",
+      "renderedSha256": "d12b71b4c8e5e3e8d4ba2336acaa44ef3f77386eaf270dc162694afde1dee913"
+    },
+    {
+      "source": "core/assets-raw/sprites/blocks/repairturret.png",
+      "target": "sprites/blocks/classic-repair-turret.png",
+      "operation": "4x nearest-neighbor from preserved source",
+      "renderedSha256": "daaef699bc1a338af1853a4b9469064de163d2ccabc203988de4236d8451fd75"
+    },
+    {
+      "source": "core/assets-raw/sprites/blocks/block.png",
+      "target": "sprites/blocks/classic-repair-turret-base.png",
+      "operation": "4x nearest-neighbor from preserved source",
+      "renderedSha256": "b93363a5c6a52bb29168cfb59230520d93f0a0eeee08fe5eb3c2ca654b571971"
+    },
+    {
+      "source": "core/assets-raw/sprites/blocks/megarepairturret.png",
+      "target": "sprites/blocks/classic-mega-repair-turret.png",
+      "operation": "4x nearest-neighbor from preserved source",
+      "renderedSha256": "f31d3c20c95926e59a27f50fcbf4da3cb3c9b2e09bce3f0aa3d4d838481a8b2f"
+    },
+    {
+      "source": "core/assets-raw/sprites/blocks/block.png",
+      "target": "sprites/blocks/classic-mega-repair-turret-base.png",
+      "operation": "4x nearest-neighbor from preserved source",
+      "renderedSha256": "b93363a5c6a52bb29168cfb59230520d93f0a0eeee08fe5eb3c2ca654b571971"
     }
   ]
 }
