@@ -112,3 +112,15 @@ Damage.collideLine v146 só processa damage>0, corrigido com epsilon e dano
 a construções zerado pelo multiplicador. Ver BATCH-07.md para implicações.
 224 sprites conferidos pixel por pixel em 4x; originais por hash.
 Aparência/interação do lote 7 aguardam cliente PC/Android.
+
+## Alpha 0.8.0 — construções especiais
+
+Usuário confirmou os lotes 7 e anteriores no cliente e autorizou JavaScript
+para preservar canais do teletransportador e compras de armas.
+Servidor v146: MCE_BATCH8_PASS (10 teleportes, canais isolados, 6 armas,
+custo repetido zero, parede absorve 100, reator refrigerado/seco, dano das
+torres e absorção de campo). SaveIO.save/load preservou canais 2/3 e
+triblaster comprado, sem nova cobrança. Tipos vanilla conferidos intactos.
+63 construções, seis itens, um líquido e seis variantes de jogador carregam.
+Sprites originais por hash; ampliação 4x conferida por pixels.
+Ainda sem teste visual deste lote, Android ou multiplayer real.

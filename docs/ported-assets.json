@@ -1344,6 +1344,162 @@
       "target": "sprites/blocks/classic-mega-repair-turret-base.png",
       "operation": "4x nearest-neighbor from preserved source",
       "renderedSha256": "b93363a5c6a52bb29168cfb59230520d93f0a0eeee08fe5eb3c2ca654b571971"
+    },
+    {
+      "source": "core/assets-raw/sprites/blocks/titaniumshieldwall.png",
+      "target": "sprites/blocks/classic-titanium-shield-wall.png",
+      "operation": "4x nearest-neighbor from preserved source",
+      "renderedSha256": "76113ab092a4e337ffa760899968c49e472408a47f6b3d1ee07ac965099d9cd2"
+    },
+    {
+      "source": "core/assets-raw/sprites/blocks/titaniumshieldwall.png",
+      "target": "sprites/blocks/classic-titanium-shield-wall-glow.png",
+      "operation": "4x nearest-neighbor from preserved source",
+      "renderedSha256": "76113ab092a4e337ffa760899968c49e472408a47f6b3d1ee07ac965099d9cd2"
+    },
+    {
+      "source": "core/assets-raw/sprites/blocks/shieldgenerator.png",
+      "target": "sprites/blocks/classic-shield-generator.png",
+      "operation": "4x nearest-neighbor from preserved source",
+      "renderedSha256": "abc531cd767500b67ede7401b71231863dd3429961e58eaf65f834d4adf0911f"
+    },
+    {
+      "source": "core/assets-raw/sprites/blocks/shieldgenerator.png",
+      "target": "sprites/blocks/classic-shield-generator-top.png",
+      "operation": "4x nearest-neighbor from preserved source",
+      "renderedSha256": "abc531cd767500b67ede7401b71231863dd3429961e58eaf65f834d4adf0911f"
+    },
+    {
+      "source": "core/assets-raw/sprites/blocks/nuclearreactor.png",
+      "target": "sprites/blocks/classic-nuclear-reactor.png",
+      "operation": "4x nearest-neighbor from preserved source",
+      "renderedSha256": "8f18999142d3b17abcc2ed39ddd6277d28ed192fd9287328c6e5e2c9ddb55484"
+    },
+    {
+      "source": "core/assets-raw/sprites/blocks/nuclearreactor-center.png",
+      "target": "sprites/blocks/classic-nuclear-reactor-top.png",
+      "operation": "4x nearest-neighbor from preserved source",
+      "renderedSha256": "ff5d1b120b8e51c935b089495974ba57315b74ad24dc022964658789f8795b55"
+    },
+    {
+      "source": "core/assets-raw/sprites/blocks/nuclearreactor-lights.png",
+      "target": "sprites/blocks/classic-nuclear-reactor-lights.png",
+      "operation": "4x nearest-neighbor from preserved source",
+      "renderedSha256": "94b3b1cc6999dda93cb8f3e9f8f7c1e320a401672788fcbf63d7965b36b3cc4a"
+    },
+    {
+      "source": "core/assets-raw/sprites/blocks/laserturret.png",
+      "target": "sprites/blocks/classic-laser-turret.png",
+      "operation": "4x nearest-neighbor from preserved source",
+      "renderedSha256": "34427e2608fc2be127d3b12ea67b07b685e8dacf6378c647147fcecc6161c783"
+    },
+    {
+      "source": "core/assets-raw/sprites/blocks/block.png",
+      "target": "sprites/blocks/classic-laser-turret-base.png",
+      "operation": "4x nearest-neighbor from preserved source",
+      "renderedSha256": "b93363a5c6a52bb29168cfb59230520d93f0a0eeee08fe5eb3c2ca654b571971"
+    },
+    {
+      "source": "core/assets-raw/sprites/blocks/waveturret.png",
+      "target": "sprites/blocks/classic-tesla-turret.png",
+      "operation": "4x nearest-neighbor from preserved source",
+      "renderedSha256": "375ad231f7194af863c2c830cc6958bdbdad79d7406b1e9214c934750952c1c4"
+    },
+    {
+      "source": "core/assets-raw/sprites/blocks/block.png",
+      "target": "sprites/blocks/classic-tesla-turret-base.png",
+      "operation": "4x nearest-neighbor from preserved source",
+      "renderedSha256": "b93363a5c6a52bb29168cfb59230520d93f0a0eeee08fe5eb3c2ca654b571971"
+    },
+    {
+      "source": "core/assets-raw/sprites/blocks/teleporter.png",
+      "target": "sprites/blocks/classic-teleporter.png",
+      "operation": "4x nearest-neighbor from preserved source",
+      "renderedSha256": "bdc85df52102fa4d025a36ab2a2c2b1e84b11a0b370614ce15dbbb1be93b0398"
+    },
+    {
+      "source": "core/assets-raw/sprites/blocks/teleporter-top.png",
+      "target": "sprites/blocks/classic-teleporter-top.png",
+      "operation": "4x nearest-neighbor from preserved source",
+      "renderedSha256": "cc360c1b52fe6ce57d2f78aa72240ef0d49286f5c010e3652aac9832f48c7b1c"
+    },
+    {
+      "source": "core/assets-raw/sprites/blocks/weaponfactory.png",
+      "target": "sprites/blocks/classic-weapon-factory.png",
+      "operation": "4x nearest-neighbor from preserved source",
+      "renderedSha256": "397d0ab476810ea800e11893c005b8d8f7ec0bccb8909d3960aa8405bd6331ab"
+    },
+    {
+      "source": "core/assets-raw/sprites/mechs/mech-standard.png",
+      "target": "sprites/units/classic-player-blaster.png",
+      "operation": "4x nearest-neighbor from preserved source",
+      "renderedSha256": "b3688e458262e1fc4dbfdaea0986b979f1c1f82479ec069b414e26451a4e0c61"
+    },
+    {
+      "source": "core/assets-raw/sprites/weapons/blaster-equip.png",
+      "target": "sprites/units/classic-player-blaster-weapon.png",
+      "operation": "4x nearest-neighbor from preserved source",
+      "renderedSha256": "51c33c04f4f776456970fb9dbf04456fbf7770b5046b561ef02f19efc06a87ff"
+    },
+    {
+      "source": "core/assets-raw/sprites/mechs/mech-standard.png",
+      "target": "sprites/units/classic-player-triblaster.png",
+      "operation": "4x nearest-neighbor from preserved source",
+      "renderedSha256": "b3688e458262e1fc4dbfdaea0986b979f1c1f82479ec069b414e26451a4e0c61"
+    },
+    {
+      "source": "core/assets-raw/sprites/weapons/triblaster-equip.png",
+      "target": "sprites/units/classic-player-triblaster-weapon.png",
+      "operation": "4x nearest-neighbor from preserved source",
+      "renderedSha256": "6cee4389bab443775a05e7387d73b65ee51a96fb7ebb6739a6a73e9dd019c9eb"
+    },
+    {
+      "source": "core/assets-raw/sprites/mechs/mech-standard.png",
+      "target": "sprites/units/classic-player-clustergun.png",
+      "operation": "4x nearest-neighbor from preserved source",
+      "renderedSha256": "b3688e458262e1fc4dbfdaea0986b979f1c1f82479ec069b414e26451a4e0c61"
+    },
+    {
+      "source": "core/assets-raw/sprites/weapons/clustergun-equip.png",
+      "target": "sprites/units/classic-player-clustergun-weapon.png",
+      "operation": "4x nearest-neighbor from preserved source",
+      "renderedSha256": "551894ff277761e8a140442d6c8418d5541b53ce87017010877100537ffb5845"
+    },
+    {
+      "source": "core/assets-raw/sprites/mechs/mech-standard.png",
+      "target": "sprites/units/classic-player-beam.png",
+      "operation": "4x nearest-neighbor from preserved source",
+      "renderedSha256": "b3688e458262e1fc4dbfdaea0986b979f1c1f82479ec069b414e26451a4e0c61"
+    },
+    {
+      "source": "core/assets-raw/sprites/weapons/beam-equip.png",
+      "target": "sprites/units/classic-player-beam-weapon.png",
+      "operation": "4x nearest-neighbor from preserved source",
+      "renderedSha256": "42bcf0c00f9a2bac5511160cf667c1efc450c0f6ca817b13f679c0d0afe6c506"
+    },
+    {
+      "source": "core/assets-raw/sprites/mechs/mech-standard.png",
+      "target": "sprites/units/classic-player-vulcan.png",
+      "operation": "4x nearest-neighbor from preserved source",
+      "renderedSha256": "b3688e458262e1fc4dbfdaea0986b979f1c1f82479ec069b414e26451a4e0c61"
+    },
+    {
+      "source": "core/assets-raw/sprites/weapons/vulcan-equip.png",
+      "target": "sprites/units/classic-player-vulcan-weapon.png",
+      "operation": "4x nearest-neighbor from preserved source",
+      "renderedSha256": "b3b0209e367578044444aa7acc86a55997813d3fe318b6ee7e501c66b2fcf95a"
+    },
+    {
+      "source": "core/assets-raw/sprites/mechs/mech-standard.png",
+      "target": "sprites/units/classic-player-shockgun.png",
+      "operation": "4x nearest-neighbor from preserved source",
+      "renderedSha256": "b3688e458262e1fc4dbfdaea0986b979f1c1f82479ec069b414e26451a4e0c61"
+    },
+    {
+      "source": "core/assets-raw/sprites/weapons/shockgun-equip.png",
+      "target": "sprites/units/classic-player-shockgun-weapon.png",
+      "operation": "4x nearest-neighbor from preserved source",
+      "renderedSha256": "ddfbd20436cf403cbeae6b8632170e1d5aa387eb593d3403a72775441d432115"
     }
   ]
 }

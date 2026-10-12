@@ -14,12 +14,12 @@ def main():
     assert wall['type'] == 'Wall' and wall['health'] == 160 and wall['size'] == 1
     assert wall['requirements'] == ['classic-stone/12']
     assert not (ROOT / 'sprites-override').exists(), 'Vanilla sprite overrides are forbidden'
-    assert not (ROOT / 'scripts').exists(), 'Alpha must remain a data-only mod'
+    assert (ROOT / 'scripts/main.js').is_file(), 'Custom Classic behaviors are required'
     content = {}
     for path in (ROOT / 'content').rglob('*.hjson'):
         assert path.stem.startswith('classic-'), 'Content must have a distinct name'
         content[path.stem] = json.loads(path.read_text(encoding='utf-8'))
-    assert len([c for c in content.values() if 'requirements' in c]) == 56
+    assert len([c for c in content.values() if 'requirements' in c]) == 63
     assert len(list((ROOT / 'content/items').glob('*.hjson'))) == 6
     assert len(list((ROOT / 'content/liquids').glob('*.hjson'))) == 1
     # Every custom construction/production reference must resolve in the package.
@@ -27,7 +27,7 @@ def main():
         refs = list(data.get('requirements', []))
         refs += data.get('consumes', {}).get('items', [])
         refs += list(data.get('ammoTypes', {}))
-        refs += [data[k] for k in ['itemDrop', 'outputItem', 'blockedItem', 'liquidDrop'] if k in data]
+        refs += [data[k] for k in ['itemDrop', 'outputItem', 'blockedItem', 'liquidDrop', 'fuelItem'] if k in data]
         liquid = data.get('consumes', {}).get('liquid')
         if liquid:
             refs.append(liquid['liquid'] if isinstance(liquid, dict) else liquid)
@@ -65,8 +65,10 @@ def main():
     assert (ROOT / 'maps/classic-production-demo.msav').is_file(), 'Production map is required'
     assert (ROOT / 'maps/classic-turrets-demo.msav').is_file(), 'Turrets map is required'
     assert (ROOT / 'maps/classic-power-demo.msav').is_file(), 'Power map is required'
+    assert (ROOT / 'maps/classic-special-demo.msav').is_file()
+    assert len(list((ROOT / 'content/units').glob('*.hjson'))) == 6
     files = [ROOT / p for p in ['mod.hjson', 'LICENSE', 'NOTICE.md', 'README.md']]
-    for folder in ['content', 'sprites', 'art-source', 'bundles', 'docs', 'tools', 'maps']:
+    for folder in ['content', 'sprites', 'art-source', 'bundles', 'docs', 'tools', 'maps', 'scripts']:
         files.extend(p for p in (ROOT / folder).rglob('*') if p.is_file() and '__pycache__' not in p.parts)
     output = ROOT / 'dist' / ('mindustry-classic-expansion-' + meta['version'] + '.zip')
     output.parent.mkdir(exist_ok=True)

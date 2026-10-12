@@ -1,0 +1,24 @@
+{
+  "type": "ShieldWall",
+  "name": "Classic Titanium Shield Wall",
+  "health": 600,
+  "size": 1,
+  "requirements": [
+    "classic-titanium/16"
+  ],
+  "category": "defense",
+  "research": {
+    "parent": "classic-titanium-wall",
+    "requirements": [
+      "classic-titanium/16"
+    ]
+  },
+  "shieldHealth": 500,
+  "breakCooldown": 600,
+  "regenSpeed": 0.0625,
+  "hasPower": true,
+  "consumes": {
+    "power": 0.005
+  },
+  "description": "Modern rechargeable shield: capacity 500, regeneration requires power; differs from direct Classic energy-per-damage absorption."
+}

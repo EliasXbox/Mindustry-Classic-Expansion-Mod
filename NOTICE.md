@@ -76,3 +76,9 @@ Additional changes for 0.7.0-alpha:
 - Replaced directional/local-buffer energy with shared manually linked v7 graphs.
 - Adapted repair pulses to healing lasers and continuous average energy consumption.
 - Retained scaled 4x sprites and source art; added power/repair demo and verification.
+
+Additional changes dated 2026-10-12 (0.8.0-alpha):
+- Added the seven remaining buildable recipes; modern shield/reactor/laser/Tesla adaptations.
+- Added JavaScript for eight teleporter channels and saved per-player weapon purchases.
+- Added six custom player unit variants; modern flying mobility and projectile effects.
+- Kept original art and weapon recipes; added special-block demo and verification.

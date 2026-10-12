@@ -1,0 +1,41 @@
+{
+  "type": "NuclearReactor",
+  "name": "Classic Nuclear Reactor",
+  "health": 600,
+  "size": 3,
+  "requirements": [
+    "classic-titanium/40",
+    "classic-dirium/40",
+    "classic-steel/50"
+  ],
+  "category": "power",
+  "research": {
+    "parent": "classic-rt-generator",
+    "requirements": [
+      "classic-titanium/40",
+      "classic-dirium/40",
+      "classic-steel/50"
+    ]
+  },
+  "fuelItem": "classic-uranium",
+  "powerProduction": 0.45,
+  "itemDuration": 130,
+  "itemCapacity": 30,
+  "liquidCapacity": 50,
+  "heating": 0.007,
+  "coolantPower": 0.007,
+  "explosionRadius": 19,
+  "explosionDamage": 135,
+  "consumes": {
+    "items": [
+      "classic-uranium/1"
+    ],
+    "liquid": {
+      "liquid": "water",
+      "amount": 1,
+      "update": false,
+      "optional": true
+    }
+  },
+  "description": "Uranium Classic fuel and water coolant. Modern shared grid, coolant/overheat/explosion rules; no local 80-unit energy buffer."
+}
