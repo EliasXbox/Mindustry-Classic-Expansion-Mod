@@ -1,0 +1,46 @@
+{
+  "type": "flying",
+  "name": "Classic mortar",
+  "description": "Classic tier-1 enemy adapted to v7 GroundAI, collision, projectile and effects. No automatic Classic tier scaling.",
+  "health": 200,
+  "speed": 0.29,
+  "hitSize": 5,
+  "flying": false,
+  "hovering": false,
+  "accel": 0.1,
+  "drag": 0.1,
+  "rotateSpeed": 6,
+  "range": 125,
+  "isEnemy": true,
+  "playerControllable": true,
+  "logicControllable": true,
+  "drawCell": false,
+  "engineSize": 0,
+  "outlineColor": "ffe451",
+  "outlineRadius": 1,
+  "weapons": [
+    {
+      "x": 0,
+      "y": 0,
+      "shootY": 4,
+      "mirror": false,
+      "rotate": true,
+      "rotateSpeed": 12,
+      "reload": 100,
+      "shootSound": "shoot",
+      "bullet": {
+        "type": "ArtilleryBulletType",
+        "speed": 1.1,
+        "damage": 60,
+        "lifetime": 110,
+        "splashDamage": 40,
+        "splashDamageRadius": 25,
+        "rangeOverride": 125,
+        "collidesAir": false
+      }
+    }
+  ],
+  "itemCapacity": 0,
+  "buildSpeed": 0,
+  "mineTier": -1
+}

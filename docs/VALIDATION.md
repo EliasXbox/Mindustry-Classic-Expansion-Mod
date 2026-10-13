@@ -140,3 +140,5 @@ client screenshot identified the wrong-folder placeholder. Client retest pending
 
 
 0.10.0-alpha (2026-10-12): User confirmed 0.9.1 floors in PC screenshots. MCE_BATCH10_PASS: ten obstacles, variants, collision/removal flags, no recipes, save/load and vanilla preserved. 293 sprites pixel-verified. Client visual/interaction test pending.
+
+0.11.0-alpha (2026-10-13): User confirmed batch10 in PC client. MCE_BATCH11_PASS: ten tier-1 enemy types, nine armed attackers damage walls, repair field heals, EMP damages powered generator, two entities persist through save/load, vanilla preserved. GroundAI and grounded state confirmed. 303 sprites pixel-verified. Client visuals/full wave playthrough/Android/multiplayer pending.

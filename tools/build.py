@@ -66,7 +66,7 @@ def main():
     assert (ROOT / 'maps/classic-turrets-demo.msav').is_file(), 'Turrets map is required'
     assert (ROOT / 'maps/classic-power-demo.msav').is_file(), 'Power map is required'
     assert (ROOT / 'maps/classic-special-demo.msav').is_file()
-    assert len(list((ROOT / 'content/units').glob('*.hjson'))) == 6
+    assert len(list((ROOT / 'content/units').glob('*.hjson'))) == 16
     assert (ROOT / 'maps/classic-environments-demo.msav').is_file()
     core = content['classic-core']
     assert core['type'] == 'CoreBlock' and core['size'] == 3 and core['health'] == 800
@@ -81,6 +81,7 @@ def main():
             assert (ROOT / 'sprites/blocks/environment' / filename).is_file(), filename
             assert not (ROOT / 'sprites/blocks' / filename).exists(), filename
     assert (ROOT / 'maps/classic-obstacles-demo.msav').is_file()
+    assert (ROOT / 'maps/classic-enemies-demo.msav').is_file()
     files = [ROOT / p for p in ['mod.hjson', 'LICENSE', 'NOTICE.md', 'README.md']]
     for folder in ['content', 'sprites', 'art-source', 'bundles', 'docs', 'tools', 'maps', 'scripts']:
         files.extend(p for p in (ROOT / folder).rglob('*') if p.is_file() and '__pycache__' not in p.parts)

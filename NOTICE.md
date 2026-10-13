@@ -95,3 +95,5 @@ client screenshot identified the wrong-folder placeholder. Client retest pending
 
 
 0.10.0-alpha (2026-10-12): Added ten natural Classic obstacles with original sprites. Adapted StaticWall/Prop rendering and removal; Classic rock resource rewards and separate shadows not yet reproduced.
+
+0.11.0-alpha (2026-10-13): Added ten tier-1 Classic enemies with original sprites and v7 GroundAI. Adapted blasts, flame, mortar, repair field, Titan timers and EMP; higher Classic tiers not yet ported. Added ten-wave demonstration and combat/save verification.
