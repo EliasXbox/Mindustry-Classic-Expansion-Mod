@@ -1632,6 +1632,132 @@
       "target": "sprites/blocks/classic-core.png",
       "operation": "4x nearest-neighbor from preserved source",
       "renderedSha256": "05d7ab9c5eb62fa5fb0b2d3eed4e84081693175c8cc5190ec8b3dc372e0f855e"
+    },
+    {
+      "source": "core/assets-raw/sprites/blocks/sandblock1.png",
+      "target": "sprites/blocks/environment/classic-sand-wall1.png",
+      "operation": "4x nearest-neighbor from preserved source",
+      "renderedSha256": "d4052e06befe88f662f34ced295f80c71ffcb5f273b60d85748743c47dc48b6c"
+    },
+    {
+      "source": "core/assets-raw/sprites/blocks/sandblock2.png",
+      "target": "sprites/blocks/environment/classic-sand-wall2.png",
+      "operation": "4x nearest-neighbor from preserved source",
+      "renderedSha256": "51f8a242ef0001c399cd69e494c889ca521e6b1beef3e5d373bb10963413e0c0"
+    },
+    {
+      "source": "core/assets-raw/sprites/blocks/sandblock3.png",
+      "target": "sprites/blocks/environment/classic-sand-wall3.png",
+      "operation": "4x nearest-neighbor from preserved source",
+      "renderedSha256": "22ab9582dfa603acda2b250781602d8a6dc2e93bc4fe7dea91486efe933ddd54"
+    },
+    {
+      "source": "core/assets-raw/sprites/blocks/snowblock1.png",
+      "target": "sprites/blocks/environment/classic-snow-wall1.png",
+      "operation": "4x nearest-neighbor from preserved source",
+      "renderedSha256": "beb3dba804ebcc9a48bcecf84ee674b899c9bd4a2cc59e7c0510cf52ad647c11"
+    },
+    {
+      "source": "core/assets-raw/sprites/blocks/snowblock2.png",
+      "target": "sprites/blocks/environment/classic-snow-wall2.png",
+      "operation": "4x nearest-neighbor from preserved source",
+      "renderedSha256": "d4f022c7ce44b245c9dc380df2ce3078db85689db15a5e46dd6f3c98514d229d"
+    },
+    {
+      "source": "core/assets-raw/sprites/blocks/snowblock3.png",
+      "target": "sprites/blocks/environment/classic-snow-wall3.png",
+      "operation": "4x nearest-neighbor from preserved source",
+      "renderedSha256": "e099d7b22613eeccf70b8091b5e6fa433acb90281efb321034093829d1720c12"
+    },
+    {
+      "source": "core/assets-raw/sprites/blocks/stoneblock1.png",
+      "target": "sprites/blocks/environment/classic-stone-environment-wall1.png",
+      "operation": "4x nearest-neighbor from preserved source",
+      "renderedSha256": "ea2fe268e7c450e5e313a573285d3e9283d1cfa810c6318ecefc7d62e34d6e1c"
+    },
+    {
+      "source": "core/assets-raw/sprites/blocks/stoneblock2.png",
+      "target": "sprites/blocks/environment/classic-stone-environment-wall2.png",
+      "operation": "4x nearest-neighbor from preserved source",
+      "renderedSha256": "4b3441f9697b7ed49bfa0a3fe629ccde3d682475f5fc662d042e665aafbcadfa"
+    },
+    {
+      "source": "core/assets-raw/sprites/blocks/stoneblock3.png",
+      "target": "sprites/blocks/environment/classic-stone-environment-wall3.png",
+      "operation": "4x nearest-neighbor from preserved source",
+      "renderedSha256": "64949b33396f029a8df4b445a02331ef63e192fe7837378740e8a808f287a851"
+    },
+    {
+      "source": "core/assets-raw/sprites/blocks/blackstoneblock1.png",
+      "target": "sprites/blocks/environment/classic-blackstone-wall1.png",
+      "operation": "4x nearest-neighbor from preserved source",
+      "renderedSha256": "b097e96b1106f729eeb22c4645c94f3fe9bb7ce6c338022f7192736874e14f73"
+    },
+    {
+      "source": "core/assets-raw/sprites/blocks/blackstoneblock2.png",
+      "target": "sprites/blocks/environment/classic-blackstone-wall2.png",
+      "operation": "4x nearest-neighbor from preserved source",
+      "renderedSha256": "41f4376f0c264f67e98e80cdc72f7489b3d34b2af741c6ea08cd6375efa3a27a"
+    },
+    {
+      "source": "core/assets-raw/sprites/blocks/blackstoneblock3.png",
+      "target": "sprites/blocks/environment/classic-blackstone-wall3.png",
+      "operation": "4x nearest-neighbor from preserved source",
+      "renderedSha256": "00a1d89dd461b9e2af6b7aec2ad4d7f2ad91f246c93fed3e8c24ef6588a62735"
+    },
+    {
+      "source": "core/assets-raw/sprites/blocks/grassblock1.png",
+      "target": "sprites/blocks/environment/classic-grass-wall1.png",
+      "operation": "4x nearest-neighbor from preserved source",
+      "renderedSha256": "0aecb907864e610235af41d67f237530daeb97cc50b48648160cee08b82e7096"
+    },
+    {
+      "source": "core/assets-raw/sprites/blocks/grassblock2.png",
+      "target": "sprites/blocks/environment/classic-grass-wall2.png",
+      "operation": "4x nearest-neighbor from preserved source",
+      "renderedSha256": "d11b689d1a52c0cc402cf3f8a89f0264cc8a3ee59b4b86010c8fce08ad938808"
+    },
+    {
+      "source": "core/assets-raw/sprites/blocks/mossblock.png",
+      "target": "sprites/blocks/environment/classic-moss-wall.png",
+      "operation": "4x nearest-neighbor from preserved source",
+      "renderedSha256": "b6560bb79709db74b38c11b0464e1c5c6a4cb2d56ff71fafab5d4e973fdcb1ab"
+    },
+    {
+      "source": "core/assets-raw/sprites/blocks/shrub.png",
+      "target": "sprites/blocks/environment/classic-shrub.png",
+      "operation": "4x nearest-neighbor from preserved source",
+      "renderedSha256": "24e54783fffbe29601b550d3a3f74d73cafbedea765e2ef10bae5bead390280b"
+    },
+    {
+      "source": "core/assets-raw/sprites/blocks/rock1.png",
+      "target": "sprites/blocks/environment/classic-rock1.png",
+      "operation": "4x nearest-neighbor from preserved source",
+      "renderedSha256": "0e7656fb3fe700898dabbd6a201b568e6e5b238fac9ed42455ea6c4363fb43c5"
+    },
+    {
+      "source": "core/assets-raw/sprites/blocks/rock2.png",
+      "target": "sprites/blocks/environment/classic-rock2.png",
+      "operation": "4x nearest-neighbor from preserved source",
+      "renderedSha256": "c8ef624970f942c5136f8545b73277b0e3617c864400256b57ef8da4d771a9b2"
+    },
+    {
+      "source": "core/assets-raw/sprites/blocks/icerock1.png",
+      "target": "sprites/blocks/environment/classic-ice-rock1.png",
+      "operation": "4x nearest-neighbor from preserved source",
+      "renderedSha256": "f768d9e8ecdf1ce202cbd76400cbd0710971aca7f248c03ab7338aabb67b5abf"
+    },
+    {
+      "source": "core/assets-raw/sprites/blocks/icerock2.png",
+      "target": "sprites/blocks/environment/classic-ice-rock2.png",
+      "operation": "4x nearest-neighbor from preserved source",
+      "renderedSha256": "bbede23c0eb3e700e69553d54e5553173e41337ace11dc8dac198ccc22928909"
+    },
+    {
+      "source": "core/assets-raw/sprites/blocks/blackrock1.png",
+      "target": "sprites/blocks/environment/classic-black-rock1.png",
+      "operation": "4x nearest-neighbor from preserved source",
+      "renderedSha256": "0732a77e5686c4808966ead15ea089ef868152ce1fbd20431c72d3ad484263c0"
     }
   ]
 }

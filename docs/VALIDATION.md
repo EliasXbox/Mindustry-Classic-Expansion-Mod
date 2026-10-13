@@ -138,3 +138,5 @@ Added build validation requiring sprites/blocks/environment; source art follows
 the same directory layout. The v146 headless server did not validate atlas pages;
 client screenshot identified the wrong-folder placeholder. Client retest pending.
 
+
+0.10.0-alpha (2026-10-12): User confirmed 0.9.1 floors in PC screenshots. MCE_BATCH10_PASS: ten obstacles, variants, collision/removal flags, no recipes, save/load and vanilla preserved. 293 sprites pixel-verified. Client visual/interaction test pending.

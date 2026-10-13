@@ -93,3 +93,5 @@ Added build validation requiring sprites/blocks/environment; source art follows
 the same directory layout. The v146 headless server did not validate atlas pages;
 client screenshot identified the wrong-folder placeholder. Client retest pending.
 
+
+0.10.0-alpha (2026-10-12): Added ten natural Classic obstacles with original sprites. Adapted StaticWall/Prop rendering and removal; Classic rock resource rewards and separate shadows not yet reproduced.

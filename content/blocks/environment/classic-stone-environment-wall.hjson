@@ -1,0 +1,10 @@
+{
+  "type": "StaticWall",
+  "name": "Parede de pedra natural Classic",
+  "variants": 3,
+  "solid": true,
+  "breakable": false,
+  "alwaysReplace": false,
+  "buildVisibility": "editorOnly",
+  "description": "Classic natural obstacle. Editor/map placement; no construction recipe."
+}

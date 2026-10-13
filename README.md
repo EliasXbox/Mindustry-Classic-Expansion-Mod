@@ -1,6 +1,6 @@
 # Mindustry: Classic Expansion
 
-Mod HJSON com scripts JavaScript para **Mindustry v7 build 146**, destinado a PC e Android. Alpha **0.9.1**.
+Mod HJSON com scripts JavaScript para **Mindustry v7 build 146**, destinado a PC e Android. Alpha **0.10.0**.
 Conteúdo separado dos blocos e itens vanilla, sob o prefixo mindustry-classic-expansion-.
 
 ## Lote 2: cinco blocos e seus itens
@@ -19,7 +19,7 @@ Na 0.9 há 63 receitas construíveis, núcleo próprio e 15 tipos de piso.
 
 ## Instalar e testar
 
-1. Importe o ZIP 0.9.1 em **Mods → Importar mod**, sem descompactar.
+1. Importe o ZIP 0.10 em **Mods → Importar mod**, sem descompactar.
 2. Atualize o mod existente; não mantenha as duas alphas instaladas juntas. Reinicie.
 3. Abra **Jogo personalizado → MCE - Classic Chain Demo**. Use sandbox para inspeção rápida.
 4. Na região (20,20), pedra passa pelo perfurador, esteira e roteador até o cofre.
@@ -46,7 +46,7 @@ Veja [BATCH-02.md](docs/BATCH-02.md).
 ## Gerar o ZIP
 
 Com Python 3 na raiz: `python tools/build.py`.
-Saída: dist/mindustry-classic-expansion-0.9.1-alpha.zip, com manifesto na raiz.
+Saída: dist/mindustry-classic-expansion-0.10.0-alpha.zip, com manifesto na raiz.
 Os .hjson usam JSON válido, subconjunto de HJSON. A partir da 0.8, scripts JavaScript preservam canais de teleporte e compras de armas; não há biblioteca Java adicional.
 O ZIP inclui fonte editável, mapa, licença, créditos e ferramentas de reprodução.
 
@@ -118,3 +118,12 @@ do jogador já existem; o mech ainda usa mobilidade adaptada de voo.
 
 Correção 0.9.1: sprites dos 15 pisos movidos para sprites/blocks/environment,
 eliminando o aviso de pasta errada. Núcleo permanece em sprites/blocks.
+
+## Lote 10: dez obstáculos naturais
+
+Paredes naturais de areia/neve/pedra/pedra preta/grama, musgo, arbusto e
+rochas comum/gelo/preta. Disponíveis no editor. Abra **MCE - Natural Obstacles
+Demo**. Arte Classic ampliada 4x na pasta correta de ambientes.
+Veja [BATCH-10.md](docs/BATCH-10.md) para colisão e diferenças na remoção.
+São 15 pisos + 10 obstáculos, núcleo e 63 receitas construíveis.
+Ainda falta dirtblock (sem sprite próprio no snapshot), inimigos e mapas Classic.
