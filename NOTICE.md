@@ -87,3 +87,9 @@ Additional changes dated 2026-10-12 (0.9.0-alpha):
 - Added nine Classic floor definitions and original 3x3 core sprite/health.
 - Adapted liquid/ice movement and team core storage/respawn to v7.
 - Added environment/core demo and save/storage/mining/pumping verification.
+
+0.9.1-alpha: corrected environment atlas paths for all 15 floors (37 sprites).
+Added build validation requiring sprites/blocks/environment; source art follows
+the same directory layout. The v146 headless server did not validate atlas pages;
+client screenshot identified the wrong-folder placeholder. Client retest pending.
+

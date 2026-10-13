@@ -72,6 +72,14 @@ def main():
     assert core['type'] == 'CoreBlock' and core['size'] == 3 and core['health'] == 800
     assert core['unitType'] in content
     assert len(list((ROOT / 'content/blocks/environment').glob('*.hjson'))) == 15
+    # Floors must share the environment atlas page with vanilla terrain.
+    for path in (ROOT / 'content/blocks/environment').glob('*.hjson'):
+        data = json.loads(path.read_text())
+        suffixes = range(1, data['variants'] + 1) if data.get('variants', 0) else ['']
+        for suffix in suffixes:
+            filename = path.stem + str(suffix) + '.png'
+            assert (ROOT / 'sprites/blocks/environment' / filename).is_file(), filename
+            assert not (ROOT / 'sprites/blocks' / filename).exists(), filename
     files = [ROOT / p for p in ['mod.hjson', 'LICENSE', 'NOTICE.md', 'README.md']]
     for folder in ['content', 'sprites', 'art-source', 'bundles', 'docs', 'tools', 'maps', 'scripts']:
         files.extend(p for p in (ROOT / folder).rglob('*') if p.is_file() and '__pycache__' not in p.parts)

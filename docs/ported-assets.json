@@ -21,37 +21,37 @@
     },
     {
       "source": "core/assets-raw/sprites/blocks/stone1.png",
-      "target": "sprites/blocks/classic-stone-floor1.png",
+      "target": "sprites/blocks/environment/classic-stone-floor1.png",
       "operation": "4x nearest-neighbor from preserved source; no color interpolation",
       "renderedSha256": "4dc204e818d688e0977757cadfc887eea185590c58f4b69178358588b2f8c238"
     },
     {
       "source": "core/assets-raw/sprites/blocks/stone2.png",
-      "target": "sprites/blocks/classic-stone-floor2.png",
+      "target": "sprites/blocks/environment/classic-stone-floor2.png",
       "operation": "4x nearest-neighbor from preserved source; no color interpolation",
       "renderedSha256": "4d19e3792473bc4f6124190e987046bc86d3a3528862a15269cf4f93907b5b41"
     },
     {
       "source": "core/assets-raw/sprites/blocks/stone3.png",
-      "target": "sprites/blocks/classic-stone-floor3.png",
+      "target": "sprites/blocks/environment/classic-stone-floor3.png",
       "operation": "4x nearest-neighbor from preserved source; no color interpolation",
       "renderedSha256": "76d0baf99e6e98f1f6c6b37cfc534644ba7759c4a40cabba7004caeff235105a"
     },
     {
       "source": "core/assets-raw/sprites/blocks/iron1.png",
-      "target": "sprites/blocks/classic-iron-floor1.png",
+      "target": "sprites/blocks/environment/classic-iron-floor1.png",
       "operation": "4x nearest-neighbor from preserved source; no color interpolation",
       "renderedSha256": "9f3d128cda4808f17eac56f1c96f7f8b87403d809120e9b49cc7de11b609deaf"
     },
     {
       "source": "core/assets-raw/sprites/blocks/iron2.png",
-      "target": "sprites/blocks/classic-iron-floor2.png",
+      "target": "sprites/blocks/environment/classic-iron-floor2.png",
       "operation": "4x nearest-neighbor from preserved source; no color interpolation",
       "renderedSha256": "deaf539aa511a631aae4f8a23116276f065d6c614b4aef48860051c2a4fcf6f1"
     },
     {
       "source": "core/assets-raw/sprites/blocks/iron3.png",
-      "target": "sprites/blocks/classic-iron-floor3.png",
+      "target": "sprites/blocks/environment/classic-iron-floor3.png",
       "operation": "4x nearest-neighbor from preserved source; no color interpolation",
       "renderedSha256": "79887461946730b8429ca109fd07953688a329c232ba63a6dbc74c271ceb99b0"
     },
@@ -303,19 +303,19 @@
     },
     {
       "source": "core/assets-raw/sprites/blocks/titanium1.png",
-      "target": "sprites/blocks/classic-titanium-floor1.png",
+      "target": "sprites/blocks/environment/classic-titanium-floor1.png",
       "operation": "4x nearest-neighbor from preserved source; no color interpolation",
       "renderedSha256": "95b9cc1b733b1fac677542f355c921e5db11376efe4b35cb2e607c98ffb6e9b2"
     },
     {
       "source": "core/assets-raw/sprites/blocks/titanium2.png",
-      "target": "sprites/blocks/classic-titanium-floor2.png",
+      "target": "sprites/blocks/environment/classic-titanium-floor2.png",
       "operation": "4x nearest-neighbor from preserved source; no color interpolation",
       "renderedSha256": "f394ef108fb2d5700fd26f6991c688c710380f4a4752ae8e7a66350fb9bd79ff"
     },
     {
       "source": "core/assets-raw/sprites/blocks/titanium3.png",
-      "target": "sprites/blocks/classic-titanium-floor3.png",
+      "target": "sprites/blocks/environment/classic-titanium-floor3.png",
       "operation": "4x nearest-neighbor from preserved source; no color interpolation",
       "renderedSha256": "ca8dd2582c9600aa3b49cb8c5183f93cf233fc3b04261e26d6791ca3c3818743"
     },
@@ -339,19 +339,19 @@
     },
     {
       "source": "core/assets-raw/sprites/blocks/uranium1.png",
-      "target": "sprites/blocks/classic-uranium-floor1.png",
+      "target": "sprites/blocks/environment/classic-uranium-floor1.png",
       "operation": "4x nearest-neighbor from preserved source; no color interpolation",
       "renderedSha256": "51422e10eab102ec4a5755f9df2df1b638d376daef9994668aaa01f738db6208"
     },
     {
       "source": "core/assets-raw/sprites/blocks/uranium2.png",
-      "target": "sprites/blocks/classic-uranium-floor2.png",
+      "target": "sprites/blocks/environment/classic-uranium-floor2.png",
       "operation": "4x nearest-neighbor from preserved source; no color interpolation",
       "renderedSha256": "01712d944c54697cc8b5f810dfd935290f666338bae9deba3db86c7e82afbdd7"
     },
     {
       "source": "core/assets-raw/sprites/blocks/uranium3.png",
-      "target": "sprites/blocks/classic-uranium-floor3.png",
+      "target": "sprites/blocks/environment/classic-uranium-floor3.png",
       "operation": "4x nearest-neighbor from preserved source; no color interpolation",
       "renderedSha256": "b2aae84151d03e76621f0fa84966d5bc996ae72c9c77ec64b84e50fea2d219fc"
     },
@@ -1113,25 +1113,25 @@
     },
     {
       "source": "core/assets-raw/sprites/blocks/lava.png",
-      "target": "sprites/blocks/classic-lava-floor.png",
+      "target": "sprites/blocks/environment/classic-lava-floor.png",
       "operation": "4x nearest-neighbor from preserved source",
       "renderedSha256": "ea6173cbe4ad76288dd57ac8733521abea0c3038eca4651b213eb317e772d85a"
     },
     {
       "source": "core/assets-raw/sprites/blocks/coal1.png",
-      "target": "sprites/blocks/classic-coal-floor1.png",
+      "target": "sprites/blocks/environment/classic-coal-floor1.png",
       "operation": "4x nearest-neighbor from preserved source",
       "renderedSha256": "28d0b35d67d0c605c83003d12a2780926dfe0343d001f16b10cc4809660a0655"
     },
     {
       "source": "core/assets-raw/sprites/blocks/coal2.png",
-      "target": "sprites/blocks/classic-coal-floor2.png",
+      "target": "sprites/blocks/environment/classic-coal-floor2.png",
       "operation": "4x nearest-neighbor from preserved source",
       "renderedSha256": "6d50e00b3a22fdbc0ecac675b5752cbf1c290bfec36520b7f30a5742ab9491c8"
     },
     {
       "source": "core/assets-raw/sprites/blocks/coal3.png",
-      "target": "sprites/blocks/classic-coal-floor3.png",
+      "target": "sprites/blocks/environment/classic-coal-floor3.png",
       "operation": "4x nearest-neighbor from preserved source",
       "renderedSha256": "b26cdfeb9e284c190a0bd85c5a9ffbc056817678b92871c0f11b4ffa895d4bbb"
     },
@@ -1503,127 +1503,127 @@
     },
     {
       "source": "core/assets-raw/sprites/blocks/blackstone1.png",
-      "target": "sprites/blocks/classic-blackstone-floor1.png",
+      "target": "sprites/blocks/environment/classic-blackstone-floor1.png",
       "operation": "4x nearest-neighbor from preserved source",
       "renderedSha256": "6470b204167df8b45365dd12fc6d8f433ae68f361f50506a26ef3fd8afd17004"
     },
     {
       "source": "core/assets-raw/sprites/blocks/blackstone2.png",
-      "target": "sprites/blocks/classic-blackstone-floor2.png",
+      "target": "sprites/blocks/environment/classic-blackstone-floor2.png",
       "operation": "4x nearest-neighbor from preserved source",
       "renderedSha256": "f5a2c39cb202018d25e66648d39986ab9ec9af41efc5a7fb12b4f8744ec08bbe"
     },
     {
       "source": "core/assets-raw/sprites/blocks/blackstone3.png",
-      "target": "sprites/blocks/classic-blackstone-floor3.png",
+      "target": "sprites/blocks/environment/classic-blackstone-floor3.png",
       "operation": "4x nearest-neighbor from preserved source",
       "renderedSha256": "d9e9c0c67a74e3a8fb327c2e78f8c3b7a4cb4d7b73c5a6131d293383e48a3330"
     },
     {
       "source": "core/assets-raw/sprites/blocks/dirt1.png",
-      "target": "sprites/blocks/classic-dirt-floor1.png",
+      "target": "sprites/blocks/environment/classic-dirt-floor1.png",
       "operation": "4x nearest-neighbor from preserved source",
       "renderedSha256": "d7a7a8788936f3186b044dcbcc23924f6147f42586c6fde2977cf42535a57c00"
     },
     {
       "source": "core/assets-raw/sprites/blocks/dirt2.png",
-      "target": "sprites/blocks/classic-dirt-floor2.png",
+      "target": "sprites/blocks/environment/classic-dirt-floor2.png",
       "operation": "4x nearest-neighbor from preserved source",
       "renderedSha256": "5424e5e12c066faaf2d0dbc72ffc8f00feb038e150396ca485c6e38bc79e1da9"
     },
     {
       "source": "core/assets-raw/sprites/blocks/dirt3.png",
-      "target": "sprites/blocks/classic-dirt-floor3.png",
+      "target": "sprites/blocks/environment/classic-dirt-floor3.png",
       "operation": "4x nearest-neighbor from preserved source",
       "renderedSha256": "117a7ad26f8a5090c0390932fa16dc29b62b793638e11352aac7393b42aa3bc0"
     },
     {
       "source": "core/assets-raw/sprites/blocks/sand1.png",
-      "target": "sprites/blocks/classic-sand-floor1.png",
+      "target": "sprites/blocks/environment/classic-sand-floor1.png",
       "operation": "4x nearest-neighbor from preserved source",
       "renderedSha256": "3a9a8dcfb362e849ea6b0ac8066523095be596f90a141088f6559a01c806b929"
     },
     {
       "source": "core/assets-raw/sprites/blocks/sand2.png",
-      "target": "sprites/blocks/classic-sand-floor2.png",
+      "target": "sprites/blocks/environment/classic-sand-floor2.png",
       "operation": "4x nearest-neighbor from preserved source",
       "renderedSha256": "ac5ee0b6c1de82ce397097b99931f4d1fdb7aa9dcf8afa4ca388a2156f77a690"
     },
     {
       "source": "core/assets-raw/sprites/blocks/sand3.png",
-      "target": "sprites/blocks/classic-sand-floor3.png",
+      "target": "sprites/blocks/environment/classic-sand-floor3.png",
       "operation": "4x nearest-neighbor from preserved source",
       "renderedSha256": "757a92b5ab0dde52b32ccbfa2aa7755cdbf66dde2175fbf54f4968e29b300bf7"
     },
     {
       "source": "core/assets-raw/sprites/blocks/ice1.png",
-      "target": "sprites/blocks/classic-ice-floor1.png",
+      "target": "sprites/blocks/environment/classic-ice-floor1.png",
       "operation": "4x nearest-neighbor from preserved source",
       "renderedSha256": "1570cad9327a58e95847372e3f336c931dcdcd820e4ae7f8738a632f22368318"
     },
     {
       "source": "core/assets-raw/sprites/blocks/ice2.png",
-      "target": "sprites/blocks/classic-ice-floor2.png",
+      "target": "sprites/blocks/environment/classic-ice-floor2.png",
       "operation": "4x nearest-neighbor from preserved source",
       "renderedSha256": "505fa7896ef373cdb53fadc0d5486e49b122de2ac851114fa6133a32f51d954a"
     },
     {
       "source": "core/assets-raw/sprites/blocks/ice3.png",
-      "target": "sprites/blocks/classic-ice-floor3.png",
+      "target": "sprites/blocks/environment/classic-ice-floor3.png",
       "operation": "4x nearest-neighbor from preserved source",
       "renderedSha256": "b0c81c8b39400115bfa8c674ac98c002449fe7af118de15af6bcdfd45a538dff"
     },
     {
       "source": "core/assets-raw/sprites/blocks/snow1.png",
-      "target": "sprites/blocks/classic-snow-floor1.png",
+      "target": "sprites/blocks/environment/classic-snow-floor1.png",
       "operation": "4x nearest-neighbor from preserved source",
       "renderedSha256": "10d529abf9d0a351ada35eb08f69fc3543cee4dec1f3a80a736c33c50ac70a36"
     },
     {
       "source": "core/assets-raw/sprites/blocks/snow2.png",
-      "target": "sprites/blocks/classic-snow-floor2.png",
+      "target": "sprites/blocks/environment/classic-snow-floor2.png",
       "operation": "4x nearest-neighbor from preserved source",
       "renderedSha256": "c2fd7372f28c5a0175839eb5ee6913107e65b446bc131a9e02c1fb7ca8827cd7"
     },
     {
       "source": "core/assets-raw/sprites/blocks/snow3.png",
-      "target": "sprites/blocks/classic-snow-floor3.png",
+      "target": "sprites/blocks/environment/classic-snow-floor3.png",
       "operation": "4x nearest-neighbor from preserved source",
       "renderedSha256": "a3d60908f15da51c8602efd6b4883e9c2f4f4472ad50d8cd97376a148b334f7c"
     },
     {
       "source": "core/assets-raw/sprites/blocks/grass1.png",
-      "target": "sprites/blocks/classic-grass-floor1.png",
+      "target": "sprites/blocks/environment/classic-grass-floor1.png",
       "operation": "4x nearest-neighbor from preserved source",
       "renderedSha256": "0067c7cf70b17e9d38153ccace1d45cc29e42ae801a2772fe46ffa3f45186431"
     },
     {
       "source": "core/assets-raw/sprites/blocks/grass2.png",
-      "target": "sprites/blocks/classic-grass-floor2.png",
+      "target": "sprites/blocks/environment/classic-grass-floor2.png",
       "operation": "4x nearest-neighbor from preserved source",
       "renderedSha256": "b9df69bb9a3c2400a6443eac0d96fd36fcdb04debd9349d2fcab859aa9568678"
     },
     {
       "source": "core/assets-raw/sprites/blocks/grass3.png",
-      "target": "sprites/blocks/classic-grass-floor3.png",
+      "target": "sprites/blocks/environment/classic-grass-floor3.png",
       "operation": "4x nearest-neighbor from preserved source",
       "renderedSha256": "27932a38b78cb2acfc0c3ec67085efe1fa4ecef43b7801ee04842f8c59dd72df"
     },
     {
       "source": "core/assets-raw/sprites/blocks/water.png",
-      "target": "sprites/blocks/classic-water-floor.png",
+      "target": "sprites/blocks/environment/classic-water-floor.png",
       "operation": "4x nearest-neighbor from preserved source",
       "renderedSha256": "5bbbc1c6b236889faa22477c862724dca1e5c1f5fb0fa6df4684741fd8eed672"
     },
     {
       "source": "core/assets-raw/sprites/blocks/deepwater.png",
-      "target": "sprites/blocks/classic-deepwater-floor.png",
+      "target": "sprites/blocks/environment/classic-deepwater-floor.png",
       "operation": "4x nearest-neighbor from preserved source",
       "renderedSha256": "f7bd772f049363c312159935ed6e1d4733188e5322e81649a7a9c83ce1a30d85"
     },
     {
       "source": "core/assets-raw/sprites/blocks/oil.png",
-      "target": "sprites/blocks/classic-oil-floor.png",
+      "target": "sprites/blocks/environment/classic-oil-floor.png",
       "operation": "4x nearest-neighbor from preserved source",
       "renderedSha256": "8d728882ec008d3e7445b99b2b901a9c4dbdf472749f58ff0cff4b2765440ac2"
     },

@@ -132,3 +132,9 @@ MCE_BATCH9_PASS: nove pisos, núcleo 800/3x3, armazenamento 10000, tipo
 Classic blaster, extração de pedra preta, bombeamento água/óleo, save/load
 de núcleo e inventário e vanilla intacto. 272 sprites conferidos em 4x.
 PC visual, Android e multiplayer do lote 9 aguardam teste do usuário.
+
+0.9.1-alpha: corrected environment atlas paths for all 15 floors (37 sprites).
+Added build validation requiring sprites/blocks/environment; source art follows
+the same directory layout. The v146 headless server did not validate atlas pages;
+client screenshot identified the wrong-folder placeholder. Client retest pending.
+
