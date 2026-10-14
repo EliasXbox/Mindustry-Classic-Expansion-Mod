@@ -1,0 +1,44 @@
+{
+  "name": "Classic Fortress",
+  "description": "Classic tier-1 Fortress. Spawns at most six Fast while within 90 world units of an enemy core. Per-unit spawn timer/count persist through save. Modern targeting/artillery adaptation.",
+  "health": 700,
+  "speed": 0.29,
+  "hitSize": 10,
+  "flying": false,
+  "hovering": false,
+  "accel": 0.1,
+  "drag": 0.1,
+  "rotateSpeed": 6,
+  "range": 75,
+  "isEnemy": true,
+  "playerControllable": true,
+  "logicControllable": true,
+  "drawCell": false,
+  "engineSize": 0,
+  "outlineColor": "ffe451",
+  "outlineRadius": 1,
+  "weapons": [
+    {
+      "x": 0,
+      "y": 0,
+      "shootY": 7,
+      "mirror": false,
+      "rotate": true,
+      "rotateSpeed": 6,
+      "reload": 90,
+      "bullet": {
+        "type": "ArtilleryBulletType",
+        "speed": 1.2,
+        "damage": 20,
+        "lifetime": 60,
+        "splashDamage": 13,
+        "splashDamageRadius": 25,
+        "rangeOverride": 75,
+        "collidesAir": false
+      }
+    }
+  ],
+  "itemCapacity": 0,
+  "buildSpeed": 0,
+  "mineTier": -1
+}

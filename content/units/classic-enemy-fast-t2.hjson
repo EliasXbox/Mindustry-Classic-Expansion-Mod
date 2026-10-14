@@ -1,0 +1,45 @@
+{
+  "type": "flying",
+  "name": "Classic fast T2",
+  "description": "Explicit Classic tier 2 variant. Health/damage scaled; reload divided by max(tier/1.5,1); speed and nominal range adjusted. v7 effects/AI adaptations remain.",
+  "health": 100,
+  "speed": 0.81,
+  "hitSize": 5,
+  "flying": false,
+  "hovering": false,
+  "accel": 0.1,
+  "drag": 0.1,
+  "rotateSpeed": 6,
+  "range": 70,
+  "isEnemy": true,
+  "playerControllable": true,
+  "logicControllable": true,
+  "drawCell": false,
+  "engineSize": 0,
+  "outlineColor": "f48e20",
+  "outlineRadius": 1,
+  "weapons": [
+    {
+      "x": 0,
+      "y": 0,
+      "shootY": 4,
+      "mirror": false,
+      "rotate": true,
+      "rotateSpeed": 12,
+      "reload": 15.0,
+      "shootSound": "shoot",
+      "bullet": {
+        "type": "BasicBulletType",
+        "speed": 1.5,
+        "damage": 4,
+        "lifetime": 60,
+        "width": 3,
+        "height": 5,
+        "rangeOverride": 70
+      }
+    }
+  ],
+  "itemCapacity": 0,
+  "buildSpeed": 0,
+  "mineTier": -1
+}

@@ -3,7 +3,7 @@
   "displayName": "Mindustry: Classic Expansion",
   "author": "EliasXbox; Classic content by Anuken and contributors",
   "description": "Classic constructions, environments, core and scripted weapons for Mindustry v7. GPLv3; no warranty.",
-  "version": "0.11.0-alpha",
+  "version": "0.12.0-alpha",
   "minGameVersion": "146",
   "texturescale": 1,
   "hidden": false
