@@ -99,3 +99,5 @@ client screenshot identified the wrong-folder placeholder. Client retest pending
 0.11.0-alpha (2026-10-13): Added ten tier-1 Classic enemies with original sprites and v7 GroundAI. Adapted blasts, flame, mortar, repair field, Titan timers and EMP; higher Classic tiers not yet ported. Added ten-wave demonstration and combat/save verification.
 
 0.12.0-alpha (2026-10-13): Added Classic Fortress and training target with original tier-1 sprites; scripted bounded reinforcement spawning and target respawn. Added Standard/Fast/Rapid/Flamer T2/T3 with original sprites and stat scaling. Modern timer/proximity/artillery adaptations; pending target timers not persisted. Custom save chunk preserves Fortress child links/cooldown.
+
+0.13.0-alpha (2026-10-13): Added Tank/Blast/Mortar/Healer/Titan T2/T3 with original sprites and class-specific scaling. Maintains prior v7 projectile/repair/timer adaptations. Added heavy-tier demo with Standard escorts for healers and reproducible combat/save checks.

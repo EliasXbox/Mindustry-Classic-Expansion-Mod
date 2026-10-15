@@ -1,0 +1,61 @@
+{
+  "type": "flying",
+  "name": "Classic blast T2",
+  "description": "Classic tier 2 blast. Original sprite and tier health/speed/direct damage. Class-specific attack/heal timers preserved; v7 behavior adaptations remain.",
+  "health": 60,
+  "speed": 0.88,
+  "hitSize": 5,
+  "flying": false,
+  "hovering": false,
+  "accel": 0.1,
+  "drag": 0.1,
+  "rotateSpeed": 6,
+  "range": 10,
+  "isEnemy": true,
+  "playerControllable": true,
+  "logicControllable": true,
+  "drawCell": false,
+  "engineSize": 0,
+  "outlineColor": "f48e20",
+  "outlineRadius": 1,
+  "weapons": [
+    {
+      "x": 0,
+      "y": 0,
+      "shootY": 0,
+      "mirror": false,
+      "rotate": true,
+      "rotateSpeed": 12,
+      "reload": 1,
+      "shootSound": "shoot",
+      "bullet": {
+        "type": "BasicBulletType",
+        "speed": 0,
+        "damage": 0,
+        "lifetime": 1,
+        "width": 3,
+        "height": 5,
+        "splashDamage": 130,
+        "splashDamageRadius": 20,
+        "killShooter": true,
+        "despawnHit": true,
+        "collides": false,
+        "rangeOverride": 10,
+        "fragBullets": 30,
+        "fragBullet": {
+          "type": "BasicBulletType",
+          "speed": 1.6,
+          "damage": 14,
+          "lifetime": 7,
+          "width": 3,
+          "height": 5
+        }
+      },
+      "shootOnDeath": true,
+      "shootCone": 180
+    }
+  ],
+  "itemCapacity": 0,
+  "buildSpeed": 0,
+  "mineTier": -1
+}

@@ -1878,6 +1878,66 @@
       "target": "sprites/units/classic-enemy-flamer-t3.png",
       "operation": "4x nearest-neighbor from preserved source",
       "renderedSha256": "436758b4b825a2b1082d261a61b1605f0d91730ba56f8ed9f251f54960a5c8db"
+    },
+    {
+      "source": "core/assets-raw/sprites/enemies/tankenemy-t2.png",
+      "target": "sprites/units/classic-enemy-tank-t2.png",
+      "operation": "4x nearest-neighbor from preserved source",
+      "renderedSha256": "0c74199cc449bfd3c3db7cb9b9709fa05bf3ccbaec911b2526b896f4d38ca82f"
+    },
+    {
+      "source": "core/assets-raw/sprites/enemies/tankenemy-t3.png",
+      "target": "sprites/units/classic-enemy-tank-t3.png",
+      "operation": "4x nearest-neighbor from preserved source",
+      "renderedSha256": "9a4eccac76eb3bb726ab8a73e975c7fa93d18a9e63461d40c4cf113bc043feac"
+    },
+    {
+      "source": "core/assets-raw/sprites/enemies/blastenemy-t2.png",
+      "target": "sprites/units/classic-enemy-blast-t2.png",
+      "operation": "4x nearest-neighbor from preserved source",
+      "renderedSha256": "c2bf367a0980aba6ca47a2b30b28586d4d5c950216da2a846ba72999321c8b3c"
+    },
+    {
+      "source": "core/assets-raw/sprites/enemies/blastenemy-t3.png",
+      "target": "sprites/units/classic-enemy-blast-t3.png",
+      "operation": "4x nearest-neighbor from preserved source",
+      "renderedSha256": "eec83d38f8ff5a988e450e205cb27a32381cedd29cac9257aea9614f669ae5ca"
+    },
+    {
+      "source": "core/assets-raw/sprites/enemies/mortarenemy-t2.png",
+      "target": "sprites/units/classic-enemy-mortar-t2.png",
+      "operation": "4x nearest-neighbor from preserved source",
+      "renderedSha256": "16131efbfc7f4455c9e57602cdad08cdc9edc3edbec6d5541655fe73e95cf728"
+    },
+    {
+      "source": "core/assets-raw/sprites/enemies/mortarenemy-t3.png",
+      "target": "sprites/units/classic-enemy-mortar-t3.png",
+      "operation": "4x nearest-neighbor from preserved source",
+      "renderedSha256": "bdeded9137ca51a76e1a772996b8b035dd05f31400d3bdb179871b0e9ed11aa3"
+    },
+    {
+      "source": "core/assets-raw/sprites/enemies/healerenemy-t2.png",
+      "target": "sprites/units/classic-enemy-healer-t2.png",
+      "operation": "4x nearest-neighbor from preserved source",
+      "renderedSha256": "83fb11790a3656102fa792f4662a7050ac712927478ab6160cffe79a54da117b"
+    },
+    {
+      "source": "core/assets-raw/sprites/enemies/healerenemy-t3.png",
+      "target": "sprites/units/classic-enemy-healer-t3.png",
+      "operation": "4x nearest-neighbor from preserved source",
+      "renderedSha256": "13a44109cd412c367c3edcb0093427169dc789ff4c1d2159e4e89f24e42c5793"
+    },
+    {
+      "source": "core/assets-raw/sprites/enemies/titanenemy-t2.png",
+      "target": "sprites/units/classic-enemy-titan-t2.png",
+      "operation": "4x nearest-neighbor from preserved source",
+      "renderedSha256": "99387e17b8c6476edd52b17fd88ac53f60c545647cec1ca26e4b3a9dc4e8e2c2"
+    },
+    {
+      "source": "core/assets-raw/sprites/enemies/titanenemy-t3.png",
+      "target": "sprites/units/classic-enemy-titan-t3.png",
+      "operation": "4x nearest-neighbor from preserved source",
+      "renderedSha256": "0da49b90669d9d04849fcbbcb1440387baeb21f584beb024c6f65bfaba0c83f7"
     }
   ]
 }
