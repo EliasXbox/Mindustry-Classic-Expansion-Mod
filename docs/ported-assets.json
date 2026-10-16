@@ -1938,6 +1938,66 @@
       "target": "sprites/units/classic-enemy-titan-t3.png",
       "operation": "4x nearest-neighbor from preserved source",
       "renderedSha256": "0da49b90669d9d04849fcbbcb1440387baeb21f584beb024c6f65bfaba0c83f7"
+    },
+    {
+      "source": "core/assets-raw/sprites/enemies/empenemy-t2.png",
+      "target": "sprites/units/classic-enemy-emp-t2.png",
+      "operation": "4x nearest-neighbor from preserved source",
+      "renderedSha256": "96b27c099123699216c28f9e1ec36ff3442d968e927326307ff7a2e82a0c9299"
+    },
+    {
+      "source": "core/assets-raw/sprites/enemies/empenemy-t3.png",
+      "target": "sprites/units/classic-enemy-emp-t3.png",
+      "operation": "4x nearest-neighbor from preserved source",
+      "renderedSha256": "5e4da3d2549f1c9937cf401989afdf0850f966c549256e8e85e9f14b497b2d9e"
+    },
+    {
+      "source": "core/assets-raw/sprites/enemies/fortressenemy-t2.png",
+      "target": "sprites/units/classic-enemy-fortress-t2.png",
+      "operation": "4x nearest-neighbor from preserved source",
+      "renderedSha256": "2f173d3b6d35682b5d462c4d46cc8f292eb4e517d75dfab3bd582cbbd9b35fb7"
+    },
+    {
+      "source": "core/assets-raw/sprites/enemies/fortressenemy-t3.png",
+      "target": "sprites/units/classic-enemy-fortress-t3.png",
+      "operation": "4x nearest-neighbor from preserved source",
+      "renderedSha256": "ecd61e5a3f9ce71ca2695725cbdfa6aa8337bc453649c2759540553f39a2bbdb"
+    },
+    {
+      "source": "core/assets-raw/sprites/enemies/standardenemy-t3.png",
+      "target": "sprites/units/classic-enemy-standard-t4.png",
+      "operation": "4x nearest-neighbor from preserved source",
+      "renderedSha256": "0cf4a94791ca094dfb24288e1d2d2bfe82295834873bd5d8b4eeea1f68386543"
+    },
+    {
+      "source": "core/assets-raw/sprites/enemies/standardenemy-t3.png",
+      "target": "sprites/units/classic-enemy-standard-t5.png",
+      "operation": "4x nearest-neighbor from preserved source",
+      "renderedSha256": "0cf4a94791ca094dfb24288e1d2d2bfe82295834873bd5d8b4eeea1f68386543"
+    },
+    {
+      "source": "core/assets-raw/sprites/enemies/standardenemy-t3.png",
+      "target": "sprites/units/classic-enemy-standard-t6.png",
+      "operation": "4x nearest-neighbor from preserved source",
+      "renderedSha256": "0cf4a94791ca094dfb24288e1d2d2bfe82295834873bd5d8b4eeea1f68386543"
+    },
+    {
+      "source": "core/assets-raw/sprites/enemies/fastenemy-t3.png",
+      "target": "sprites/units/classic-enemy-fast-t4.png",
+      "operation": "4x nearest-neighbor from preserved source",
+      "renderedSha256": "8e1a247bc69c79fbb937ec4f3e1bcf76ba78e1aadccc7c23fce6fe88046fa4e8"
+    },
+    {
+      "source": "core/assets-raw/sprites/enemies/fastenemy-t3.png",
+      "target": "sprites/units/classic-enemy-fast-t5.png",
+      "operation": "4x nearest-neighbor from preserved source",
+      "renderedSha256": "8e1a247bc69c79fbb937ec4f3e1bcf76ba78e1aadccc7c23fce6fe88046fa4e8"
+    },
+    {
+      "source": "core/assets-raw/sprites/enemies/fastenemy-t3.png",
+      "target": "sprites/units/classic-enemy-fast-t6.png",
+      "operation": "4x nearest-neighbor from preserved source",
+      "renderedSha256": "8e1a247bc69c79fbb937ec4f3e1bcf76ba78e1aadccc7c23fce6fe88046fa4e8"
     }
   ]
 }

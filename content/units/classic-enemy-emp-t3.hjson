@@ -1,0 +1,50 @@
+{
+  "type": "flying",
+  "name": "Classic emp T3",
+  "description": "Classic tier 3 variant. Tier health/speed/reload/direct damage; original sprite t3. Modern combat adaptations remain.",
+  "health": 630,
+  "speed": 0.42,
+  "hitSize": 5,
+  "flying": false,
+  "hovering": false,
+  "accel": 0.1,
+  "drag": 0.1,
+  "rotateSpeed": 6,
+  "range": 95,
+  "isEnemy": true,
+  "playerControllable": true,
+  "logicControllable": true,
+  "drawCell": false,
+  "engineSize": 0,
+  "outlineColor": "ff6757",
+  "outlineRadius": 1,
+  "weapons": [
+    {
+      "x": 0,
+      "y": 0,
+      "shootY": 4,
+      "mirror": false,
+      "rotate": true,
+      "rotateSpeed": 12,
+      "reload": 35.0,
+      "shootSound": "shoot",
+      "bullet": {
+        "type": "EmpBulletType",
+        "speed": 1.6,
+        "damage": 24,
+        "lifetime": 50,
+        "radius": 40,
+        "timeDuration": 120,
+        "timeIncrease": 1,
+        "powerDamageScl": 1,
+        "powerSclDecrease": 0.5,
+        "hitUnits": true,
+        "unitDamageScl": 1,
+        "rangeOverride": 95
+      }
+    }
+  ],
+  "itemCapacity": 0,
+  "buildSpeed": 0,
+  "mineTier": -1
+}

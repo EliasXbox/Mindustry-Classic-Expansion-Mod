@@ -1,0 +1,44 @@
+{
+  "name": "Classic fortress T3",
+  "description": "Classic tier 3 variant. Tier health/speed/reload/direct damage; original sprite t3. Modern combat adaptations remain. Fortress spawns Fast of the same tier, at most six live children, with persistent links.",
+  "health": 2100,
+  "speed": 0.37,
+  "hitSize": 10,
+  "flying": false,
+  "hovering": false,
+  "accel": 0.1,
+  "drag": 0.1,
+  "rotateSpeed": 6,
+  "range": 85,
+  "isEnemy": true,
+  "playerControllable": true,
+  "logicControllable": true,
+  "drawCell": false,
+  "engineSize": 0,
+  "outlineColor": "ff6757",
+  "outlineRadius": 1,
+  "weapons": [
+    {
+      "x": 0,
+      "y": 0,
+      "shootY": 7,
+      "mirror": false,
+      "rotate": true,
+      "rotateSpeed": 6,
+      "reload": 45.0,
+      "bullet": {
+        "type": "ArtilleryBulletType",
+        "speed": 1.2,
+        "damage": 60,
+        "lifetime": 60,
+        "splashDamage": 13,
+        "splashDamageRadius": 25,
+        "rangeOverride": 85,
+        "collidesAir": false
+      }
+    }
+  ],
+  "itemCapacity": 0,
+  "buildSpeed": 0,
+  "mineTier": -1
+}
