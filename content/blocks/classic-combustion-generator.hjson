@@ -1,0 +1,34 @@
+{
+  "type": "ConsumeGenerator",
+  "name": "Classic Combustion Generator",
+  "health": 40,
+  "size": 1,
+  "requirements": [
+    "classic-iron/30",
+    "classic-stone/20"
+  ],
+  "category": "power",
+  "research": {
+    "parent": "classic-oil-refinery",
+    "requirements": [
+      "classic-iron/30",
+      "classic-stone/20"
+    ]
+  },
+  "powerProduction": 0.048,
+  "itemDuration": 70,
+  "itemCapacity": 20,
+  "liquidCapacity": 30,
+  "hasItems": false,
+  "hasLiquids": true,
+  "consumes": {
+    "liquid": {
+      "liquid": "oil",
+      "amount": 0.4
+    }
+  },
+  "drawer": {
+    "type": "DrawDefault"
+  },
+  "description": "Classic nominal output/fuel. Modern shared power network; no local 40-unit buffer or directional generator lasers."
+}

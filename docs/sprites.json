@@ -1,0 +1,2617 @@
+{
+  "upstreamCommit": "92e28d8a81ed8ddc8d80fc170de33d34b4cd202e",
+  "count": 373,
+  "sprites": [
+    {
+      "path": "core/assets-raw/sprites/backgrounds/background.png",
+      "width": 421,
+      "height": 316,
+      "bytes": 60869,
+      "sha256": "51d2377f9892b0a5911710d08e13fd51cea0a9e05188743789fe4d2db8ed8b7c"
+    },
+    {
+      "path": "core/assets-raw/sprites/blank.png",
+      "width": 1,
+      "height": 1,
+      "bytes": 128,
+      "sha256": "f1fb23aa12c24e8676a00ffc3dbc59cfcebf496384dbef614b5822f14eec489d"
+    },
+    {
+      "path": "core/assets-raw/sprites/blocks/blackrock1.png",
+      "width": 8,
+      "height": 8,
+      "bytes": 223,
+      "sha256": "5963162fad6bbc2aae0f13a86bf5f5122205e1436ce644f074ad5ba5219f5804"
+    },
+    {
+      "path": "core/assets-raw/sprites/blocks/blackrockshadow1.png",
+      "width": 8,
+      "height": 8,
+      "bytes": 248,
+      "sha256": "a6820a8f229543de4f6faa2217242bd6da8308478e4067911471c6902e615c4b"
+    },
+    {
+      "path": "core/assets-raw/sprites/blocks/blackstone1.png",
+      "width": 8,
+      "height": 8,
+      "bytes": 186,
+      "sha256": "6a1bfd13240de13a3888847d0c81a73b867dedbe9eaaf64416b6341b2ba5826b"
+    },
+    {
+      "path": "core/assets-raw/sprites/blocks/blackstone2.png",
+      "width": 8,
+      "height": 8,
+      "bytes": 196,
+      "sha256": "b5aaffb30dce9df22f618e48c0ecf147bcc55b15df69083effaa2efcc691c79e"
+    },
+    {
+      "path": "core/assets-raw/sprites/blocks/blackstone3.png",
+      "width": 8,
+      "height": 8,
+      "bytes": 194,
+      "sha256": "b234d7c46c3787c5c1c1ec23840e5d971ba73acfff2c924ef3045d1dd269ac2f"
+    },
+    {
+      "path": "core/assets-raw/sprites/blocks/blackstoneblock1.png",
+      "width": 8,
+      "height": 8,
+      "bytes": 207,
+      "sha256": "9ab10ca3c81cee891f313bcf34e0046d4fcbabb7fdaa8279a755d0c217052d8b"
+    },
+    {
+      "path": "core/assets-raw/sprites/blocks/blackstoneblock2.png",
+      "width": 8,
+      "height": 8,
+      "bytes": 208,
+      "sha256": "340df1543c14addf78086e1706823d237587bb11f36b320627150ebc45c5b9ab"
+    },
+    {
+      "path": "core/assets-raw/sprites/blocks/blackstoneblock3.png",
+      "width": 8,
+      "height": 8,
+      "bytes": 206,
+      "sha256": "398cdad71b82ef0c17a26f824d9c3332536f53bb0f64cf6000532ca377aaf9b4"
+    },
+    {
+      "path": "core/assets-raw/sprites/blocks/blackstoneedge.png",
+      "width": 12,
+      "height": 12,
+      "bytes": 224,
+      "sha256": "1aa3df496e1350d2f824937fb082771cd974f6f626068df7ba0fd49b7be9f55b"
+    },
+    {
+      "path": "core/assets-raw/sprites/blocks/block-2x2.png",
+      "width": 16,
+      "height": 16,
+      "bytes": 315,
+      "sha256": "2cb98c66c96713166e1aa23a2f06cf12f24cf351436905c23462a033139c46bb"
+    },
+    {
+      "path": "core/assets-raw/sprites/blocks/block-3x3.png",
+      "width": 24,
+      "height": 24,
+      "bytes": 378,
+      "sha256": "9415feeb75da88ba0fa403e7c7a624917c7ea53a652ff3be6065f6826a5b8bb6"
+    },
+    {
+      "path": "core/assets-raw/sprites/blocks/block-middle.png",
+      "width": 8,
+      "height": 8,
+      "bytes": 172,
+      "sha256": "2723d4b7af4d2057d1be30a42c63bf1bec0dbcf3a746580f4d572c86d8e4d376"
+    },
+    {
+      "path": "core/assets-raw/sprites/blocks/block.png",
+      "width": 8,
+      "height": 8,
+      "bytes": 182,
+      "sha256": "5a6921ade95b1d73b3e60861844ac470f6a177a542c44de47a82e5ebb26f8533"
+    },
+    {
+      "path": "core/assets-raw/sprites/blocks/chainturret-icon.png",
+      "width": 10,
+      "height": 10,
+      "bytes": 281,
+      "sha256": "969b98e164dc4be923153ac2ef94eccc5b7009fd05ab3f146619db97f48f8765"
+    },
+    {
+      "path": "core/assets-raw/sprites/blocks/chainturret-icon_old.png",
+      "width": 10,
+      "height": 10,
+      "bytes": 281,
+      "sha256": "9b8ef5843edee59ef8f4a1e4bc52ebae19faa60211219ec4b8095aec9423a2e7"
+    },
+    {
+      "path": "core/assets-raw/sprites/blocks/chainturret.png",
+      "width": 16,
+      "height": 16,
+      "bytes": 402,
+      "sha256": "250d61d9c10c97e8fb600d957203373275b4f80cb1f5e32f8a88fc4433727b85"
+    },
+    {
+      "path": "core/assets-raw/sprites/blocks/chainturret_old.png",
+      "width": 16,
+      "height": 16,
+      "bytes": 514,
+      "sha256": "7df03d80599c228beba14a1370e62f1c1be013e4f152e9dc646b343e4c88a7fb"
+    },
+    {
+      "path": "core/assets-raw/sprites/blocks/coal1.png",
+      "width": 8,
+      "height": 8,
+      "bytes": 258,
+      "sha256": "512d37096261af2e0f94d40efbdc6ca6bcd4e8b55ff0e51dc95f1d784ebf4091"
+    },
+    {
+      "path": "core/assets-raw/sprites/blocks/coal2.png",
+      "width": 8,
+      "height": 8,
+      "bytes": 237,
+      "sha256": "a35032c2cf427769d6123d47d1c9dd0916e2c21dec3293564b91cba3be9e6b67"
+    },
+    {
+      "path": "core/assets-raw/sprites/blocks/coal3.png",
+      "width": 8,
+      "height": 8,
+      "bytes": 256,
+      "sha256": "3447dc8ff47f4f5cd0d608a22f8c5a542f73cda02ae38c6ddd4e001d6bbfad4e"
+    },
+    {
+      "path": "core/assets-raw/sprites/blocks/coaldrill.png",
+      "width": 8,
+      "height": 8,
+      "bytes": 253,
+      "sha256": "1578505ba2f68794aa22cab7820f1ccab558c0c5f4a80c4b9ff632b26884dc70"
+    },
+    {
+      "path": "core/assets-raw/sprites/blocks/coalgenerator-top.png",
+      "width": 8,
+      "height": 8,
+      "bytes": 304,
+      "sha256": "769181ffdc6945f5f5dbc4e8a06f0e89a15871eab064ee58b0212d3a041a7131"
+    },
+    {
+      "path": "core/assets-raw/sprites/blocks/coalgenerator.png",
+      "width": 8,
+      "height": 8,
+      "bytes": 300,
+      "sha256": "4547e33cbafe11179689b6816fb57591b10b42441a494572b0f9a44c5a452429"
+    },
+    {
+      "path": "core/assets-raw/sprites/blocks/coalpurifier.png",
+      "width": 8,
+      "height": 8,
+      "bytes": 274,
+      "sha256": "35beb4904ee9dfba1f054e7a2f6638ffb4ba82301bbea4da6d936badf9f87dcb"
+    },
+    {
+      "path": "core/assets-raw/sprites/blocks/combustiongenerator.png",
+      "width": 8,
+      "height": 8,
+      "bytes": 254,
+      "sha256": "87c1335b12c96e7005b72354d3e7cece9f9af25dc52fbe29616aedb1b7634cbf"
+    },
+    {
+      "path": "core/assets-raw/sprites/blocks/compositewall.png",
+      "width": 8,
+      "height": 8,
+      "bytes": 290,
+      "sha256": "88ee9641168ecfaa93f7f8666ed096fac13118ad2e7d8330487294f54a5a30d4"
+    },
+    {
+      "path": "core/assets-raw/sprites/blocks/conduit.png",
+      "width": 8,
+      "height": 8,
+      "bytes": 222,
+      "sha256": "70a4f899283205567fb82ed37559e3e743813bfc35276c9d20bae31efff91614"
+    },
+    {
+      "path": "core/assets-raw/sprites/blocks/conduitbottom.png",
+      "width": 8,
+      "height": 8,
+      "bytes": 199,
+      "sha256": "8488c46a5ce8c7aa4768c3e28184cf0cc6b83e80371b446760fcc973b843d164"
+    },
+    {
+      "path": "core/assets-raw/sprites/blocks/conduitliquid.png",
+      "width": 8,
+      "height": 8,
+      "bytes": 171,
+      "sha256": "9446315496ea5135bdd757d7b04a0b2c66ce3221add60ab4f805b9ea1904907c"
+    },
+    {
+      "path": "core/assets-raw/sprites/blocks/conduittop.png",
+      "width": 8,
+      "height": 8,
+      "bytes": 191,
+      "sha256": "c438043571380bad96d2977f2e586f2a77ef88195fcce1b42deebe9d719660a2"
+    },
+    {
+      "path": "core/assets-raw/sprites/blocks/conveyor.png",
+      "width": 8,
+      "height": 8,
+      "bytes": 195,
+      "sha256": "5bbebc67de61bd15244441e0e52bb2c45ce2d548564419f0a71b588497e262b4"
+    },
+    {
+      "path": "core/assets-raw/sprites/blocks/conveyormove.png",
+      "width": 8,
+      "height": 8,
+      "bytes": 195,
+      "sha256": "613e88645b08ec840a41b7d63fa854b6554e2f0e5dbe703dd5cd7cb59c97e16d"
+    },
+    {
+      "path": "core/assets-raw/sprites/blocks/conveyortunnel.png",
+      "width": 8,
+      "height": 8,
+      "bytes": 246,
+      "sha256": "0d6c6b47061cbd14e5fa133f89745d4779541814c29948cb4ec8979d20de4425"
+    },
+    {
+      "path": "core/assets-raw/sprites/blocks/core.png",
+      "width": 24,
+      "height": 24,
+      "bytes": 575,
+      "sha256": "82957711494e3ae8854a66f769af8f8c0a7402908c55072ca4e1f37a5936a5e4"
+    },
+    {
+      "path": "core/assets-raw/sprites/blocks/cross.png",
+      "width": 8,
+      "height": 8,
+      "bytes": 304,
+      "sha256": "a45a1888ec112e745995be1e3f72c207a4d71a1b0a6e3396302963260e19507b"
+    },
+    {
+      "path": "core/assets-raw/sprites/blocks/crucible.png",
+      "width": 8,
+      "height": 8,
+      "bytes": 266,
+      "sha256": "7792e43772f7503fa5a62c8ba2d66d4ba711d59859e83690be65ac5eeaaba94b"
+    },
+    {
+      "path": "core/assets-raw/sprites/blocks/deepwater.png",
+      "width": 8,
+      "height": 8,
+      "bytes": 156,
+      "sha256": "1f47f67183389599c041f773b0251e5866e8e12b56d68bfb468d756b5eed82cf"
+    },
+    {
+      "path": "core/assets-raw/sprites/blocks/dirt1.png",
+      "width": 8,
+      "height": 8,
+      "bytes": 199,
+      "sha256": "629506a362dae56ee3f378a95da940852c5099bcaf45b9c0f14ee8a1f9b49fb2"
+    },
+    {
+      "path": "core/assets-raw/sprites/blocks/dirt2.png",
+      "width": 8,
+      "height": 8,
+      "bytes": 197,
+      "sha256": "bce303b08bbbb4f4d10c1eaf69b36fcface799d65b3c975f101b395e7d5598a3"
+    },
+    {
+      "path": "core/assets-raw/sprites/blocks/dirt3.png",
+      "width": 8,
+      "height": 8,
+      "bytes": 198,
+      "sha256": "4f631156d42aecd0557d1696990180beca7294ced1f76f5ba4964327415c8d34"
+    },
+    {
+      "path": "core/assets-raw/sprites/blocks/dirtedge.png",
+      "width": 12,
+      "height": 12,
+      "bytes": 236,
+      "sha256": "43e9c9c8b2d132f70fc76f10d66600252b2d583621ab3139a336ac1351cd59a8"
+    },
+    {
+      "path": "core/assets-raw/sprites/blocks/door-large-icon.png",
+      "width": 8,
+      "height": 8,
+      "bytes": 253,
+      "sha256": "206eb891cecd22af0b5713bf53bd7c5fe657006930187f6de08cfb7b0cc84e52"
+    },
+    {
+      "path": "core/assets-raw/sprites/blocks/door-large-open.png",
+      "width": 16,
+      "height": 16,
+      "bytes": 428,
+      "sha256": "63420b47bba81e8ba9b7b79a2a38f65b5cbe14e3b6c97b7577abbab3527e2acb"
+    },
+    {
+      "path": "core/assets-raw/sprites/blocks/door-large.png",
+      "width": 16,
+      "height": 16,
+      "bytes": 397,
+      "sha256": "a571da9bda46c32392c6c3e203d9b7ef217b3a179d41dbaa4f0b3434788fbbbb"
+    },
+    {
+      "path": "core/assets-raw/sprites/blocks/door-open.png",
+      "width": 8,
+      "height": 8,
+      "bytes": 254,
+      "sha256": "346c3d2a74cee0a7733a722e328935d3a48c8b0428a70127f65e422b86308bd6"
+    },
+    {
+      "path": "core/assets-raw/sprites/blocks/door.png",
+      "width": 8,
+      "height": 8,
+      "bytes": 224,
+      "sha256": "c7942cb74e2fe1a05623e24ebc977615279adcfb3fbafdac6787fbc17e4543e1"
+    },
+    {
+      "path": "core/assets-raw/sprites/blocks/doubleturret.png",
+      "width": 10,
+      "height": 10,
+      "bytes": 308,
+      "sha256": "c624bc7917ae9c3d9d19eb9e57aa3a02f67177d611537f9706292e2983cc30c2"
+    },
+    {
+      "path": "core/assets-raw/sprites/blocks/duriumwall-large-icon.png",
+      "width": 8,
+      "height": 8,
+      "bytes": 247,
+      "sha256": "508602010c6e08d4b52a32b93e5910db22bf547015d7d59a0d791236a4631a94"
+    },
+    {
+      "path": "core/assets-raw/sprites/blocks/duriumwall-large.png",
+      "width": 16,
+      "height": 16,
+      "bytes": 365,
+      "sha256": "33f7a42a174ac2c5db6b3863b9d674259fd563d33334653ff1c5a15dd85a50d1"
+    },
+    {
+      "path": "core/assets-raw/sprites/blocks/duriumwall.png",
+      "width": 8,
+      "height": 8,
+      "bytes": 242,
+      "sha256": "5d9b1b4bdc8fc98d828aea1fc471a77c8b51510730954b328fe0d763edcb1254"
+    },
+    {
+      "path": "core/assets-raw/sprites/blocks/enemyspawn.png",
+      "width": 8,
+      "height": 8,
+      "bytes": 240,
+      "sha256": "8e9bcba53978fcbb08e82160892d0904e2e11e6a45084765f00f204f98332ba2"
+    },
+    {
+      "path": "core/assets-raw/sprites/blocks/flameturret.png",
+      "width": 10,
+      "height": 10,
+      "bytes": 372,
+      "sha256": "30723d99412fdc03553ed001a07ff259fa2be49d4026c9132f685739e3c9ae01"
+    },
+    {
+      "path": "core/assets-raw/sprites/blocks/fluxpump.png",
+      "width": 8,
+      "height": 8,
+      "bytes": 345,
+      "sha256": "2643fca2de5f004b4e3f9e4a53302686a513eba5e2f7d937e992091174bad5d7"
+    },
+    {
+      "path": "core/assets-raw/sprites/blocks/grass1.png",
+      "width": 8,
+      "height": 8,
+      "bytes": 217,
+      "sha256": "481bae29b56503a6e1a0a55fe5e7c49851060ada97d44d84e7537c32f4975e52"
+    },
+    {
+      "path": "core/assets-raw/sprites/blocks/grass2.png",
+      "width": 8,
+      "height": 8,
+      "bytes": 206,
+      "sha256": "8a045c3d2c42664e9afb31093a24836abb4876caa7205693700d18e54198db26"
+    },
+    {
+      "path": "core/assets-raw/sprites/blocks/grass3.png",
+      "width": 8,
+      "height": 8,
+      "bytes": 206,
+      "sha256": "059244724385ca47802963fc943700398aceeff69fa850c1cdcaf1949ca2820c"
+    },
+    {
+      "path": "core/assets-raw/sprites/blocks/grassblock1.png",
+      "width": 8,
+      "height": 8,
+      "bytes": 253,
+      "sha256": "378c3c610190f2824949fae346b0f3efbd716316713ad0118a2c0afe27685937"
+    },
+    {
+      "path": "core/assets-raw/sprites/blocks/grassblock2.png",
+      "width": 8,
+      "height": 8,
+      "bytes": 236,
+      "sha256": "9f7a4fb2e0dc4a668c214ddf6093d75b493d3de6373595f66480999891251428"
+    },
+    {
+      "path": "core/assets-raw/sprites/blocks/grassedge.png",
+      "width": 12,
+      "height": 12,
+      "bytes": 245,
+      "sha256": "388efd63e8d4ac4da0db2db493e409a7ca22f91f9148f76d21c50f0b3c115b5d"
+    },
+    {
+      "path": "core/assets-raw/sprites/blocks/ice1.png",
+      "width": 8,
+      "height": 8,
+      "bytes": 178,
+      "sha256": "881c373cb6b4ea37eb4251ff9c1f78faf78ae6c3bfe7f4926022ac010c630839"
+    },
+    {
+      "path": "core/assets-raw/sprites/blocks/ice2.png",
+      "width": 8,
+      "height": 8,
+      "bytes": 188,
+      "sha256": "644699a68989694d90b0e35b8012b46ab531be3465fe250ecc08290c1d21d0eb"
+    },
+    {
+      "path": "core/assets-raw/sprites/blocks/ice3.png",
+      "width": 8,
+      "height": 8,
+      "bytes": 183,
+      "sha256": "8978bdabf9727fbecddb097bd5128483eb1fe029c4fc3abf77de0291ea97eb81"
+    },
+    {
+      "path": "core/assets-raw/sprites/blocks/iceedge.png",
+      "width": 12,
+      "height": 12,
+      "bytes": 223,
+      "sha256": "789e91c76fe8c7355eaffea0cdd11d473c64210f9e3624991ee57519fe405ec0"
+    },
+    {
+      "path": "core/assets-raw/sprites/blocks/icerock1.png",
+      "width": 8,
+      "height": 8,
+      "bytes": 256,
+      "sha256": "7c7ef080f303ba1616b28e3fca4216121866ce5f25257b6fcb3cf5551e8ef844"
+    },
+    {
+      "path": "core/assets-raw/sprites/blocks/icerock2.png",
+      "width": 8,
+      "height": 8,
+      "bytes": 246,
+      "sha256": "46407faeecbe0d780b41e95f6c5600df1c7107e8306623a7d44638eb4357899f"
+    },
+    {
+      "path": "core/assets-raw/sprites/blocks/icerockshadow1.png",
+      "width": 8,
+      "height": 8,
+      "bytes": 235,
+      "sha256": "365f876abb798bd24c3114c7553f459bd14f995b742bd434bb46c0c865e7d610"
+    },
+    {
+      "path": "core/assets-raw/sprites/blocks/icerockshadow2.png",
+      "width": 8,
+      "height": 8,
+      "bytes": 236,
+      "sha256": "aaa9bd4cf8284515fab3e5809e3c826327cf607b3ee551fc16bf298259550822"
+    },
+    {
+      "path": "core/assets-raw/sprites/blocks/iron1.png",
+      "width": 8,
+      "height": 8,
+      "bytes": 256,
+      "sha256": "1323e52ee362386c6bb89d410b2cb03b2e0dc0446a52ae8ab97564ffc80bb565"
+    },
+    {
+      "path": "core/assets-raw/sprites/blocks/iron2.png",
+      "width": 8,
+      "height": 8,
+      "bytes": 252,
+      "sha256": "8eb4d5295132653c463aaa7ddff781e22129ab4ab0f46d56c26e91c9c4771467"
+    },
+    {
+      "path": "core/assets-raw/sprites/blocks/iron3.png",
+      "width": 8,
+      "height": 8,
+      "bytes": 257,
+      "sha256": "653a02059e05d6a6c9904df1994cb15ea57ef1d6160a68a421fafc5152fe035d"
+    },
+    {
+      "path": "core/assets-raw/sprites/blocks/irondrill.png",
+      "width": 8,
+      "height": 8,
+      "bytes": 256,
+      "sha256": "6bff4400f33e50473c497a9993b9aa15e255ab46c9269c6e3fbc5f6686ebe8fe"
+    },
+    {
+      "path": "core/assets-raw/sprites/blocks/ironwall.png",
+      "width": 8,
+      "height": 8,
+      "bytes": 194,
+      "sha256": "ccf68965591cde08a47bed872f713c1741a4633f8810d101c61d567d982732e2"
+    },
+    {
+      "path": "core/assets-raw/sprites/blocks/junction.png",
+      "width": 8,
+      "height": 8,
+      "bytes": 257,
+      "sha256": "5f022a0ba223c8ea21459a63c4761485cbc86b124450b2865eb52b1418934c52"
+    },
+    {
+      "path": "core/assets-raw/sprites/blocks/laserturret.png",
+      "width": 10,
+      "height": 10,
+      "bytes": 326,
+      "sha256": "edb7ce61797b84c2ad75f651aacf89054f9985fae87cc32bc4b0f623901dee14"
+    },
+    {
+      "path": "core/assets-raw/sprites/blocks/lava.png",
+      "width": 8,
+      "height": 8,
+      "bytes": 156,
+      "sha256": "9dbc75252ccf2630cb562236314bcb5218bbc9f69322cc139bfa161cc0c18169"
+    },
+    {
+      "path": "core/assets-raw/sprites/blocks/lavaedge.png",
+      "width": 12,
+      "height": 12,
+      "bytes": 241,
+      "sha256": "65e0015e938eccb44dc02b104deeae14dedca54c633a13732f8478db013db65c"
+    },
+    {
+      "path": "core/assets-raw/sprites/blocks/lavasmelter.png",
+      "width": 8,
+      "height": 8,
+      "bytes": 276,
+      "sha256": "6e661d298d9d4d201e992be40b93b7394fd1a90ae74c2acaf347938e51154262"
+    },
+    {
+      "path": "core/assets-raw/sprites/blocks/liquiditemjunction.png",
+      "width": 8,
+      "height": 8,
+      "bytes": 242,
+      "sha256": "23daad35da772d76f7a8e599710a8ebc6fec87350f6fc9bd63544fd700c32136"
+    },
+    {
+      "path": "core/assets-raw/sprites/blocks/liquidjunction.png",
+      "width": 8,
+      "height": 8,
+      "bytes": 243,
+      "sha256": "9cb311fc9a120b3105b409d149e5d452f4da39b39be341922145c8e41d612ac3"
+    },
+    {
+      "path": "core/assets-raw/sprites/blocks/liquidrouter.png",
+      "width": 8,
+      "height": 8,
+      "bytes": 279,
+      "sha256": "ad8723f440658f069eb5e904dadc1453225eb420ff2cbbea553032f7d15d2c70"
+    },
+    {
+      "path": "core/assets-raw/sprites/blocks/machineturret.png",
+      "width": 10,
+      "height": 10,
+      "bytes": 341,
+      "sha256": "49edd2ada6fed206c6e45a2135dc83a2fce5f4e247081eba2f51ae213ca8d9bb"
+    },
+    {
+      "path": "core/assets-raw/sprites/blocks/megarepairturret.png",
+      "width": 10,
+      "height": 10,
+      "bytes": 337,
+      "sha256": "6dfd3bbb36352fa096ff035615f60ff95147ce66cf2e745989b7239c61f031ce"
+    },
+    {
+      "path": "core/assets-raw/sprites/blocks/mortarturret.png",
+      "width": 10,
+      "height": 10,
+      "bytes": 327,
+      "sha256": "44b32b6025aa6f7257a706653b3e413565d755460718b155e91bbd5fb5064d34"
+    },
+    {
+      "path": "core/assets-raw/sprites/blocks/mossblock.png",
+      "width": 8,
+      "height": 8,
+      "bytes": 250,
+      "sha256": "d7743ed7be7ac7d578ecf92f8448fb8cc5410834d4f7448d94f29a47621da08b"
+    },
+    {
+      "path": "core/assets-raw/sprites/blocks/mossstone.png",
+      "width": 8,
+      "height": 8,
+      "bytes": 250,
+      "sha256": "64c69209b44a8941dca1a00237f4dbf9158bcdb024c1bbe2086cf683250fa9bc"
+    },
+    {
+      "path": "core/assets-raw/sprites/blocks/nuclearreactor-center.png",
+      "width": 24,
+      "height": 24,
+      "bytes": 538,
+      "sha256": "17e04bc02117162e071170292b576ffd5b45c8ad2db572bae0e943ee3b03eb1e"
+    },
+    {
+      "path": "core/assets-raw/sprites/blocks/nuclearreactor-icon.png",
+      "width": 8,
+      "height": 8,
+      "bytes": 220,
+      "sha256": "b1b0df75ea60a7f65cbb735d92692bd281b2b7999d5b1e2cce52df419fd05ba4"
+    },
+    {
+      "path": "core/assets-raw/sprites/blocks/nuclearreactor-lights.png",
+      "width": 24,
+      "height": 24,
+      "bytes": 540,
+      "sha256": "025a7e5769998082b0f94fbeb4757b356d6b07eed286c99f7ee0a3f1a322a8c4"
+    },
+    {
+      "path": "core/assets-raw/sprites/blocks/nuclearreactor-small.png",
+      "width": 16,
+      "height": 16,
+      "bytes": 427,
+      "sha256": "01ddbd5937bb2ec9121ec139791d2977df481b9806dc22e46001f2114e5bc34d"
+    },
+    {
+      "path": "core/assets-raw/sprites/blocks/nuclearreactor.png",
+      "width": 24,
+      "height": 24,
+      "bytes": 506,
+      "sha256": "950fb42a47b4167df57adf2e4e6a3e1645bc932bd03db37640d89183b11058d8"
+    },
+    {
+      "path": "core/assets-raw/sprites/blocks/oil.png",
+      "width": 8,
+      "height": 8,
+      "bytes": 156,
+      "sha256": "4ea96c0c8044e44b1e5d80876f97f1128d0a8509936730930e0e82ba90231c3f"
+    },
+    {
+      "path": "core/assets-raw/sprites/blocks/oiledge.png",
+      "width": 12,
+      "height": 12,
+      "bytes": 239,
+      "sha256": "9cff80a781b350f428a23359b99541dc3a174cdb49cc0e31bce33aaac685627d"
+    },
+    {
+      "path": "core/assets-raw/sprites/blocks/oilrefinery.png",
+      "width": 8,
+      "height": 8,
+      "bytes": 241,
+      "sha256": "b8ca3df28cf4acf3268f17cebf7ab6e713f1fdefc8b2f93b4d277990e5d6da36"
+    },
+    {
+      "path": "core/assets-raw/sprites/blocks/omnidrill.png",
+      "width": 8,
+      "height": 8,
+      "bytes": 313,
+      "sha256": "380d80763c9b892fa6df85b58d6c8e2e791b8c906625caeecdb4b0ce9b962b92"
+    },
+    {
+      "path": "core/assets-raw/sprites/blocks/plasmaturret.png",
+      "width": 10,
+      "height": 10,
+      "bytes": 369,
+      "sha256": "d298d55a7e413492825c752d8600ec94ac981afcee34ece51197b55a943c6631"
+    },
+    {
+      "path": "core/assets-raw/sprites/blocks/playerspawn.png",
+      "width": 8,
+      "height": 8,
+      "bytes": 239,
+      "sha256": "bc84761889a17082307e48fdc29fbe0b8fc4cc177dd9315239a5fc19d0e18765"
+    },
+    {
+      "path": "core/assets-raw/sprites/blocks/powerbooster.png",
+      "width": 8,
+      "height": 8,
+      "bytes": 234,
+      "sha256": "7194de1196fa24abc4a03fc06ccbb3cc01d7813fc5da2e1add3f5c31a4e9589a"
+    },
+    {
+      "path": "core/assets-raw/sprites/blocks/poweredconveyor.png",
+      "width": 8,
+      "height": 8,
+      "bytes": 191,
+      "sha256": "677865d8a56117dd80fe11de803c0dffec34bcb49141bec4d121e465ae141e6d"
+    },
+    {
+      "path": "core/assets-raw/sprites/blocks/poweredconveyormove.png",
+      "width": 8,
+      "height": 8,
+      "bytes": 191,
+      "sha256": "b09437e3a414bfccd13e14e4b84a172b3d06784fc351fafed31adb199d302f52"
+    },
+    {
+      "path": "core/assets-raw/sprites/blocks/powerlaser.png",
+      "width": 8,
+      "height": 8,
+      "bytes": 242,
+      "sha256": "3de0cfa11d5be35185130396d261127bdefe2650545a67f62fce10ccdd3b1236"
+    },
+    {
+      "path": "core/assets-raw/sprites/blocks/powerlasercorner.png",
+      "width": 8,
+      "height": 8,
+      "bytes": 230,
+      "sha256": "8eb26cb54bf9f1e4a5d4aa7eca32bccf47a979b073361fcce0379f0c45006477"
+    },
+    {
+      "path": "core/assets-raw/sprites/blocks/powerlaserrouter.png",
+      "width": 8,
+      "height": 8,
+      "bytes": 246,
+      "sha256": "2a7075450da296b410fe8f678dc66186401c2e50066267d68935c9ddf1d90664"
+    },
+    {
+      "path": "core/assets-raw/sprites/blocks/pulseconduit.png",
+      "width": 8,
+      "height": 8,
+      "bytes": 256,
+      "sha256": "93e383e2bd6f3bf8cc7460be72de2018dfa60b49d305157c0ac37e66575c7f8c"
+    },
+    {
+      "path": "core/assets-raw/sprites/blocks/pulseconduitbottom.png",
+      "width": 8,
+      "height": 8,
+      "bytes": 219,
+      "sha256": "6ababb49cbe3cf2a3a9084069c5d92754c64cec1e4bc0b118bb0ff1df521ec0b"
+    },
+    {
+      "path": "core/assets-raw/sprites/blocks/pulseconduittop.png",
+      "width": 8,
+      "height": 8,
+      "bytes": 264,
+      "sha256": "01a4246c30a4b165150eaac2b612e18ddd694a682797fedcb9c4db250b9fa5aa"
+    },
+    {
+      "path": "core/assets-raw/sprites/blocks/pump.png",
+      "width": 8,
+      "height": 8,
+      "bytes": 285,
+      "sha256": "5861336a0d28886a30f7c3e6f0db573c6b269a79359269ccb16cd6ae391a9497"
+    },
+    {
+      "path": "core/assets-raw/sprites/blocks/repairturret.png",
+      "width": 10,
+      "height": 10,
+      "bytes": 343,
+      "sha256": "6e01c55d4913f8212c22a527193f67234cef854511700780a665cdf83230ede4"
+    },
+    {
+      "path": "core/assets-raw/sprites/blocks/rock1.png",
+      "width": 8,
+      "height": 8,
+      "bytes": 218,
+      "sha256": "356dc8e4adf909cfe26afd0f986c3f368ee18ff9bd0cfc54e216d42eabb67393"
+    },
+    {
+      "path": "core/assets-raw/sprites/blocks/rock2.png",
+      "width": 8,
+      "height": 8,
+      "bytes": 214,
+      "sha256": "aa71ced540c2a14d569f48e38d1e71ed55e4d1c92406ceebb0d2c7f9e4f6ddc7"
+    },
+    {
+      "path": "core/assets-raw/sprites/blocks/rockshadow1.png",
+      "width": 8,
+      "height": 8,
+      "bytes": 235,
+      "sha256": "300cbc33c178cfbf46b931ae9bb408a94f23ac6a54ec5608b2e414fc70dff6e4"
+    },
+    {
+      "path": "core/assets-raw/sprites/blocks/rockshadow2.png",
+      "width": 8,
+      "height": 8,
+      "bytes": 236,
+      "sha256": "93d78c7174abc828175bab5ba3786352d6eb42994b0a96fb7e32db2936b9b395"
+    },
+    {
+      "path": "core/assets-raw/sprites/blocks/router.png",
+      "width": 8,
+      "height": 8,
+      "bytes": 226,
+      "sha256": "e33b2bf7cf8a743429e612797cda57b96e40dc305583ec4473866e83f1c0a205"
+    },
+    {
+      "path": "core/assets-raw/sprites/blocks/rtgenerator-top.png",
+      "width": 8,
+      "height": 8,
+      "bytes": 307,
+      "sha256": "d5a3c75fb979d38028f932ab1f915b305c387e20331b7747a5f21bfd2bc5fef9"
+    },
+    {
+      "path": "core/assets-raw/sprites/blocks/rtgenerator.png",
+      "width": 8,
+      "height": 8,
+      "bytes": 295,
+      "sha256": "4e74fe0b7f83c477be5ba815edcdb3259d6caa5c15e28cebecc83fc335df83a8"
+    },
+    {
+      "path": "core/assets-raw/sprites/blocks/sand1.png",
+      "width": 8,
+      "height": 8,
+      "bytes": 185,
+      "sha256": "ac2c7597ed4a290c4ff49040ea07fed8c7ae22a0b8308060258e177576a014d2"
+    },
+    {
+      "path": "core/assets-raw/sprites/blocks/sand2.png",
+      "width": 8,
+      "height": 8,
+      "bytes": 199,
+      "sha256": "f43c7463333e112a8ea87e0536aeb3bd0fee3732dd5f72461ad233484d07b618"
+    },
+    {
+      "path": "core/assets-raw/sprites/blocks/sand3.png",
+      "width": 8,
+      "height": 8,
+      "bytes": 188,
+      "sha256": "fe938b239ae5e5af918a4d12be45fd55fe6fa25ed57c10cf5d790bac81a6657f"
+    },
+    {
+      "path": "core/assets-raw/sprites/blocks/sandblock1.png",
+      "width": 8,
+      "height": 8,
+      "bytes": 221,
+      "sha256": "110f2d121f2904fe8134652edcc96ea131e28b87aa862a566d29f89326b087a8"
+    },
+    {
+      "path": "core/assets-raw/sprites/blocks/sandblock2.png",
+      "width": 8,
+      "height": 8,
+      "bytes": 231,
+      "sha256": "a8e7507720cbe8d080a2482993e031e9cf33f65316e58bb10670e7b45b1acf7f"
+    },
+    {
+      "path": "core/assets-raw/sprites/blocks/sandblock3.png",
+      "width": 8,
+      "height": 8,
+      "bytes": 213,
+      "sha256": "18e10f7f9274d2624dd6a295a78898f7bb75dd73ea69411dc2f9566968bdbb7a"
+    },
+    {
+      "path": "core/assets-raw/sprites/blocks/sandedge.png",
+      "width": 12,
+      "height": 12,
+      "bytes": 242,
+      "sha256": "dbe30c1cdff552c9c18624dfcc01f5639cc5cbfdc70fdb7ee57a104c387632cc"
+    },
+    {
+      "path": "core/assets-raw/sprites/blocks/shadow.png",
+      "width": 10,
+      "height": 10,
+      "bytes": 170,
+      "sha256": "a4c15b5be719cef9f0e98240a411fbfc8a4a2956b72231dc9ab21d3f70d3f88c"
+    },
+    {
+      "path": "core/assets-raw/sprites/blocks/shieldgenerator.png",
+      "width": 8,
+      "height": 8,
+      "bytes": 238,
+      "sha256": "1ba4c38f4f0601b8664b5832305b10f5e0f247732f1b97a2e475e5a039a7744f"
+    },
+    {
+      "path": "core/assets-raw/sprites/blocks/shotgunturret.png",
+      "width": 10,
+      "height": 10,
+      "bytes": 325,
+      "sha256": "0d703298bb675bb79ad96eeb359b29af9a4ea46938a3e58f4a1af8b24c8c0d0a"
+    },
+    {
+      "path": "core/assets-raw/sprites/blocks/shrub.png",
+      "width": 8,
+      "height": 8,
+      "bytes": 274,
+      "sha256": "4ce98f379a0f06a8dda9f8bfa2fd796176ff092edba3355276e7b54dc419929c"
+    },
+    {
+      "path": "core/assets-raw/sprites/blocks/shrubshadow.png",
+      "width": 8,
+      "height": 8,
+      "bytes": 278,
+      "sha256": "2a2b5340127cb574fd85d7b93848737cd08a819c3cb3b4596ec95aa5e4ad064b"
+    },
+    {
+      "path": "core/assets-raw/sprites/blocks/smelter-middle.png",
+      "width": 8,
+      "height": 8,
+      "bytes": 179,
+      "sha256": "2870f2891292a76a2864bdcc55e42204c33f55c2547969a1828821f0bbb477b8"
+    },
+    {
+      "path": "core/assets-raw/sprites/blocks/smelter.png",
+      "width": 8,
+      "height": 8,
+      "bytes": 246,
+      "sha256": "0b0bb16808fcfce2893eaa7c48913f40cfd44c8c9c43bfc33a6471c60e983c43"
+    },
+    {
+      "path": "core/assets-raw/sprites/blocks/sniperturret.png",
+      "width": 10,
+      "height": 10,
+      "bytes": 374,
+      "sha256": "fc6ccd5bafac30b7a5db3ce4bd5819bdc37f2fbbf40a706b70305711ef7d97e1"
+    },
+    {
+      "path": "core/assets-raw/sprites/blocks/snow1.png",
+      "width": 8,
+      "height": 8,
+      "bytes": 183,
+      "sha256": "4ecedb4d7c813db6b978de1343be15cf4a8e4c076d83f81015f6ad9041a37bed"
+    },
+    {
+      "path": "core/assets-raw/sprites/blocks/snow2.png",
+      "width": 8,
+      "height": 8,
+      "bytes": 190,
+      "sha256": "a353acfd26bd201a9f452730c155d392db1498e81021991624538ea99564809d"
+    },
+    {
+      "path": "core/assets-raw/sprites/blocks/snow3.png",
+      "width": 8,
+      "height": 8,
+      "bytes": 185,
+      "sha256": "b52d23913e136029f8c90ad6c4349d3166effc0cdce9e0cfdb6b0617ca1c9048"
+    },
+    {
+      "path": "core/assets-raw/sprites/blocks/snowblock1.png",
+      "width": 8,
+      "height": 8,
+      "bytes": 218,
+      "sha256": "5a621f50991cbe670544683e466ff52fc4b6079145e8f6e51f7e4732deaacde1"
+    },
+    {
+      "path": "core/assets-raw/sprites/blocks/snowblock2.png",
+      "width": 8,
+      "height": 8,
+      "bytes": 223,
+      "sha256": "2a7c838d4ff069b683c346665290387cfee0d4c70b5ac437f4d0de6d93fed2b0"
+    },
+    {
+      "path": "core/assets-raw/sprites/blocks/snowblock3.png",
+      "width": 8,
+      "height": 8,
+      "bytes": 227,
+      "sha256": "a1918cc400e2fcbf4654cc15bfb0003c43bf7844502f647e2b54136e36f4a03c"
+    },
+    {
+      "path": "core/assets-raw/sprites/blocks/snowedge.png",
+      "width": 12,
+      "height": 12,
+      "bytes": 221,
+      "sha256": "9112526895d5641fab4826f354b7a3092a8f239aed9afc7954ff83b2a44a45e3"
+    },
+    {
+      "path": "core/assets-raw/sprites/blocks/sorter.png",
+      "width": 8,
+      "height": 8,
+      "bytes": 248,
+      "sha256": "7f9d30d8064a76c408faa08ecf024a2e9023c366963027cd77f48a78304a9b0b"
+    },
+    {
+      "path": "core/assets-raw/sprites/blocks/steelconveyor.png",
+      "width": 8,
+      "height": 8,
+      "bytes": 195,
+      "sha256": "b0b6d6eed538c3ee89d15e801e69bab96172e4b1047c3024418baeb02ef135ee"
+    },
+    {
+      "path": "core/assets-raw/sprites/blocks/steelconveyormove.png",
+      "width": 8,
+      "height": 8,
+      "bytes": 195,
+      "sha256": "c35edda983bb22bbbad7c5cde105fdf6f343030aee8b0fe186cfc00464c2fd7c"
+    },
+    {
+      "path": "core/assets-raw/sprites/blocks/steelwall-large-icon.png",
+      "width": 8,
+      "height": 8,
+      "bytes": 243,
+      "sha256": "e0a5daf23c17637bb8a3008a93be066ff247d5be75e10ec43d7f3d5a551d7fcf"
+    },
+    {
+      "path": "core/assets-raw/sprites/blocks/steelwall-large.png",
+      "width": 16,
+      "height": 16,
+      "bytes": 342,
+      "sha256": "cdda8b2c93279028f280108e9879fe65d88e62011167d131281606862145ca1b"
+    },
+    {
+      "path": "core/assets-raw/sprites/blocks/steelwall.png",
+      "width": 8,
+      "height": 8,
+      "bytes": 224,
+      "sha256": "3eec2e6672e91e6a321ab707fc31cf55581cb15afab6846c103e552585892910"
+    },
+    {
+      "path": "core/assets-raw/sprites/blocks/stone1.png",
+      "width": 8,
+      "height": 8,
+      "bytes": 189,
+      "sha256": "209e44f3647311b939fb0b8013d2db9b29554ec7ffaf194a651a237cd48b0729"
+    },
+    {
+      "path": "core/assets-raw/sprites/blocks/stone2.png",
+      "width": 8,
+      "height": 8,
+      "bytes": 189,
+      "sha256": "7500deee3b19c873d52a5de6958d313c8f32f9c1e9ade840c96fe87f09f8ece6"
+    },
+    {
+      "path": "core/assets-raw/sprites/blocks/stone3.png",
+      "width": 8,
+      "height": 8,
+      "bytes": 186,
+      "sha256": "c19837503b17286db14480c759efe8b02243c67eda0d08020696e3cbf0feb51b"
+    },
+    {
+      "path": "core/assets-raw/sprites/blocks/stoneblock1.png",
+      "width": 8,
+      "height": 8,
+      "bytes": 208,
+      "sha256": "5f9d35d90cd0345728d3e9edfddeba4c4a6b5ba1dbb29f0788fdda1e7a20b085"
+    },
+    {
+      "path": "core/assets-raw/sprites/blocks/stoneblock2.png",
+      "width": 8,
+      "height": 8,
+      "bytes": 203,
+      "sha256": "3582dfa102a7511ed66d353d479efe89cfebb86575472054f9b05eb9ef1b1009"
+    },
+    {
+      "path": "core/assets-raw/sprites/blocks/stoneblock3.png",
+      "width": 8,
+      "height": 8,
+      "bytes": 204,
+      "sha256": "358dfef0371e6f372f099db71e50cbbaafb35d763f37be4381511d78acfe8c47"
+    },
+    {
+      "path": "core/assets-raw/sprites/blocks/stonedrill.png",
+      "width": 8,
+      "height": 8,
+      "bytes": 246,
+      "sha256": "bdf3dc8d46092aed10a0a905bead346e93388c6b54ff85909d62f7adcd980cd0"
+    },
+    {
+      "path": "core/assets-raw/sprites/blocks/stoneedge.png",
+      "width": 12,
+      "height": 12,
+      "bytes": 250,
+      "sha256": "114e8beb5c10c14cf4d445ea19d58f3ec943ba4be03d12cbae158053227dac6d"
+    },
+    {
+      "path": "core/assets-raw/sprites/blocks/stoneformer.png",
+      "width": 8,
+      "height": 8,
+      "bytes": 310,
+      "sha256": "3e40ee23d6c590b9447cfc73d4160d2a0c664c239d5017cc0200de3bb203ee1f"
+    },
+    {
+      "path": "core/assets-raw/sprites/blocks/stonewall.png",
+      "width": 8,
+      "height": 8,
+      "bytes": 182,
+      "sha256": "4ba7ca90051ec14b9373857c4c740efd84fb01940b5fa6b1ecf83f0f6f1ca3af"
+    },
+    {
+      "path": "core/assets-raw/sprites/blocks/teleporter-top.png",
+      "width": 8,
+      "height": 8,
+      "bytes": 273,
+      "sha256": "117ccce99fae4192fef86d260b5d8ad77067768c4cadc1a8d40278183b5b0a16"
+    },
+    {
+      "path": "core/assets-raw/sprites/blocks/teleporter.png",
+      "width": 8,
+      "height": 8,
+      "bytes": 282,
+      "sha256": "0ced93c3e01967e943eaa9889b3d404620d1437bda52b66929cb9d499cf651df"
+    },
+    {
+      "path": "core/assets-raw/sprites/blocks/thermalgenerator.png",
+      "width": 8,
+      "height": 8,
+      "bytes": 279,
+      "sha256": "d47284e1b416b96c310875eef02c692d5a4539ee469b6f4ebe016d45e6268e8a"
+    },
+    {
+      "path": "core/assets-raw/sprites/blocks/titancannon-icon.png",
+      "width": 10,
+      "height": 10,
+      "bytes": 256,
+      "sha256": "2bd401c8dfea26032a68270927c8699d1e7e8a148a4a3973a66469e50f7cefb5"
+    },
+    {
+      "path": "core/assets-raw/sprites/blocks/titancannon-icon_old.png",
+      "width": 10,
+      "height": 10,
+      "bytes": 250,
+      "sha256": "7e3fd743ca64207f25c27ac1fd1eee7be899a9a0a7fbe9f69887ac4ce760224a"
+    },
+    {
+      "path": "core/assets-raw/sprites/blocks/titancannon.png",
+      "width": 24,
+      "height": 24,
+      "bytes": 532,
+      "sha256": "43c1557e1db25d84a7d1f719685094ed75fc4fa206e7782ca79623224a8654d5"
+    },
+    {
+      "path": "core/assets-raw/sprites/blocks/titancannon_old.png",
+      "width": 24,
+      "height": 24,
+      "bytes": 603,
+      "sha256": "10176a8e3f8a352fa9e2b4e189202d750e07e521cb3310359baadad2fde665e7"
+    },
+    {
+      "path": "core/assets-raw/sprites/blocks/titanium1.png",
+      "width": 8,
+      "height": 8,
+      "bytes": 251,
+      "sha256": "66af33f531dbb81a1e074be657b2c1d59410c1464ab01461f8903556d14540ea"
+    },
+    {
+      "path": "core/assets-raw/sprites/blocks/titanium2.png",
+      "width": 8,
+      "height": 8,
+      "bytes": 246,
+      "sha256": "0ccaa84d49394ee1011396ed5be019ebd0170d301c945fa2cb924cf025762f85"
+    },
+    {
+      "path": "core/assets-raw/sprites/blocks/titanium3.png",
+      "width": 8,
+      "height": 8,
+      "bytes": 243,
+      "sha256": "cd22a0797836c8bdf7de6164b3947d1afd9c6fa48d7496ad484fb346cff5e728"
+    },
+    {
+      "path": "core/assets-raw/sprites/blocks/titaniumdrill.png",
+      "width": 8,
+      "height": 8,
+      "bytes": 252,
+      "sha256": "d06c6afacab33a1f4ad3e20dde48d2fa59fd781d741b85dd75ad2f2a097c7e19"
+    },
+    {
+      "path": "core/assets-raw/sprites/blocks/titaniumpurifier.png",
+      "width": 8,
+      "height": 8,
+      "bytes": 260,
+      "sha256": "f5b99d1bd0a02f26983b9e3cd4d30961bcdbd0d3ced11f7a4ec1853b15bf60ac"
+    },
+    {
+      "path": "core/assets-raw/sprites/blocks/titaniumshieldwall.png",
+      "width": 8,
+      "height": 8,
+      "bytes": 235,
+      "sha256": "b9bc5f3c085b74cb70f39c15e69c91fbcf398f2b246c3120f29e89468a5e0831"
+    },
+    {
+      "path": "core/assets-raw/sprites/blocks/titaniumwall-large-icon.png",
+      "width": 8,
+      "height": 8,
+      "bytes": 235,
+      "sha256": "ef93a1e5e9806787a9661282ff3a5969835f987be216ba039a86000ebd39f7c7"
+    },
+    {
+      "path": "core/assets-raw/sprites/blocks/titaniumwall-large.png",
+      "width": 16,
+      "height": 16,
+      "bytes": 349,
+      "sha256": "8cf66c9b2178a4b7a4bcc6a8f877f5e37a5655179831d9ef587e8cc1c6ce19df"
+    },
+    {
+      "path": "core/assets-raw/sprites/blocks/titaniumwall.png",
+      "width": 8,
+      "height": 8,
+      "bytes": 230,
+      "sha256": "7aa9daa6e7ed82e95bc01181d87acf708494c35177da6fb0d7db5f75948b8b66"
+    },
+    {
+      "path": "core/assets-raw/sprites/blocks/turret.png",
+      "width": 10,
+      "height": 10,
+      "bytes": 317,
+      "sha256": "18a20aa73c45caab454c234d840e7fd53b6ad20eef982cc5a717eaf025ab6439"
+    },
+    {
+      "path": "core/assets-raw/sprites/blocks/uranium1.png",
+      "width": 8,
+      "height": 8,
+      "bytes": 272,
+      "sha256": "b4a39c8352cc013271b8cdfcb8082491948f7e3fdc8ea8592e170be109cff24d"
+    },
+    {
+      "path": "core/assets-raw/sprites/blocks/uranium2.png",
+      "width": 8,
+      "height": 8,
+      "bytes": 271,
+      "sha256": "26264fdf78580afc6f4bf93cb993303279734130a7e9efeddbe687045a678603"
+    },
+    {
+      "path": "core/assets-raw/sprites/blocks/uranium3.png",
+      "width": 8,
+      "height": 8,
+      "bytes": 258,
+      "sha256": "bc60710927f73037a57194c45e70bb8db07370cd35b72396392d7e659ac2ba7a"
+    },
+    {
+      "path": "core/assets-raw/sprites/blocks/uraniumdrill.png",
+      "width": 8,
+      "height": 8,
+      "bytes": 235,
+      "sha256": "2c47fc3af56183aadbb638389edd1515f49bab9797ede1dbad56e0b995f3e6dc"
+    },
+    {
+      "path": "core/assets-raw/sprites/blocks/water.png",
+      "width": 8,
+      "height": 8,
+      "bytes": 156,
+      "sha256": "9e47df022a97a5f85a1fb9681d5adca8b365033a160bdf64ab023eb2fc79370c"
+    },
+    {
+      "path": "core/assets-raw/sprites/blocks/wateredge.png",
+      "width": 12,
+      "height": 12,
+      "bytes": 222,
+      "sha256": "4be78a937eb970fa5cfb3554415371d7ef9c808cb0df12694b24253c2838bee6"
+    },
+    {
+      "path": "core/assets-raw/sprites/blocks/waveturret.png",
+      "width": 10,
+      "height": 10,
+      "bytes": 384,
+      "sha256": "824428f0baf41064e99b184d53ef2e082d268e5a3cd92d4e954fb8b9b4e46510"
+    },
+    {
+      "path": "core/assets-raw/sprites/blocks/weaponfactory-icon.png",
+      "width": 8,
+      "height": 8,
+      "bytes": 271,
+      "sha256": "b414c71b989f730ef6a193b08f58f8c50c2e9b82dd84467d4f62200a9886e477"
+    },
+    {
+      "path": "core/assets-raw/sprites/blocks/weaponfactory.png",
+      "width": 16,
+      "height": 16,
+      "bytes": 459,
+      "sha256": "64736d681d95716047bda3b12b21f83f7a003ed42e3fa6065550d0805bd0cc51"
+    },
+    {
+      "path": "core/assets-raw/sprites/bullet.png",
+      "width": 8,
+      "height": 8,
+      "bytes": 189,
+      "sha256": "3d84ca996e3babf623b4768d8be7c4d8c59914d839cd31281b6815b2ca08782a"
+    },
+    {
+      "path": "core/assets-raw/sprites/chainbullet.png",
+      "width": 8,
+      "height": 7,
+      "bytes": 203,
+      "sha256": "443aefe08b744e85da6363682f092be0c7940ef71f9cb6692b601b5838cd3a2e"
+    },
+    {
+      "path": "core/assets-raw/sprites/circle.png",
+      "width": 17,
+      "height": 17,
+      "bytes": 258,
+      "sha256": "437c8f55f2fbc68edce5b7377d392c77eac50def0148dec739203fea55183217"
+    },
+    {
+      "path": "core/assets-raw/sprites/circle2.png",
+      "width": 201,
+      "height": 201,
+      "bytes": 1079,
+      "sha256": "511290baed3f292b7d48f904304c17dce2e2924a5f455969d8be0bf5199659a6"
+    },
+    {
+      "path": "core/assets-raw/sprites/enemies/blastenemy-t1.png",
+      "width": 14,
+      "height": 14,
+      "bytes": 321,
+      "sha256": "81c6ed8c1fcc14cdce30cd1ddcfc533fffa291d1ca3a69e552faba700856d183"
+    },
+    {
+      "path": "core/assets-raw/sprites/enemies/blastenemy-t2.png",
+      "width": 14,
+      "height": 14,
+      "bytes": 324,
+      "sha256": "8de86f153c687fd3ff48a2687593a9f1f9d3bc6b1ec037079c4f20033d299eaf"
+    },
+    {
+      "path": "core/assets-raw/sprites/enemies/blastenemy-t3.png",
+      "width": 14,
+      "height": 14,
+      "bytes": 340,
+      "sha256": "444fa02b3bd3b099345d06583f03c539dfc1098e5c433e46e2148c5f239e8a51"
+    },
+    {
+      "path": "core/assets-raw/sprites/enemies/empenemy-t1.png",
+      "width": 14,
+      "height": 14,
+      "bytes": 327,
+      "sha256": "065bfef34e7750effea190e2b5ffdbe49d7fc8727bb261e36712cb010547db04"
+    },
+    {
+      "path": "core/assets-raw/sprites/enemies/empenemy-t2.png",
+      "width": 14,
+      "height": 14,
+      "bytes": 353,
+      "sha256": "445ecbfbc59575d747e851a121884855c5f7d4d34557d7d8d35cc06388e73164"
+    },
+    {
+      "path": "core/assets-raw/sprites/enemies/empenemy-t3.png",
+      "width": 14,
+      "height": 14,
+      "bytes": 375,
+      "sha256": "131b1bb656f46a5b236ae246af7d6facc1b9d6d321425ebaf3fdec056ba330bc"
+    },
+    {
+      "path": "core/assets-raw/sprites/enemies/fastenemy-t1.png",
+      "width": 14,
+      "height": 14,
+      "bytes": 318,
+      "sha256": "df7c572104a721980cebee97331aef487b7798ddfd800486918756ce03705127"
+    },
+    {
+      "path": "core/assets-raw/sprites/enemies/fastenemy-t2.png",
+      "width": 14,
+      "height": 14,
+      "bytes": 339,
+      "sha256": "1a52f9cc96242f8c9f3af0b08a0811a025855d703739a4eb97f382919dccb8b8"
+    },
+    {
+      "path": "core/assets-raw/sprites/enemies/fastenemy-t3.png",
+      "width": 14,
+      "height": 14,
+      "bytes": 326,
+      "sha256": "b4219b3523a25351968c4276a1f685b65b6203df06a2d4f4898fc40919bedf13"
+    },
+    {
+      "path": "core/assets-raw/sprites/enemies/flamerenemy-t1.png",
+      "width": 14,
+      "height": 14,
+      "bytes": 373,
+      "sha256": "6a66a82d2cb8f1efb262638881618ce1496d5cd45146fe1cad116dce3d357599"
+    },
+    {
+      "path": "core/assets-raw/sprites/enemies/flamerenemy-t2.png",
+      "width": 14,
+      "height": 14,
+      "bytes": 388,
+      "sha256": "1f82544ed7daad137ef63be938c7a3d8138b4f2c3d048962b69a45dd7e7a7424"
+    },
+    {
+      "path": "core/assets-raw/sprites/enemies/flamerenemy-t3.png",
+      "width": 14,
+      "height": 14,
+      "bytes": 408,
+      "sha256": "d22c487b38b4091ebb6b14d848992a9e871816b8c030ba0cf4c803111280bbd1"
+    },
+    {
+      "path": "core/assets-raw/sprites/enemies/fortressenemy-t1.png",
+      "width": 20,
+      "height": 20,
+      "bytes": 451,
+      "sha256": "1a11e79ddde9697e1c778d5f55b7700fe305ac5e73b5ddc94cd4525686d23ca9"
+    },
+    {
+      "path": "core/assets-raw/sprites/enemies/fortressenemy-t2.png",
+      "width": 20,
+      "height": 20,
+      "bytes": 447,
+      "sha256": "2f9976dcde29d1beeedfb20848146184c65fd12f01aa8e9f3671f68519f9415d"
+    },
+    {
+      "path": "core/assets-raw/sprites/enemies/fortressenemy-t3.png",
+      "width": 20,
+      "height": 20,
+      "bytes": 470,
+      "sha256": "a43fb655d171f0ce610a199cf9f56dae8d93efaab4a155a2df004f513f6b9b28"
+    },
+    {
+      "path": "core/assets-raw/sprites/enemies/healerenemy-t1.png",
+      "width": 14,
+      "height": 14,
+      "bytes": 297,
+      "sha256": "e6d1e773664290e1c4320634c28ae8f2336922c6dfeb798f92e17a87058a3737"
+    },
+    {
+      "path": "core/assets-raw/sprites/enemies/healerenemy-t2.png",
+      "width": 14,
+      "height": 14,
+      "bytes": 303,
+      "sha256": "a6a67d9ca2a09d7791ca49d5df87004e18f07efcd3d4d10a2dcb7c2463be9c62"
+    },
+    {
+      "path": "core/assets-raw/sprites/enemies/healerenemy-t3.png",
+      "width": 14,
+      "height": 14,
+      "bytes": 338,
+      "sha256": "c7c490dbfda8d915c07b8005e2502ba70359812d5086276763b3d6e8950ef8ca"
+    },
+    {
+      "path": "core/assets-raw/sprites/enemies/mortarenemy-t1.png",
+      "width": 14,
+      "height": 14,
+      "bytes": 421,
+      "sha256": "4ada23e8588949388fdccf0d0786259282d810b283f1da3d73eef948b41ba6a6"
+    },
+    {
+      "path": "core/assets-raw/sprites/enemies/mortarenemy-t2.png",
+      "width": 14,
+      "height": 14,
+      "bytes": 422,
+      "sha256": "a3cb1ed5d83e8996543671bbb1ffbe8450c33be2bd17c4398c180a563c213c2c"
+    },
+    {
+      "path": "core/assets-raw/sprites/enemies/mortarenemy-t3.png",
+      "width": 14,
+      "height": 14,
+      "bytes": 428,
+      "sha256": "02f1442c1109b9d2df8a20d183d2bf72e3a97784ad15a1dbff635c810f37fb90"
+    },
+    {
+      "path": "core/assets-raw/sprites/enemies/rapidenemy-t1.png",
+      "width": 14,
+      "height": 14,
+      "bytes": 346,
+      "sha256": "db2bed7c04e3350118a47fa8d81769df77a9fce32435a79529e4632a439f2db7"
+    },
+    {
+      "path": "core/assets-raw/sprites/enemies/rapidenemy-t2.png",
+      "width": 14,
+      "height": 14,
+      "bytes": 397,
+      "sha256": "cd35b451eeeac2efe0e744c880fe7f8736af94a639bf075c34b8abe6f6292844"
+    },
+    {
+      "path": "core/assets-raw/sprites/enemies/rapidenemy-t3.png",
+      "width": 14,
+      "height": 14,
+      "bytes": 407,
+      "sha256": "5b74e612bddcaaa11d032f14fcea490abcca38473100c04f7ce20f4d7a323b7a"
+    },
+    {
+      "path": "core/assets-raw/sprites/enemies/standardenemy-t1.png",
+      "width": 14,
+      "height": 14,
+      "bytes": 287,
+      "sha256": "0cba394acfa04694317017fde20fd07053c66ea616fb1519846a7eed0ec08323"
+    },
+    {
+      "path": "core/assets-raw/sprites/enemies/standardenemy-t2.png",
+      "width": 12,
+      "height": 12,
+      "bytes": 339,
+      "sha256": "9124d39317bc4d3039e877a83950bff58ef3da95ef4eb9888e3eb92e0c7a72ff"
+    },
+    {
+      "path": "core/assets-raw/sprites/enemies/standardenemy-t3.png",
+      "width": 12,
+      "height": 12,
+      "bytes": 301,
+      "sha256": "0dfcc4faddc926c40709e1d067873ed953f6025842890cdc3771816a4baeb85e"
+    },
+    {
+      "path": "core/assets-raw/sprites/enemies/tankenemy-t1.png",
+      "width": 14,
+      "height": 14,
+      "bytes": 337,
+      "sha256": "5a40829b237d128850caa919bbaede722f45eb859d1e87967d837bbdcf9a15c4"
+    },
+    {
+      "path": "core/assets-raw/sprites/enemies/tankenemy-t2.png",
+      "width": 14,
+      "height": 14,
+      "bytes": 376,
+      "sha256": "6e132a005cc625e28807ce24524ae3cc11f66c53626780ab5336c459bd168d6e"
+    },
+    {
+      "path": "core/assets-raw/sprites/enemies/tankenemy-t3.png",
+      "width": 14,
+      "height": 14,
+      "bytes": 377,
+      "sha256": "b0c866f43aa7b69ce12349590187ee55f15363482dcbda4cc442eab35a176dea"
+    },
+    {
+      "path": "core/assets-raw/sprites/enemies/targetenemy-t1.png",
+      "width": 14,
+      "height": 14,
+      "bytes": 287,
+      "sha256": "0cba394acfa04694317017fde20fd07053c66ea616fb1519846a7eed0ec08323"
+    },
+    {
+      "path": "core/assets-raw/sprites/enemies/titanenemy-t1.png",
+      "width": 16,
+      "height": 16,
+      "bytes": 393,
+      "sha256": "4ba8e3087a675e426d032d811bbfed5712e6dead28234153134e22a841536a47"
+    },
+    {
+      "path": "core/assets-raw/sprites/enemies/titanenemy-t2.png",
+      "width": 16,
+      "height": 16,
+      "bytes": 383,
+      "sha256": "db3aa234569b0340c67526f70d6adfa1ba7357f8e1f0099d31da9868fcec84b5"
+    },
+    {
+      "path": "core/assets-raw/sprites/enemies/titanenemy-t3.png",
+      "width": 16,
+      "height": 16,
+      "bytes": 388,
+      "sha256": "398bca2e87cd61907a0a5876f2fc33655caddc7cc3a290cee736c8fecaa38f8d"
+    },
+    {
+      "path": "core/assets-raw/sprites/enemyarrow.png",
+      "width": 8,
+      "height": 7,
+      "bytes": 191,
+      "sha256": "0fc029dadc479a6620a4556eb652e35c238810629168c8390328983021a84599"
+    },
+    {
+      "path": "core/assets-raw/sprites/icon-coal.png",
+      "width": 8,
+      "height": 8,
+      "bytes": 219,
+      "sha256": "c523ae35afcc0cab928794f4b96c79285113a934a241d983230b92bb5418de50"
+    },
+    {
+      "path": "core/assets-raw/sprites/icon-dirium.png",
+      "width": 8,
+      "height": 8,
+      "bytes": 307,
+      "sha256": "cb7071df3ab68ada315d123cf7a16005f5f74d8a2f7b35e82d8a17f4c042ad2e"
+    },
+    {
+      "path": "core/assets-raw/sprites/icon-iron.png",
+      "width": 8,
+      "height": 8,
+      "bytes": 292,
+      "sha256": "1a787565ed7dbc5ed29017ba10b4a2a8d9851f54b7ea1d64686a181c1af06e10"
+    },
+    {
+      "path": "core/assets-raw/sprites/icon-sand.png",
+      "width": 8,
+      "height": 8,
+      "bytes": 1613,
+      "sha256": "1d07c02acf9b4357e7011ec4d9573291cb8316f3b74273f91c6fb1da02d3c26b"
+    },
+    {
+      "path": "core/assets-raw/sprites/icon-steel.png",
+      "width": 8,
+      "height": 8,
+      "bytes": 276,
+      "sha256": "e62db0ba74b1780dfd84bb8d0b47742880f638ec6ae8af5b73329e471d049c24"
+    },
+    {
+      "path": "core/assets-raw/sprites/icon-stone.png",
+      "width": 8,
+      "height": 8,
+      "bytes": 207,
+      "sha256": "4a5a64f0c4cc5062d192bee7db4585dc1b7ecafd1839b0068c969245d38eb92e"
+    },
+    {
+      "path": "core/assets-raw/sprites/icon-titanium.png",
+      "width": 8,
+      "height": 8,
+      "bytes": 283,
+      "sha256": "9ae53070791b78cda85d70baa1c746cb2b90a53a2240e4b96a6ab87dacb4fd6d"
+    },
+    {
+      "path": "core/assets-raw/sprites/icon-uranium.png",
+      "width": 8,
+      "height": 8,
+      "bytes": 282,
+      "sha256": "1cf5c2b7be872d35e183c6218fc494576295b9c760883635b42adaeda94c7e09"
+    },
+    {
+      "path": "core/assets-raw/sprites/laser.png",
+      "width": 1,
+      "height": 12,
+      "bytes": 141,
+      "sha256": "da7a5a50c44ed7d40dc33c4c2bed39c232f76cf3360cf6becb024cd27970b6ba"
+    },
+    {
+      "path": "core/assets-raw/sprites/laserend.png",
+      "width": 18,
+      "height": 18,
+      "bytes": 305,
+      "sha256": "fccaecfcbb26b529231a4fe2d943c4c1bdbe2b6c802befcc83a626e3134cc9cf"
+    },
+    {
+      "path": "core/assets-raw/sprites/laserfull.png",
+      "width": 18,
+      "height": 18,
+      "bytes": 307,
+      "sha256": "cd9611e23f300409b495742dc36f0cf9d25b218d6d27ead6854ea13144a55bb4"
+    },
+    {
+      "path": "core/assets-raw/sprites/mechs/mech-standard-icon.png",
+      "width": 12,
+      "height": 12,
+      "bytes": 315,
+      "sha256": "da70de14b9a257368590ed3792b8462651ee21d95b47542205538aa69339f01b"
+    },
+    {
+      "path": "core/assets-raw/sprites/mechs/mech-standard.png",
+      "width": 12,
+      "height": 12,
+      "bytes": 299,
+      "sha256": "3eb56c8eaec30aeeb25525d2c8ce6026f5b47be1d29793c9bb9e0a3a1bffad0f"
+    },
+    {
+      "path": "core/assets-raw/sprites/mechs/ship-standard.png",
+      "width": 12,
+      "height": 12,
+      "bytes": 309,
+      "sha256": "fbffa6202a5474a6c3cfda31cb0f260401c37c7faf67f47270e4d9417a0394ce"
+    },
+    {
+      "path": "core/assets-raw/sprites/shell.png",
+      "width": 8,
+      "height": 8,
+      "bytes": 221,
+      "sha256": "93bf89ac54a7a04d1fe8f68a67f71280239a7171fe708b7bcf4d24dc996b5a05"
+    },
+    {
+      "path": "core/assets-raw/sprites/shot-long.png",
+      "width": 8,
+      "height": 8,
+      "bytes": 198,
+      "sha256": "86ca230ba8198bea06dda31c926c0c0505c06c45d3e9d5ecfbae83f00c6d05e4"
+    },
+    {
+      "path": "core/assets-raw/sprites/shot.png",
+      "width": 8,
+      "height": 8,
+      "bytes": 194,
+      "sha256": "d01ab54f854a5d630b4845f331318536308af3bc6ff63f27249810bc32853578"
+    },
+    {
+      "path": "core/assets-raw/sprites/titanshell.png",
+      "width": 8,
+      "height": 8,
+      "bytes": 224,
+      "sha256": "7d5cc9f8dc3f4820aa4e59d2d28cf9d589715ab409f6fc79a24120411d595b98"
+    },
+    {
+      "path": "core/assets-raw/sprites/ui/border.9.png",
+      "width": 26,
+      "height": 42,
+      "bytes": 210,
+      "sha256": "50a0406e23512672c2d246cbf2f72e222223aaf38a8252b602150927dfb177d7"
+    },
+    {
+      "path": "core/assets-raw/sprites/ui/button-down.9.png",
+      "width": 26,
+      "height": 42,
+      "bytes": 220,
+      "sha256": "91ae3970bc7a5c8b5146d8f0437a0e02cc981f2ac344b3d0b7c8eb39e52c44a9"
+    },
+    {
+      "path": "core/assets-raw/sprites/ui/button-map-down.9.png",
+      "width": 26,
+      "height": 42,
+      "bytes": 207,
+      "sha256": "a934e02614e9f3e1bfd6fec8bf634e8996a57e072c03f2a2dff7ce6846558f11"
+    },
+    {
+      "path": "core/assets-raw/sprites/ui/button-map-over.9.png",
+      "width": 26,
+      "height": 42,
+      "bytes": 207,
+      "sha256": "dbeed24c8d1e0d0d051c086cb8120a9e1612252e3390b5d85227db7cb6744517"
+    },
+    {
+      "path": "core/assets-raw/sprites/ui/button-map.9.png",
+      "width": 26,
+      "height": 42,
+      "bytes": 199,
+      "sha256": "bd85afe04f6d74035e2150683bbf7373936b352dec4c549c50fb78a92d27e74b"
+    },
+    {
+      "path": "core/assets-raw/sprites/ui/button-over.9.png",
+      "width": 26,
+      "height": 42,
+      "bytes": 220,
+      "sha256": "10c8e76c9f98f52cf6f4f2f6605e1e6aeba84e5b7cf09d51fb21edcd04f5cbb1"
+    },
+    {
+      "path": "core/assets-raw/sprites/ui/button-select.9.png",
+      "width": 26,
+      "height": 26,
+      "bytes": 175,
+      "sha256": "7194394c8d8e48f6bce8aff9079317798ef0c798ffbf64ecb7bb2919c58711e2"
+    },
+    {
+      "path": "core/assets-raw/sprites/ui/button.9.png",
+      "width": 26,
+      "height": 42,
+      "bytes": 216,
+      "sha256": "3328c90a0cc728a12ea348da1b48594b018a80b1f6bb69a972d74225830e7ae3"
+    },
+    {
+      "path": "core/assets-raw/sprites/ui/check-off.png",
+      "width": 28,
+      "height": 32,
+      "bytes": 194,
+      "sha256": "2aeb16acf342cae5affcfce4ca0cb5171529d404f9274809b46fc09cc42c9b00"
+    },
+    {
+      "path": "core/assets-raw/sprites/ui/check-on-over.png",
+      "width": 28,
+      "height": 32,
+      "bytes": 210,
+      "sha256": "8d3bfd7bff1ca31764d176e1481731172604354cd26c5ea504f1c1723421f0d0"
+    },
+    {
+      "path": "core/assets-raw/sprites/ui/check-on.png",
+      "width": 28,
+      "height": 32,
+      "bytes": 211,
+      "sha256": "318f779b99c31f0f1d1110cb83a2a47c3d0344f206a9c18f2c8037040156431e"
+    },
+    {
+      "path": "core/assets-raw/sprites/ui/check-over.png",
+      "width": 28,
+      "height": 32,
+      "bytes": 197,
+      "sha256": "be438bf4234122db606d3764827dfc906107183c6db1ef37087e6077b2be7d75"
+    },
+    {
+      "path": "core/assets-raw/sprites/ui/clear.png",
+      "width": 10,
+      "height": 10,
+      "bytes": 149,
+      "sha256": "f7074b33645deaebaa399a27f73f4202670ec17f1ebd23d1b574c45fee837e93"
+    },
+    {
+      "path": "core/assets-raw/sprites/ui/cursor.png",
+      "width": 4,
+      "height": 4,
+      "bytes": 143,
+      "sha256": "8fc69bd5153f1104c6469b1ce4ef1b40cbee51bc0a58dba22d92067bb6ce6018"
+    },
+    {
+      "path": "core/assets-raw/sprites/ui/discord-banner-over.png",
+      "width": 81,
+      "height": 42,
+      "bytes": 341,
+      "sha256": "03a3d97f97b718d4cf2f2c8b80edffe6174c423dffd302495eba59bd1e1b9ab6"
+    },
+    {
+      "path": "core/assets-raw/sprites/ui/discord-banner.png",
+      "width": 81,
+      "height": 42,
+      "bytes": 341,
+      "sha256": "ffaa532cf44291da528f58c2a2d5ad21139007d305ce18817d3d85262ba1dc9d"
+    },
+    {
+      "path": "core/assets-raw/sprites/ui/icons/controller-cursor.png",
+      "width": 16,
+      "height": 16,
+      "bytes": 235,
+      "sha256": "1040599e8f9f7bb9a490d8e6894eeaf271610de1c12366adbf9bbaf4c533414a"
+    },
+    {
+      "path": "core/assets-raw/sprites/ui/icons/icon-about.png",
+      "width": 14,
+      "height": 14,
+      "bytes": 211,
+      "sha256": "0ff8715c359f748309be83cb6256e5ca0371fa9ef0c1f0a1882648a0d2bf9d56"
+    },
+    {
+      "path": "core/assets-raw/sprites/ui/icons/icon-add.png",
+      "width": 14,
+      "height": 14,
+      "bytes": 234,
+      "sha256": "94e04af2aa0fbacc8f89484b88639f94a11dae9aa3008741e588cac51cbf131c"
+    },
+    {
+      "path": "core/assets-raw/sprites/ui/icons/icon-admin-small.png",
+      "width": 6,
+      "height": 6,
+      "bytes": 163,
+      "sha256": "acb23c1e4164b9dce9e14a9f8e7f81c7f8e663fce7c14ff0105bcb30f3ac355c"
+    },
+    {
+      "path": "core/assets-raw/sprites/ui/icons/icon-admin.png",
+      "width": 14,
+      "height": 14,
+      "bytes": 257,
+      "sha256": "2eda91ff5198a692d0102f582616e9917644991c7ad09f9a2b23b233f14d3185"
+    },
+    {
+      "path": "core/assets-raw/sprites/ui/icons/icon-areaDelete.png",
+      "width": 10,
+      "height": 10,
+      "bytes": 198,
+      "sha256": "afbffbb8967860b87eb2d7ac2df608cbb01259c24c9d24028989aed8582a65ef"
+    },
+    {
+      "path": "core/assets-raw/sprites/ui/icons/icon-arrow-down.png",
+      "width": 10,
+      "height": 10,
+      "bytes": 170,
+      "sha256": "6d332d46995b46a094ae4ee181ac3e0c7db2fda26464f2d68f43cd1e104965f7"
+    },
+    {
+      "path": "core/assets-raw/sprites/ui/icons/icon-arrow-left.png",
+      "width": 10,
+      "height": 10,
+      "bytes": 198,
+      "sha256": "28917ecb2c0993b3e0789ef56874794f12048e8f9019c2be2f87f864cb98cbb6"
+    },
+    {
+      "path": "core/assets-raw/sprites/ui/icons/icon-arrow-right.png",
+      "width": 10,
+      "height": 10,
+      "bytes": 191,
+      "sha256": "e58d992c2e26b16af8ae6da966514772641136444d4e4f2cfd7666ace309bd2c"
+    },
+    {
+      "path": "core/assets-raw/sprites/ui/icons/icon-arrow-up.png",
+      "width": 10,
+      "height": 10,
+      "bytes": 198,
+      "sha256": "e8f34c1fc4542d3ee0bb200d17fd14bcc0e8fe9bbeedc4908bbdd30305cbb661"
+    },
+    {
+      "path": "core/assets-raw/sprites/ui/icons/icon-arrow.png",
+      "width": 14,
+      "height": 14,
+      "bytes": 208,
+      "sha256": "bb65bd94af7ad74cca8bf647016537e54fee226a0cbd1956cdbb48524d1d69b9"
+    },
+    {
+      "path": "core/assets-raw/sprites/ui/icons/icon-back.png",
+      "width": 16,
+      "height": 16,
+      "bytes": 184,
+      "sha256": "9ced90f2ef4f6b1a50943fda23a59e089e7eb81a729161abd09b5bd625e78823"
+    },
+    {
+      "path": "core/assets-raw/sprites/ui/icons/icon-ban.png",
+      "width": 14,
+      "height": 14,
+      "bytes": 276,
+      "sha256": "6b0937a1076393a750fde3a4599fed59aa1a2e68ee2c267cdf3bde5fc0c5cdbd"
+    },
+    {
+      "path": "core/assets-raw/sprites/ui/icons/icon-cancel.png",
+      "width": 14,
+      "height": 14,
+      "bytes": 265,
+      "sha256": "fa55b83e542a866dfaa3b075e2cbf860ee3028854856034d18d006026d8f60c2"
+    },
+    {
+      "path": "core/assets-raw/sprites/ui/icons/icon-chat.png",
+      "width": 10,
+      "height": 10,
+      "bytes": 194,
+      "sha256": "bc977d581b13eaa30a8ef227d25039ec7d5888dcec57c4d2979a34f62e7deff2"
+    },
+    {
+      "path": "core/assets-raw/sprites/ui/icons/icon-check.png",
+      "width": 14,
+      "height": 14,
+      "bytes": 252,
+      "sha256": "28ff9ecc868978e4e8d0ed3c4cdf578060b22de851f7af873312aa121c0d9fc6"
+    },
+    {
+      "path": "core/assets-raw/sprites/ui/icons/icon-close-down.png",
+      "width": 40,
+      "height": 40,
+      "bytes": 321,
+      "sha256": "856e2bf6879e0097129cdc30a8f6ee2ede262a55038a93636c8e414595130169"
+    },
+    {
+      "path": "core/assets-raw/sprites/ui/icons/icon-close-over.png",
+      "width": 40,
+      "height": 40,
+      "bytes": 316,
+      "sha256": "29075e099a6dc7707ec80e253cc57cc7f16f73d3fa79e5160f12de74e2b7ca97"
+    },
+    {
+      "path": "core/assets-raw/sprites/ui/icons/icon-close.png",
+      "width": 40,
+      "height": 40,
+      "bytes": 319,
+      "sha256": "68d0db4d198db23711da56c99fe13d3bb2b25afe3847e22cf93e74c6ee521a16"
+    },
+    {
+      "path": "core/assets-raw/sprites/ui/icons/icon-crafting.png",
+      "width": 10,
+      "height": 10,
+      "bytes": 185,
+      "sha256": "02c840209365c64f8616553df59d41e0ede77e874e98131898b03eb7ab0537e0"
+    },
+    {
+      "path": "core/assets-raw/sprites/ui/icons/icon-cursor.png",
+      "width": 10,
+      "height": 10,
+      "bytes": 186,
+      "sha256": "ba46d3d223613a6c3197d542ff0828227f992ddfcd5bd2740b67f7d304ef17d2"
+    },
+    {
+      "path": "core/assets-raw/sprites/ui/icons/icon-defense.png",
+      "width": 10,
+      "height": 10,
+      "bytes": 177,
+      "sha256": "f8fd6dcede9caf040a002e48b0b615e2087e4ea2ab7849e2a80dcf7c2e0a06e4"
+    },
+    {
+      "path": "core/assets-raw/sprites/ui/icons/icon-dev-builds.png",
+      "width": 14,
+      "height": 14,
+      "bytes": 196,
+      "sha256": "b43e68ce9f2c71dcbeb04994c4b86e7ab0043daf235f11c36a416f42fff30b9a"
+    },
+    {
+      "path": "core/assets-raw/sprites/ui/icons/icon-discord.png",
+      "width": 14,
+      "height": 14,
+      "bytes": 214,
+      "sha256": "0c1f40bd0f2c7d9c8b56ab6fc043e850ee5c862c1d9daefea29498bbccff277c"
+    },
+    {
+      "path": "core/assets-raw/sprites/ui/icons/icon-distribution.png",
+      "width": 10,
+      "height": 10,
+      "bytes": 161,
+      "sha256": "3ba7dbbdbd624c7b2f14bafc1be684d34994020b1685d88b490307efa610f510"
+    },
+    {
+      "path": "core/assets-raw/sprites/ui/icons/icon-donate.png",
+      "width": 14,
+      "height": 14,
+      "bytes": 223,
+      "sha256": "2975c1780687025f2c887ac481bf458badd22daa133d85585d5a9d8c454c1b97"
+    },
+    {
+      "path": "core/assets-raw/sprites/ui/icons/icon-dots.png",
+      "width": 14,
+      "height": 14,
+      "bytes": 210,
+      "sha256": "41c2a8bb31db7146c741838f21cf028d82f3d6eac98532617489e1148fc92f73"
+    },
+    {
+      "path": "core/assets-raw/sprites/ui/icons/icon-editor.png",
+      "width": 14,
+      "height": 14,
+      "bytes": 222,
+      "sha256": "856e1298b15bb7cc768a1147c3230ef9f4989e4b75221f27245a50a84e2b6d18"
+    },
+    {
+      "path": "core/assets-raw/sprites/ui/icons/icon-exit.png",
+      "width": 14,
+      "height": 14,
+      "bytes": 186,
+      "sha256": "98a53adc5295baf82d40ad4d10c559b9e1c9efeeecc7429e822c47c0cb7884d7"
+    },
+    {
+      "path": "core/assets-raw/sprites/ui/icons/icon-file-text.png",
+      "width": 14,
+      "height": 14,
+      "bytes": 199,
+      "sha256": "7bd8d1a1e111d5010a844fbd340d883a70b540a68a5c1b59d5c2f7df667dec60"
+    },
+    {
+      "path": "core/assets-raw/sprites/ui/icons/icon-fill.png",
+      "width": 16,
+      "height": 16,
+      "bytes": 255,
+      "sha256": "dd60512a10923b0b74afbf8d676d05b22fab5a786b9a7b9820c64d38780f6800"
+    },
+    {
+      "path": "core/assets-raw/sprites/ui/icons/icon-floppy.png",
+      "width": 14,
+      "height": 14,
+      "bytes": 229,
+      "sha256": "82e2f07f91f9119653183932984bcbc80e780f42f0f02d4c26a3b5fc35dc286a"
+    },
+    {
+      "path": "core/assets-raw/sprites/ui/icons/icon-folder-parent.png",
+      "width": 14,
+      "height": 14,
+      "bytes": 231,
+      "sha256": "0e6bebe093f1532a2c47bad87fd4fd3933b0b0d83b0e95e210a11f65b59a0a57"
+    },
+    {
+      "path": "core/assets-raw/sprites/ui/icons/icon-folder.png",
+      "width": 14,
+      "height": 14,
+      "bytes": 214,
+      "sha256": "f34fcb310cdca31226b2042a5121aaf5a21eb5a3e900936584fb2f1fc37e47ff"
+    },
+    {
+      "path": "core/assets-raw/sprites/ui/icons/icon-github.png",
+      "width": 14,
+      "height": 14,
+      "bytes": 204,
+      "sha256": "202f89b2e2ad80a3cf8e9699e7be440cd430ffdb8fcf75a5b0cc114011fc47f7"
+    },
+    {
+      "path": "core/assets-raw/sprites/ui/icons/icon-google-play.png",
+      "width": 14,
+      "height": 14,
+      "bytes": 187,
+      "sha256": "0ae3d24c6398b6f8279638de1181b32d9c71a478f95abfb7c51327ec2445991b"
+    },
+    {
+      "path": "core/assets-raw/sprites/ui/icons/icon-grid.png",
+      "width": 16,
+      "height": 16,
+      "bytes": 241,
+      "sha256": "01d3c1320c75eb712a11cea71863f540a9ca5fb278fa7ec66946036b20e7232f"
+    },
+    {
+      "path": "core/assets-raw/sprites/ui/icons/icon-hold.png",
+      "width": 10,
+      "height": 10,
+      "bytes": 197,
+      "sha256": "b076ba1d9e1e47ce91999c9501a6056edc13f0eb9f627777ad08f657a25194f1"
+    },
+    {
+      "path": "core/assets-raw/sprites/ui/icons/icon-holdDelete.png",
+      "width": 10,
+      "height": 10,
+      "bytes": 203,
+      "sha256": "b9de0bb81c07c7aec262b6a414fc9adc66fca8267919ad1175fd3283fd3bc539"
+    },
+    {
+      "path": "core/assets-raw/sprites/ui/icons/icon-home.png",
+      "width": 14,
+      "height": 14,
+      "bytes": 220,
+      "sha256": "126f9c4fed08e6c23168d6987b6a0a9e862f7ef9df878634972f1c0e237833e9"
+    },
+    {
+      "path": "core/assets-raw/sprites/ui/icons/icon-host.png",
+      "width": 14,
+      "height": 14,
+      "bytes": 193,
+      "sha256": "8256f8c188aa7ae36637e1db07d306b9ef820b7d3c090bc8fbeba8811c589631"
+    },
+    {
+      "path": "core/assets-raw/sprites/ui/icons/icon-info.png",
+      "width": 10,
+      "height": 10,
+      "bytes": 185,
+      "sha256": "c6424054f3cbfa757cde0b5c16327bf55af0351c82bfbd0afcb4d00263707c1c"
+    },
+    {
+      "path": "core/assets-raw/sprites/ui/icons/icon-itch.io.png",
+      "width": 14,
+      "height": 14,
+      "bytes": 198,
+      "sha256": "11d1856788dac36188225478c064b9472223e0984f610a0048ff4a0d137e9390"
+    },
+    {
+      "path": "core/assets-raw/sprites/ui/icons/icon-line.png",
+      "width": 16,
+      "height": 16,
+      "bytes": 233,
+      "sha256": "574c113d41cd8b42bfa2db9a82f557460a3c8cb0a8171eda66e359f0361753d3"
+    },
+    {
+      "path": "core/assets-raw/sprites/ui/icons/icon-link.png",
+      "width": 14,
+      "height": 14,
+      "bytes": 195,
+      "sha256": "3693cb8d7457fd6f86157495edb7de7cd5cebdb6f6425ca2209e8c50e4c77c9c"
+    },
+    {
+      "path": "core/assets-raw/sprites/ui/icons/icon-load-image.png",
+      "width": 16,
+      "height": 16,
+      "bytes": 202,
+      "sha256": "912240b09c5b9455e9aff7db00b551ec266f30a2b1a33c28c0ba1b23ce5e9260"
+    },
+    {
+      "path": "core/assets-raw/sprites/ui/icons/icon-load-map.png",
+      "width": 16,
+      "height": 16,
+      "bytes": 196,
+      "sha256": "e9e40ac1e9029842fd5600173cfca85e6b060efd5b9c1610285d4e2a0fee0749"
+    },
+    {
+      "path": "core/assets-raw/sprites/ui/icons/icon-load.png",
+      "width": 14,
+      "height": 14,
+      "bytes": 195,
+      "sha256": "5d528c13af9564c617231335a6fe2f417c2cceb70d99a6abfbf8dacb73a07526"
+    },
+    {
+      "path": "core/assets-raw/sprites/ui/icons/icon-loading.png",
+      "width": 16,
+      "height": 16,
+      "bytes": 252,
+      "sha256": "218f413854713af20fe3ebbb42914b86eadb9b757365034d451f969aba70cfa6"
+    },
+    {
+      "path": "core/assets-raw/sprites/ui/icons/icon-menu.png",
+      "width": 10,
+      "height": 10,
+      "bytes": 191,
+      "sha256": "9431415a3dcd3bedefca3619a88f7289b66db555e640e3ec179cb1dc865da8d9"
+    },
+    {
+      "path": "core/assets-raw/sprites/ui/icons/icon-none.png",
+      "width": 10,
+      "height": 10,
+      "bytes": 208,
+      "sha256": "3b222dd889fe34ce4ce05c13bfe51eba519cf9dcde7f8f914127c542857d8630"
+    },
+    {
+      "path": "core/assets-raw/sprites/ui/icons/icon-pause.png",
+      "width": 10,
+      "height": 10,
+      "bytes": 175,
+      "sha256": "3ef31cea01ca4dc2ebd5dcd6e5dfeeb7b5ec790bfa57a5496b2d68d9e57f668e"
+    },
+    {
+      "path": "core/assets-raw/sprites/ui/icons/icon-pencil-small.png",
+      "width": 14,
+      "height": 14,
+      "bytes": 207,
+      "sha256": "0a05c28e3e2d6b773013e2417b065b8fa2111a4635a96c836e9c81ff2535237c"
+    },
+    {
+      "path": "core/assets-raw/sprites/ui/icons/icon-pencil.png",
+      "width": 16,
+      "height": 16,
+      "bytes": 229,
+      "sha256": "cb12eb8c288de1dc13d179e27d09353e752207c3d12c1a989c7729efb018d963"
+    },
+    {
+      "path": "core/assets-raw/sprites/ui/icons/icon-pick.png",
+      "width": 16,
+      "height": 16,
+      "bytes": 236,
+      "sha256": "18ff46d6d43f40de0a27a8f6c9aa67f73b38f1c93bed9e8e6b2cf61295e5488b"
+    },
+    {
+      "path": "core/assets-raw/sprites/ui/icons/icon-play-2.png",
+      "width": 14,
+      "height": 14,
+      "bytes": 208,
+      "sha256": "250dc684acdf5fc525585baef5a94e5b8b540994abf62c5566949f6b00478749"
+    },
+    {
+      "path": "core/assets-raw/sprites/ui/icons/icon-play.png",
+      "width": 10,
+      "height": 10,
+      "bytes": 169,
+      "sha256": "d3064f1f9b29bdccdbbfff3a02558f41353aa43e1919c986cc655d26e50401e6"
+    },
+    {
+      "path": "core/assets-raw/sprites/ui/icons/icon-players.png",
+      "width": 10,
+      "height": 10,
+      "bytes": 192,
+      "sha256": "6944495396d3615fee1357713d20f23bfd81ce51f4b5569a26c4875af56a94ca"
+    },
+    {
+      "path": "core/assets-raw/sprites/ui/icons/icon-power.png",
+      "width": 10,
+      "height": 10,
+      "bytes": 151,
+      "sha256": "e2ac0598baae091de09036a5535af95beb3215baab6e27ee0d78c5223e1811e4"
+    },
+    {
+      "path": "core/assets-raw/sprites/ui/icons/icon-production.png",
+      "width": 10,
+      "height": 10,
+      "bytes": 164,
+      "sha256": "5dee85e2e7714fc4a7a4f970905280bab5df88a19c3c17b41b37944d29456942"
+    },
+    {
+      "path": "core/assets-raw/sprites/ui/icons/icon-quit.png",
+      "width": 14,
+      "height": 14,
+      "bytes": 199,
+      "sha256": "d545038bc6bcc238f273b85b06dea9b320f013eb8f508a68a71019f2ef4293df"
+    },
+    {
+      "path": "core/assets-raw/sprites/ui/icons/icon-redo.png",
+      "width": 16,
+      "height": 16,
+      "bytes": 245,
+      "sha256": "d00209e3a8082e81274160e5999cd162887743450b1e5ed4b64a4bc0a234a604"
+    },
+    {
+      "path": "core/assets-raw/sprites/ui/icons/icon-refresh.png",
+      "width": 14,
+      "height": 14,
+      "bytes": 245,
+      "sha256": "dfcf28435c659268584b02a2785725a11bb9ec1af53abdc283efeca7832d3623"
+    },
+    {
+      "path": "core/assets-raw/sprites/ui/icons/icon-rename.png",
+      "width": 14,
+      "height": 14,
+      "bytes": 208,
+      "sha256": "e30bff6f6cb628ba23fec9163e89c04300cc8a9b4d74d65391d7295f71a33a8b"
+    },
+    {
+      "path": "core/assets-raw/sprites/ui/icons/icon-resize.png",
+      "width": 16,
+      "height": 16,
+      "bytes": 201,
+      "sha256": "6147a6520ec14b2a20157242fda255312e194aa13bc20e14ba40baafa1defcc7"
+    },
+    {
+      "path": "core/assets-raw/sprites/ui/icons/icon-rotate-arrow.png",
+      "width": 14,
+      "height": 14,
+      "bytes": 177,
+      "sha256": "0159f40268ea4d6e9e58edb177cd6f88efde8ef754fd8379f8ee6f45e31bfd19"
+    },
+    {
+      "path": "core/assets-raw/sprites/ui/icons/icon-rotate-left.png",
+      "width": 14,
+      "height": 14,
+      "bytes": 202,
+      "sha256": "535192618ae6d5f1843df2ae9d0f20cb2349c80ee3d2e258461e5ec8d59f2443"
+    },
+    {
+      "path": "core/assets-raw/sprites/ui/icons/icon-rotate-right.png",
+      "width": 14,
+      "height": 14,
+      "bytes": 202,
+      "sha256": "cc069c3e14151981ea16d8eec9003145e9518cb2553af3e722cb94b92f4547f2"
+    },
+    {
+      "path": "core/assets-raw/sprites/ui/icons/icon-rotate.png",
+      "width": 14,
+      "height": 14,
+      "bytes": 190,
+      "sha256": "607eebe62469a544f7f6c0c52eac20c14b385ab252682a9907ecbb5dc5164051"
+    },
+    {
+      "path": "core/assets-raw/sprites/ui/icons/icon-save-image.png",
+      "width": 16,
+      "height": 16,
+      "bytes": 206,
+      "sha256": "98dcea80dd6c1381663a78bd35164624d43cf2cfc5a938b6d98d2a918f452cb8"
+    },
+    {
+      "path": "core/assets-raw/sprites/ui/icons/icon-save-map.png",
+      "width": 16,
+      "height": 16,
+      "bytes": 192,
+      "sha256": "271389d68a4a553848f76cfb5ef8a6d1c00f0c20d7133ba75fce468b9ff18282"
+    },
+    {
+      "path": "core/assets-raw/sprites/ui/icons/icon-save.png",
+      "width": 14,
+      "height": 14,
+      "bytes": 160,
+      "sha256": "ab6906aab886ab3e75d32766e6345dd7b791f2128c5cf484457201022b489e95"
+    },
+    {
+      "path": "core/assets-raw/sprites/ui/icons/icon-settings.png",
+      "width": 10,
+      "height": 10,
+      "bytes": 208,
+      "sha256": "ecf54fa3801eda9ba8b3456504053dcf6223f188682fdc57cafe0328058aa919"
+    },
+    {
+      "path": "core/assets-raw/sprites/ui/icons/icon-terrain.png",
+      "width": 16,
+      "height": 16,
+      "bytes": 223,
+      "sha256": "2e8a56fbd415f48c3b074951a25b465e9ba7b16f3661bd960cb8a3e7a81ee58f"
+    },
+    {
+      "path": "core/assets-raw/sprites/ui/icons/icon-tools.png",
+      "width": 14,
+      "height": 14,
+      "bytes": 216,
+      "sha256": "c1d485fde40b560b6150428b2ffa3a77fc5770c94ce04650c9bfc26244acfbea"
+    },
+    {
+      "path": "core/assets-raw/sprites/ui/icons/icon-touch.png",
+      "width": 10,
+      "height": 10,
+      "bytes": 188,
+      "sha256": "5aaa7f9e98a53447f6668dfbb1621f44573c29ccb63b195ef4a57b1e74ac4bb3"
+    },
+    {
+      "path": "core/assets-raw/sprites/ui/icons/icon-touchDelete.png",
+      "width": 10,
+      "height": 10,
+      "bytes": 209,
+      "sha256": "9a8a854b8306c56ce56e406f18f19fee308744a6cc98c4388cc0b3eb3071a066"
+    },
+    {
+      "path": "core/assets-raw/sprites/ui/icons/icon-trash-16.png",
+      "width": 16,
+      "height": 16,
+      "bytes": 233,
+      "sha256": "a0a15628934ed84d38a4923fdf7950d19b430ab6ab19c3a5b375415e10045aa8"
+    },
+    {
+      "path": "core/assets-raw/sprites/ui/icons/icon-trash.png",
+      "width": 14,
+      "height": 14,
+      "bytes": 237,
+      "sha256": "770b1bea6805d3239e69706c426fb0ee53abd904aa7d0bb0c9208c017cca8c5d"
+    },
+    {
+      "path": "core/assets-raw/sprites/ui/icons/icon-trello.png",
+      "width": 14,
+      "height": 14,
+      "bytes": 171,
+      "sha256": "ca9408d79030c7a94855ce34773a6e28239e84e90c7a3f3b35d65bd790e9db20"
+    },
+    {
+      "path": "core/assets-raw/sprites/ui/icons/icon-tutorial.png",
+      "width": 14,
+      "height": 14,
+      "bytes": 222,
+      "sha256": "e9f20b4ddc5a6d27d0be1d3a0850402d7d88191f1408a7355cc51aa3a6cd374c"
+    },
+    {
+      "path": "core/assets-raw/sprites/ui/icons/icon-undo.png",
+      "width": 16,
+      "height": 16,
+      "bytes": 238,
+      "sha256": "335dbbb4391247463bcc545084ae4d7daaa112385468bb2cc8d268c43afd1d6e"
+    },
+    {
+      "path": "core/assets-raw/sprites/ui/icons/icon-weapon.png",
+      "width": 10,
+      "height": 10,
+      "bytes": 200,
+      "sha256": "0962650e7b74516ddbb028244df9ad17bfc147ef8773c3536b7614c918324694"
+    },
+    {
+      "path": "core/assets-raw/sprites/ui/icons/icon-wiki.png",
+      "width": 14,
+      "height": 14,
+      "bytes": 174,
+      "sha256": "42fa7611f240bef4da045879a41d36dca216af9becd840d5ed5f1a08daf9b7cd"
+    },
+    {
+      "path": "core/assets-raw/sprites/ui/icons/icon-zoom-small.png",
+      "width": 14,
+      "height": 14,
+      "bytes": 228,
+      "sha256": "a06f2877a4a6a09caecb042585928dda542366b2489015e256a9aff8e94eaf06"
+    },
+    {
+      "path": "core/assets-raw/sprites/ui/icons/icon-zoom.png",
+      "width": 16,
+      "height": 16,
+      "bytes": 244,
+      "sha256": "db2c0bd96f6627bbe465209744bbbe7dbadc3c8a1b8766338bbe1626a4467a27"
+    },
+    {
+      "path": "core/assets-raw/sprites/ui/logotext.png",
+      "width": 89,
+      "height": 21,
+      "bytes": 817,
+      "sha256": "4c6fff499f49991ed5a1969bc1fea7871f2ca5a96ad5dac7190a1410ee42e30d"
+    },
+    {
+      "path": "core/assets-raw/sprites/ui/pane-button.9.png",
+      "width": 26,
+      "height": 38,
+      "bytes": 172,
+      "sha256": "72e97d7b9f0122a6258e37d2b524bfc194428e381c367283b588684dc2ad2dc4"
+    },
+    {
+      "path": "core/assets-raw/sprites/ui/pane.9.png",
+      "width": 26,
+      "height": 38,
+      "bytes": 211,
+      "sha256": "6c03c0aa879ab05f0460b969ee810aa02b05d5a0eafe976407903249975c32cc"
+    },
+    {
+      "path": "core/assets-raw/sprites/ui/scroll-horizontal.9.png",
+      "width": 37,
+      "height": 26,
+      "bytes": 185,
+      "sha256": "5494b66e41cfbda2e17dcd956499a75a116d6bf40f74e670688c39373efe7ff2"
+    },
+    {
+      "path": "core/assets-raw/sprites/ui/scroll-knob-horizontal.9.png",
+      "width": 42,
+      "height": 26,
+      "bytes": 202,
+      "sha256": "82c4b58655e48e376e6c463dc3c060ed45cabcf4529ff86a395499aaf123b1b0"
+    },
+    {
+      "path": "core/assets-raw/sprites/ui/scroll-knob-vertical-black.9.png",
+      "width": 26,
+      "height": 42,
+      "bytes": 186,
+      "sha256": "d20f22d97e671dc0f2b8ef6840bcac14023e95a83aa69095e14d5a63d6ced1ce"
+    },
+    {
+      "path": "core/assets-raw/sprites/ui/scroll-knob-vertical.9.png",
+      "width": 26,
+      "height": 42,
+      "bytes": 209,
+      "sha256": "03d32119718512b3de920d4fcb4819a2713c9e7298ba52c6ebda4eeaf8027154"
+    },
+    {
+      "path": "core/assets-raw/sprites/ui/scroll.9.png",
+      "width": 26,
+      "height": 37,
+      "bytes": 184,
+      "sha256": "d990769fd718cf7558da1c22450889e0a77235ae0cca15c24b78f58fda75cd39"
+    },
+    {
+      "path": "core/assets-raw/sprites/ui/selection.png",
+      "width": 1,
+      "height": 1,
+      "bytes": 128,
+      "sha256": "63e20ad58aa91bd87c04c11393df84130a7a36cec5db4a9753aa63d0c66ca6a0"
+    },
+    {
+      "path": "core/assets-raw/sprites/ui/slider-knob-down.png",
+      "width": 22,
+      "height": 44,
+      "bytes": 173,
+      "sha256": "9882979ee425d52df15a74ec133fd24623275634cd5e8258f9ba2a2b7221b3b4"
+    },
+    {
+      "path": "core/assets-raw/sprites/ui/slider-knob-over.png",
+      "width": 22,
+      "height": 44,
+      "bytes": 173,
+      "sha256": "db59940f3c55fdc78d4a8ffc96fc10baae9e0d25286db1a4203ea35ceef7da74"
+    },
+    {
+      "path": "core/assets-raw/sprites/ui/slider-knob.png",
+      "width": 22,
+      "height": 44,
+      "bytes": 175,
+      "sha256": "d89662f30f94c18722934d5df6fe094ecc7410738d46967cd4bb24e4eceb66fa"
+    },
+    {
+      "path": "core/assets-raw/sprites/ui/slider-vertical.png",
+      "width": 8,
+      "height": 1,
+      "bytes": 131,
+      "sha256": "d532f387c18c82cf0618489bd9f28ae2e4527d75a00fc99b8485e6b2c06da616"
+    },
+    {
+      "path": "core/assets-raw/sprites/ui/slider.png",
+      "width": 1,
+      "height": 8,
+      "bytes": 135,
+      "sha256": "91191edff711850d6ecb0b64a34c6b9eba3260d30e0b571addfe0e8efb929821"
+    },
+    {
+      "path": "core/assets-raw/sprites/ui/text-sides-down.png",
+      "width": 140,
+      "height": 21,
+      "bytes": 717,
+      "sha256": "f7981c8a504754aab1f566cf0bf51806bd0eb4ee7c452f35e1e67e4c8e2d4b51"
+    },
+    {
+      "path": "core/assets-raw/sprites/ui/text-sides-over.png",
+      "width": 140,
+      "height": 21,
+      "bytes": 748,
+      "sha256": "84f5a1aa1373bae3426fbc59a49cf6a11099eeb7c29740d1626826772f289c5e"
+    },
+    {
+      "path": "core/assets-raw/sprites/ui/text-sides.png",
+      "width": 140,
+      "height": 21,
+      "bytes": 687,
+      "sha256": "167e5f307024721b98dc927f200741ec046479d1f561a7d4e907674a58f7cc6c"
+    },
+    {
+      "path": "core/assets-raw/sprites/ui/textfield-over.9.png",
+      "width": 30,
+      "height": 30,
+      "bytes": 116,
+      "sha256": "d10085a3df50d05d3e64baa713fa4c94875f690cce2d8860928ebb030b42cedd"
+    },
+    {
+      "path": "core/assets-raw/sprites/ui/textfield.9.png",
+      "width": 30,
+      "height": 30,
+      "bytes": 185,
+      "sha256": "31ad4d64ebf1b26fc0b083e6d4691da67d695ad45fd5958f37456237b4c982ba"
+    },
+    {
+      "path": "core/assets-raw/sprites/ui/white.png",
+      "width": 3,
+      "height": 3,
+      "bytes": 71,
+      "sha256": "9585d99e7a6e84a43fb6d281ed584714b8ec31f6c78e8d3f0a9091b515f4d90c"
+    },
+    {
+      "path": "core/assets-raw/sprites/ui/window-empty.9.png",
+      "width": 29,
+      "height": 63,
+      "bytes": 249,
+      "sha256": "15b8b7e7926d18ea39c5b505ca8312fd56f4f9b64213de76a825d78f62d85453"
+    },
+    {
+      "path": "core/assets-raw/sprites/ui/window.9.png",
+      "width": 29,
+      "height": 63,
+      "bytes": 266,
+      "sha256": "162e6b2620c80ee3ca6cb0a27acc2d708dad470568ccfc8afe413865807c8da5"
+    },
+    {
+      "path": "core/assets-raw/sprites/weapons/beam-equip.png",
+      "width": 8,
+      "height": 8,
+      "bytes": 234,
+      "sha256": "257adaf195d093ca3604165434fc679177ab4f81f96d37dde478b1e68c3813dd"
+    },
+    {
+      "path": "core/assets-raw/sprites/weapons/beam.png",
+      "width": 8,
+      "height": 8,
+      "bytes": 271,
+      "sha256": "c32aa88216a1a5788b699ac9cf7487d800fbabcea9979ef94a342e6675cc0033"
+    },
+    {
+      "path": "core/assets-raw/sprites/weapons/blaster-equip.png",
+      "width": 8,
+      "height": 8,
+      "bytes": 242,
+      "sha256": "88882cc3a25c9ef026914e3c485a1b2dd99c20b0c9c76168fba25fc89d486e65"
+    },
+    {
+      "path": "core/assets-raw/sprites/weapons/blaster.png",
+      "width": 8,
+      "height": 8,
+      "bytes": 253,
+      "sha256": "a08f808bbe86622ea889052167f6847bc11c965fa1e5c0c538bff6ad95326f87"
+    },
+    {
+      "path": "core/assets-raw/sprites/weapons/clustergun-equip.png",
+      "width": 8,
+      "height": 8,
+      "bytes": 246,
+      "sha256": "a0b040c063fec7e133631d3b6b2f5110e5bacb89d274938cd34a5700b5271ff1"
+    },
+    {
+      "path": "core/assets-raw/sprites/weapons/clustergun.png",
+      "width": 8,
+      "height": 8,
+      "bytes": 283,
+      "sha256": "16f9bc7f03d5cf17939d6f59369b84d261a6734d2b4f2d8044d4772bf7c907ae"
+    },
+    {
+      "path": "core/assets-raw/sprites/weapons/shockgun-equip.png",
+      "width": 8,
+      "height": 8,
+      "bytes": 250,
+      "sha256": "d9f4f52d253af11ee1d5ef55050b760ea1d467de33bc913311e63192ebb9262f"
+    },
+    {
+      "path": "core/assets-raw/sprites/weapons/shockgun.png",
+      "width": 8,
+      "height": 8,
+      "bytes": 250,
+      "sha256": "2d624d2089e479472039b90c4b760e3369567c283ceb570cbb7f4b980f94b9af"
+    },
+    {
+      "path": "core/assets-raw/sprites/weapons/triblaster-equip.png",
+      "width": 8,
+      "height": 8,
+      "bytes": 233,
+      "sha256": "4b67e79c7cf8ed0ebd95ff47ae1c03e3dfd9324a514daa141a0032cccbc872bd"
+    },
+    {
+      "path": "core/assets-raw/sprites/weapons/triblaster.png",
+      "width": 8,
+      "height": 8,
+      "bytes": 261,
+      "sha256": "3ab7e7f94fcc4aaeb5ceccebba055f74efd5513f2e8ca92e422c857ea969ab71"
+    },
+    {
+      "path": "core/assets-raw/sprites/weapons/vulcan-equip.png",
+      "width": 8,
+      "height": 8,
+      "bytes": 244,
+      "sha256": "40790f729eda90cdede3ee3008b76fd4e7e4e416a9a1dcc51d067b0fcb24a9b2"
+    },
+    {
+      "path": "core/assets-raw/sprites/weapons/vulcan.png",
+      "width": 8,
+      "height": 8,
+      "bytes": 268,
+      "sha256": "3804d50bcaf47895af71d0323c750ed80089afdf3ed6e9b9e5745cfc76b0629b"
+    }
+  ]
+}

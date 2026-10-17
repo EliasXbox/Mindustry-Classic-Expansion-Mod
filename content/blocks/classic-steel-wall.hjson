@@ -1,0 +1,16 @@
+{
+  "type": "Wall",
+  "name": "Classic Steel Wall",
+  "health": 440,
+  "size": 1,
+  "requirements": [
+    "classic-steel/12"
+  ],
+  "category": "defense",
+  "research": {
+    "parent": "classic-smelter",
+    "requirements": [
+      "classic-steel/12"
+    ]
+  }
+}

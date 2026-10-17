@@ -1,0 +1,17 @@
+{
+  "type": "Wall",
+  "name": "Classic Stone Wall",
+  "description": "Original Classic stone wall: 160 health, 1x1, costs 12 Classic stone.",
+  "health": 160,
+  "size": 1,
+  "requirements": [
+    "classic-stone/12"
+  ],
+  "category": "defense",
+  "research": {
+    "parent": "classic-stone-drill",
+    "requirements": [
+      "classic-stone/12"
+    ]
+  }
+}

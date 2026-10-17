@@ -1,0 +1,29 @@
+{
+  "type": "GenericCrafter",
+  "name": "Classic Smelter",
+  "health": 70,
+  "size": 1,
+  "requirements": [
+    "classic-stone/40",
+    "classic-iron/40"
+  ],
+  "category": "crafting",
+  "research": {
+    "parent": "classic-iron-drill",
+    "requirements": [
+      "classic-stone/40",
+      "classic-iron/40"
+    ]
+  },
+  "itemCapacity": 20,
+  "craftTime": 100,
+  "outputItem": "classic-steel/5",
+  "consumes": {
+    "items": [
+      "classic-iron/5",
+      "coal/2"
+    ]
+  },
+  "craftEffect": "smeltsmoke",
+  "description": "Smelts 5 Classic iron and 2 vanilla coal into 5 Classic steel per batch. Classic long-run input/output rates; fuel is consumed per batch."
+}

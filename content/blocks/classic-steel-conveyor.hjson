@@ -1,0 +1,20 @@
+{
+  "type": "Conveyor",
+  "name": "Classic Steel Conveyor",
+  "health": 55,
+  "size": 1,
+  "requirements": [
+    "classic-steel/1"
+  ],
+  "category": "distribution",
+  "research": {
+    "parent": "classic-conveyor",
+    "requirements": [
+      "classic-steel/1"
+    ]
+  },
+  "speed": 0.04,
+  "displayedSpeed": 5.6000000000000005,
+  "junctionReplacement": "classic-junction",
+  "bridgeReplacement": "classic-tunnel"
+}

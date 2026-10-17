@@ -1,0 +1,50 @@
+{
+  "type": "flying",
+  "name": "Classic tank T4",
+  "description": "Classic tier 4 tank. Uses original t3 sprite and Classic contour color. Tier health/speed/reload/direct damage; prior v7 combat adaptations remain.",
+  "health": 1400,
+  "speed": 0.4,
+  "hitSize": 5,
+  "flying": false,
+  "hovering": false,
+  "accel": 0.1,
+  "drag": 0.1,
+  "rotateSpeed": 6,
+  "range": 80,
+  "isEnemy": true,
+  "playerControllable": true,
+  "logicControllable": true,
+  "drawCell": false,
+  "engineSize": 0,
+  "outlineColor": "ff2d86",
+  "outlineRadius": 1,
+  "weapons": [
+    {
+      "x": 0,
+      "y": 0,
+      "shootY": 4,
+      "mirror": false,
+      "rotate": true,
+      "rotateSpeed": 12,
+      "reload": 33.75,
+      "shootSound": "shoot",
+      "bullet": {
+        "type": "BasicBulletType",
+        "speed": 1.5,
+        "damage": 8,
+        "lifetime": 60,
+        "width": 3,
+        "height": 5,
+        "rangeOverride": 80
+      },
+      "shoot": {
+        "type": "ShootSpread",
+        "shots": 4,
+        "spread": 8
+      }
+    }
+  ],
+  "itemCapacity": 0,
+  "buildSpeed": 0,
+  "mineTier": -1
+}

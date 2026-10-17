@@ -1,0 +1,29 @@
+{
+  "type": "Drill",
+  "name": "Classic Titanium Drill",
+  "health": 40,
+  "size": 1,
+  "requirements": [
+    "classic-iron/50",
+    "classic-steel/50"
+  ],
+  "category": "production",
+  "research": {
+    "parent": "classic-smelter",
+    "requirements": [
+      "classic-iron/50",
+      "classic-steel/50"
+    ]
+  },
+  "tier": 3,
+  "blockedItem": "classic-stone",
+  "drillTime": 420,
+  "hardnessDrillMultiplier": 0,
+  "itemCapacity": 5,
+  "warmupSpeed": 1,
+  "drawMineItem": false,
+  "rotateSpeed": 0,
+  "drawSpinSprite": false,
+  "hasLiquids": false,
+  "description": "Seven-second Classic extraction time. Modern tier-based targeting; can mine other eligible resources."
+}

@@ -1,0 +1,37 @@
+{
+  "type": "GenericCrafter",
+  "name": "Classic Lava Smelter",
+  "health": 80,
+  "size": 1,
+  "requirements": [
+    "classic-steel/30",
+    "classic-titanium/15"
+  ],
+  "category": "crafting",
+  "research": {
+    "parent": "classic-stone-former",
+    "requirements": [
+      "classic-steel/30",
+      "classic-titanium/15"
+    ]
+  },
+  "craftTime": 30,
+  "itemCapacity": 90,
+  "hasLiquids": true,
+  "liquidCapacity": 41,
+  "consumes": {
+    "liquid": {
+      "liquid": "classic-lava",
+      "amount": 1.3333333333333333
+    },
+    "items": [
+      "classic-iron/1"
+    ]
+  },
+  "outputItem": "classic-steel/1",
+  "craftEffect": "smeltsmoke",
+  "drawer": {
+    "type": "DrawDefault"
+  },
+  "description": "Classic recipe and nominal rate; liquid is consumed continuously during production in v7, rather than in one batch."
+}

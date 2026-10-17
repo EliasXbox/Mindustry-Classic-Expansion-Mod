@@ -1,0 +1,12 @@
+{
+  "type": "Floor",
+  "name": "Classic deepwater",
+  "variants": 0,
+  "isLiquid": true,
+  "liquidDrop": "water",
+  "liquidMultiplier": 1,
+  "speedMultiplier": 0.2,
+  "drownTime": 120,
+  "supportsOverlay": false,
+  "cacheLayer": "water"
+}

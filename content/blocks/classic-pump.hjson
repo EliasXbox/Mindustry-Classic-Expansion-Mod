@@ -1,0 +1,22 @@
+{
+  "type": "Pump",
+  "name": "Classic Pump",
+  "health": 40,
+  "size": 1,
+  "requirements": [
+    "classic-steel/10"
+  ],
+  "category": "liquid",
+  "research": {
+    "parent": "classic-conduit",
+    "requirements": [
+      "classic-steel/10"
+    ]
+  },
+  "liquidCapacity": 10,
+  "pumpAmount": 2,
+  "drawer": {
+    "type": "DrawDefault"
+  },
+  "description": "Pumps floor liquid without power. Classic nominal rate 120 units/s; delivery uses v7 liquid flow."
+}

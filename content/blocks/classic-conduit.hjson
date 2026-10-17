@@ -1,0 +1,18 @@
+{
+  "type": "Conduit",
+  "name": "Classic Conduit",
+  "health": 45,
+  "size": 1,
+  "requirements": [
+    "classic-steel/1"
+  ],
+  "category": "liquid",
+  "research": {
+    "parent": "classic-smelter",
+    "requirements": [
+      "classic-steel/1"
+    ]
+  },
+  "liquidCapacity": 10,
+  "junctionReplacement": "classic-liquid-junction"
+}

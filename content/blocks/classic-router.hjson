@@ -1,0 +1,20 @@
+{
+  "type": "Router",
+  "name": "Classic Router",
+  "health": 40,
+  "size": 1,
+  "requirements": [
+    "classic-stone/2"
+  ],
+  "category": "distribution",
+  "research": {
+    "parent": "classic-conveyor",
+    "requirements": [
+      "classic-stone/2"
+    ]
+  },
+  "speed": 1,
+  "itemCapacity": 1,
+  "solid": true,
+  "description": "Classic router appearance with modern routing. Holds one item at a time; Classic held twenty."
+}

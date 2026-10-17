@@ -1,0 +1,37 @@
+{
+  "type": "GenericCrafter",
+  "name": "Classic Coal Purifier",
+  "health": 50,
+  "size": 1,
+  "requirements": [
+    "classic-steel/10",
+    "classic-iron/10"
+  ],
+  "category": "crafting",
+  "research": {
+    "parent": "classic-conduit",
+    "requirements": [
+      "classic-steel/10",
+      "classic-iron/10"
+    ]
+  },
+  "craftTime": 50,
+  "itemCapacity": 90,
+  "hasLiquids": true,
+  "liquidCapacity": 21,
+  "consumes": {
+    "liquid": {
+      "liquid": "water",
+      "amount": 0.37979999999999997
+    },
+    "items": [
+      "classic-stone/5"
+    ]
+  },
+  "outputItem": "coal/1",
+  "craftEffect": "smeltsmoke",
+  "drawer": {
+    "type": "DrawDefault"
+  },
+  "description": "Classic recipe and nominal rate; liquid is consumed continuously during production in v7, rather than in one batch."
+}

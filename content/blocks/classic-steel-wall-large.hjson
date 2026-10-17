@@ -1,0 +1,16 @@
+{
+  "type": "Wall",
+  "name": "Classic Steel Wall (Large)",
+  "health": 1760,
+  "size": 2,
+  "requirements": [
+    "classic-steel/48"
+  ],
+  "category": "defense",
+  "research": {
+    "parent": "classic-steel-wall",
+    "requirements": [
+      "classic-steel/48"
+    ]
+  }
+}

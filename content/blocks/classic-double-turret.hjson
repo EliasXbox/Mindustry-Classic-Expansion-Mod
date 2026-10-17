@@ -1,0 +1,64 @@
+{
+  "type": "ItemTurret",
+  "name": "Classic Double Turret",
+  "health": 45,
+  "size": 1,
+  "requirements": [
+    "classic-stone/7"
+  ],
+  "category": "turret",
+  "research": {
+    "parent": "classic-turret",
+    "requirements": [
+      "classic-stone/7"
+    ]
+  },
+  "range": 44,
+  "reload": 13,
+  "rotateSpeed": 12,
+  "shootCone": 5,
+  "shootY": 4,
+  "inaccuracy": 0,
+  "maxAmmo": 400,
+  "ammoPerShot": 2,
+  "consumeAmmoOnce": true,
+  "hasLiquids": false,
+  "shoot": {
+    "type": "ShootBarrel",
+    "shots": 2,
+    "barrels": [
+      -2,
+      0,
+      0,
+      2,
+      0,
+      0
+    ]
+  },
+  "ammoTypes": {
+    "classic-stone": {
+      "type": "BasicBulletType",
+      "speed": 1.5,
+      "damage": 2,
+      "lifetime": 40,
+      "width": 2,
+      "height": 2,
+      "ammoMultiplier": 20,
+      "backColor": "a3a3a3",
+      "frontColor": "a3a3a3",
+      "hitEffect": "hitBulletSmall",
+      "despawnEffect": "none",
+      "shootEffect": "shootSmall",
+      "smokeEffect": "none",
+      "collidesAir": true,
+      "collidesGround": true
+    }
+  },
+  "drawer": {
+    "type": "DrawTurret"
+  },
+  "recoil": 0,
+  "elevation": 0,
+  "targetInterval": 15,
+  "description": "Classic health, footprint, costs, range and reload. Modern aiming/projectiles; two ammo units per volley reproduce Classic double decrement."
+}

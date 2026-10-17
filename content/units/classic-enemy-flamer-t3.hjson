@@ -1,0 +1,51 @@
+{
+  "type": "flying",
+  "name": "Classic flamer T3",
+  "description": "Explicit Classic tier 3 variant. Health/damage scaled; reload divided by max(tier/1.5,1); speed and nominal range adjusted. v7 effects/AI adaptations remain.",
+  "health": 450,
+  "speed": 0.47,
+  "hitSize": 5,
+  "flying": false,
+  "hovering": false,
+  "accel": 0.1,
+  "drag": 0.1,
+  "rotateSpeed": 6,
+  "range": 55,
+  "isEnemy": true,
+  "playerControllable": true,
+  "logicControllable": true,
+  "drawCell": false,
+  "engineSize": 0,
+  "outlineColor": "ff6757",
+  "outlineRadius": 1,
+  "weapons": [
+    {
+      "x": 0,
+      "y": 0,
+      "shootY": 4,
+      "mirror": false,
+      "rotate": true,
+      "rotateSpeed": 12,
+      "reload": 3.0,
+      "shootSound": "shoot",
+      "bullet": {
+        "type": "BasicBulletType",
+        "speed": 0.5,
+        "damage": 9,
+        "lifetime": 60,
+        "width": 3,
+        "height": 5,
+        "status": "burning",
+        "statusDuration": 120,
+        "pierce": true,
+        "pierceCap": 3,
+        "frontColor": "ffb45b",
+        "backColor": "ff5959",
+        "rangeOverride": 55
+      }
+    }
+  ],
+  "itemCapacity": 0,
+  "buildSpeed": 0,
+  "mineTier": -1
+}

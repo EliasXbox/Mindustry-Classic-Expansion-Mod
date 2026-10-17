@@ -1,0 +1,46 @@
+{
+  "type": "flying",
+  "name": "Classic Player clustergun",
+  "health": 200,
+  "speed": 1.2,
+  "accel": 0.1,
+  "drag": 0.08,
+  "hitSize": 8,
+  "flying": true,
+  "isEnemy": false,
+  "playerControllable": true,
+  "logicControllable": false,
+  "itemCapacity": 50,
+  "mineTier": 4,
+  "mineSpeed": 5,
+  "buildSpeed": 1,
+  "weapons": [
+    {
+      "name": "classic-player-clustergun-weapon",
+      "x": 3,
+      "y": 0,
+      "reload": 26,
+      "mirror": true,
+      "rotate": false,
+      "alternate": true,
+      "inaccuracy": 17,
+      "shoot": {
+        "type": "ShootSpread",
+        "shots": 2,
+        "spread": 0
+      },
+      "bullet": {
+        "type": "BasicBulletType",
+        "speed": 4.5,
+        "damage": 12,
+        "lifetime": 60,
+        "width": 3,
+        "height": 5,
+        "drag": 0.05,
+        "splashDamage": 12,
+        "splashDamageRadius": 35,
+        "despawnHit": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "type": "StaticWall",
+  "name": "Parede de grama Classic",
+  "variants": 2,
+  "solid": true,
+  "breakable": false,
+  "alwaysReplace": false,
+  "buildVisibility": "editorOnly",
+  "description": "Classic natural obstacle. Editor/map placement; no construction recipe."
+}

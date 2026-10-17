@@ -1,0 +1,37 @@
+{
+  "type": "GenericCrafter",
+  "name": "Classic Titanium Purifier",
+  "health": 70,
+  "size": 1,
+  "requirements": [
+    "classic-steel/30",
+    "classic-iron/30"
+  ],
+  "category": "crafting",
+  "research": {
+    "parent": "classic-coal-purifier",
+    "requirements": [
+      "classic-steel/30",
+      "classic-iron/30"
+    ]
+  },
+  "craftTime": 60,
+  "itemCapacity": 90,
+  "hasLiquids": true,
+  "liquidCapacity": 41,
+  "consumes": {
+    "liquid": {
+      "liquid": "water",
+      "amount": 0.6666666666666666
+    },
+    "items": [
+      "classic-iron/6"
+    ]
+  },
+  "outputItem": "classic-titanium/1",
+  "craftEffect": "smeltsmoke",
+  "drawer": {
+    "type": "DrawDefault"
+  },
+  "description": "Classic recipe and nominal rate; liquid is consumed continuously during production in v7, rather than in one batch."
+}

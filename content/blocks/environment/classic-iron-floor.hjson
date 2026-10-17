@@ -1,0 +1,7 @@
+{
+  "type": "Floor",
+  "name": "Classic Iron Deposit",
+  "itemDrop": "classic-iron",
+  "variants": 3,
+  "playerUnmineable": false
+}

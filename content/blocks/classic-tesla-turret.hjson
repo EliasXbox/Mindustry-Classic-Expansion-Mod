@@ -1,0 +1,41 @@
+{
+  "type": "PowerTurret",
+  "name": "Classic Tesla Turret",
+  "health": 140,
+  "size": 1,
+  "requirements": [
+    "classic-steel/20",
+    "classic-titanium/25",
+    "classic-dirium/15"
+  ],
+  "category": "turret",
+  "research": {
+    "parent": "classic-power-laser-router",
+    "requirements": [
+      "classic-steel/20",
+      "classic-titanium/25",
+      "classic-dirium/15"
+    ]
+  },
+  "range": 70,
+  "reload": 15,
+  "rotateSpeed": 12,
+  "hasLiquids": false,
+  "shootY": 4,
+  "recoil": 0,
+  "elevation": 0,
+  "consumes": {
+    "power": 0.03333333333333333
+  },
+  "shootType": {
+    "type": "LaserBulletType",
+    "damage": 9,
+    "length": 70,
+    "width": 2,
+    "sideLength": 0,
+    "lightningSpacing": 20,
+    "lightningLength": 4,
+    "lightningDamage": 9
+  },
+  "description": "Modern powered beam. Classic nominal range/reload/damage; continuous average power cost. Tesla lightning is adapted, not original seven-target random chain."
+}

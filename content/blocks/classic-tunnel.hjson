@@ -1,0 +1,23 @@
+{
+  "type": "ItemBridge",
+  "name": "Classic Tunnel",
+  "health": 70,
+  "size": 1,
+  "requirements": [
+    "classic-iron/2"
+  ],
+  "category": "distribution",
+  "research": {
+    "parent": "classic-junction",
+    "requirements": [
+      "classic-iron/2"
+    ]
+  },
+  "range": 3,
+  "transportTime": 53,
+  "itemCapacity": 32,
+  "hasPower": false,
+  "fadeIn": false,
+  "moveArrows": false,
+  "description": "Select the entrance and connect it to an exit up to 3 tiles away. Modern bridge link replaces Classic automatic opposing tunnels."
+}

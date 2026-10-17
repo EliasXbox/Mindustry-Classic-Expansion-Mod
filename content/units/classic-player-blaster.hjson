@@ -1,0 +1,42 @@
+{
+  "type": "flying",
+  "name": "Classic Player blaster",
+  "health": 200,
+  "speed": 1.2,
+  "accel": 0.1,
+  "drag": 0.08,
+  "hitSize": 8,
+  "flying": true,
+  "isEnemy": false,
+  "playerControllable": true,
+  "logicControllable": false,
+  "itemCapacity": 50,
+  "mineTier": 4,
+  "mineSpeed": 5,
+  "buildSpeed": 1,
+  "weapons": [
+    {
+      "name": "classic-player-blaster-weapon",
+      "x": 3,
+      "y": 0,
+      "reload": 12,
+      "mirror": true,
+      "rotate": false,
+      "alternate": false,
+      "inaccuracy": 0,
+      "shoot": {
+        "type": "ShootSpread",
+        "shots": 1,
+        "spread": 0
+      },
+      "bullet": {
+        "type": "BasicBulletType",
+        "speed": 2.7,
+        "damage": 5,
+        "lifetime": 60,
+        "width": 3,
+        "height": 5
+      }
+    }
+  ]
+}

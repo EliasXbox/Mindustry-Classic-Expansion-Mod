@@ -1,0 +1,33 @@
+{
+  "type": "flying",
+  "name": "Classic healer T6",
+  "description": "Classic tier 6 healer. Original t3 sprite; class-specific tier formulas. Fixed healer/Titan timers and prior modern combat adaptations remain.",
+  "health": 1200,
+  "speed": 0.49,
+  "hitSize": 5,
+  "flying": false,
+  "hovering": false,
+  "accel": 0.1,
+  "drag": 0.1,
+  "rotateSpeed": 6,
+  "range": 70,
+  "isEnemy": true,
+  "playerControllable": true,
+  "logicControllable": true,
+  "drawCell": false,
+  "engineSize": 0,
+  "outlineColor": "362020",
+  "outlineRadius": 1,
+  "weapons": [],
+  "itemCapacity": 0,
+  "buildSpeed": 0,
+  "mineTier": -1,
+  "abilities": [
+    {
+      "type": "RepairFieldAbility",
+      "amount": 1,
+      "reload": 10,
+      "range": 40
+    }
+  ]
+}

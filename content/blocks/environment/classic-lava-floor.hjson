@@ -1,0 +1,11 @@
+{
+  "type": "Floor",
+  "name": "Classic Lava Pool",
+  "variants": 0,
+  "liquidDrop": "classic-lava",
+  "isLiquid": true,
+  "liquidMultiplier": 1,
+  "speedMultiplier": 0.3,
+  "status": "melting",
+  "damageTaken": 0.1
+}

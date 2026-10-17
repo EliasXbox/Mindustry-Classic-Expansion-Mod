@@ -1,0 +1,7 @@
+{
+  "type": "Floor",
+  "name": "Classic Uranium Deposit",
+  "variants": 3,
+  "itemDrop": "classic-uranium",
+  "playerUnmineable": false
+}

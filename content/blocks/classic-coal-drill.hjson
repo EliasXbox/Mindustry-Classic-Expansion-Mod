@@ -1,0 +1,29 @@
+{
+  "type": "Drill",
+  "name": "Classic Coal Drill",
+  "health": 40,
+  "size": 1,
+  "requirements": [
+    "classic-stone/25",
+    "classic-iron/40"
+  ],
+  "category": "production",
+  "research": {
+    "parent": "classic-iron-drill",
+    "requirements": [
+      "classic-stone/25",
+      "classic-iron/40"
+    ]
+  },
+  "tier": 2,
+  "drillTime": 360,
+  "hardnessDrillMultiplier": 0,
+  "itemCapacity": 5,
+  "warmupSpeed": 1,
+  "drawMineItem": false,
+  "rotateSpeed": 0,
+  "drawSpinSprite": false,
+  "hasLiquids": false,
+  "description": "Modern tier-based drill; nominal Classic extraction interval preserved. Omni tier 100 includes modern ores up to hardness 100.",
+  "blockedItem": "classic-stone"
+}
