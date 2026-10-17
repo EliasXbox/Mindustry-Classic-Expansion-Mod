@@ -1,0 +1,47 @@
+{
+  "type": "flying",
+  "name": "Classic rapid T4",
+  "description": "Classic tier 4 rapid. Uses original t3 sprite and Classic contour color. Tier health/speed/reload/direct damage; prior v7 combat adaptations remain.",
+  "health": 1040,
+  "speed": 0.49,
+  "hitSize": 8,
+  "flying": false,
+  "hovering": false,
+  "accel": 0.1,
+  "drag": 0.1,
+  "rotateSpeed": 6,
+  "range": 90,
+  "isEnemy": true,
+  "playerControllable": true,
+  "logicControllable": true,
+  "drawCell": false,
+  "engineSize": 0,
+  "outlineColor": "ff2d86",
+  "outlineRadius": 1,
+  "weapons": [
+    {
+      "x": 0,
+      "y": 0,
+      "shootY": 4,
+      "mirror": false,
+      "rotate": true,
+      "rotateSpeed": 12,
+      "reload": 3.0,
+      "shootSound": "shoot",
+      "bullet": {
+        "type": "BasicBulletType",
+        "speed": 1.6,
+        "damage": 8,
+        "lifetime": 60,
+        "width": 3,
+        "height": 5,
+        "frontColor": "8b5ec9",
+        "backColor": "8b5ec9",
+        "rangeOverride": 90
+      }
+    }
+  ],
+  "itemCapacity": 0,
+  "buildSpeed": 0,
+  "mineTier": -1
+}

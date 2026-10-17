@@ -103,3 +103,5 @@ client screenshot identified the wrong-folder placeholder. Client retest pending
 0.13.0-alpha (2026-10-13): Added Tank/Blast/Mortar/Healer/Titan T2/T3 with original sprites and class-specific scaling. Maintains prior v7 projectile/repair/timer adaptations. Added heavy-tier demo with Standard escorts for healers and reproducible combat/save checks.
 
 0.14.0-alpha (2026-10-16): Added EMP/Fortress T2/T3 and Standard/Fast T4-T6. Original sprites, reusing t3 for tiers 4-6; Classic contour colors. Extended Fortress spawner/save reader to same-tier Fast and kept prior v1 chunk format. Added elite-tier combat/save demo and legacy-save verification.
+
+0.15.0-alpha (2026-10-17): Added Rapid/Flamer/Tank T4-T6 and Blast T4, reusing original t3 sprites and Classic contour colors. Preserved tier formulas and Blast +40/integer fragment rule while retaining prior v7 behavior adaptations. Added assault-tier demo and combat/save verification.

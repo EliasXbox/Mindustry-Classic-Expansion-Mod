@@ -1,6 +1,6 @@
 # Mindustry: Classic Expansion
 
-Mod HJSON com scripts JavaScript para **Mindustry v7 build 146**, destinado a PC e Android. Alpha **0.14.0**.
+Mod HJSON com scripts JavaScript para **Mindustry v7 build 146**, destinado a PC e Android. Alpha **0.15.0**.
 Conteúdo separado dos blocos e itens vanilla, sob o prefixo mindustry-classic-expansion-.
 
 ## Lote 2: cinco blocos e seus itens
@@ -19,7 +19,7 @@ Na 0.9 há 63 receitas construíveis, núcleo próprio e 15 tipos de piso.
 
 ## Instalar e testar
 
-1. Importe o ZIP 0.14 em **Mods → Importar mod**, sem descompactar.
+1. Importe o ZIP 0.15 em **Mods → Importar mod**, sem descompactar.
 2. Atualize o mod existente; não mantenha as duas alphas instaladas juntas. Reinicie.
 3. Abra **Jogo personalizado → MCE - Classic Chain Demo**. Use sandbox para inspeção rápida.
 4. Na região (20,20), pedra passa pelo perfurador, esteira e roteador até o cofre.
@@ -46,7 +46,7 @@ Veja [BATCH-02.md](docs/BATCH-02.md).
 ## Gerar o ZIP
 
 Com Python 3 na raiz: `python tools/build.py`.
-Saída: dist/mindustry-classic-expansion-0.14.0-alpha.zip, com manifesto na raiz.
+Saída: dist/mindustry-classic-expansion-0.15.0-alpha.zip, com manifesto na raiz.
 Os .hjson usam JSON válido, subconjunto de HJSON. A partir da 0.8, scripts JavaScript preservam canais de teleporte e compras de armas; não há biblioteca Java adicional.
 O ZIP inclui fonte editável, mapa, licença, créditos e ferramentas de reprodução.
 
@@ -163,3 +163,11 @@ os vínculos após save/load, incluindo saves do lote 12.
 Abra **MCE - Elite Enemy Tiers Demo**. Veja [BATCH-14.md](docs/BATCH-14.md).
 Total: 40 entradas de inimigos + seis de jogador. Restam 27 variantes T4–T6
 dos outros nove inimigos, além dos mapas Classic e pendências já registradas.
+
+## Lote 15: Rapid/Flamer/Tank T4–T6 e Blast T4
+
+Dez variantes, com arte t3 e cores/atributos Classic de níveis superiores.
+Abra **MCE - Assault Enemy Tiers Demo**, com dez ondas manuais.
+Veja [BATCH-15.md](docs/BATCH-15.md). Total: 50 entradas de inimigos e seis
+de jogador. Restam 17 variantes para completar os níveis de combate,
+além dos mapas originais/planeta Classic e pendências de adaptação.

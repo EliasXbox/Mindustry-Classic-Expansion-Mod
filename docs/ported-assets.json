@@ -1998,6 +1998,66 @@
       "target": "sprites/units/classic-enemy-fast-t6.png",
       "operation": "4x nearest-neighbor from preserved source",
       "renderedSha256": "8e1a247bc69c79fbb937ec4f3e1bcf76ba78e1aadccc7c23fce6fe88046fa4e8"
+    },
+    {
+      "source": "core/assets-raw/sprites/enemies/rapidenemy-t3.png",
+      "target": "sprites/units/classic-enemy-rapid-t4.png",
+      "operation": "4x nearest-neighbor from preserved source",
+      "renderedSha256": "8cbc895312d965c1375acebd1122ce481789db7c7f3d217ab906a489e48a0471"
+    },
+    {
+      "source": "core/assets-raw/sprites/enemies/rapidenemy-t3.png",
+      "target": "sprites/units/classic-enemy-rapid-t5.png",
+      "operation": "4x nearest-neighbor from preserved source",
+      "renderedSha256": "8cbc895312d965c1375acebd1122ce481789db7c7f3d217ab906a489e48a0471"
+    },
+    {
+      "source": "core/assets-raw/sprites/enemies/rapidenemy-t3.png",
+      "target": "sprites/units/classic-enemy-rapid-t6.png",
+      "operation": "4x nearest-neighbor from preserved source",
+      "renderedSha256": "8cbc895312d965c1375acebd1122ce481789db7c7f3d217ab906a489e48a0471"
+    },
+    {
+      "source": "core/assets-raw/sprites/enemies/flamerenemy-t3.png",
+      "target": "sprites/units/classic-enemy-flamer-t4.png",
+      "operation": "4x nearest-neighbor from preserved source",
+      "renderedSha256": "436758b4b825a2b1082d261a61b1605f0d91730ba56f8ed9f251f54960a5c8db"
+    },
+    {
+      "source": "core/assets-raw/sprites/enemies/flamerenemy-t3.png",
+      "target": "sprites/units/classic-enemy-flamer-t5.png",
+      "operation": "4x nearest-neighbor from preserved source",
+      "renderedSha256": "436758b4b825a2b1082d261a61b1605f0d91730ba56f8ed9f251f54960a5c8db"
+    },
+    {
+      "source": "core/assets-raw/sprites/enemies/flamerenemy-t3.png",
+      "target": "sprites/units/classic-enemy-flamer-t6.png",
+      "operation": "4x nearest-neighbor from preserved source",
+      "renderedSha256": "436758b4b825a2b1082d261a61b1605f0d91730ba56f8ed9f251f54960a5c8db"
+    },
+    {
+      "source": "core/assets-raw/sprites/enemies/tankenemy-t3.png",
+      "target": "sprites/units/classic-enemy-tank-t4.png",
+      "operation": "4x nearest-neighbor from preserved source",
+      "renderedSha256": "9a4eccac76eb3bb726ab8a73e975c7fa93d18a9e63461d40c4cf113bc043feac"
+    },
+    {
+      "source": "core/assets-raw/sprites/enemies/tankenemy-t3.png",
+      "target": "sprites/units/classic-enemy-tank-t5.png",
+      "operation": "4x nearest-neighbor from preserved source",
+      "renderedSha256": "9a4eccac76eb3bb726ab8a73e975c7fa93d18a9e63461d40c4cf113bc043feac"
+    },
+    {
+      "source": "core/assets-raw/sprites/enemies/tankenemy-t3.png",
+      "target": "sprites/units/classic-enemy-tank-t6.png",
+      "operation": "4x nearest-neighbor from preserved source",
+      "renderedSha256": "9a4eccac76eb3bb726ab8a73e975c7fa93d18a9e63461d40c4cf113bc043feac"
+    },
+    {
+      "source": "core/assets-raw/sprites/enemies/blastenemy-t3.png",
+      "target": "sprites/units/classic-enemy-blast-t4.png",
+      "operation": "4x nearest-neighbor from preserved source",
+      "renderedSha256": "eec83d38f8ff5a988e450e205cb27a32381cedd29cac9257aea9614f669ae5ca"
     }
   ]
 }
