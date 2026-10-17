@@ -1,0 +1,46 @@
+{
+  "type": "flying",
+  "name": "Classic mortar T5",
+  "description": "Classic tier 5 mortar. Original t3 sprite; class-specific tier formulas. Fixed healer/Titan timers and prior modern combat adaptations remain.",
+  "health": 1000,
+  "speed": 0.45,
+  "hitSize": 5,
+  "flying": false,
+  "hovering": false,
+  "accel": 0.1,
+  "drag": 0.1,
+  "rotateSpeed": 6,
+  "range": 145,
+  "isEnemy": true,
+  "playerControllable": true,
+  "logicControllable": true,
+  "drawCell": false,
+  "engineSize": 0,
+  "outlineColor": "cb2dff",
+  "outlineRadius": 1,
+  "weapons": [
+    {
+      "x": 0,
+      "y": 0,
+      "shootY": 4,
+      "mirror": false,
+      "rotate": true,
+      "rotateSpeed": 12,
+      "reload": 30.0,
+      "shootSound": "shoot",
+      "bullet": {
+        "type": "ArtilleryBulletType",
+        "speed": 1.1,
+        "damage": 300,
+        "lifetime": 110,
+        "splashDamage": 40,
+        "splashDamageRadius": 25,
+        "rangeOverride": 145,
+        "collidesAir": false
+      }
+    }
+  ],
+  "itemCapacity": 0,
+  "buildSpeed": 0,
+  "mineTier": -1
+}
