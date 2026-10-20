@@ -107,3 +107,5 @@ client screenshot identified the wrong-folder placeholder. Client retest pending
 0.15.0-alpha (2026-10-17): Added Rapid/Flamer/Tank T4-T6 and Blast T4, reusing original t3 sprites and Classic contour colors. Preserved tier formulas and Blast +40/integer fragment rule while retaining prior v7 behavior adaptations. Added assault-tier demo and combat/save verification.
 
 0.16.0-alpha (2026-10-17): Added Blast T5/T6, Mortar/Healer T4-T6 and Titan T4/T5 with original t3 sprites and Classic contour colors. Preserved class-specific blast increment/integer fragments, base mortar splash, fixed healer/Titan timers; v7 combat adaptations remain. Added siege-tier demo with healer escorts and combat/save verification.
+
+0.17.0-alpha (2026-10-20): Added Titan T6 and EMP/Fortress T4-T6 with original t3 art and Classic contour/stat rules. Enabled all Fortress tiers in existing script/save format. Completes 66 combat tier variants plus training target, not exact behavior parity. Added seven-wave demo, coverage assertion and legacy/combat/save checks.

@@ -1,0 +1,44 @@
+{
+  "name": "Classic fortress T6",
+  "description": "Classic tier 6 fortress. Original t3 sprite and Classic contour. Tier health/speed/direct damage, with original class-specific timers; modern combat adaptations remain. Generates Fast of the same tier, max six live children, with saved links.",
+  "health": 4200,
+  "speed": 0.49,
+  "hitSize": 10,
+  "flying": false,
+  "hovering": false,
+  "accel": 0.1,
+  "drag": 0.1,
+  "rotateSpeed": 6,
+  "range": 100,
+  "isEnemy": true,
+  "playerControllable": true,
+  "logicControllable": true,
+  "drawCell": false,
+  "engineSize": 0,
+  "outlineColor": "362020",
+  "outlineRadius": 1,
+  "weapons": [
+    {
+      "x": 0,
+      "y": 0,
+      "shootY": 7,
+      "mirror": false,
+      "rotate": true,
+      "rotateSpeed": 6,
+      "reload": 22.5,
+      "bullet": {
+        "type": "ArtilleryBulletType",
+        "speed": 1.2,
+        "damage": 120,
+        "lifetime": 60,
+        "splashDamage": 13,
+        "splashDamageRadius": 25,
+        "rangeOverride": 100,
+        "collidesAir": false
+      }
+    }
+  ],
+  "itemCapacity": 0,
+  "buildSpeed": 0,
+  "mineTier": -1
+}

@@ -1,0 +1,50 @@
+{
+  "type": "flying",
+  "name": "Classic emp T6",
+  "description": "Classic tier 6 emp. Original t3 sprite and Classic contour. Tier health/speed/direct damage, with original class-specific timers; modern combat adaptations remain.",
+  "health": 1260,
+  "speed": 0.54,
+  "hitSize": 5,
+  "flying": false,
+  "hovering": false,
+  "accel": 0.1,
+  "drag": 0.1,
+  "rotateSpeed": 6,
+  "range": 110,
+  "isEnemy": true,
+  "playerControllable": true,
+  "logicControllable": true,
+  "drawCell": false,
+  "engineSize": 0,
+  "outlineColor": "362020",
+  "outlineRadius": 1,
+  "weapons": [
+    {
+      "x": 0,
+      "y": 0,
+      "shootY": 4,
+      "mirror": false,
+      "rotate": true,
+      "rotateSpeed": 12,
+      "reload": 17.5,
+      "shootSound": "shoot",
+      "bullet": {
+        "type": "EmpBulletType",
+        "speed": 1.6,
+        "damage": 48,
+        "lifetime": 50,
+        "radius": 40,
+        "timeDuration": 120,
+        "timeIncrease": 1,
+        "powerDamageScl": 1,
+        "powerSclDecrease": 0.5,
+        "hitUnits": true,
+        "unitDamageScl": 1,
+        "rangeOverride": 110
+      }
+    }
+  ],
+  "itemCapacity": 0,
+  "buildSpeed": 0,
+  "mineTier": -1
+}

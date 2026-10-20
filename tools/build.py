@@ -66,7 +66,7 @@ def main():
     assert (ROOT / 'maps/classic-turrets-demo.msav').is_file(), 'Turrets map is required'
     assert (ROOT / 'maps/classic-power-demo.msav').is_file(), 'Power map is required'
     assert (ROOT / 'maps/classic-special-demo.msav').is_file()
-    assert len(list((ROOT / 'content/units').glob('*.hjson'))) == 66
+    assert len(list((ROOT / 'content/units').glob('*.hjson'))) == 73
     assert (ROOT / 'maps/classic-environments-demo.msav').is_file()
     core = content['classic-core']
     assert core['type'] == 'CoreBlock' and core['size'] == 3 and core['health'] == 800
@@ -87,6 +87,12 @@ def main():
     assert (ROOT / 'maps/classic-elite-tiers-demo.msav').is_file()
     assert (ROOT / 'maps/classic-assault-tiers-demo.msav').is_file()
     assert (ROOT / 'maps/classic-siege-tiers-demo.msav').is_file()
+    assert (ROOT / 'maps/classic-final-tiers-demo.msav').is_file()
+    for enemy in ['standard', 'fast', 'rapid', 'flamer', 'tank', 'blast', 'mortar', 'healer', 'titan', 'emp', 'fortress']:
+        for tier in range(1, 7):
+            name = 'classic-enemy-' + enemy + ('' if tier == 1 else '-t' + str(tier))
+            assert name in content, f'Missing Classic tier: {name}'
+    assert 'classic-enemy-target' in content
     files = [ROOT / p for p in ['mod.hjson', 'LICENSE', 'NOTICE.md', 'README.md']]
     for folder in ['content', 'sprites', 'art-source', 'bundles', 'docs', 'tools', 'maps', 'scripts']:
         files.extend(p for p in (ROOT / folder).rglob('*') if p.is_file() and '__pycache__' not in p.parts)

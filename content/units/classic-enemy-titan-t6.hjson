@@ -1,0 +1,100 @@
+{
+  "type": "flying",
+  "name": "Classic titan T6",
+  "description": "Classic tier 6 titan. Original t3 sprite and Classic contour. Tier health/speed/direct damage, with original class-specific timers; modern combat adaptations remain.",
+  "health": 2580,
+  "speed": 0.5,
+  "hitSize": 7,
+  "flying": false,
+  "hovering": false,
+  "accel": 0.1,
+  "drag": 0.1,
+  "rotateSpeed": 6,
+  "range": 90,
+  "isEnemy": true,
+  "playerControllable": true,
+  "logicControllable": true,
+  "drawCell": false,
+  "engineSize": 0,
+  "outlineColor": "362020",
+  "outlineRadius": 1,
+  "weapons": [
+    {
+      "x": 0,
+      "y": 0,
+      "shootY": 4,
+      "mirror": false,
+      "rotate": true,
+      "rotateSpeed": 12,
+      "reload": 80,
+      "shootSound": "shoot",
+      "bullet": {
+        "type": "BasicBulletType",
+        "speed": 1.2,
+        "damage": 12,
+        "lifetime": 60,
+        "width": 3,
+        "height": 5,
+        "rangeOverride": 90
+      },
+      "shoot": {
+        "type": "ShootSpread",
+        "shots": 5,
+        "spread": 10
+      }
+    },
+    {
+      "x": 0,
+      "y": 0,
+      "shootY": 4,
+      "mirror": false,
+      "rotate": true,
+      "rotateSpeed": 12,
+      "reload": 200,
+      "shootSound": "shoot",
+      "bullet": {
+        "type": "BasicBulletType",
+        "speed": 1.2,
+        "damage": 12,
+        "lifetime": 60,
+        "width": 3,
+        "height": 5,
+        "rangeOverride": 90
+      },
+      "shoot": {
+        "type": "ShootSpread",
+        "shots": 8,
+        "spread": 45
+      },
+      "shootCone": 180
+    },
+    {
+      "x": 0,
+      "y": 0,
+      "shootY": 4,
+      "mirror": false,
+      "rotate": true,
+      "rotateSpeed": 12,
+      "reload": 240,
+      "shootSound": "shoot",
+      "bullet": {
+        "type": "BasicBulletType",
+        "speed": 0.5,
+        "damage": 18,
+        "lifetime": 60,
+        "width": 3,
+        "height": 5,
+        "rangeOverride": 90
+      },
+      "shoot": {
+        "type": "ShootPattern",
+        "shots": 10,
+        "shotDelay": 6
+      },
+      "inaccuracy": 20
+    }
+  ],
+  "itemCapacity": 0,
+  "buildSpeed": 0,
+  "mineTier": -1
+}

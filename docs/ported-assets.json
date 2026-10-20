@@ -2118,6 +2118,48 @@
       "target": "sprites/units/classic-enemy-titan-t5.png",
       "operation": "4x nearest-neighbor from preserved source",
       "renderedSha256": "0da49b90669d9d04849fcbbcb1440387baeb21f584beb024c6f65bfaba0c83f7"
+    },
+    {
+      "source": "core/assets-raw/sprites/enemies/titanenemy-t3.png",
+      "target": "sprites/units/classic-enemy-titan-t6.png",
+      "operation": "4x nearest-neighbor from preserved source",
+      "renderedSha256": "0da49b90669d9d04849fcbbcb1440387baeb21f584beb024c6f65bfaba0c83f7"
+    },
+    {
+      "source": "core/assets-raw/sprites/enemies/empenemy-t3.png",
+      "target": "sprites/units/classic-enemy-emp-t4.png",
+      "operation": "4x nearest-neighbor from preserved source",
+      "renderedSha256": "5e4da3d2549f1c9937cf401989afdf0850f966c549256e8e85e9f14b497b2d9e"
+    },
+    {
+      "source": "core/assets-raw/sprites/enemies/empenemy-t3.png",
+      "target": "sprites/units/classic-enemy-emp-t5.png",
+      "operation": "4x nearest-neighbor from preserved source",
+      "renderedSha256": "5e4da3d2549f1c9937cf401989afdf0850f966c549256e8e85e9f14b497b2d9e"
+    },
+    {
+      "source": "core/assets-raw/sprites/enemies/empenemy-t3.png",
+      "target": "sprites/units/classic-enemy-emp-t6.png",
+      "operation": "4x nearest-neighbor from preserved source",
+      "renderedSha256": "5e4da3d2549f1c9937cf401989afdf0850f966c549256e8e85e9f14b497b2d9e"
+    },
+    {
+      "source": "core/assets-raw/sprites/enemies/fortressenemy-t3.png",
+      "target": "sprites/units/classic-enemy-fortress-t4.png",
+      "operation": "4x nearest-neighbor from preserved source",
+      "renderedSha256": "ecd61e5a3f9ce71ca2695725cbdfa6aa8337bc453649c2759540553f39a2bbdb"
+    },
+    {
+      "source": "core/assets-raw/sprites/enemies/fortressenemy-t3.png",
+      "target": "sprites/units/classic-enemy-fortress-t5.png",
+      "operation": "4x nearest-neighbor from preserved source",
+      "renderedSha256": "ecd61e5a3f9ce71ca2695725cbdfa6aa8337bc453649c2759540553f39a2bbdb"
+    },
+    {
+      "source": "core/assets-raw/sprites/enemies/fortressenemy-t3.png",
+      "target": "sprites/units/classic-enemy-fortress-t6.png",
+      "operation": "4x nearest-neighbor from preserved source",
+      "renderedSha256": "ecd61e5a3f9ce71ca2695725cbdfa6aa8337bc453649c2759540553f39a2bbdb"
     }
   ]
 }

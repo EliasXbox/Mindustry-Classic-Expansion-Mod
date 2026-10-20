@@ -7,7 +7,7 @@ function tierOf(unit){var match=String(unit.type.name).match(/-t([2-6])$/);retur
 function isFortress(unit){return String(unit.type.name)===prefix+'fortress'||/^mindustry-classic-expansion-classic-enemy-fortress-t[2-6]$/.test(String(unit.type.name));}
 function makeSpawner(tier){var ability=extend(Ability,{
  copy:function(){return makeSpawner(tier);},
- localized:function(){return 'Classic: até 6 Fast, próximos ao núcleo inimigo';},
+ localized:function(){return 'Classic: até 6 Fast do mesmo tier, próximos ao núcleo inimigo';},
  update:function(unit){
   if(Vars.net.client()||unit.dead)return;
   var oldCount=Math.floor(this.data/1000),timer=this.data-oldCount*1000;
@@ -26,7 +26,7 @@ function makeSpawner(tier){var ability=extend(Ability,{
  }
 });return ability;}
 function makeFortress(tier){var type=extend(UnitType,'classic-enemy-fortress'+(tier===1?'':'-t'+tier),{});type.constructor=prov(function(){return UnitEntity.create();});type.abilities.add(makeSpawner(tier));return type;}
-var fortress=makeFortress(1),fortressT2=makeFortress(2),fortressT3=makeFortress(3);
+var fortress=makeFortress(1),fortressT2=makeFortress(2),fortressT3=makeFortress(3),fortressT4=makeFortress(4),fortressT5=makeFortress(5),fortressT6=makeFortress(6);
 Packages.mindustry.io.SaveVersion.addCustomChunk('mce-fortress-v1',new Packages.mindustry.io.SaveFileReader.CustomChunk({
  write:function(out){
   var units=[];Groups.unit.each(cons(function(u){if(isFortress(u)&&!u.dead)units.push(u);}));
