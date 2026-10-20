@@ -1,0 +1,51 @@
+{
+  "type": "flying",
+  "name": "Classic Player shockgun",
+  "health": 200,
+  "speed": 1.2,
+  "accel": 0.1,
+  "drag": 0.08,
+  "hitSize": 8,
+  "flying": true,
+  "isEnemy": false,
+  "playerControllable": true,
+  "logicControllable": false,
+  "itemCapacity": 50,
+  "mineTier": 4,
+  "mineSpeed": 5,
+  "buildSpeed": 1,
+  "weapons": [
+    {
+      "name": "classic-player-shockgun-weapon",
+      "x": 3,
+      "y": 0,
+      "reload": 36,
+      "mirror": true,
+      "rotate": false,
+      "alternate": true,
+      "inaccuracy": 15,
+      "shoot": {
+        "type": "ShootSpread",
+        "shots": 7,
+        "spread": 0
+      },
+      "bullet": {
+        "type": "BasicBulletType",
+        "speed": 5.5,
+        "damage": 11,
+        "lifetime": 30,
+        "width": 3,
+        "height": 5,
+        "drag": 0.03,
+        "fragBullets": 4,
+        "fragBullet": {
+          "type": "BasicBulletType",
+          "speed": 2,
+          "damage": 3,
+          "lifetime": 30,
+          "drag": 0.06
+        }
+      }
+    }
+  ]
+}

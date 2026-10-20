@@ -1,0 +1,45 @@
+{
+  "type": "flying",
+  "name": "Classic fast T6",
+  "description": "Classic tier 6 variant. Tier health/speed/reload/direct damage; original sprite t3. Modern combat adaptations remain.",
+  "health": 300,
+  "speed": 0.97,
+  "hitSize": 5,
+  "flying": false,
+  "hovering": false,
+  "accel": 0.1,
+  "drag": 0.1,
+  "rotateSpeed": 6,
+  "range": 90,
+  "isEnemy": true,
+  "playerControllable": true,
+  "logicControllable": true,
+  "drawCell": false,
+  "engineSize": 0,
+  "outlineColor": "362020",
+  "outlineRadius": 1,
+  "weapons": [
+    {
+      "x": 0,
+      "y": 0,
+      "shootY": 4,
+      "mirror": false,
+      "rotate": true,
+      "rotateSpeed": 12,
+      "reload": 5.0,
+      "shootSound": "shoot",
+      "bullet": {
+        "type": "BasicBulletType",
+        "speed": 1.5,
+        "damage": 12,
+        "lifetime": 60,
+        "width": 3,
+        "height": 5,
+        "rangeOverride": 90
+      }
+    }
+  ],
+  "itemCapacity": 0,
+  "buildSpeed": 0,
+  "mineTier": -1
+}

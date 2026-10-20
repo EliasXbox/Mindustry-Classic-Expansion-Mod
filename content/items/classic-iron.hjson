@@ -1,0 +1,8 @@
+{
+  "name": "Classic Iron",
+  "description": "Classic resource, separate from vanilla items.",
+  "color": "b5a798",
+  "hardness": 1,
+  "cost": 1,
+  "alwaysUnlocked": true
+}

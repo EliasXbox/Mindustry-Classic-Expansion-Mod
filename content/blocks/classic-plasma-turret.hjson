@@ -1,0 +1,62 @@
+{
+  "type": "ItemTurret",
+  "name": "Classic Plasma Turret",
+  "health": 180,
+  "size": 1,
+  "requirements": [
+    "classic-steel/10",
+    "classic-titanium/20",
+    "classic-dirium/15"
+  ],
+  "category": "turret",
+  "research": {
+    "parent": "classic-flame-turret",
+    "requirements": [
+      "classic-steel/10",
+      "classic-titanium/20",
+      "classic-dirium/15"
+    ]
+  },
+  "range": 60,
+  "reload": 3,
+  "rotateSpeed": 12,
+  "shootCone": 5,
+  "shootY": 4,
+  "inaccuracy": 7,
+  "maxAmmo": 400,
+  "ammoPerShot": 2,
+  "consumeAmmoOnce": true,
+  "hasLiquids": false,
+  "shoot": {
+    "type": "ShootPattern",
+    "shots": 1
+  },
+  "ammoTypes": {
+    "classic-coal": {
+      "type": "BasicBulletType",
+      "speed": 0.8,
+      "damage": 17,
+      "lifetime": 65,
+      "width": 7,
+      "height": 7,
+      "ammoMultiplier": 40,
+      "backColor": "72deaf",
+      "frontColor": "72deaf",
+      "hitEffect": "hitBulletSmall",
+      "despawnEffect": "none",
+      "shootEffect": "shootSmallFlame",
+      "smokeEffect": "none",
+      "collidesAir": true,
+      "collidesGround": true,
+      "shrinkX": 1,
+      "shrinkY": 1
+    }
+  },
+  "drawer": {
+    "type": "DrawTurret"
+  },
+  "recoil": 0,
+  "elevation": 0,
+  "targetInterval": 15,
+  "description": "Classic health, footprint, costs, range and reload. Modern aiming/projectiles; two ammo units per volley reproduce Classic double decrement."
+}

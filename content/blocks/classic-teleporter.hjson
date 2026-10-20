@@ -1,0 +1,24 @@
+{
+  "name": "Classic Teleporter",
+  "health": 80,
+  "size": 1,
+  "requirements": [
+    "classic-steel/30",
+    "classic-dirium/40"
+  ],
+  "category": "distribution",
+  "research": {
+    "parent": "classic-power-laser-router",
+    "requirements": [
+      "classic-steel/30",
+      "classic-dirium/40"
+    ]
+  },
+  "hasItems": true,
+  "itemCapacity": 1,
+  "hasPower": true,
+  "consumes": {
+    "powerBuffered": 30
+  },
+  "description": "Select one of eight colors. Sends items instantly to an empty same-team teleporter of the same color; costs 0.8 stored energy per item."
+}

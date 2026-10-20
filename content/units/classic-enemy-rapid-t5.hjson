@@ -1,0 +1,47 @@
+{
+  "type": "flying",
+  "name": "Classic rapid T5",
+  "description": "Classic tier 5 rapid. Uses original t3 sprite and Classic contour color. Tier health/speed/reload/direct damage; prior v7 combat adaptations remain.",
+  "health": 1300,
+  "speed": 0.53,
+  "hitSize": 8,
+  "flying": false,
+  "hovering": false,
+  "accel": 0.1,
+  "drag": 0.1,
+  "rotateSpeed": 6,
+  "range": 95,
+  "isEnemy": true,
+  "playerControllable": true,
+  "logicControllable": true,
+  "drawCell": false,
+  "engineSize": 0,
+  "outlineColor": "cb2dff",
+  "outlineRadius": 1,
+  "weapons": [
+    {
+      "x": 0,
+      "y": 0,
+      "shootY": 4,
+      "mirror": false,
+      "rotate": true,
+      "rotateSpeed": 12,
+      "reload": 2.4,
+      "shootSound": "shoot",
+      "bullet": {
+        "type": "BasicBulletType",
+        "speed": 1.6,
+        "damage": 10,
+        "lifetime": 60,
+        "width": 3,
+        "height": 5,
+        "frontColor": "8b5ec9",
+        "backColor": "8b5ec9",
+        "rangeOverride": 95
+      }
+    }
+  ],
+  "itemCapacity": 0,
+  "buildSpeed": 0,
+  "mineTier": -1
+}

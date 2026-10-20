@@ -1,0 +1,16 @@
+{
+  "type": "Sorter",
+  "name": "Classic Sorter",
+  "health": 40,
+  "size": 1,
+  "requirements": [
+    "classic-steel/2"
+  ],
+  "category": "distribution",
+  "research": {
+    "parent": "classic-smelter",
+    "requirements": [
+      "classic-steel/2"
+    ]
+  }
+}

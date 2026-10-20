@@ -1,0 +1,45 @@
+{
+  "type": "flying",
+  "name": "Classic standard T5",
+  "description": "Classic tier 5 variant. Tier health/speed/reload/direct damage; original sprite t3. Modern combat adaptations remain.",
+  "health": 300,
+  "speed": 0.6,
+  "hitSize": 5,
+  "flying": false,
+  "hovering": false,
+  "accel": 0.1,
+  "drag": 0.1,
+  "rotateSpeed": 6,
+  "range": 85,
+  "isEnemy": true,
+  "playerControllable": true,
+  "logicControllable": true,
+  "drawCell": false,
+  "engineSize": 0,
+  "outlineColor": "cb2dff",
+  "outlineRadius": 1,
+  "weapons": [
+    {
+      "x": 0,
+      "y": 0,
+      "shootY": 4,
+      "mirror": false,
+      "rotate": true,
+      "rotateSpeed": 12,
+      "reload": 9.6,
+      "shootSound": "shoot",
+      "bullet": {
+        "type": "BasicBulletType",
+        "speed": 1.5,
+        "damage": 10,
+        "lifetime": 60,
+        "width": 3,
+        "height": 5,
+        "rangeOverride": 85
+      }
+    }
+  ],
+  "itemCapacity": 0,
+  "buildSpeed": 0,
+  "mineTier": -1
+}

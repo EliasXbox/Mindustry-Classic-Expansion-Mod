@@ -1,0 +1,46 @@
+{
+  "type": "flying",
+  "name": "Classic mortar T4",
+  "description": "Classic tier 4 mortar. Original t3 sprite; class-specific tier formulas. Fixed healer/Titan timers and prior modern combat adaptations remain.",
+  "health": 800,
+  "speed": 0.41,
+  "hitSize": 5,
+  "flying": false,
+  "hovering": false,
+  "accel": 0.1,
+  "drag": 0.1,
+  "rotateSpeed": 6,
+  "range": 140,
+  "isEnemy": true,
+  "playerControllable": true,
+  "logicControllable": true,
+  "drawCell": false,
+  "engineSize": 0,
+  "outlineColor": "ff2d86",
+  "outlineRadius": 1,
+  "weapons": [
+    {
+      "x": 0,
+      "y": 0,
+      "shootY": 4,
+      "mirror": false,
+      "rotate": true,
+      "rotateSpeed": 12,
+      "reload": 37.5,
+      "shootSound": "shoot",
+      "bullet": {
+        "type": "ArtilleryBulletType",
+        "speed": 1.1,
+        "damage": 240,
+        "lifetime": 110,
+        "splashDamage": 40,
+        "splashDamageRadius": 25,
+        "rangeOverride": 140,
+        "collidesAir": false
+      }
+    }
+  ],
+  "itemCapacity": 0,
+  "buildSpeed": 0,
+  "mineTier": -1
+}

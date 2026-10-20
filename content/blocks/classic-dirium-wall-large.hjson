@@ -1,0 +1,16 @@
+{
+  "type": "Wall",
+  "name": "Classic Dirium Wall (Large)",
+  "health": 3040,
+  "size": 2,
+  "requirements": [
+    "classic-dirium/48"
+  ],
+  "category": "defense",
+  "research": {
+    "parent": "classic-dirium-wall",
+    "requirements": [
+      "classic-dirium/48"
+    ]
+  }
+}

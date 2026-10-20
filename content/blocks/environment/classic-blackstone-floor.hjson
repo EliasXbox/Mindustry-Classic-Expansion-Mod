@@ -1,0 +1,7 @@
+{
+  "type": "Floor",
+  "name": "Classic blackstone",
+  "variants": 3,
+  "itemDrop": "classic-stone",
+  "playerUnmineable": false
+}

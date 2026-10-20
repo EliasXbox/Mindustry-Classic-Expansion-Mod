@@ -1,0 +1,27 @@
+{
+  "type": "Drill",
+  "name": "Classic Stone Drill",
+  "health": 40,
+  "size": 1,
+  "requirements": [
+    "classic-stone/12"
+  ],
+  "category": "production",
+  "research": {
+    "parent": "mechanical-drill",
+    "requirements": [
+      "classic-stone/12"
+    ]
+  },
+  "tier": 0,
+  "blockedItem": "sand",
+  "drillTime": 240,
+  "hardnessDrillMultiplier": 0,
+  "itemCapacity": 5,
+  "warmupSpeed": 1,
+  "drawMineItem": false,
+  "rotateSpeed": 0,
+  "drawSpinSprite": false,
+  "hasLiquids": false,
+  "description": "Original Classic recipe: 12 Classic stone. Mines stone; modern tier-0 drill with sand blocked."
+}

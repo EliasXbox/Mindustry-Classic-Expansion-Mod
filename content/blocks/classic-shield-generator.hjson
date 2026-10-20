@@ -1,0 +1,28 @@
+{
+  "type": "ForceProjector",
+  "name": "Classic Shield Generator",
+  "health": 400,
+  "size": 1,
+  "requirements": [
+    "classic-titanium/30",
+    "classic-dirium/30"
+  ],
+  "category": "effect",
+  "research": {
+    "parent": "classic-power-booster",
+    "requirements": [
+      "classic-titanium/30",
+      "classic-dirium/30"
+    ]
+  },
+  "radius": 40,
+  "shieldHealth": 1333.3333333333335,
+  "cooldownNormal": 0.08333333333333334,
+  "cooldownBrokenBase": 0.02,
+  "consumeCoolant": false,
+  "hasLiquids": false,
+  "consumes": {
+    "power": 0.005
+  },
+  "description": "Modern polygon shield, 40 radius. Independent shield pool and break/cooldown replace Classic energy-per-hit absorption."
+}

@@ -1,0 +1,60 @@
+{
+  "type": "ItemTurret",
+  "name": "Classic Flame Turret",
+  "health": 90,
+  "size": 1,
+  "requirements": [
+    "classic-iron/12",
+    "classic-steel/9"
+  ],
+  "category": "turret",
+  "research": {
+    "parent": "classic-machine-turret",
+    "requirements": [
+      "classic-iron/12",
+      "classic-steel/9"
+    ]
+  },
+  "range": 45,
+  "reload": 5,
+  "rotateSpeed": 12,
+  "shootCone": 5,
+  "shootY": 4,
+  "inaccuracy": 4,
+  "maxAmmo": 400,
+  "ammoPerShot": 2,
+  "consumeAmmoOnce": true,
+  "hasLiquids": false,
+  "shoot": {
+    "type": "ShootPattern",
+    "shots": 1
+  },
+  "ammoTypes": {
+    "classic-coal": {
+      "type": "BasicBulletType",
+      "speed": 0.7,
+      "damage": 5,
+      "lifetime": 70,
+      "width": 6,
+      "height": 6,
+      "ammoMultiplier": 20,
+      "backColor": "ffb347",
+      "frontColor": "ffb347",
+      "hitEffect": "hitBulletSmall",
+      "despawnEffect": "none",
+      "shootEffect": "shootSmallFlame",
+      "smokeEffect": "none",
+      "collidesAir": true,
+      "collidesGround": true,
+      "shrinkX": 1,
+      "shrinkY": 1
+    }
+  },
+  "drawer": {
+    "type": "DrawTurret"
+  },
+  "recoil": 0,
+  "elevation": 0,
+  "targetInterval": 15,
+  "description": "Classic health, footprint, costs, range and reload. Modern aiming/projectiles; two ammo units per volley reproduce Classic double decrement."
+}

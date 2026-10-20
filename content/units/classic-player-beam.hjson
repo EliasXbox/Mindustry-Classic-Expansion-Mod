@@ -1,0 +1,41 @@
+{
+  "type": "flying",
+  "name": "Classic Player beam",
+  "health": 200,
+  "speed": 1.2,
+  "accel": 0.1,
+  "drag": 0.08,
+  "hitSize": 8,
+  "flying": true,
+  "isEnemy": false,
+  "playerControllable": true,
+  "logicControllable": false,
+  "itemCapacity": 50,
+  "mineTier": 4,
+  "mineSpeed": 5,
+  "buildSpeed": 1,
+  "weapons": [
+    {
+      "name": "classic-player-beam-weapon",
+      "x": 3,
+      "y": 0,
+      "reload": 30,
+      "mirror": true,
+      "rotate": false,
+      "alternate": true,
+      "inaccuracy": 0,
+      "shoot": {
+        "type": "ShootSpread",
+        "shots": 1,
+        "spread": 0
+      },
+      "bullet": {
+        "type": "LaserBulletType",
+        "damage": 38,
+        "length": 230,
+        "lifetime": 15,
+        "width": 3
+      }
+    }
+  ]
+}

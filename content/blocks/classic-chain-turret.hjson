@@ -1,0 +1,70 @@
+{
+  "type": "ItemTurret",
+  "name": "Classic Chain Turret",
+  "health": 430,
+  "size": 2,
+  "requirements": [
+    "classic-steel/50",
+    "classic-titanium/25",
+    "classic-dirium/40"
+  ],
+  "category": "turret",
+  "research": {
+    "parent": "classic-plasma-turret",
+    "requirements": [
+      "classic-steel/50",
+      "classic-titanium/25",
+      "classic-dirium/40"
+    ]
+  },
+  "range": 80,
+  "reload": 5,
+  "rotateSpeed": 12,
+  "shootCone": 9,
+  "shootY": 8,
+  "inaccuracy": 8,
+  "maxAmmo": 400,
+  "ammoPerShot": 2,
+  "consumeAmmoOnce": true,
+  "hasLiquids": false,
+  "shoot": {
+    "type": "ShootBarrel",
+    "shots": 2,
+    "barrels": [
+      -3.5,
+      0,
+      0,
+      3.5,
+      0,
+      0
+    ]
+  },
+  "ammoTypes": {
+    "classic-uranium": {
+      "type": "BasicBulletType",
+      "speed": 2,
+      "damage": 8,
+      "lifetime": 45,
+      "width": 3,
+      "height": 6,
+      "ammoMultiplier": 8,
+      "backColor": "ffd37f",
+      "frontColor": "ffd37f",
+      "hitEffect": "hitBulletSmall",
+      "despawnEffect": "none",
+      "shootEffect": "shootSmall",
+      "smokeEffect": "none",
+      "collidesAir": true,
+      "collidesGround": true,
+      "sprite": "mindustry-classic-expansion-classic-chain-bullet",
+      "rotationOffset": 90
+    }
+  },
+  "drawer": {
+    "type": "DrawTurret"
+  },
+  "recoil": 0,
+  "elevation": 0,
+  "targetInterval": 15,
+  "description": "Classic health, footprint, costs, range and reload. Modern aiming/projectiles; two ammo units per volley reproduce Classic double decrement."
+}

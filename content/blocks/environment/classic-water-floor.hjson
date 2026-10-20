@@ -1,0 +1,12 @@
+{
+  "type": "Floor",
+  "name": "Classic water",
+  "variants": 0,
+  "isLiquid": true,
+  "liquidDrop": "water",
+  "liquidMultiplier": 1,
+  "speedMultiplier": 0.5,
+  "drownTime": 200,
+  "supportsOverlay": false,
+  "cacheLayer": "water"
+}

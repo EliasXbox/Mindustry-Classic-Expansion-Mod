@@ -1,0 +1,50 @@
+{
+  "type": "flying",
+  "name": "Classic emp T2",
+  "description": "Classic tier 2 variant. Tier health/speed/reload/direct damage; original sprite t2. Modern combat adaptations remain.",
+  "health": 420,
+  "speed": 0.38,
+  "hitSize": 5,
+  "flying": false,
+  "hovering": false,
+  "accel": 0.1,
+  "drag": 0.1,
+  "rotateSpeed": 6,
+  "range": 90,
+  "isEnemy": true,
+  "playerControllable": true,
+  "logicControllable": true,
+  "drawCell": false,
+  "engineSize": 0,
+  "outlineColor": "f48e20",
+  "outlineRadius": 1,
+  "weapons": [
+    {
+      "x": 0,
+      "y": 0,
+      "shootY": 4,
+      "mirror": false,
+      "rotate": true,
+      "rotateSpeed": 12,
+      "reload": 52.5,
+      "shootSound": "shoot",
+      "bullet": {
+        "type": "EmpBulletType",
+        "speed": 1.6,
+        "damage": 16,
+        "lifetime": 50,
+        "radius": 40,
+        "timeDuration": 120,
+        "timeIncrease": 1,
+        "powerDamageScl": 1,
+        "powerSclDecrease": 0.5,
+        "hitUnits": true,
+        "unitDamageScl": 1,
+        "rangeOverride": 90
+      }
+    }
+  ],
+  "itemCapacity": 0,
+  "buildSpeed": 0,
+  "mineTier": -1
+}

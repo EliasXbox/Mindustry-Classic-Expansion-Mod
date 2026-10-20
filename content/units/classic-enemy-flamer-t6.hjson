@@ -1,0 +1,51 @@
+{
+  "type": "flying",
+  "name": "Classic flamer T6",
+  "description": "Classic tier 6 flamer. Uses original t3 sprite and Classic contour color. Tier health/speed/reload/direct damage; prior v7 combat adaptations remain.",
+  "health": 900,
+  "speed": 0.59,
+  "hitSize": 5,
+  "flying": false,
+  "hovering": false,
+  "accel": 0.1,
+  "drag": 0.1,
+  "rotateSpeed": 6,
+  "range": 70,
+  "isEnemy": true,
+  "playerControllable": true,
+  "logicControllable": true,
+  "drawCell": false,
+  "engineSize": 0,
+  "outlineColor": "362020",
+  "outlineRadius": 1,
+  "weapons": [
+    {
+      "x": 0,
+      "y": 0,
+      "shootY": 4,
+      "mirror": false,
+      "rotate": true,
+      "rotateSpeed": 12,
+      "reload": 1.5,
+      "shootSound": "shoot",
+      "bullet": {
+        "type": "BasicBulletType",
+        "speed": 0.5,
+        "damage": 18,
+        "lifetime": 60,
+        "width": 3,
+        "height": 5,
+        "status": "burning",
+        "statusDuration": 120,
+        "pierce": true,
+        "pierceCap": 3,
+        "frontColor": "ffb45b",
+        "backColor": "ff5959",
+        "rangeOverride": 70
+      }
+    }
+  ],
+  "itemCapacity": 0,
+  "buildSpeed": 0,
+  "mineTier": -1
+}

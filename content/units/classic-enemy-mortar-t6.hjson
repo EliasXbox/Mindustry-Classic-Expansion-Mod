@@ -1,0 +1,46 @@
+{
+  "type": "flying",
+  "name": "Classic mortar T6",
+  "description": "Classic tier 6 mortar. Original t3 sprite; class-specific tier formulas. Fixed healer/Titan timers and prior modern combat adaptations remain.",
+  "health": 1200,
+  "speed": 0.49,
+  "hitSize": 5,
+  "flying": false,
+  "hovering": false,
+  "accel": 0.1,
+  "drag": 0.1,
+  "rotateSpeed": 6,
+  "range": 150,
+  "isEnemy": true,
+  "playerControllable": true,
+  "logicControllable": true,
+  "drawCell": false,
+  "engineSize": 0,
+  "outlineColor": "362020",
+  "outlineRadius": 1,
+  "weapons": [
+    {
+      "x": 0,
+      "y": 0,
+      "shootY": 4,
+      "mirror": false,
+      "rotate": true,
+      "rotateSpeed": 12,
+      "reload": 25.0,
+      "shootSound": "shoot",
+      "bullet": {
+        "type": "ArtilleryBulletType",
+        "speed": 1.1,
+        "damage": 360,
+        "lifetime": 110,
+        "splashDamage": 40,
+        "splashDamageRadius": 25,
+        "rangeOverride": 150,
+        "collidesAir": false
+      }
+    }
+  ],
+  "itemCapacity": 0,
+  "buildSpeed": 0,
+  "mineTier": -1
+}

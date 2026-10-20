@@ -1,0 +1,46 @@
+{
+  "type": "flying",
+  "name": "Classic mortar T2",
+  "description": "Classic tier 2 mortar. Original sprite and tier health/speed/direct damage. Class-specific attack/heal timers preserved; v7 behavior adaptations remain.",
+  "health": 400,
+  "speed": 0.33,
+  "hitSize": 5,
+  "flying": false,
+  "hovering": false,
+  "accel": 0.1,
+  "drag": 0.1,
+  "rotateSpeed": 6,
+  "range": 130,
+  "isEnemy": true,
+  "playerControllable": true,
+  "logicControllable": true,
+  "drawCell": false,
+  "engineSize": 0,
+  "outlineColor": "f48e20",
+  "outlineRadius": 1,
+  "weapons": [
+    {
+      "x": 0,
+      "y": 0,
+      "shootY": 4,
+      "mirror": false,
+      "rotate": true,
+      "rotateSpeed": 12,
+      "reload": 75.0,
+      "shootSound": "shoot",
+      "bullet": {
+        "type": "ArtilleryBulletType",
+        "speed": 1.1,
+        "damage": 120,
+        "lifetime": 110,
+        "splashDamage": 40,
+        "splashDamageRadius": 25,
+        "rangeOverride": 130,
+        "collidesAir": false
+      }
+    }
+  ],
+  "itemCapacity": 0,
+  "buildSpeed": 0,
+  "mineTier": -1
+}

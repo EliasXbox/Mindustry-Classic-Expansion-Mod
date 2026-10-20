@@ -1,0 +1,12 @@
+{
+  "type": "Floor",
+  "name": "Classic oil",
+  "variants": 0,
+  "isLiquid": true,
+  "liquidDrop": "oil",
+  "liquidMultiplier": 1,
+  "speedMultiplier": 0.5,
+  "drownTime": 200,
+  "supportsOverlay": false,
+  "cacheLayer": "normal"
+}

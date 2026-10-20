@@ -1,0 +1,19 @@
+{
+  "type": "Door",
+  "name": "Classic Door Large",
+  "health": 1440,
+  "size": 2,
+  "requirements": [
+    "classic-steel/12",
+    "classic-iron/48"
+  ],
+  "category": "defense",
+  "research": {
+    "parent": "classic-door",
+    "requirements": [
+      "classic-steel/12",
+      "classic-iron/48"
+    ]
+  },
+  "description": "Tap to open/close on PC or Android. Adjacent doors toggle together under v7 rules."
+}

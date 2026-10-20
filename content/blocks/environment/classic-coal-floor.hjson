@@ -1,0 +1,7 @@
+{
+  "type": "Floor",
+  "name": "Classic Coal Deposit",
+  "variants": 3,
+  "itemDrop": "classic-coal",
+  "playerUnmineable": false
+}

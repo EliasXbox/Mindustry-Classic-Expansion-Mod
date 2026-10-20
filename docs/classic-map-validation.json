@@ -1,0 +1,442 @@
+{
+  "maps": [
+    {
+      "name": "maze",
+      "width": 256,
+      "height": 256,
+      "seed": 90210,
+      "core": [
+        111,
+        84
+      ],
+      "spawns": 3,
+      "targets": 0,
+      "groundRoutes": [
+        true,
+        true,
+        true
+      ],
+      "reachableTiles": 7915,
+      "reachableOres": [
+        146,
+        22,
+        5,
+        8
+      ],
+      "sourceOreCounts": [
+        1112,
+        307,
+        92,
+        160
+      ],
+      "tilesVerified": 65536,
+      "waveGroups": 152,
+      "bytes": 13879,
+      "sha256": "57511495353d1990e0ce1c5a1aef35dac1a95511862bfb90aee9fbf10ab9eb9b"
+    },
+    {
+      "name": "fortress",
+      "width": 256,
+      "height": 256,
+      "seed": 90211,
+      "core": [
+        116,
+        73
+      ],
+      "spawns": 4,
+      "targets": 0,
+      "groundRoutes": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "reachableTiles": 29053,
+      "reachableOres": [
+        516,
+        126,
+        45,
+        51
+      ],
+      "sourceOreCounts": [
+        1186,
+        293,
+        113,
+        109
+      ],
+      "tilesVerified": 65536,
+      "waveGroups": 152,
+      "bytes": 16633,
+      "sha256": "08240bc745dafe8112fb7f6898b9c29e20558e898d9bd339ab10a52ee680f231"
+    },
+    {
+      "name": "sinkhole",
+      "width": 256,
+      "height": 256,
+      "seed": 90212,
+      "core": [
+        131,
+        138
+      ],
+      "spawns": 3,
+      "targets": 0,
+      "groundRoutes": [
+        true,
+        true,
+        true
+      ],
+      "reachableTiles": 38788,
+      "reachableOres": [
+        797,
+        201,
+        45,
+        96
+      ],
+      "sourceOreCounts": [
+        1414,
+        405,
+        89,
+        171
+      ],
+      "tilesVerified": 65536,
+      "waveGroups": 152,
+      "bytes": 17944,
+      "sha256": "3dc577b9c66a968bfcb25ea4e83d3adddc62b576761b4de9fc5e4af40973cc1b"
+    },
+    {
+      "name": "caves",
+      "width": 256,
+      "height": 256,
+      "seed": 90213,
+      "core": [
+        116,
+        46
+      ],
+      "spawns": 3,
+      "targets": 0,
+      "groundRoutes": [
+        true,
+        true,
+        true
+      ],
+      "reachableTiles": 16126,
+      "reachableOres": [
+        241,
+        106,
+        40,
+        62
+      ],
+      "sourceOreCounts": [
+        985,
+        376,
+        100,
+        191
+      ],
+      "tilesVerified": 65536,
+      "waveGroups": 152,
+      "bytes": 15137,
+      "sha256": "3e1eeebcb878fc4a7fbd677b56aaf68b436c03a29d2693a1e8c5fabd94d7a210"
+    },
+    {
+      "name": "volcano",
+      "width": 256,
+      "height": 256,
+      "seed": 90214,
+      "core": [
+        185,
+        71
+      ],
+      "spawns": 3,
+      "targets": 0,
+      "groundRoutes": [
+        true,
+        true,
+        true
+      ],
+      "reachableTiles": 39313,
+      "reachableOres": [
+        651,
+        215,
+        42,
+        92
+      ],
+      "sourceOreCounts": [
+        1233,
+        383,
+        74,
+        133
+      ],
+      "tilesVerified": 65536,
+      "waveGroups": 152,
+      "bytes": 19189,
+      "sha256": "df7dc5f948edeae6236ae0e25564e2a8b5c1ab987ee17adbca42af81ce235e7d"
+    },
+    {
+      "name": "caldera",
+      "width": 256,
+      "height": 256,
+      "seed": 90215,
+      "core": [
+        128,
+        36
+      ],
+      "spawns": 3,
+      "targets": 0,
+      "groundRoutes": [
+        true,
+        true,
+        true
+      ],
+      "reachableTiles": 14304,
+      "reachableOres": [
+        264,
+        72,
+        25,
+        40
+      ],
+      "sourceOreCounts": [
+        1047,
+        261,
+        74,
+        155
+      ],
+      "tilesVerified": 65536,
+      "waveGroups": 152,
+      "bytes": 16755,
+      "sha256": "b40d67381bb7bb929439bd510a3eb1023a8002c4f29b9defc6bb741890dde0e5"
+    },
+    {
+      "name": "scorch",
+      "width": 256,
+      "height": 256,
+      "seed": 90216,
+      "core": [
+        154,
+        39
+      ],
+      "spawns": 3,
+      "targets": 0,
+      "groundRoutes": [
+        true,
+        true,
+        true
+      ],
+      "reachableTiles": 25992,
+      "reachableOres": [
+        527,
+        199,
+        26,
+        102
+      ],
+      "sourceOreCounts": [
+        1405,
+        454,
+        102,
+        188
+      ],
+      "tilesVerified": 65536,
+      "waveGroups": 152,
+      "bytes": 18872,
+      "sha256": "cb5b1215eb1ffe6cf7476ab4f882149d0ad40be3d6fd67c04402facdfb5dc563"
+    },
+    {
+      "name": "desert",
+      "width": 256,
+      "height": 256,
+      "seed": 90217,
+      "core": [
+        112,
+        29
+      ],
+      "spawns": 2,
+      "targets": 0,
+      "groundRoutes": [
+        true,
+        true
+      ],
+      "reachableTiles": 21198,
+      "reachableOres": [
+        392,
+        155,
+        50,
+        20
+      ],
+      "sourceOreCounts": [
+        1346,
+        443,
+        123,
+        145
+      ],
+      "tilesVerified": 65536,
+      "waveGroups": 152,
+      "bytes": 17287,
+      "sha256": "858d71655bd10eeb5ed33006843dff04a19d15cebf8bf8fd34cff7073c86656b"
+    },
+    {
+      "name": "island",
+      "width": 256,
+      "height": 256,
+      "seed": 90218,
+      "core": [
+        157,
+        53
+      ],
+      "spawns": 2,
+      "targets": 0,
+      "groundRoutes": [
+        true,
+        true
+      ],
+      "reachableTiles": 7571,
+      "reachableOres": [
+        205,
+        64,
+        10,
+        55
+      ],
+      "sourceOreCounts": [
+        1043,
+        438,
+        123,
+        143
+      ],
+      "tilesVerified": 65536,
+      "waveGroups": 152,
+      "bytes": 18031,
+      "sha256": "5ed448c3ed2ccc2dbc3b8ea66f5eb04902b2bcebcf686e80d39ac9ff0ec5c2fa"
+    },
+    {
+      "name": "grassland",
+      "width": 128,
+      "height": 256,
+      "seed": 90219,
+      "core": [
+        67,
+        26
+      ],
+      "spawns": 1,
+      "targets": 0,
+      "groundRoutes": [
+        true
+      ],
+      "reachableTiles": 11673,
+      "reachableOres": [
+        303,
+        90,
+        30,
+        35
+      ],
+      "sourceOreCounts": [
+        823,
+        263,
+        76,
+        122
+      ],
+      "tilesVerified": 32768,
+      "waveGroups": 152,
+      "bytes": 12009,
+      "sha256": "2d3d3dea7985dfb374f08903af4983671a199e5e4cadad902f64ec2e28d8499b"
+    },
+    {
+      "name": "tundra",
+      "width": 256,
+      "height": 256,
+      "seed": 90220,
+      "core": [
+        116,
+        30
+      ],
+      "spawns": 2,
+      "targets": 0,
+      "groundRoutes": [
+        true,
+        true
+      ],
+      "reachableTiles": 23965,
+      "reachableOres": [
+        378,
+        127,
+        31,
+        53
+      ],
+      "sourceOreCounts": [
+        1077,
+        399,
+        67,
+        235
+      ],
+      "tilesVerified": 65536,
+      "waveGroups": 152,
+      "bytes": 14400,
+      "sha256": "6fab97df00e0a0fd813b913c49842fd552ce951743a6ad9031c0c9da25496060"
+    },
+    {
+      "name": "spiral",
+      "width": 128,
+      "height": 128,
+      "seed": 90221,
+      "core": [
+        64,
+        64
+      ],
+      "spawns": 2,
+      "targets": 0,
+      "groundRoutes": [
+        true,
+        true
+      ],
+      "reachableTiles": 8946,
+      "reachableOres": [
+        293,
+        111,
+        40,
+        45
+      ],
+      "sourceOreCounts": [
+        443,
+        148,
+        54,
+        85
+      ],
+      "tilesVerified": 16384,
+      "waveGroups": 152,
+      "bytes": 10282,
+      "sha256": "6ed9fdd1ac1e696b7afa0b944a47fd1e58a39badb6fddd477b8a4632c8d85c98"
+    },
+    {
+      "name": "tutorial",
+      "width": 128,
+      "height": 128,
+      "seed": 90222,
+      "core": [
+        68,
+        43
+      ],
+      "spawns": 2,
+      "targets": 1,
+      "groundRoutes": [
+        true,
+        true
+      ],
+      "reachableTiles": 2888,
+      "reachableOres": [
+        38,
+        18,
+        5,
+        22
+      ],
+      "sourceOreCounts": [
+        273,
+        106,
+        33,
+        113
+      ],
+      "tilesVerified": 16384,
+      "waveGroups": 152,
+      "bytes": 8623,
+      "sha256": "afa63ac305636f36abdf269f5b17568a80fd3eefbdefb81cf3e59272aeecab27"
+    }
+  ],
+  "passed": 13,
+  "vanilla": true
+}

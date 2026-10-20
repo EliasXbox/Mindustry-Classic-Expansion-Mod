@@ -1,0 +1,44 @@
+{
+  "name": "Classic fortress T5",
+  "description": "Classic tier 5 fortress. Original t3 sprite and Classic contour. Tier health/speed/direct damage, with original class-specific timers; modern combat adaptations remain. Generates Fast of the same tier, max six live children, with saved links.",
+  "health": 3500,
+  "speed": 0.45,
+  "hitSize": 10,
+  "flying": false,
+  "hovering": false,
+  "accel": 0.1,
+  "drag": 0.1,
+  "rotateSpeed": 6,
+  "range": 95,
+  "isEnemy": true,
+  "playerControllable": true,
+  "logicControllable": true,
+  "drawCell": false,
+  "engineSize": 0,
+  "outlineColor": "cb2dff",
+  "outlineRadius": 1,
+  "weapons": [
+    {
+      "x": 0,
+      "y": 0,
+      "shootY": 7,
+      "mirror": false,
+      "rotate": true,
+      "rotateSpeed": 6,
+      "reload": 27.0,
+      "bullet": {
+        "type": "ArtilleryBulletType",
+        "speed": 1.2,
+        "damage": 100,
+        "lifetime": 60,
+        "splashDamage": 13,
+        "splashDamageRadius": 25,
+        "rangeOverride": 95,
+        "collidesAir": false
+      }
+    }
+  ],
+  "itemCapacity": 0,
+  "buildSpeed": 0,
+  "mineTier": -1
+}

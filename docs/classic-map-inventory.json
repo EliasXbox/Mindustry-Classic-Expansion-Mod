@@ -1,0 +1,124 @@
+{
+  "upstreamCommit": "92e28d8a81ed8ddc8d80fc170de33d34b4cd202e",
+  "maps": [
+    {
+      "id": 0,
+      "name": "maze",
+      "visible": true,
+      "flipBase": false,
+      "backgroundColor": "646464",
+      "seed": 90210,
+      "sourceSha256": "f8029cf31d34b32db9c1b05245577618288d87f10b7350f8f084e4e4c73771f7"
+    },
+    {
+      "id": 1,
+      "name": "fortress",
+      "visible": true,
+      "flipBase": false,
+      "backgroundColor": "646464",
+      "seed": 90211,
+      "sourceSha256": "31b348f0e2e0efe22b997efb2b9561e35131e535a1fc99f9b0a58f6dda08c2ef"
+    },
+    {
+      "id": 2,
+      "name": "sinkhole",
+      "visible": true,
+      "flipBase": false,
+      "backgroundColor": "646464",
+      "seed": 90212,
+      "sourceSha256": "5f876f917ae863d84b665c9d3174126b2127e97681ac7650bddc66cd8f8d74e3"
+    },
+    {
+      "id": 3,
+      "name": "caves",
+      "visible": true,
+      "flipBase": false,
+      "backgroundColor": "646464",
+      "seed": 90213,
+      "sourceSha256": "eaac518d91179726cdc516dd3a9f8ff68ec36fadd656fe4b8a3285f3cb6a7640"
+    },
+    {
+      "id": 4,
+      "name": "volcano",
+      "visible": true,
+      "flipBase": true,
+      "backgroundColor": "646464",
+      "seed": 90214,
+      "sourceSha256": "477766fbcb4b6c0540b8179daa91722c900db337b4889cbbe43c480cb9fd704e"
+    },
+    {
+      "id": 5,
+      "name": "caldera",
+      "visible": true,
+      "flipBase": false,
+      "backgroundColor": "646464",
+      "seed": 90215,
+      "sourceSha256": "580d2efe6774c62f1e2b4ce071e284a92d4fb135b4e2e0818d12e2c6435a5288"
+    },
+    {
+      "id": 6,
+      "name": "scorch",
+      "visible": true,
+      "flipBase": false,
+      "backgroundColor": "e5d8bb",
+      "seed": 90216,
+      "sourceSha256": "77730670da94ce4dbdebd07c1a8463c9468ba59d26478a1afa0a8595185b6ea7"
+    },
+    {
+      "id": 7,
+      "name": "desert",
+      "visible": true,
+      "flipBase": false,
+      "backgroundColor": "646464",
+      "seed": 90217,
+      "sourceSha256": "2fb13cfecaa67ca23434a15bcddd9bcda20a1e72ffc4304bfdcde2c031cdb3e1"
+    },
+    {
+      "id": 8,
+      "name": "island",
+      "visible": true,
+      "flipBase": false,
+      "backgroundColor": "e5d8bb",
+      "seed": 90218,
+      "sourceSha256": "ab64282cb57e3aeba01683e284c6fdd2f4b9058f6f5082c2ed1431f7ab4f239f"
+    },
+    {
+      "id": 9,
+      "name": "grassland",
+      "visible": true,
+      "flipBase": false,
+      "backgroundColor": "5ab464",
+      "seed": 90219,
+      "sourceSha256": "966e4f6ea1f38e0241b0332bf514fb61cd63869c105004dd1a8c8bbfb334d99c"
+    },
+    {
+      "id": 10,
+      "name": "tundra",
+      "visible": true,
+      "flipBase": false,
+      "backgroundColor": "646464",
+      "seed": 90220,
+      "sourceSha256": "fa10998973239bc8d59ce34b3feb4950070e8526616be8bcdae8f084c2c93533"
+    },
+    {
+      "id": 11,
+      "name": "spiral",
+      "visible": true,
+      "flipBase": false,
+      "backgroundColor": "f7feff",
+      "seed": 90221,
+      "sourceSha256": "4dee0be10d6e0fbe5b671a894a9b1d38e429426dfd8271d44791bc06b9962fb3"
+    },
+    {
+      "id": 12,
+      "name": "tutorial",
+      "visible": false,
+      "flipBase": false,
+      "backgroundColor": "646464",
+      "seed": 90222,
+      "sourceSha256": "29f573c6a58c7ca9b1777382f04e8e4228d9d6588783cbdb58574f5e98cd0e5d"
+    }
+  ],
+  "noiseSourceSha256": "f588c1eb411c97e3ce34e243c5e8d41d06759e66f6bc7c45a8c67a59ee0aaa26",
+  "waveGroups": 152
+}

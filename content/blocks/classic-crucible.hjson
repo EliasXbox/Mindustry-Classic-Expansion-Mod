@@ -1,0 +1,30 @@
+{
+  "type": "GenericCrafter",
+  "name": "Classic Crucible",
+  "description": "2 Classic titanium + 2 Classic steel + 1 Classic coal produce 2 Classic dirium per 40-tick batch.",
+  "health": 90,
+  "size": 1,
+  "itemCapacity": 20,
+  "requirements": [
+    "classic-titanium/50",
+    "classic-steel/50"
+  ],
+  "category": "crafting",
+  "research": {
+    "parent": "classic-titanium-drill",
+    "requirements": [
+      "classic-titanium/50",
+      "classic-steel/50"
+    ]
+  },
+  "craftTime": 40,
+  "outputItem": "classic-dirium/2",
+  "consumes": {
+    "items": [
+      "classic-titanium/2",
+      "classic-steel/2",
+      "classic-coal/1"
+    ]
+  },
+  "craftEffect": "smeltsmoke"
+}

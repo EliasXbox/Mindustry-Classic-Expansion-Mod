@@ -1,0 +1,20 @@
+{
+  "type": "Conduit",
+  "name": "Classic Pulse Conduit",
+  "health": 65,
+  "size": 1,
+  "requirements": [
+    "classic-titanium/1",
+    "classic-steel/1"
+  ],
+  "category": "liquid",
+  "research": {
+    "parent": "classic-titanium-drill",
+    "requirements": [
+      "classic-titanium/1",
+      "classic-steel/1"
+    ]
+  },
+  "liquidCapacity": 16,
+  "junctionReplacement": "classic-liquid-junction"
+}

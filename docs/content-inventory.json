@@ -1,0 +1,1102 @@
+{
+  "upstreamCommit": "92e28d8a81ed8ddc8d80fc170de33d34b4cd202e",
+  "blocks": [
+    {
+      "symbol": "air",
+      "name": "air",
+      "classicType": "Block",
+      "source": "core/src/io/anuke/mindustry/world/blocks/Blocks.java",
+      "recipe": null,
+      "spriteCandidates": []
+    },
+    {
+      "symbol": "deepwater",
+      "name": "deepwater",
+      "classicType": "Floor",
+      "source": "core/src/io/anuke/mindustry/world/blocks/Blocks.java",
+      "recipe": null,
+      "spriteCandidates": [
+        "core/assets-raw/sprites/blocks/deepwater.png"
+      ]
+    },
+    {
+      "symbol": "water",
+      "name": "water",
+      "classicType": "Floor",
+      "source": "core/src/io/anuke/mindustry/world/blocks/Blocks.java",
+      "recipe": null,
+      "spriteCandidates": [
+        "core/assets-raw/sprites/blocks/water.png"
+      ]
+    },
+    {
+      "symbol": "lava",
+      "name": "lava",
+      "classicType": "Floor",
+      "source": "core/src/io/anuke/mindustry/world/blocks/Blocks.java",
+      "recipe": null,
+      "spriteCandidates": [
+        "core/assets-raw/sprites/blocks/lava.png"
+      ]
+    },
+    {
+      "symbol": "oil",
+      "name": "oil",
+      "classicType": "Floor",
+      "source": "core/src/io/anuke/mindustry/world/blocks/Blocks.java",
+      "recipe": null,
+      "spriteCandidates": [
+        "core/assets-raw/sprites/blocks/oil.png"
+      ]
+    },
+    {
+      "symbol": "stone",
+      "name": "stone",
+      "classicType": "Floor",
+      "source": "core/src/io/anuke/mindustry/world/blocks/Blocks.java",
+      "recipe": null,
+      "spriteCandidates": [
+        "core/assets-raw/sprites/blocks/stone1.png",
+        "core/assets-raw/sprites/blocks/stone2.png",
+        "core/assets-raw/sprites/blocks/stone3.png"
+      ]
+    },
+    {
+      "symbol": "blackstone",
+      "name": "blackstone",
+      "classicType": "Floor",
+      "source": "core/src/io/anuke/mindustry/world/blocks/Blocks.java",
+      "recipe": null,
+      "spriteCandidates": [
+        "core/assets-raw/sprites/blocks/blackstone1.png",
+        "core/assets-raw/sprites/blocks/blackstone2.png",
+        "core/assets-raw/sprites/blocks/blackstone3.png"
+      ]
+    },
+    {
+      "symbol": "iron",
+      "name": "iron",
+      "classicType": "Ore",
+      "source": "core/src/io/anuke/mindustry/world/blocks/Blocks.java",
+      "recipe": null,
+      "spriteCandidates": [
+        "core/assets-raw/sprites/blocks/iron1.png",
+        "core/assets-raw/sprites/blocks/iron2.png",
+        "core/assets-raw/sprites/blocks/iron3.png"
+      ]
+    },
+    {
+      "symbol": "coal",
+      "name": "coal",
+      "classicType": "Ore",
+      "source": "core/src/io/anuke/mindustry/world/blocks/Blocks.java",
+      "recipe": null,
+      "spriteCandidates": [
+        "core/assets-raw/sprites/blocks/coal1.png",
+        "core/assets-raw/sprites/blocks/coal2.png",
+        "core/assets-raw/sprites/blocks/coal3.png"
+      ]
+    },
+    {
+      "symbol": "titanium",
+      "name": "titanium",
+      "classicType": "Ore",
+      "source": "core/src/io/anuke/mindustry/world/blocks/Blocks.java",
+      "recipe": null,
+      "spriteCandidates": [
+        "core/assets-raw/sprites/blocks/titanium1.png",
+        "core/assets-raw/sprites/blocks/titanium2.png",
+        "core/assets-raw/sprites/blocks/titanium3.png"
+      ]
+    },
+    {
+      "symbol": "uranium",
+      "name": "uranium",
+      "classicType": "Ore",
+      "source": "core/src/io/anuke/mindustry/world/blocks/Blocks.java",
+      "recipe": null,
+      "spriteCandidates": [
+        "core/assets-raw/sprites/blocks/uranium1.png",
+        "core/assets-raw/sprites/blocks/uranium2.png",
+        "core/assets-raw/sprites/blocks/uranium3.png"
+      ]
+    },
+    {
+      "symbol": "dirt",
+      "name": "dirt",
+      "classicType": "Floor",
+      "source": "core/src/io/anuke/mindustry/world/blocks/Blocks.java",
+      "recipe": null,
+      "spriteCandidates": [
+        "core/assets-raw/sprites/blocks/dirt1.png",
+        "core/assets-raw/sprites/blocks/dirt2.png",
+        "core/assets-raw/sprites/blocks/dirt3.png"
+      ]
+    },
+    {
+      "symbol": "sand",
+      "name": "sand",
+      "classicType": "Floor",
+      "source": "core/src/io/anuke/mindustry/world/blocks/Blocks.java",
+      "recipe": null,
+      "spriteCandidates": [
+        "core/assets-raw/sprites/blocks/sand1.png",
+        "core/assets-raw/sprites/blocks/sand2.png",
+        "core/assets-raw/sprites/blocks/sand3.png"
+      ]
+    },
+    {
+      "symbol": "ice",
+      "name": "ice",
+      "classicType": "Floor",
+      "source": "core/src/io/anuke/mindustry/world/blocks/Blocks.java",
+      "recipe": null,
+      "spriteCandidates": [
+        "core/assets-raw/sprites/blocks/ice1.png",
+        "core/assets-raw/sprites/blocks/ice2.png",
+        "core/assets-raw/sprites/blocks/ice3.png"
+      ]
+    },
+    {
+      "symbol": "snow",
+      "name": "snow",
+      "classicType": "Floor",
+      "source": "core/src/io/anuke/mindustry/world/blocks/Blocks.java",
+      "recipe": null,
+      "spriteCandidates": [
+        "core/assets-raw/sprites/blocks/snow1.png",
+        "core/assets-raw/sprites/blocks/snow2.png",
+        "core/assets-raw/sprites/blocks/snow3.png"
+      ]
+    },
+    {
+      "symbol": "grass",
+      "name": "grass",
+      "classicType": "Floor",
+      "source": "core/src/io/anuke/mindustry/world/blocks/Blocks.java",
+      "recipe": null,
+      "spriteCandidates": [
+        "core/assets-raw/sprites/blocks/grass1.png",
+        "core/assets-raw/sprites/blocks/grass2.png",
+        "core/assets-raw/sprites/blocks/grass3.png"
+      ]
+    },
+    {
+      "symbol": "sandblock",
+      "name": "sandblock",
+      "classicType": "StaticBlock",
+      "source": "core/src/io/anuke/mindustry/world/blocks/Blocks.java",
+      "recipe": null,
+      "spriteCandidates": [
+        "core/assets-raw/sprites/blocks/sandblock1.png",
+        "core/assets-raw/sprites/blocks/sandblock2.png",
+        "core/assets-raw/sprites/blocks/sandblock3.png"
+      ]
+    },
+    {
+      "symbol": "snowblock",
+      "name": "snowblock",
+      "classicType": "StaticBlock",
+      "source": "core/src/io/anuke/mindustry/world/blocks/Blocks.java",
+      "recipe": null,
+      "spriteCandidates": [
+        "core/assets-raw/sprites/blocks/snowblock1.png",
+        "core/assets-raw/sprites/blocks/snowblock2.png",
+        "core/assets-raw/sprites/blocks/snowblock3.png"
+      ]
+    },
+    {
+      "symbol": "stoneblock",
+      "name": "stoneblock",
+      "classicType": "StaticBlock",
+      "source": "core/src/io/anuke/mindustry/world/blocks/Blocks.java",
+      "recipe": null,
+      "spriteCandidates": [
+        "core/assets-raw/sprites/blocks/stoneblock1.png",
+        "core/assets-raw/sprites/blocks/stoneblock2.png",
+        "core/assets-raw/sprites/blocks/stoneblock3.png"
+      ]
+    },
+    {
+      "symbol": "blackstoneblock",
+      "name": "blackstoneblock",
+      "classicType": "StaticBlock",
+      "source": "core/src/io/anuke/mindustry/world/blocks/Blocks.java",
+      "recipe": null,
+      "spriteCandidates": [
+        "core/assets-raw/sprites/blocks/blackstoneblock1.png",
+        "core/assets-raw/sprites/blocks/blackstoneblock2.png",
+        "core/assets-raw/sprites/blocks/blackstoneblock3.png"
+      ]
+    },
+    {
+      "symbol": "grassblock",
+      "name": "grassblock",
+      "classicType": "StaticBlock",
+      "source": "core/src/io/anuke/mindustry/world/blocks/Blocks.java",
+      "recipe": null,
+      "spriteCandidates": [
+        "core/assets-raw/sprites/blocks/grassblock1.png",
+        "core/assets-raw/sprites/blocks/grassblock2.png"
+      ]
+    },
+    {
+      "symbol": "mossblock",
+      "name": "mossblock",
+      "classicType": "StaticBlock",
+      "source": "core/src/io/anuke/mindustry/world/blocks/Blocks.java",
+      "recipe": null,
+      "spriteCandidates": [
+        "core/assets-raw/sprites/blocks/mossblock.png"
+      ]
+    },
+    {
+      "symbol": "shrub",
+      "name": "shrub",
+      "classicType": "Rock",
+      "source": "core/src/io/anuke/mindustry/world/blocks/Blocks.java",
+      "recipe": null,
+      "spriteCandidates": [
+        "core/assets-raw/sprites/blocks/shrub.png"
+      ]
+    },
+    {
+      "symbol": "rock",
+      "name": "rock",
+      "classicType": "Rock",
+      "source": "core/src/io/anuke/mindustry/world/blocks/Blocks.java",
+      "recipe": null,
+      "spriteCandidates": [
+        "core/assets-raw/sprites/blocks/rock1.png",
+        "core/assets-raw/sprites/blocks/rock2.png"
+      ]
+    },
+    {
+      "symbol": "icerock",
+      "name": "icerock",
+      "classicType": "Rock",
+      "source": "core/src/io/anuke/mindustry/world/blocks/Blocks.java",
+      "recipe": null,
+      "spriteCandidates": [
+        "core/assets-raw/sprites/blocks/icerock1.png",
+        "core/assets-raw/sprites/blocks/icerock2.png"
+      ]
+    },
+    {
+      "symbol": "blackrock",
+      "name": "blackrock",
+      "classicType": "Rock",
+      "source": "core/src/io/anuke/mindustry/world/blocks/Blocks.java",
+      "recipe": null,
+      "spriteCandidates": [
+        "core/assets-raw/sprites/blocks/blackrock1.png"
+      ]
+    },
+    {
+      "symbol": "dirtblock",
+      "name": "dirtblock",
+      "classicType": "StaticBlock",
+      "source": "core/src/io/anuke/mindustry/world/blocks/Blocks.java",
+      "recipe": null,
+      "spriteCandidates": []
+    },
+    {
+      "symbol": "stonewall",
+      "name": "stonewall",
+      "classicType": "Wall",
+      "source": "core/src/io/anuke/mindustry/world/blocks/DefenseBlocks.java",
+      "recipe": "new Recipe(defense, DefenseBlocks.stonewall, stack(Item.stone, 12)),",
+      "spriteCandidates": [
+        "core/assets-raw/sprites/blocks/stonewall.png"
+      ]
+    },
+    {
+      "symbol": "ironwall",
+      "name": "ironwall",
+      "classicType": "Wall",
+      "source": "core/src/io/anuke/mindustry/world/blocks/DefenseBlocks.java",
+      "recipe": "new Recipe(defense, DefenseBlocks.ironwall, stack(Item.iron, 12)),",
+      "spriteCandidates": [
+        "core/assets-raw/sprites/blocks/ironwall.png"
+      ]
+    },
+    {
+      "symbol": "steelwall",
+      "name": "steelwall",
+      "classicType": "Wall",
+      "source": "core/src/io/anuke/mindustry/world/blocks/DefenseBlocks.java",
+      "recipe": "new Recipe(defense, DefenseBlocks.steelwall, stack(Item.steel, 12)),",
+      "spriteCandidates": [
+        "core/assets-raw/sprites/blocks/steelwall-large-icon.png",
+        "core/assets-raw/sprites/blocks/steelwall-large.png",
+        "core/assets-raw/sprites/blocks/steelwall.png"
+      ]
+    },
+    {
+      "symbol": "titaniumwall",
+      "name": "titaniumwall",
+      "classicType": "Wall",
+      "source": "core/src/io/anuke/mindustry/world/blocks/DefenseBlocks.java",
+      "recipe": "new Recipe(defense, DefenseBlocks.titaniumwall, stack(Item.titanium, 12)),",
+      "spriteCandidates": [
+        "core/assets-raw/sprites/blocks/titaniumwall-large-icon.png",
+        "core/assets-raw/sprites/blocks/titaniumwall-large.png",
+        "core/assets-raw/sprites/blocks/titaniumwall.png"
+      ]
+    },
+    {
+      "symbol": "diriumwall",
+      "name": "duriumwall",
+      "classicType": "Wall",
+      "source": "core/src/io/anuke/mindustry/world/blocks/DefenseBlocks.java",
+      "recipe": "new Recipe(defense, DefenseBlocks.diriumwall, stack(Item.dirium, 12)),",
+      "spriteCandidates": [
+        "core/assets-raw/sprites/blocks/duriumwall-large-icon.png",
+        "core/assets-raw/sprites/blocks/duriumwall-large.png",
+        "core/assets-raw/sprites/blocks/duriumwall.png"
+      ]
+    },
+    {
+      "symbol": "compositewall",
+      "name": "compositewall",
+      "classicType": "Wall",
+      "source": "core/src/io/anuke/mindustry/world/blocks/DefenseBlocks.java",
+      "recipe": null,
+      "spriteCandidates": [
+        "core/assets-raw/sprites/blocks/compositewall.png"
+      ]
+    },
+    {
+      "symbol": "steelwalllarge",
+      "name": "steelwall-large",
+      "classicType": "Wall",
+      "source": "core/src/io/anuke/mindustry/world/blocks/DefenseBlocks.java",
+      "recipe": "new Recipe(defense, DefenseBlocks.steelwalllarge, stack(Item.steel, 12*4)),",
+      "spriteCandidates": [
+        "core/assets-raw/sprites/blocks/steelwall-large-icon.png",
+        "core/assets-raw/sprites/blocks/steelwall-large.png"
+      ]
+    },
+    {
+      "symbol": "titaniumwalllarge",
+      "name": "titaniumwall-large",
+      "classicType": "Wall",
+      "source": "core/src/io/anuke/mindustry/world/blocks/DefenseBlocks.java",
+      "recipe": "new Recipe(defense, DefenseBlocks.titaniumwalllarge, stack(Item.titanium, 12*4)),",
+      "spriteCandidates": [
+        "core/assets-raw/sprites/blocks/titaniumwall-large-icon.png",
+        "core/assets-raw/sprites/blocks/titaniumwall-large.png"
+      ]
+    },
+    {
+      "symbol": "diriumwalllarge",
+      "name": "duriumwall-large",
+      "classicType": "Wall",
+      "source": "core/src/io/anuke/mindustry/world/blocks/DefenseBlocks.java",
+      "recipe": "new Recipe(defense, DefenseBlocks.diriumwalllarge, stack(Item.dirium, 12*4)),",
+      "spriteCandidates": [
+        "core/assets-raw/sprites/blocks/duriumwall-large-icon.png",
+        "core/assets-raw/sprites/blocks/duriumwall-large.png"
+      ]
+    },
+    {
+      "symbol": "titaniumshieldwall",
+      "name": "titaniumshieldwall",
+      "classicType": "ShieldedWallBlock",
+      "source": "core/src/io/anuke/mindustry/world/blocks/DefenseBlocks.java",
+      "recipe": "new Recipe(defense, DefenseBlocks.titaniumshieldwall, stack(Item.titanium, 16)),",
+      "spriteCandidates": [
+        "core/assets-raw/sprites/blocks/titaniumshieldwall.png"
+      ]
+    },
+    {
+      "symbol": "repairturret",
+      "name": "repairturret",
+      "classicType": "RepairTurret",
+      "source": "core/src/io/anuke/mindustry/world/blocks/DefenseBlocks.java",
+      "recipe": "new Recipe(power, DefenseBlocks.repairturret, stack(Item.iron, 30)),",
+      "spriteCandidates": [
+        "core/assets-raw/sprites/blocks/repairturret.png"
+      ]
+    },
+    {
+      "symbol": "megarepairturret",
+      "name": "megarepairturret",
+      "classicType": "RepairTurret",
+      "source": "core/src/io/anuke/mindustry/world/blocks/DefenseBlocks.java",
+      "recipe": "new Recipe(power, DefenseBlocks.megarepairturret, stack(Item.iron, 20), stack(Item.steel, 30)),",
+      "spriteCandidates": [
+        "core/assets-raw/sprites/blocks/megarepairturret.png"
+      ]
+    },
+    {
+      "symbol": "shieldgenerator",
+      "name": "shieldgenerator",
+      "classicType": "ShieldBlock",
+      "source": "core/src/io/anuke/mindustry/world/blocks/DefenseBlocks.java",
+      "recipe": "new Recipe(power, DefenseBlocks.shieldgenerator, stack(Item.titanium, 30), stack(Item.dirium, 30)),",
+      "spriteCandidates": [
+        "core/assets-raw/sprites/blocks/shieldgenerator.png"
+      ]
+    },
+    {
+      "symbol": "door",
+      "name": "door",
+      "classicType": "Door",
+      "source": "core/src/io/anuke/mindustry/world/blocks/DefenseBlocks.java",
+      "recipe": "new Recipe(defense, DefenseBlocks.door, stack(Item.steel, 3), stack(Item.iron, 3*4)).setDesktop(),",
+      "spriteCandidates": [
+        "core/assets-raw/sprites/blocks/door-large-icon.png",
+        "core/assets-raw/sprites/blocks/door-large-open.png",
+        "core/assets-raw/sprites/blocks/door-large.png",
+        "core/assets-raw/sprites/blocks/door-open.png",
+        "core/assets-raw/sprites/blocks/door.png"
+      ]
+    },
+    {
+      "symbol": "largedoor",
+      "name": "door-large",
+      "classicType": "Door",
+      "source": "core/src/io/anuke/mindustry/world/blocks/DefenseBlocks.java",
+      "recipe": "new Recipe(defense, DefenseBlocks.largedoor, stack(Item.steel, 3*4), stack(Item.iron, 3*4*4)).setDesktop(),",
+      "spriteCandidates": [
+        "core/assets-raw/sprites/blocks/door-large-icon.png",
+        "core/assets-raw/sprites/blocks/door-large-open.png",
+        "core/assets-raw/sprites/blocks/door-large.png"
+      ]
+    },
+    {
+      "symbol": "conduit",
+      "name": "conduit",
+      "classicType": "Conduit",
+      "source": "core/src/io/anuke/mindustry/world/blocks/DistributionBlocks.java",
+      "recipe": "new Recipe(distribution, DistributionBlocks.conduit, stack(Item.steel, 1)),",
+      "spriteCandidates": [
+        "core/assets-raw/sprites/blocks/conduit.png"
+      ]
+    },
+    {
+      "symbol": "pulseconduit",
+      "name": "pulseconduit",
+      "classicType": "Conduit",
+      "source": "core/src/io/anuke/mindustry/world/blocks/DistributionBlocks.java",
+      "recipe": "new Recipe(distribution, DistributionBlocks.pulseconduit, stack(Item.titanium, 1), stack(Item.steel, 1)),",
+      "spriteCandidates": [
+        "core/assets-raw/sprites/blocks/pulseconduit.png"
+      ]
+    },
+    {
+      "symbol": "liquidrouter",
+      "name": "liquidrouter",
+      "classicType": "LiquidRouter",
+      "source": "core/src/io/anuke/mindustry/world/blocks/DistributionBlocks.java",
+      "recipe": "new Recipe(distribution, DistributionBlocks.liquidrouter, stack(Item.steel, 2)),",
+      "spriteCandidates": [
+        "core/assets-raw/sprites/blocks/liquidrouter.png"
+      ]
+    },
+    {
+      "symbol": "conveyor",
+      "name": "conveyor",
+      "classicType": "Conveyor",
+      "source": "core/src/io/anuke/mindustry/world/blocks/DistributionBlocks.java",
+      "recipe": "new Recipe(distribution, DistributionBlocks.conveyor, stack(Item.stone, 1)),",
+      "spriteCandidates": [
+        "core/assets-raw/sprites/blocks/conveyor.png"
+      ]
+    },
+    {
+      "symbol": "steelconveyor",
+      "name": "steelconveyor",
+      "classicType": "Conveyor",
+      "source": "core/src/io/anuke/mindustry/world/blocks/DistributionBlocks.java",
+      "recipe": "new Recipe(distribution, DistributionBlocks.steelconveyor, stack(Item.steel, 1)),",
+      "spriteCandidates": [
+        "core/assets-raw/sprites/blocks/steelconveyor.png"
+      ]
+    },
+    {
+      "symbol": "pulseconveyor",
+      "name": "poweredconveyor",
+      "classicType": "Conveyor",
+      "source": "core/src/io/anuke/mindustry/world/blocks/DistributionBlocks.java",
+      "recipe": "new Recipe(distribution, DistributionBlocks.pulseconveyor, stack(Item.dirium, 1)),",
+      "spriteCandidates": [
+        "core/assets-raw/sprites/blocks/poweredconveyor.png"
+      ]
+    },
+    {
+      "symbol": "router",
+      "name": "router",
+      "classicType": "Router",
+      "source": "core/src/io/anuke/mindustry/world/blocks/DistributionBlocks.java",
+      "recipe": "new Recipe(distribution, DistributionBlocks.router, stack(Item.stone, 2)),",
+      "spriteCandidates": [
+        "core/assets-raw/sprites/blocks/router.png"
+      ]
+    },
+    {
+      "symbol": "junction",
+      "name": "junction",
+      "classicType": "Junction",
+      "source": "core/src/io/anuke/mindustry/world/blocks/DistributionBlocks.java",
+      "recipe": "new Recipe(distribution, DistributionBlocks.junction, stack(Item.iron, 2)),",
+      "spriteCandidates": [
+        "core/assets-raw/sprites/blocks/junction.png"
+      ]
+    },
+    {
+      "symbol": "tunnel",
+      "name": "conveyortunnel",
+      "classicType": "TunnelConveyor",
+      "source": "core/src/io/anuke/mindustry/world/blocks/DistributionBlocks.java",
+      "recipe": "new Recipe(distribution, DistributionBlocks.tunnel, stack(Item.iron, 2)),",
+      "spriteCandidates": [
+        "core/assets-raw/sprites/blocks/conveyortunnel.png"
+      ]
+    },
+    {
+      "symbol": "liquidjunction",
+      "name": "liquidjunction",
+      "classicType": "LiquidJunction",
+      "source": "core/src/io/anuke/mindustry/world/blocks/DistributionBlocks.java",
+      "recipe": "new Recipe(distribution, DistributionBlocks.liquidjunction, stack(Item.steel, 2)),",
+      "spriteCandidates": [
+        "core/assets-raw/sprites/blocks/liquidjunction.png"
+      ]
+    },
+    {
+      "symbol": "powerbooster",
+      "name": "powerbooster",
+      "classicType": "PowerBooster",
+      "source": "core/src/io/anuke/mindustry/world/blocks/DistributionBlocks.java",
+      "recipe": "new Recipe(power, DistributionBlocks.powerbooster, stack(Item.steel, 8), stack(Item.iron, 8)),",
+      "spriteCandidates": [
+        "core/assets-raw/sprites/blocks/powerbooster.png"
+      ]
+    },
+    {
+      "symbol": "powerlaser",
+      "name": "powerlaser",
+      "classicType": "PowerLaser",
+      "source": "core/src/io/anuke/mindustry/world/blocks/DistributionBlocks.java",
+      "recipe": "new Recipe(power, DistributionBlocks.powerlaser, stack(Item.steel, 3), stack(Item.iron, 3)),",
+      "spriteCandidates": [
+        "core/assets-raw/sprites/blocks/powerlaser.png"
+      ]
+    },
+    {
+      "symbol": "powerlaserrouter",
+      "name": "powerlaserrouter",
+      "classicType": "PowerLaserRouter",
+      "source": "core/src/io/anuke/mindustry/world/blocks/DistributionBlocks.java",
+      "recipe": "new Recipe(power, DistributionBlocks.powerlaserrouter, stack(Item.steel, 5), stack(Item.iron, 5)),",
+      "spriteCandidates": [
+        "core/assets-raw/sprites/blocks/powerlaserrouter.png"
+      ]
+    },
+    {
+      "symbol": "powerlasercorner",
+      "name": "powerlasercorner",
+      "classicType": "PowerLaserRouter",
+      "source": "core/src/io/anuke/mindustry/world/blocks/DistributionBlocks.java",
+      "recipe": "new Recipe(power, DistributionBlocks.powerlasercorner, stack(Item.steel, 4), stack(Item.iron, 4)),",
+      "spriteCandidates": [
+        "core/assets-raw/sprites/blocks/powerlasercorner.png"
+      ]
+    },
+    {
+      "symbol": "teleporter",
+      "name": "teleporter",
+      "classicType": "Teleporter",
+      "source": "core/src/io/anuke/mindustry/world/blocks/DistributionBlocks.java",
+      "recipe": "new Recipe(distribution, DistributionBlocks.teleporter, stack(Item.steel, 30), stack(Item.dirium, 40)),",
+      "spriteCandidates": [
+        "core/assets-raw/sprites/blocks/teleporter-top.png",
+        "core/assets-raw/sprites/blocks/teleporter.png"
+      ]
+    },
+    {
+      "symbol": "sorter",
+      "name": "sorter",
+      "classicType": "Sorter",
+      "source": "core/src/io/anuke/mindustry/world/blocks/DistributionBlocks.java",
+      "recipe": "new Recipe(distribution, DistributionBlocks.sorter, stack(Item.steel, 2)),",
+      "spriteCandidates": [
+        "core/assets-raw/sprites/blocks/sorter.png"
+      ]
+    },
+    {
+      "symbol": "core",
+      "name": "core",
+      "classicType": "CoreBlock",
+      "source": "core/src/io/anuke/mindustry/world/blocks/ProductionBlocks.java",
+      "recipe": null,
+      "spriteCandidates": [
+        "core/assets-raw/sprites/blocks/core.png"
+      ]
+    },
+    {
+      "symbol": "pump",
+      "name": "pump",
+      "classicType": "Pump",
+      "source": "core/src/io/anuke/mindustry/world/blocks/ProductionBlocks.java",
+      "recipe": "new Recipe(production, ProductionBlocks.pump, stack(Item.steel, 10)),",
+      "spriteCandidates": [
+        "core/assets-raw/sprites/blocks/pump.png"
+      ]
+    },
+    {
+      "symbol": "fluxpump",
+      "name": "fluxpump",
+      "classicType": "Pump",
+      "source": "core/src/io/anuke/mindustry/world/blocks/ProductionBlocks.java",
+      "recipe": "new Recipe(production, ProductionBlocks.fluxpump, stack(Item.steel, 10), stack(Item.dirium, 5))",
+      "spriteCandidates": [
+        "core/assets-raw/sprites/blocks/fluxpump.png"
+      ]
+    },
+    {
+      "symbol": "smelter",
+      "name": "smelter",
+      "classicType": "Smelter",
+      "source": "core/src/io/anuke/mindustry/world/blocks/ProductionBlocks.java",
+      "recipe": "new Recipe(crafting, ProductionBlocks.smelter, stack(Item.stone, 40), stack(Item.iron, 40)),",
+      "spriteCandidates": [
+        "core/assets-raw/sprites/blocks/smelter-middle.png",
+        "core/assets-raw/sprites/blocks/smelter.png"
+      ]
+    },
+    {
+      "symbol": "crucible",
+      "name": "crucible",
+      "classicType": "Smelter",
+      "source": "core/src/io/anuke/mindustry/world/blocks/ProductionBlocks.java",
+      "recipe": "new Recipe(crafting, ProductionBlocks.crucible, stack(Item.titanium, 50), stack(Item.steel, 50)),",
+      "spriteCandidates": [
+        "core/assets-raw/sprites/blocks/crucible.png"
+      ]
+    },
+    {
+      "symbol": "coalpurifier",
+      "name": "coalpurifier",
+      "classicType": "LiquidCrafter",
+      "source": "core/src/io/anuke/mindustry/world/blocks/ProductionBlocks.java",
+      "recipe": "new Recipe(crafting, ProductionBlocks.coalpurifier, stack(Item.steel, 10), stack(Item.iron, 10)),",
+      "spriteCandidates": [
+        "core/assets-raw/sprites/blocks/coalpurifier.png"
+      ]
+    },
+    {
+      "symbol": "titaniumpurifier",
+      "name": "titaniumpurifier",
+      "classicType": "LiquidCrafter",
+      "source": "core/src/io/anuke/mindustry/world/blocks/ProductionBlocks.java",
+      "recipe": "new Recipe(crafting, ProductionBlocks.titaniumpurifier, stack(Item.steel, 30), stack(Item.iron, 30)),",
+      "spriteCandidates": [
+        "core/assets-raw/sprites/blocks/titaniumpurifier.png"
+      ]
+    },
+    {
+      "symbol": "oilrefinery",
+      "name": "oilrefinery",
+      "classicType": "LiquidCrafter",
+      "source": "core/src/io/anuke/mindustry/world/blocks/ProductionBlocks.java",
+      "recipe": "new Recipe(crafting, ProductionBlocks.oilrefinery, stack(Item.steel, 15), stack(Item.iron, 15)),",
+      "spriteCandidates": [
+        "core/assets-raw/sprites/blocks/oilrefinery.png"
+      ]
+    },
+    {
+      "symbol": "stoneformer",
+      "name": "stoneformer",
+      "classicType": "LiquidCrafter",
+      "source": "core/src/io/anuke/mindustry/world/blocks/ProductionBlocks.java",
+      "recipe": "new Recipe(crafting, ProductionBlocks.stoneformer, stack(Item.steel, 10), stack(Item.iron, 10)),",
+      "spriteCandidates": [
+        "core/assets-raw/sprites/blocks/stoneformer.png"
+      ]
+    },
+    {
+      "symbol": "lavasmelter",
+      "name": "lavasmelter",
+      "classicType": "LiquidCrafter",
+      "source": "core/src/io/anuke/mindustry/world/blocks/ProductionBlocks.java",
+      "recipe": "new Recipe(crafting, ProductionBlocks.lavasmelter, stack(Item.steel, 30), stack(Item.titanium, 15)),",
+      "spriteCandidates": [
+        "core/assets-raw/sprites/blocks/lavasmelter.png"
+      ]
+    },
+    {
+      "symbol": "siliconextractor",
+      "name": "siliconextractor",
+      "classicType": "LiquidCrafter",
+      "source": "core/src/io/anuke/mindustry/world/blocks/ProductionBlocks.java",
+      "recipe": null,
+      "spriteCandidates": []
+    },
+    {
+      "symbol": "stonedrill",
+      "name": "stonedrill",
+      "classicType": "Drill",
+      "source": "core/src/io/anuke/mindustry/world/blocks/ProductionBlocks.java",
+      "recipe": "new Recipe(production, ProductionBlocks.stonedrill, stack(Item.stone, 12)),",
+      "spriteCandidates": [
+        "core/assets-raw/sprites/blocks/stonedrill.png"
+      ]
+    },
+    {
+      "symbol": "irondrill",
+      "name": "irondrill",
+      "classicType": "Drill",
+      "source": "core/src/io/anuke/mindustry/world/blocks/ProductionBlocks.java",
+      "recipe": "new Recipe(production, ProductionBlocks.irondrill, stack(Item.stone, 25)),",
+      "spriteCandidates": [
+        "core/assets-raw/sprites/blocks/irondrill.png"
+      ]
+    },
+    {
+      "symbol": "coaldrill",
+      "name": "coaldrill",
+      "classicType": "Drill",
+      "source": "core/src/io/anuke/mindustry/world/blocks/ProductionBlocks.java",
+      "recipe": "new Recipe(production, ProductionBlocks.coaldrill, stack(Item.stone, 25), stack(Item.iron, 40)),",
+      "spriteCandidates": [
+        "core/assets-raw/sprites/blocks/coaldrill.png"
+      ]
+    },
+    {
+      "symbol": "uraniumdrill",
+      "name": "uraniumdrill",
+      "classicType": "Drill",
+      "source": "core/src/io/anuke/mindustry/world/blocks/ProductionBlocks.java",
+      "recipe": "new Recipe(production, ProductionBlocks.uraniumdrill, stack(Item.iron, 40), stack(Item.steel, 40)),",
+      "spriteCandidates": [
+        "core/assets-raw/sprites/blocks/uraniumdrill.png"
+      ]
+    },
+    {
+      "symbol": "titaniumdrill",
+      "name": "titaniumdrill",
+      "classicType": "Drill",
+      "source": "core/src/io/anuke/mindustry/world/blocks/ProductionBlocks.java",
+      "recipe": "new Recipe(production, ProductionBlocks.titaniumdrill, stack(Item.iron, 50), stack(Item.steel, 50)),",
+      "spriteCandidates": [
+        "core/assets-raw/sprites/blocks/titaniumdrill.png"
+      ]
+    },
+    {
+      "symbol": "omnidrill",
+      "name": "omnidrill",
+      "classicType": "Omnidrill",
+      "source": "core/src/io/anuke/mindustry/world/blocks/ProductionBlocks.java",
+      "recipe": "new Recipe(production, ProductionBlocks.omnidrill, stack(Item.titanium, 40), stack(Item.dirium, 40)),",
+      "spriteCandidates": [
+        "core/assets-raw/sprites/blocks/omnidrill.png"
+      ]
+    },
+    {
+      "symbol": "coalgenerator",
+      "name": "coalgenerator",
+      "classicType": "ItemPowerGenerator",
+      "source": "core/src/io/anuke/mindustry/world/blocks/ProductionBlocks.java",
+      "recipe": "new Recipe(power, ProductionBlocks.coalgenerator, stack(Item.iron, 30), stack(Item.stone, 20)),",
+      "spriteCandidates": [
+        "core/assets-raw/sprites/blocks/coalgenerator-top.png",
+        "core/assets-raw/sprites/blocks/coalgenerator.png"
+      ]
+    },
+    {
+      "symbol": "thermalgenerator",
+      "name": "thermalgenerator",
+      "classicType": "LiquidPowerGenerator",
+      "source": "core/src/io/anuke/mindustry/world/blocks/ProductionBlocks.java",
+      "recipe": "new Recipe(power, ProductionBlocks.thermalgenerator, stack(Item.steel, 30), stack(Item.iron, 30)),",
+      "spriteCandidates": [
+        "core/assets-raw/sprites/blocks/thermalgenerator.png"
+      ]
+    },
+    {
+      "symbol": "combustiongenerator",
+      "name": "combustiongenerator",
+      "classicType": "LiquidPowerGenerator",
+      "source": "core/src/io/anuke/mindustry/world/blocks/ProductionBlocks.java",
+      "recipe": "new Recipe(power, ProductionBlocks.combustiongenerator, stack(Item.iron, 30), stack(Item.stone, 20)),",
+      "spriteCandidates": [
+        "core/assets-raw/sprites/blocks/combustiongenerator.png"
+      ]
+    },
+    {
+      "symbol": "rtgenerator",
+      "name": "rtgenerator",
+      "classicType": "ItemPowerGenerator",
+      "source": "core/src/io/anuke/mindustry/world/blocks/ProductionBlocks.java",
+      "recipe": "new Recipe(power, ProductionBlocks.rtgenerator, stack(Item.titanium, 20), stack(Item.steel, 20)),",
+      "spriteCandidates": [
+        "core/assets-raw/sprites/blocks/rtgenerator-top.png",
+        "core/assets-raw/sprites/blocks/rtgenerator.png"
+      ]
+    },
+    {
+      "symbol": "nuclearReactor",
+      "name": "nuclearreactor",
+      "classicType": "NuclearReactor",
+      "source": "core/src/io/anuke/mindustry/world/blocks/ProductionBlocks.java",
+      "recipe": "new Recipe(power, ProductionBlocks.nuclearReactor, stack(Item.titanium, 40), stack(Item.dirium, 40), stack(Item.steel, 50)),",
+      "spriteCandidates": [
+        "core/assets-raw/sprites/blocks/nuclearreactor-center.png",
+        "core/assets-raw/sprites/blocks/nuclearreactor-icon.png",
+        "core/assets-raw/sprites/blocks/nuclearreactor-lights.png",
+        "core/assets-raw/sprites/blocks/nuclearreactor-small.png",
+        "core/assets-raw/sprites/blocks/nuclearreactor.png"
+      ]
+    },
+    {
+      "symbol": "weaponFactory",
+      "name": "weaponfactory",
+      "classicType": "WeaponFactory",
+      "source": "core/src/io/anuke/mindustry/world/blocks/ProductionBlocks.java",
+      "recipe": "new Recipe(crafting, ProductionBlocks.weaponFactory, stack(Item.steel, 60), stack(Item.iron, 60)).setDesktop(),",
+      "spriteCandidates": [
+        "core/assets-raw/sprites/blocks/weaponfactory-icon.png",
+        "core/assets-raw/sprites/blocks/weaponfactory.png"
+      ]
+    },
+    {
+      "symbol": "playerSpawn",
+      "name": "playerspawn",
+      "classicType": "Block",
+      "source": "core/src/io/anuke/mindustry/world/blocks/SpecialBlocks.java",
+      "recipe": null,
+      "spriteCandidates": [
+        "core/assets-raw/sprites/blocks/playerspawn.png"
+      ]
+    },
+    {
+      "symbol": "enemySpawn",
+      "name": "enemyspawn",
+      "classicType": "Block",
+      "source": "core/src/io/anuke/mindustry/world/blocks/SpecialBlocks.java",
+      "recipe": null,
+      "spriteCandidates": [
+        "core/assets-raw/sprites/blocks/enemyspawn.png"
+      ]
+    },
+    {
+      "symbol": "turret",
+      "name": "turret",
+      "classicType": "Turret",
+      "source": "core/src/io/anuke/mindustry/world/blocks/WeaponBlocks.java",
+      "recipe": "new Recipe(weapon, WeaponBlocks.turret, stack(Item.stone, 4)),",
+      "spriteCandidates": [
+        "core/assets-raw/sprites/blocks/turret.png"
+      ]
+    },
+    {
+      "symbol": "doubleturret",
+      "name": "doubleturret",
+      "classicType": "Turret",
+      "source": "core/src/io/anuke/mindustry/world/blocks/WeaponBlocks.java",
+      "recipe": "new Recipe(weapon, WeaponBlocks.doubleturret, stack(Item.stone, 7)),",
+      "spriteCandidates": [
+        "core/assets-raw/sprites/blocks/doubleturret.png"
+      ]
+    },
+    {
+      "symbol": "machineturret",
+      "name": "machineturret",
+      "classicType": "Turret",
+      "source": "core/src/io/anuke/mindustry/world/blocks/WeaponBlocks.java",
+      "recipe": "new Recipe(weapon, WeaponBlocks.machineturret, stack(Item.iron, 8), stack(Item.stone, 10)),",
+      "spriteCandidates": [
+        "core/assets-raw/sprites/blocks/machineturret.png"
+      ]
+    },
+    {
+      "symbol": "shotgunturret",
+      "name": "shotgunturret",
+      "classicType": "Turret",
+      "source": "core/src/io/anuke/mindustry/world/blocks/WeaponBlocks.java",
+      "recipe": "new Recipe(weapon, WeaponBlocks.shotgunturret, stack(Item.iron, 10), stack(Item.stone, 10)),",
+      "spriteCandidates": [
+        "core/assets-raw/sprites/blocks/shotgunturret.png"
+      ]
+    },
+    {
+      "symbol": "flameturret",
+      "name": "flameturret",
+      "classicType": "Turret",
+      "source": "core/src/io/anuke/mindustry/world/blocks/WeaponBlocks.java",
+      "recipe": "new Recipe(weapon, WeaponBlocks.flameturret, stack(Item.iron, 12), stack(Item.steel, 9)),",
+      "spriteCandidates": [
+        "core/assets-raw/sprites/blocks/flameturret.png"
+      ]
+    },
+    {
+      "symbol": "sniperturret",
+      "name": "sniperturret",
+      "classicType": "Turret",
+      "source": "core/src/io/anuke/mindustry/world/blocks/WeaponBlocks.java",
+      "recipe": "new Recipe(weapon, WeaponBlocks.sniperturret, stack(Item.iron, 15), stack(Item.steel, 10)),",
+      "spriteCandidates": [
+        "core/assets-raw/sprites/blocks/sniperturret.png"
+      ]
+    },
+    {
+      "symbol": "mortarturret",
+      "name": "mortarturret",
+      "classicType": "Turret",
+      "source": "core/src/io/anuke/mindustry/world/blocks/WeaponBlocks.java",
+      "recipe": "new Recipe(weapon, WeaponBlocks.mortarturret, stack(Item.steel, 25), stack(Item.titanium, 15)),",
+      "spriteCandidates": [
+        "core/assets-raw/sprites/blocks/mortarturret.png"
+      ]
+    },
+    {
+      "symbol": "laserturret",
+      "name": "laserturret",
+      "classicType": "LaserTurret",
+      "source": "core/src/io/anuke/mindustry/world/blocks/WeaponBlocks.java",
+      "recipe": "new Recipe(weapon, WeaponBlocks.laserturret, stack(Item.steel, 12), stack(Item.titanium, 12)),",
+      "spriteCandidates": [
+        "core/assets-raw/sprites/blocks/laserturret.png"
+      ]
+    },
+    {
+      "symbol": "teslaturret",
+      "name": "waveturret",
+      "classicType": "PowerTurret",
+      "source": "core/src/io/anuke/mindustry/world/blocks/WeaponBlocks.java",
+      "recipe": "new Recipe(weapon, WeaponBlocks.teslaturret, stack(Item.steel, 20), stack(Item.titanium, 25), stack(Item.dirium, 15)),",
+      "spriteCandidates": [
+        "core/assets-raw/sprites/blocks/waveturret.png"
+      ]
+    },
+    {
+      "symbol": "plasmaturret",
+      "name": "plasmaturret",
+      "classicType": "Turret",
+      "source": "core/src/io/anuke/mindustry/world/blocks/WeaponBlocks.java",
+      "recipe": "new Recipe(weapon, WeaponBlocks.plasmaturret, stack(Item.steel, 10), stack(Item.titanium, 20), stack(Item.dirium, 15)),",
+      "spriteCandidates": [
+        "core/assets-raw/sprites/blocks/plasmaturret.png"
+      ]
+    },
+    {
+      "symbol": "chainturret",
+      "name": "chainturret",
+      "classicType": "Turret",
+      "source": "core/src/io/anuke/mindustry/world/blocks/WeaponBlocks.java",
+      "recipe": "new Recipe(weapon, WeaponBlocks.chainturret, stack(Item.steel, 50), stack(Item.titanium, 25), stack(Item.dirium, 40)),",
+      "spriteCandidates": [
+        "core/assets-raw/sprites/blocks/chainturret-icon.png",
+        "core/assets-raw/sprites/blocks/chainturret-icon_old.png",
+        "core/assets-raw/sprites/blocks/chainturret.png"
+      ]
+    },
+    {
+      "symbol": "titanturret",
+      "name": "titancannon",
+      "classicType": "Turret",
+      "source": "core/src/io/anuke/mindustry/world/blocks/WeaponBlocks.java",
+      "recipe": "new Recipe(weapon, WeaponBlocks.titanturret, stack(Item.steel, 70), stack(Item.titanium, 50), stack(Item.dirium, 55)),",
+      "spriteCandidates": [
+        "core/assets-raw/sprites/blocks/titancannon-icon.png",
+        "core/assets-raw/sprites/blocks/titancannon-icon_old.png",
+        "core/assets-raw/sprites/blocks/titancannon.png"
+      ]
+    },
+    {
+      "symbol": "blockpart",
+      "name": "blockpart",
+      "classicType": "BlockPart",
+      "source": "core/src/io/anuke/mindustry/world/blocks/Blocks.java",
+      "recipe": null,
+      "spriteCandidates": [],
+      "note": "Internal constructor without explicit name; not player content."
+    }
+  ],
+  "items": [
+    "stone",
+    "iron",
+    "coal",
+    "steel",
+    "titanium",
+    "dirium",
+    "uranium",
+    "sand"
+  ],
+  "liquids": [
+    "water",
+    "plasma",
+    "lava",
+    "oil",
+    "cryofluid"
+  ],
+  "enemies": [
+    {
+      "symbol": "standard",
+      "classicType": "StandardType"
+    },
+    {
+      "symbol": "fast",
+      "classicType": "FastType"
+    },
+    {
+      "symbol": "rapid",
+      "classicType": "RapidType"
+    },
+    {
+      "symbol": "flamer",
+      "classicType": "FlamerType"
+    },
+    {
+      "symbol": "tank",
+      "classicType": "TankType"
+    },
+    {
+      "symbol": "blast",
+      "classicType": "BlastType"
+    },
+    {
+      "symbol": "mortar",
+      "classicType": "MortarType"
+    },
+    {
+      "symbol": "healer",
+      "classicType": "HealerType"
+    },
+    {
+      "symbol": "titan",
+      "classicType": "TitanType"
+    },
+    {
+      "symbol": "emp",
+      "classicType": "EmpType"
+    },
+    {
+      "symbol": "fortress",
+      "classicType": "FortressType"
+    },
+    {
+      "symbol": "target",
+      "classicType": "TargetType"
+    }
+  ],
+  "mechs": [
+    "standard"
+  ],
+  "playerWeapons": [
+    "blaster",
+    "triblaster",
+    "clustergun",
+    "beam",
+    "vulcan",
+    "shockgun"
+  ],
+  "notes": [
+    "Static declarations, not proof that every entry is obtainable in gameplay.",
+    "Sprite candidates use filename matching; custom draw layers and shared regions require source review.",
+    "Glass and silicon declarations are commented out and excluded."
+  ]
+}

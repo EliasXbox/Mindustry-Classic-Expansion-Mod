@@ -1,0 +1,16 @@
+{
+  "type": "CoreBlock",
+  "name": "Classic Core",
+  "description": "Classic 3x3 core, 800 health. Editor/map placement; no Classic construction recipe. Modern shared storage limit: 10000 per item; respawns a custom Classic blaster player.",
+  "health": 800,
+  "size": 3,
+  "itemCapacity": 10000,
+  "unitCapModifier": 8,
+  "unitType": "classic-player-blaster",
+  "isFirstTier": true,
+  "requiresCoreZone": false,
+  "incinerateNonBuildable": false,
+  "buildVisibility": "editorOnly",
+  "category": "effect",
+  "alwaysUnlocked": true
+}

@@ -1,0 +1,10 @@
+{
+  "name": "Classic Lava",
+  "color": "ed5334",
+  "temperature": 1,
+  "heatCapacity": 0.2,
+  "viscosity": 0.7,
+  "flammability": 0,
+  "explosiveness": 0,
+  "description": "Classic lava for production; heat properties adapted to v7. Extract from Classic lava floor."
+}
