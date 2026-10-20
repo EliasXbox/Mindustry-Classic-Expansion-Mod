@@ -28,7 +28,7 @@
       "classic-stone/5"
     ]
   },
-  "outputItem": "coal/1",
+  "outputItem": "classic-coal/1",
   "craftEffect": "smeltsmoke",
   "drawer": {
     "type": "DrawDefault"

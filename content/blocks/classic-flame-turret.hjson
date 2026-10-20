@@ -30,7 +30,7 @@
     "shots": 1
   },
   "ammoTypes": {
-    "coal": {
+    "classic-coal": {
       "type": "BasicBulletType",
       "speed": 0.7,
       "damage": 5,

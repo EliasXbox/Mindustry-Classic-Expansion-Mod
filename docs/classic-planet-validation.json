@@ -1,0 +1,101 @@
+{
+  "version": "0.19.0-alpha",
+  "sectors": [
+    {
+      "name": "Maze",
+      "width": 256,
+      "height": 256,
+      "captureWave": 25,
+      "resourceTiles": 13816
+    },
+    {
+      "name": "Fortress",
+      "width": 256,
+      "height": 256,
+      "captureWave": 55,
+      "resourceTiles": 44743
+    },
+    {
+      "name": "Sinkhole",
+      "width": 256,
+      "height": 256,
+      "captureWave": 45,
+      "resourceTiles": 42266
+    },
+    {
+      "name": "Caves",
+      "width": 256,
+      "height": 256,
+      "captureWave": 35,
+      "resourceTiles": 44187
+    },
+    {
+      "name": "Volcano",
+      "width": 256,
+      "height": 256,
+      "captureWave": 60,
+      "resourceTiles": 62561
+    },
+    {
+      "name": "Caldera",
+      "width": 256,
+      "height": 256,
+      "captureWave": 65,
+      "resourceTiles": 59272
+    },
+    {
+      "name": "Scorch",
+      "width": 256,
+      "height": 256,
+      "captureWave": 70,
+      "resourceTiles": 20269
+    },
+    {
+      "name": "Desert",
+      "width": 256,
+      "height": 256,
+      "captureWave": 30,
+      "resourceTiles": 43692
+    },
+    {
+      "name": "Island",
+      "width": 256,
+      "height": 256,
+      "captureWave": 40,
+      "resourceTiles": 2231
+    },
+    {
+      "name": "Grassland",
+      "width": 128,
+      "height": 256,
+      "captureWave": 20,
+      "resourceTiles": 4082
+    },
+    {
+      "name": "Tundra",
+      "width": 256,
+      "height": 256,
+      "captureWave": 50,
+      "resourceTiles": 5426
+    },
+    {
+      "name": "Spiral",
+      "width": 128,
+      "height": 128,
+      "captureWave": 75,
+      "resourceTiles": 2506
+    },
+    {
+      "name": "Tutorial",
+      "width": 128,
+      "height": 128,
+      "captureWave": 0,
+      "resourceTiles": 14890
+    }
+  ],
+  "technologies": 63,
+  "anyMode": true,
+  "legacyFuelMigration": true,
+  "campaignSaveReload": true,
+  "vanilla": true
+}

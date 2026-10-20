@@ -4,13 +4,13 @@
   "health": 40,
   "size": 1,
   "requirements": [
-    "copper/12"
+    "classic-stone/12"
   ],
   "category": "production",
   "research": {
     "parent": "mechanical-drill",
     "requirements": [
-      "copper/12"
+      "classic-stone/12"
     ]
   },
   "tier": 0,
@@ -23,5 +23,5 @@
   "rotateSpeed": 0,
   "drawSpinSprite": false,
   "hasLiquids": false,
-  "description": "Mines Classic stone deposits. Bootstrap recipe: 12 copper. Modern Drill also accepts tier-0 resources except sand."
+  "description": "Original Classic recipe: 12 Classic stone. Mines stone; modern tier-0 drill with sand blocked."
 }

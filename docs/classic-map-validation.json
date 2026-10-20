@@ -31,8 +31,8 @@
       ],
       "tilesVerified": 65536,
       "waveGroups": 152,
-      "bytes": 13740,
-      "sha256": "ae4b9abb0daed62572b9dd30932b17b2a1371dbeccc246c156b8599508c07ff2"
+      "bytes": 13879,
+      "sha256": "57511495353d1990e0ce1c5a1aef35dac1a95511862bfb90aee9fbf10ab9eb9b"
     },
     {
       "name": "fortress",
@@ -66,8 +66,8 @@
       ],
       "tilesVerified": 65536,
       "waveGroups": 152,
-      "bytes": 16494,
-      "sha256": "4885090a9a77158b2ebc11257828d5a5147dcf292d98d88337369395013b7151"
+      "bytes": 16633,
+      "sha256": "08240bc745dafe8112fb7f6898b9c29e20558e898d9bd339ab10a52ee680f231"
     },
     {
       "name": "sinkhole",
@@ -100,8 +100,8 @@
       ],
       "tilesVerified": 65536,
       "waveGroups": 152,
-      "bytes": 17808,
-      "sha256": "3a8e9e558622a8d0c1ff17121288505bf437e2e2e54533b08716749d3ecd3c3b"
+      "bytes": 17944,
+      "sha256": "3dc577b9c66a968bfcb25ea4e83d3adddc62b576761b4de9fc5e4af40973cc1b"
     },
     {
       "name": "caves",
@@ -134,8 +134,8 @@
       ],
       "tilesVerified": 65536,
       "waveGroups": 152,
-      "bytes": 15000,
-      "sha256": "054d2c8504ae37f90c522ac4786dcfbedfb0f7a69031bde819d35e8134a0a2a5"
+      "bytes": 15137,
+      "sha256": "3e1eeebcb878fc4a7fbd677b56aaf68b436c03a29d2693a1e8c5fabd94d7a210"
     },
     {
       "name": "volcano",
@@ -168,8 +168,8 @@
       ],
       "tilesVerified": 65536,
       "waveGroups": 152,
-      "bytes": 19044,
-      "sha256": "aeabef96fc7f5bf860ffe1207e1d25ea5792856755e729aa08e2af48b50ea104"
+      "bytes": 19189,
+      "sha256": "df7dc5f948edeae6236ae0e25564e2a8b5c1ab987ee17adbca42af81ce235e7d"
     },
     {
       "name": "caldera",
@@ -202,8 +202,8 @@
       ],
       "tilesVerified": 65536,
       "waveGroups": 152,
-      "bytes": 16617,
-      "sha256": "d3418207ed62f52938a0fa90bba5e443c3ac7e5d0e9c09e611a4192cdb7e69d7"
+      "bytes": 16755,
+      "sha256": "b40d67381bb7bb929439bd510a3eb1023a8002c4f29b9defc6bb741890dde0e5"
     },
     {
       "name": "scorch",
@@ -236,8 +236,8 @@
       ],
       "tilesVerified": 65536,
       "waveGroups": 152,
-      "bytes": 18724,
-      "sha256": "0e1ebeaa47a86f0f99882381af9936b19f227a0bf81a2724bae37c6756b06281"
+      "bytes": 18872,
+      "sha256": "cb5b1215eb1ffe6cf7476ab4f882149d0ad40be3d6fd67c04402facdfb5dc563"
     },
     {
       "name": "desert",
@@ -269,8 +269,8 @@
       ],
       "tilesVerified": 65536,
       "waveGroups": 152,
-      "bytes": 17149,
-      "sha256": "d69456d48bcffbd37b1df12f661e56f321a8b9160e88b87ee863d4935dd33ad6"
+      "bytes": 17287,
+      "sha256": "858d71655bd10eeb5ed33006843dff04a19d15cebf8bf8fd34cff7073c86656b"
     },
     {
       "name": "island",
@@ -302,8 +302,8 @@
       ],
       "tilesVerified": 65536,
       "waveGroups": 152,
-      "bytes": 17887,
-      "sha256": "15a4056f5d841600948d254821fec75d43ca640709e5da61f01e13b4914a92c4"
+      "bytes": 18031,
+      "sha256": "5ed448c3ed2ccc2dbc3b8ea66f5eb04902b2bcebcf686e80d39ac9ff0ec5c2fa"
     },
     {
       "name": "grassland",
@@ -334,8 +334,8 @@
       ],
       "tilesVerified": 32768,
       "waveGroups": 152,
-      "bytes": 11870,
-      "sha256": "032dafad95f02f07996f4cc08564765d7d5586085281b77f5e31cfad6df76926"
+      "bytes": 12009,
+      "sha256": "2d3d3dea7985dfb374f08903af4983671a199e5e4cadad902f64ec2e28d8499b"
     },
     {
       "name": "tundra",
@@ -367,8 +367,8 @@
       ],
       "tilesVerified": 65536,
       "waveGroups": 152,
-      "bytes": 14263,
-      "sha256": "b10ed8e7e0fb645b483ca1a28c9011ae9cc1721376945218a424d8d0380a9715"
+      "bytes": 14400,
+      "sha256": "6fab97df00e0a0fd813b913c49842fd552ce951743a6ad9031c0c9da25496060"
     },
     {
       "name": "spiral",
@@ -400,8 +400,8 @@
       ],
       "tilesVerified": 16384,
       "waveGroups": 152,
-      "bytes": 10145,
-      "sha256": "0b5d781e650692ea4c3a99e14d17af32c34ef7c7aac64b0d55f4e159fd4a9b45"
+      "bytes": 10282,
+      "sha256": "6ed9fdd1ac1e696b7afa0b944a47fd1e58a39badb6fddd477b8a4632c8d85c98"
     },
     {
       "name": "tutorial",
@@ -433,8 +433,8 @@
       ],
       "tilesVerified": 16384,
       "waveGroups": 152,
-      "bytes": 8488,
-      "sha256": "06955deb365fd5b859c37bbff6676004f429fe023774d21c162ea2a09e16c63d"
+      "bytes": 8623,
+      "sha256": "afa63ac305636f36abdf269f5b17568a80fd3eefbdefb81cf3e59272aeecab27"
     }
   ],
   "passed": 13,

@@ -1,0 +1,10 @@
+{
+  "name": "Classic Coal",
+  "description": "Original Classic coal, separate from modern coal.",
+  "color": "303030",
+  "hardness": 2,
+  "flammability": 1,
+  "explosiveness": 0.2,
+  "cost": 1,
+  "alwaysUnlocked": true
+}

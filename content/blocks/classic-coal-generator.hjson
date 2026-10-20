@@ -23,7 +23,7 @@
   "hasLiquids": false,
   "consumes": {
     "items": [
-      "coal/1"
+      "classic-coal/1"
     ]
   },
   "drawer": {

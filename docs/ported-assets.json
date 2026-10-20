@@ -2160,6 +2160,18 @@
       "target": "sprites/units/classic-enemy-fortress-t6.png",
       "operation": "4x nearest-neighbor from preserved source",
       "renderedSha256": "ecd61e5a3f9ce71ca2695725cbdfa6aa8337bc453649c2759540553f39a2bbdb"
+    },
+    {
+      "source": "core/assets-raw/sprites/icon-coal.png",
+      "target": "sprites/items/classic-coal.png",
+      "operation": "4x nearest-neighbor from preserved source",
+      "renderedSha256": "fd0c9661aede19d36a47149602b1e2f81cd8f290936e0a58649d6ff0cecc0974"
+    },
+    {
+      "source": null,
+      "target": "sprites/blocks/classic-core-team.png",
+      "operation": "4x nearest-neighbor; transparent generated compatibility layer",
+      "renderedSha256": "b54156c3e1220f569ea5dc6b6281f17bbfba5a8f151829e09670c3ebf43de6e3"
     }
   ]
 }

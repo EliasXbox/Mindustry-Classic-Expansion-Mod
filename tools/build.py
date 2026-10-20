@@ -20,7 +20,14 @@ def main():
         assert path.stem.startswith('classic-'), 'Content must have a distinct name'
         content[path.stem] = json.loads(path.read_text(encoding='utf-8'))
     assert len([c for c in content.values() if 'requirements' in c]) == 63
-    assert len(list((ROOT / 'content/items').glob('*.hjson'))) == 6
+    assert len(list((ROOT / 'content/items').glob('*.hjson'))) == 7
+    assert content['classic-stone-drill']['requirements'] == ['classic-stone/12']
+    assert content['classic-coal-floor']['itemDrop'] == 'classic-coal'
+    assert (ROOT / 'sprites/blocks/classic-core-team.png').is_file()
+    assert (ROOT / 'scripts/classic-planet.js').is_file()
+    campaign = json.loads((ROOT / 'docs/classic-planet-validation.json').read_text())
+    assert len(campaign['sectors']) == 13 and campaign['technologies'] == 63
+    assert campaign['anyMode'] and campaign['campaignSaveReload'] and campaign['legacyFuelMigration']
     assert len(list((ROOT / 'content/liquids').glob('*.hjson'))) == 1
     # Every custom construction/production reference must resolve in the package.
     for data in content.values():

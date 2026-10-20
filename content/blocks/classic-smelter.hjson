@@ -21,9 +21,9 @@
   "consumes": {
     "items": [
       "classic-iron/5",
-      "coal/2"
+      "classic-coal/2"
     ]
   },
   "craftEffect": "smeltsmoke",
-  "description": "Smelts 5 Classic iron and 2 vanilla coal into 5 Classic steel per batch. Classic long-run input/output rates; fuel is consumed per batch."
+  "description": "Smelts 5 Classic iron and 2 Classic coal into 5 Classic steel per batch. Classic long-run input/output rates; fuel is consumed per batch."
 }

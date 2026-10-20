@@ -111,3 +111,5 @@ client screenshot identified the wrong-folder placeholder. Client retest pending
 0.17.0-alpha (2026-10-20): Added Titan T6 and EMP/Fortress T4-T6 with original t3 art and Classic contour/stat rules. Enabled all Fortress tiers in existing script/save format. Completes 66 combat tier variants plus training target, not exact behavior parity. Added seven-wave demo, coverage assertion and legacy/combat/save checks.
 
 0.18.0-alpha (2026-10-20): Ported 13 original map PNGs to v7 msav; added original GPL Noise.java, palette decoder and reproducible sources. Adapted deterministic decoration RNG, normal wave groups, starter copper and tutorial practice mode; no scripted tutorial or planet campaign yet.
+
+0.19.0-alpha (2026-10-20): Added independent Classic Planet and research, 13 original map sectors, Classic coal with original art, original stone drill cost and transparent core team compatibility layer. Disabled implicit map ore/scatter filters. Adapted campaign progression/stock and preserved mixed-mode bans and legacy fuel stores.

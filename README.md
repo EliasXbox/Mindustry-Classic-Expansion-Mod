@@ -1,15 +1,15 @@
 # Mindustry: Classic Expansion
 
-Mod HJSON com scripts JavaScript para **Mindustry v7 build 146**, destinado a PC e Android. Alpha **0.18.0**.
+Mod HJSON com scripts JavaScript para **Mindustry v7 build 146**, destinado a PC e Android. Alpha **0.19.0**.
 Conteúdo separado dos blocos e itens vanilla, sob o prefixo mindustry-classic-expansion-.
 
 ## Lote 2: cinco blocos e seus itens
 
 | Bloco novo | Função | Construção |
 | --- | --- | --- |
-| Perfurador de pedra | Pedra clássica a cada 4s | 12 cobre, para iniciar a cadeia |
+| Perfurador de pedra | Pedra clássica a cada 4s | 12 pedras clássicas |
 | Perfurador de ferro | Ferro clássico a cada 5s | 25 pedras clássicas |
-| Fundidor | 5 ferros + 2 carvões vanilla → 5 aços em 100 ticks | 40 pedras + 40 ferros clássicos |
+| Fundidor | 5 ferros + 2 carvões clássicos → 5 aços em 100 ticks | 40 pedras + 40 ferros clássicos |
 | Esteira | Transporte de itens | 1 pedra clássica |
 | Roteador | Distribuição de itens | 2 pedras clássicas |
 
@@ -19,12 +19,12 @@ Na 0.9 há 63 receitas construíveis, núcleo próprio e 15 tipos de piso.
 
 ## Instalar e testar
 
-1. Importe o ZIP 0.18 em **Mods → Importar mod**, sem descompactar.
+1. Importe o ZIP 0.19 em **Mods → Importar mod**, sem descompactar.
 2. Atualize o mod existente; não mantenha as duas alphas instaladas juntas. Reinicie.
 3. Abra **Jogo personalizado → MCE - Classic Chain Demo**. Use sandbox para inspeção rápida.
 4. Na região (20,20), pedra passa pelo perfurador, esteira e roteador até o cofre.
 5. Na região (20,30), ferro segue até o fundidor em (25,30); aço sai para outro cofre.
-6. Alimente o fundidor com carvão vanilla. Em recursos limitados, o núcleo começa com 300 carvões e 1000 cobres.
+6. Alimente o fundidor com carvão clássico. Em recursos limitados, o núcleo começa com 300 carvões e 1000 cobres.
 
 Os terrenos Classic estão no editor. **Não aparecem automaticamente na campanha vanilla.**
 Para usar a cadeia em outro mapa, coloque os novos terrenos no editor.
@@ -46,7 +46,7 @@ Veja [BATCH-02.md](docs/BATCH-02.md).
 ## Gerar o ZIP
 
 Com Python 3 na raiz: `python tools/build.py`.
-Saída: dist/mindustry-classic-expansion-0.18.0-alpha.zip, com manifesto na raiz.
+Saída: dist/mindustry-classic-expansion-0.19.0-alpha.zip, com manifesto na raiz.
 Os .hjson usam JSON válido, subconjunto de HJSON. A partir da 0.8, scripts JavaScript preservam canais de teleporte e compras de armas; não há biblioteca Java adicional.
 O ZIP inclui fonte editável, mapa, licença, créditos e ferramentas de reprodução.
 
@@ -200,6 +200,27 @@ já estão dentro dele e dependem do conteúdo Classic.
 Terreno, núcleo, entradas de inimigos e base inicial foram convertidos dos
 PNGs originais. Ondas usam contagens e tiers da dificuldade normal Classic,
 com IA e combate v7. O tutorial não inclui as instruções guiadas originais.
-Os mapas começam com 240 cobres modernos para a receita existente do
-perfurador de pedra. Classic Planet ainda será uma etapa de campanha.
+Os mapas começam com 120 pedras clássicas; o perfurador usa sua receita original de
+12 pedras. A campanha Classic Planet está disponível na 0.19.
 Veja [detalhes e reprodução](docs/BATCH-18.md).
+
+## Classic Planet — 0.19
+
+Abra **Campanha → Planetas → Classic** e comece em **Grassland**.
+Há 12 setores de sobrevivência com os mapas originais e um tutorial opcional
+de prática. Grassland é conquistado na onda 20; os seguintes liberam-se pela
+pesquisa após conquistar o anterior, chegando a Spiral na onda 75.
+A ordem/captura é uma adaptação nova para v7, não uma campanha existente no Classic.
+
+A pesquisa dos 63 blocos foi separada de Serpulo. Classic usa seus próprios
+itens e carvão, não requer cobre e não gera minérios modernos. Água e petróleo,
+que também existiam no Classic, continuam usando os líquidos compartilhados.
+Os identificadores antigos do conteúdo foram preservados; não há cópias duplicadas.
+Para misturar conteúdo em jogo personalizado, selecione **Qualquer** nas regras
+do planeta. Restrições temporárias Classic são retiradas ao iniciar a partida;
+proibições pessoais anteriores são mantidas. O terreno de um mapa existente
+não é convertido automaticamente ao trocar sua opção de planeta.
+
+Foi adicionada a camada transparente de equipe do núcleo usada na aterrissagem,
+evitando a região ausente sobre sua imagem. A animação ainda precisa de
+confirmação visual no cliente. Veja [BATCH-19.md](docs/BATCH-19.md).

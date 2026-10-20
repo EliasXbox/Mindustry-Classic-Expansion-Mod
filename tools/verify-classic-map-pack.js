@@ -1,6 +1,6 @@
 (function(){
 function check(ok,message){if(!ok)throw new Error(message);}
-var mod=Vars.mods.getMod('mindustry-classic-expansion');check(mod!=null,'Mod missing');check(String(mod.meta.version)==='0.18.0-alpha','ZIP version');
+var mod=Vars.mods.getMod('mindustry-classic-expansion');check(mod!=null,'Mod missing');check(String(mod.meta.version)==='0.19.0-alpha','ZIP version');
 var inventory=JSON.parse(mod.root.child('docs').child('classic-map-inventory.json').readString()),passed=0;
 inventory.maps.forEach(function(entry){
  Vars.logic.reset();SaveIO.load(mod.root.child('maps').child('classic-original-'+entry.name+'.msav'));
