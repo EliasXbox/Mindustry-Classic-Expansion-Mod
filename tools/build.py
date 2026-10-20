@@ -93,8 +93,19 @@ def main():
             name = 'classic-enemy-' + enemy + ('' if tier == 1 else '-t' + str(tier))
             assert name in content, f'Missing Classic tier: {name}'
     assert 'classic-enemy-target' in content
+    inventory = json.loads((ROOT / 'docs/classic-map-inventory.json').read_text())
+    report = json.loads((ROOT / 'docs/classic-map-validation.json').read_text())
+    assert len(inventory['maps']) == report['passed'] == 13
+    assert {m['name'] for m in inventory['maps']} == {m['name'] for m in report['maps']}
+    for entry in inventory['maps']:
+        assert hashlib.sha256((ROOT / ('map-source/' + entry['name'] + '.png')).read_bytes()).hexdigest() == entry['sourceSha256']
+    for entry in report['maps']:
+        assert all(entry['groundRoutes']) and min(entry['reachableOres']) > 0
+        assert entry['tilesVerified'] == entry['width'] * entry['height']
+        assert hashlib.sha256((ROOT / ('maps/classic-original-' + entry['name'] + '.msav')).read_bytes()).hexdigest() == entry['sha256']
+    assert hashlib.sha256((ROOT / 'tools/classic/io/anuke/ucore/noise/Noise.java').read_bytes()).hexdigest() == inventory['noiseSourceSha256']
     files = [ROOT / p for p in ['mod.hjson', 'LICENSE', 'NOTICE.md', 'README.md']]
-    for folder in ['content', 'sprites', 'art-source', 'bundles', 'docs', 'tools', 'maps', 'scripts']:
+    for folder in ['content', 'sprites', 'art-source', 'bundles', 'docs', 'tools', 'maps', 'scripts', 'map-source']:
         files.extend(p for p in (ROOT / folder).rglob('*') if p.is_file() and '__pycache__' not in p.parts)
     output = ROOT / 'dist' / ('mindustry-classic-expansion-' + meta['version'] + '.zip')
     output.parent.mkdir(exist_ok=True)
